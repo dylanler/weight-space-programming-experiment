@@ -1,0 +1,41 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="white"/>
+  
+  <!-- Chart margins and grid -->
+  <rect x="60" y="60" width="280" height="180" fill="none" stroke="#e0e0e0" stroke-dasharray="2,2"/>
+  
+  <!-- X-axis ticks and labels -->
+  <line x1="60" y1="220" x2="60" y2="240" stroke="#999" stroke-width="1"/>
+  <line x1="140" y1="220" x2="140" y2="240" stroke="#999" stroke-width="1"/>
+  <line x1="220" y1="220" x2="220" y2="240" stroke="#999" stroke-width="1"/>
+  <line x1="300" y1="220" x2="300" y2="240" stroke="#999" stroke-width="1"/>
+  
+  <!-- Y-axis ticks and labels -->
+  <line x1="50" y1="220" x2="40" y2="220" stroke="#999" stroke-width="1"/>
+  <line x1="50" y1="160" x2="40" y2="160" stroke="#999" stroke-width="1"/>
+  <line x1="50" y1="100" x2="40" y2="100" stroke="#999" stroke-width="1"/>
+  <line x1="50" y1="40" x2="40" y2="40" stroke="#999" stroke-width="1"/>
+  
+  <!-- Y-axis label -->
+  <text x="20" y="140" text-anchor="middle" font-family="Arial" font-size="14" fill="#666">Value</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 40 -->
+  <rect x="60" y="180" width="40" height="40" fill="#4488ff"/>
+  
+  <!-- Bar 2: height 100 (tallest, red) -->
+  <rect x="140" y="100" width="40" height="100" fill="#ff0000"/>
+  
+  <!-- Bar 3: height 60 -->
+  <rect x="220" y="140" width="40" height="60" fill="#4488ff"/>
+  
+  <!-- Bar 4: height 40 -->
+  <rect x="300" y="180" width="40" height="40" fill="#4488ff"/>
+  
+  <!-- Bar 5: height 20 -->
+  <rect x="380" y="200" width="40" height="20" fill="#4488ff"/>
+  
+  <!-- X-axis label -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial" font-size="14" fill="#666">Category</text>
+</svg>

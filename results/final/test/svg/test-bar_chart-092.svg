@@ -1,0 +1,27 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+  
+  <!-- Chart margins and data range -->
+  <!-- Left margin: 80, Right margin: 20, Top margin: 40, Bottom margin: 60 -->
+  <!-- Chart area: x from 80 to 380, y from 40 to 240 -->
+  <!-- Bar width: 60, spacing: 40, max value: 100 -->
+  
+  <!-- Bar 1 (blue) -->
+  <rect x="80" y="120" width="60" height="80" fill="blue"/>
+  
+  <!-- Bar 2 (red, tallest) -->
+  <rect x="160" y="60" width="60" height="140" fill="red"/>
+  
+  <!-- Bar 3 (blue) -->
+  <rect x="240" y="160" width="60" height="80" fill="blue"/>
+  
+  <!-- Bar 4 (blue) -->
+  <rect x="320" y="120" width="60" height="80" fill="blue"/>
+  
+  <!-- Y-axis label -->
+  <text x="70" y="280" text-anchor="middle" font-size="14" fill="black">Value</text>
+  
+  <!-- X-axis label -->
+  <text x="200" y="290" text-anchor="middle" font-size="14" fill="black">Category</text>
+</svg>

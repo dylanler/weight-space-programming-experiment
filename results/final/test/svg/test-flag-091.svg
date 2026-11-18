@@ -1,0 +1,38 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- Top stripe (red) -->
+  <rect x="0" y="0" width="300" height="40" fill="#b22234"/>
+  
+  <!-- Second stripe (white) -->
+  <rect x="0" y="40" width="300" height="40" fill="#ffffff"/>
+  
+  <!-- Third stripe (blue) -->
+  <rect x="0" y="80" width="300" height="40" fill="#003399"/>
+  
+  <!-- Fourth stripe (red) -->
+  <rect x="0" y="120" width="300" height="40" fill="#b22234"/>
+  
+  <!-- Fifth stripe (white) -->
+  <rect x="0" y="160" width="300" height="40" fill="#ffffff"/>
+  
+  <!-- Stars (6 total) -->
+  <!-- Star 1: Top-left corner -->
+  <polygon points="10,10 20,20 30,10 20,0 10,10" fill="#ffffff"/>
+  
+  <!-- Star 2: Top-right corner -->
+  <polygon points="290,10 280,20 270,10 260,0 290,10" fill="#ffffff"/>
+  
+  <!-- Star 3: Bottom-left corner -->
+  <polygon points="10,190 20,180 30,190 20,190 10,190" fill="#ffffff"/>
+  
+  <!-- Star 4: Bottom-right corner -->
+  <polygon points="290,190 280,180 270,190 260,190 290,190" fill="#ffffff"/>
+  
+  <!-- Star 5: Center-left -->
+  <polygon points="140,100 130,110 140,120 150,110 140,100" fill="#ffffff"/>
+  
+  <!-- Star 6: Center-right -->
+  <polygon points="260,100 270,110 260,120 250,110 260,100" fill="#ffffff"/>
+</svg>

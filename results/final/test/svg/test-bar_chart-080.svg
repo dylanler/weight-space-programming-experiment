@@ -1,0 +1,29 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the chart area -->
+  <defs>
+    <clipPath id="chartArea">
+      <rect x="50" y="50" width="300" height="200"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Grid lines (optional for clarity) -->
+  <line x1="50" y1="50" x2="350" y2="50" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="100" x2="350" y2="100" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="150" x2="350" y2="150" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="200" x2="350" y2="200" stroke="black" stroke-width="1"/>
+
+  <!-- Bar 1: Blue, height 40 -->
+  <rect x="50" y="160" width="40" height="40" fill="blue"/>
+
+  <!-- Bar 2: Blue, height 60 -->
+  <rect x="100" y="140" width="40" height="60" fill="blue"/>
+
+  <!-- Bar 3: Blue, height 80 -->
+  <rect x="150" y="120" width="40" height="80" fill="blue"/>
+
+  <!-- Bar 4: Red, height 120 (tallest) -->
+  <rect x="200" y="80" width="40" height="120" fill="red"/>
+</svg>

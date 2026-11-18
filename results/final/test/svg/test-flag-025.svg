@@ -1,0 +1,25 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- 9 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="22.22" fill="#006400"/>
+  <rect x="0" y="44.44" width="300" height="22.22" fill="#009600"/>
+  <rect x="0" y="86.66" width="300" height="22.22" fill="#00C800"/>
+  <rect x="0" y="128.88" width="300" height="22.22" fill="#00E900"/>
+  <rect x="0" y="171.11" width="300" height="22.22" fill="#00F500"/>
+  <rect x="0" y="213.33" width="300" height="22.22" fill="#00FF00"/>
+  <rect x="0" y="255.55" width="300" height="22.22" fill="#00FF00"/>
+  <rect x="0" y="297.77" width="300" height="22.22" fill="#00FF00"/>
+  <rect x="0" y="340" width="300" height="22.22" fill="#00FF00"/>
+  
+  <!-- 3 Stars -->
+  <g transform="translate(100, 100)">
+    <!-- Star 1 -->
+    <polygon points="0,0 6,3 12,0 18,3 24,0 30,3 36,6 30,12 24,18 18,12 12,6 6,12 0,6" fill="#FFD700"/>
+    <!-- Star 2 -->
+    <polygon points="0,0 6,3 12,0 18,3 24,0 30,3 36,6 30,12 24,18 18,12 12,6 6,12 0,6" fill="#FFD700"/>
+    <!-- Star 3 -->
+    <polygon points="0,0 6,3 12,0 18,3 24,0 30,3 36,6 30,12 24,18 18,12 12,6 6,12 0,6" fill="#FFD700"/>
+  </g>
+</svg>

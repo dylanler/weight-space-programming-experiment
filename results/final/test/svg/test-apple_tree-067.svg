@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tree trunk -->
+  <rect x="140" y="100" width="20" height="100" fill="#8B4513"/>
+  
+  <!-- Tree branches -->
+  <line x1="140" y1="100" x2="100" y2="80" stroke="#5D4037" stroke-width="4"/>
+  <line x1="140" y1="100" x2="160" y2="120" stroke="#5D4037" stroke-width="4"/>
+  <line x1="140" y1="100" x2="120" y2="140" stroke="#5D4037" stroke-width="4"/>
+  
+  <!-- Tree leaves (green) -->
+  <polygon points="100,80 120,60 140,60 160,80 180,100" fill="#228B22"/>
+  <polygon points="160,120 180,140 140,140 120,120 100,100" fill="#228B22"/>
+  <polygon points="120,140 140,160 160,140 140,120 120,100" fill="#228B22"/>
+  
+  <!-- Apples (red) -->
+  <circle cx="120" cy="60" r="8" fill="#FF0000"/>
+  <circle cx="160" cy="140" r="8" fill="#FF0000"/>
+</svg>

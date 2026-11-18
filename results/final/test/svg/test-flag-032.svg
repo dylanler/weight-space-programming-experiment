@@ -1,0 +1,20 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- 8 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="25" fill="#003366"/>
+  <rect x="0" y="25" width="300" height="25" fill="#006633"/>
+  <rect x="0" y="50" width="300" height="25" fill="#336600"/>
+  <rect x="0" y="75" width="300" height="25" fill="#663300"/>
+  <rect x="0" y="100" width="300" height="25" fill="#006633"/>
+  <rect x="0" y="125" width="300" height="25" fill="#336600"/>
+  <rect x="0" y="150" width="300" height="25" fill="#663300"/>
+  <rect x="0" y="175" width="300" height="25" fill="#003366"/>
+  
+  <!-- 2 Stars -->
+  <!-- First star (top left) -->
+  <polygon points="100,30 110,20 120,30 110,40 100,50 90,40 80,30" fill="#FFD700"/>
+  <!-- Second star (bottom right) -->
+  <polygon points="200,170 210,160 220,170 210,180 200,190 190,180 180,170" fill="#FFD700"/>
+</svg>

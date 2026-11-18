@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="white"/>
+  <g transform="translate(50, 50)">
+    <!-- Tree trunk -->
+    <rect x="0" y="0" width="10" height="100" fill="#8B4513"/>
+    <!-- Tree branches -->
+    <line x1="0" y1="10" x2="0" y2="50" stroke="#5D4037" stroke-width="2"/>
+    <line x1="0" y1="50" x2="10" y2="50" stroke="#5D4037" stroke-width="2"/>
+    <!-- Tree leaves -->
+    <polygon points="0,50 10,30 20,30" fill="#228B22"/>
+    <polygon points="0,50 -10,30 -20,30" fill="#228B22"/>
+    <!-- Red apple -->
+    <circle cx="15" cy="35" r="5" fill="red"/>
+  </g>
+</svg>

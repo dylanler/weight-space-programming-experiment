@@ -1,0 +1,20 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- 2 rows, 5 columns, total 10 circles -->
+  <!-- Row height: 50, Column width: 20, spacing: 10 -->
+  <!-- Top-left: (0, 0), Bottom-right: (20, 50) -->
+  
+  <!-- Row 1 -->
+  <circle cx="0" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="20" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="40" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="60" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="80" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 2 -->
+  <circle cx="0" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="20" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="40" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="60" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="80" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
+</svg>

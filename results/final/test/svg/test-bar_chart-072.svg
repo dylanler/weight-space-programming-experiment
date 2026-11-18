@@ -1,0 +1,41 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the chart area -->
+  <defs>
+    <style>
+      .bar { fill: #0000FF; }
+      .tall-bar { fill: #FF0000; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+  
+  <!-- Grid lines (optional for clarity) -->
+  <line x1="50" y1="250" x2="350" y2="250" stroke="#ccc" stroke-width="1"/>
+  <line x1="50" y1="200" x2="350" y2="200" stroke="#ccc" stroke-width="1"/>
+  <line x1="50" y1="150" x2="350" y2="150" stroke="#ccc" stroke-width="1"/>
+  <line x1="50" y1="100" x2="350" y2="100" stroke="#ccc" stroke-width="1"/>
+  <line x1="50" y1="50" x2="350" y2="50" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Bars -->
+  <!-- Bar 1: Tallest, Red -->
+  <rect x="50" y="100" width="40" height="150" class="tall-bar"/>
+  
+  <!-- Bar 2: Medium, Blue -->
+  <rect x="100" y="150" width="40" height="50" class="bar"/>
+  
+  <!-- Bar 3: Medium, Blue -->
+  <rect x="150" y="150" width="40" height="50" class="bar"/>
+  
+  <!-- Bar 4: Short, Blue -->
+  <rect x="200" y="200" width="40" height="50" class="bar"/>
+  
+  <!-- Bar 5: Short, Blue -->
+  <rect x="250" y="200" width="40" height="50" class="bar"/>
+  
+  <!-- Bar 6: Short, Blue -->
+  <rect x="300" y="200" width="40" height="50" class="bar"/>
+  
+  <!-- Bar 7: Shortest, Blue -->
+  <rect x="350" y="200" width="40" height="50" class="bar"/>
+</svg>

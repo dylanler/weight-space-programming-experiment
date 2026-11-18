@@ -1,0 +1,39 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- 7 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="28.57" fill="#006400"/>
+  <rect x="0" y="57.14" width="300" height="28.57" fill="#009600"/>
+  <rect x="0" y="85.71" width="300" height="28.57" fill="#009933"/>
+  <rect x="0" y="114.29" width="300" height="28.57" fill="#009966"/>
+  <rect x="0" y="142.86" width="300" height="28.57" fill="#009999"/>
+  <rect x="0" y="171.43" width="300" height="28.57" fill="#0099CC"/>
+  <rect x="0" y="200" width="300" height="28.57" fill="#0099FF"/>
+  
+  <!-- 6 Stars (centered on each stripe) -->
+  <!-- Stripe 1 -->
+  <g transform="translate(150, 14.28)">
+    <polygon points="0,-10 6,-4 0,0 -6,-4 0,10" fill="#FFD700"/>
+  </g>
+  <!-- Stripe 2 -->
+  <g transform="translate(150, 85.71)">
+    <polygon points="0,-10 6,-4 0,0 -6,-4 0,10" fill="#FFD700"/>
+  </g>
+  <!-- Stripe 3 -->
+  <g transform="translate(150, 114.29)">
+    <polygon points="0,-10 6,-4 0,0 -6,-4 0,10" fill="#FFD700"/>
+  </g>
+  <!-- Stripe 4 -->
+  <g transform="translate(150, 142.86)">
+    <polygon points="0,-10 6,-4 0,0 -6,-4 0,10" fill="#FFD700"/>
+  </g>
+  <!-- Stripe 5 -->
+  <g transform="translate(150, 171.43)">
+    <polygon points="0,-10 6,-4 0,0 -6,-4 0,10" fill="#FFD700"/>
+  </g>
+  <!-- Stripe 6 -->
+  <g transform="translate(150, 200)">
+    <polygon points="0,-10 6,-4 0,0 -6,-4 0,10" fill="#FFD700"/>
+  </g>
+</svg>

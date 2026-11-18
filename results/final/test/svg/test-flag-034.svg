@@ -1,0 +1,24 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- 8 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="25" fill="#006400"/>
+  <rect x="0" y="50" width="300" height="25" fill="#009639"/>
+  <rect x="0" y="100" width="300" height="25" fill="#00897b"/>
+  <rect x="0" y="150" width="300" height="25" fill="#00796b"/>
+  <rect x="0" y="200" width="300" height="25" fill="#006400"/>
+  <rect x="0" y="250" width="300" height="25" fill="#009639"/>
+  <rect x="0" y="300" width="300" height="25" fill="#00897b"/>
+  <rect x="0" y="350" width="300" height="25" fill="#00796b"/>
+  
+  <!-- 4 Stars -->
+  <!-- Star 1: Top-left -->
+  <polygon points="100,20 110,30 120,20 120,35 110,45 100,35 90,45 80,35 90,20" fill="#ffffff"/>
+  <!-- Star 2: Top-right -->
+  <polygon points="200,20 190,30 180,20 180,35 190,45 200,35 210,45 220,35 210,20" fill="#ffffff"/>
+  <!-- Star 3: Bottom-left -->
+  <polygon points="100,180 110,170 120,180 120,165 110,155 100,165 90,155 80,165 90,180" fill="#ffffff"/>
+  <!-- Star 4: Bottom-right -->
+  <polygon points="200,180 190,170 180,180 180,165 190,155 200,165 210,155 220,165 210,180" fill="#ffffff"/>
+</svg>

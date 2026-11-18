@@ -1,0 +1,47 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the chart area -->
+  <defs>
+    <style>
+      .bar { fill: blue; }
+      .tall-bar { fill: red; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+  
+  <!-- Grid lines (optional for clarity) -->
+  <line x1="50" y1="250" x2="350" y2="250" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="200" x2="350" y2="200" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="150" x2="350" y2="150" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="100" x2="350" y2="100" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="50" x2="350" y2="50" stroke="black" stroke-width="1"/>
+  
+  <!-- X-axis labels -->
+  <text x="50" y="280" text-anchor="middle" font-size="12">0</text>
+  <text x="150" y="280" text-anchor="middle" font-size="12">25</text>
+  <text x="250" y="280" text-anchor="middle" font-size="12">50</text>
+  <text x="350" y="280" text-anchor="middle" font-size="12">75</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 20 -->
+  <rect x="50" y="230" width="40" height="20" class="bar"/>
+  
+  <!-- Bar 2: height 30 -->
+  <rect x="150" y="210" width="40" height="30" class="bar"/>
+  
+  <!-- Bar 3: height 40 -->
+  <rect x="250" y="190" width="40" height="40" class="bar"/>
+  
+  <!-- Bar 4: height 50 -->
+  <rect x="350" y="170" width="40" height="50" class="bar"/>
+  
+  <!-- Bar 5: height 60 -->
+  <rect x="50" y="150" width="40" height="60" class="bar"/>
+  
+  <!-- Bar 6: height 70 -->
+  <rect x="150" y="130" width="40" height="70" class="bar"/>
+  
+  <!-- Bar 7: height 80 (tallest, red) -->
+  <rect x="250" y="110" width="40" height="80" class="tall-bar"/>
+</svg>

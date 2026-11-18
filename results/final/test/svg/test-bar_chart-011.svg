@@ -1,0 +1,45 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the chart area -->
+  <defs>
+    <clipPath id="chartArea">
+      <rect x="50" y="50" width="300" height="200"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Grid lines (optional for clarity) -->
+  <line x1="50" y1="50" x2="350" y2="50" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="100" x2="350" y2="100" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="150" x2="350" y2="150" stroke="black" stroke-width="1"/>
+  <line x1="50" y1="200" x2="350" y2="200" stroke="black" stroke-width="1"/>
+
+  <!-- Bars -->
+  <!-- Bar 1: width 40, height 40 -->
+  <rect x="50" y="150" width="40" height="40" fill="blue"/>
+  <!-- Bar 2: width 40, height 60 -->
+  <rect x="100" y="100" width="40" height="60" fill="blue"/>
+  <!-- Bar 3: width 40, height 40 -->
+  <rect x="150" y="150" width="40" height="40" fill="blue"/>
+  <!-- Bar 4: width 40, height 80 -->
+  <rect x="200" y="40" width="40" height="80" fill="blue"/>
+  <!-- Bar 5: width 40, height 120 (Tallest, red) -->
+  <rect x="250" y="0" width="40" height="120" fill="red"/>
+  <!-- Bar 6: width 40, height 60 -->
+  <rect x="300" y="100" width="40" height="60" fill="blue"/>
+  <!-- Bar 7: width 40, height 40 -->
+  <rect x="350" y="150" width="40" height="40" fill="blue"/>
+
+  <!-- X-axis labels -->
+  <text x="50" y="220" text-anchor="middle" font-size="12">1</text>
+  <text x="100" y="220" text-anchor="middle" font-size="12">2</text>
+  <text x="150" y="220" text-anchor="middle" font-size="12">3</text>
+  <text x="200" y="220" text-anchor="middle" font-size="12">4</text>
+  <text x="250" y="220" text-anchor="middle" font-size="12">5</text>
+  <text x="300" y="220" text-anchor="middle" font-size="12">6</text>
+  <text x="350" y="220" text-anchor="middle" font-size="12">7</text>
+
+  <!-- Y-axis label -->
+  <text x="20" y="150" text-anchor="middle" font-size="12" transform="rotate(-90, 20, 150)">Value</text>
+</svg>

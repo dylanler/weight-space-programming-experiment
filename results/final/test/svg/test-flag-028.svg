@@ -1,0 +1,32 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- Top stripe (red) -->
+  <rect x="0" y="0" width="300" height="50" fill="#b22234"/>
+  
+  <!-- Second stripe (white) -->
+  <rect x="0" y="50" width="300" height="50" fill="#ffffff"/>
+  
+  <!-- Third stripe (blue) -->
+  <rect x="0" y="100" width="300" height="50" fill="#003399"/>
+  
+  <!-- Bottom stripe (yellow) -->
+  <rect x="0" y="150" width="300" height="50" fill="#ffd700"/>
+  
+  <!-- Stars (5 stars, evenly distributed) -->
+  <!-- Star 1: Top-left area -->
+  <polygon points="100,20 110,30 120,20 120,30 110,40 100,50 90,40 80,30 90,20" fill="#000000"/>
+  
+  <!-- Star 2: Top-right area -->
+  <polygon points="200,20 210,30 220,20 220,30 210,40 200,50 190,40 180,30 190,20" fill="#000000"/>
+  
+  <!-- Star 3: Middle-left area -->
+  <polygon points="150,100 160,110 170,100 170,110 160,120 150,130 140,120 130,110 140,100" fill="#000000"/>
+  
+  <!-- Star 4: Middle-right area -->
+  <polygon points="250,100 260,110 270,100 270,110 260,120 250,130 240,120 230,110 240,100" fill="#000000"/>
+  
+  <!-- Star 5: Bottom-center area -->
+  <polygon points="150,150 160,160 170,150 170,160 160,170 150,180 140,170 130,160 140,150" fill="#000000"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <style>
+    .bar { fill: blue; }
+    .tall-bar { fill: red; }
+  </style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins -->
+  <!-- Left margin: 60, Right margin: 20, Top margin: 40, Bottom margin: 60 -->
+  <!-- Chart area: x from 60 to 380, y from 40 to 240 -->
+
+  <!-- Bar 1: height 40 -->
+  <rect x="60" y="200" width="40" height="40" class="bar"/>
+
+  <!-- Bar 2: height 60 -->
+  <rect x="110" y="140" width="40" height="60" class="bar"/>
+
+  <!-- Bar 3: height 80 -->
+  <rect x="160" y="80" width="40" height="80" class="bar"/>
+
+  <!-- Bar 4: height 100 -->
+  <rect x="210" y="40" width="40" height="100" class="bar"/>
+
+  <!-- Bar 5: height 120 (Tallest, red) -->
+  <rect x="260" y="20" width="40" height="120" class="tall-bar"/>
+
+  <!-- Bar 6: height 140 -->
+  <rect x="310" y="0" width="40" height="140" class="bar"/>
+
+  <!-- Bar 7: height 160 -->
+  <rect x="360" y="-20" width="40" height="160" class="bar"/>
+</svg>

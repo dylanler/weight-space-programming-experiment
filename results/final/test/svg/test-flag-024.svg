@@ -1,0 +1,19 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- Top stripe (red) -->
+  <rect x="0" y="0" width="300" height="50" fill="#b22234"/>
+  
+  <!-- Second stripe (white) -->
+  <rect x="0" y="50" width="300" height="50" fill="#ffffff"/>
+  
+  <!-- Third stripe (blue) -->
+  <rect x="0" y="100" width="300" height="50" fill="#003399"/>
+  
+  <!-- Bottom stripe (yellow) -->
+  <rect x="0" y="150" width="300" height="50" fill="#ffd700"/>
+  
+  <!-- Stars (1 star in the center of the blue stripe) -->
+  <polygon points="150,120 150,140 130,130 170,130" fill="#ffd700"/>
+</svg>

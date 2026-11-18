@@ -1,0 +1,19 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <style>
+    .bar { fill: blue; }
+    .tall-bar { fill: red; }
+  </style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Bar 1 (shortest) -->
+  <rect x="50" y="150" width="40" height="150" class="bar"/>
+
+  <!-- Bar 2 (medium) -->
+  <rect x="120" y="100" width="40" height="200" class="bar"/>
+
+  <!-- Bar 3 (tallest) -->
+  <rect x="190" y="50" width="40" height="250" class="tall-bar"/>
+</svg>

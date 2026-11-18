@@ -1,0 +1,23 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+  
+  <!-- Chart margins -->
+  <!-- Left margin: 60, Right margin: 20, Top margin: 20, Bottom margin: 60 -->
+  <!-- Chart area: x from 60 to 380, y from 20 to 240 -->
+  
+  <!-- Bar 1 (tallest, red) - height 200 -->
+  <rect x="60" y="20" width="100" height="200" fill="red"/>
+  
+  <!-- Bar 2 (medium height, blue) - height 120 -->
+  <rect x="170" y="80" width="100" height="120" fill="blue"/>
+  
+  <!-- Bar 3 (shortest, blue) - height 60 -->
+  <rect x="280" y="140" width="100" height="60" fill="blue"/>
+  
+  <!-- Y-axis label -->
+  <text x="50" y="280" text-anchor="middle" font-size="14" fill="black">Value</text>
+  
+  <!-- X-axis label -->
+  <text x="220" y="290" text-anchor="middle" font-size="14" fill="black">Category</text>
+</svg>

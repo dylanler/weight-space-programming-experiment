@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- 3 rows, 2 columns, total 6 circles -->
+  <!-- Row height: 60, Column width: 40, Gap: 10 -->
+  <!-- Top-left: (10, 10), Bottom-right: (150, 190) -->
+  
+  <!-- Row 1 -->
+  <circle cx="10" cy="10" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="60" cy="10" r="10" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 2 -->
+  <circle cx="10" cy="60" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="60" cy="60" r="10" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 3 -->
+  <circle cx="10" cy="120" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="60" cy="120" r="10" fill="white" stroke="black" stroke-width="1"/>
+</svg>

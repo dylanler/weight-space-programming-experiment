@@ -1,0 +1,36 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="white"/>
+  
+  <!-- Chart margins and grid -->
+  <rect x="60" y="60" width="280" height="180" fill="none" stroke="#e0e0e0" stroke-dasharray="2,2"/>
+  
+  <!-- Y-axis labels -->
+  <text x="50" y="120" text-anchor="end" font-size="12">0</text>
+  <text x="50" y="180" text-anchor="end" font-size="12">50</text>
+  <text x="50" y="240" text-anchor="end" font-size="12">100</text>
+  <text x="50" y="300" text-anchor="end" font-size="12">150</text>
+  
+  <!-- X-axis labels -->
+  <text x="120" y="280" text-anchor="middle" font-size="12">1</text>
+  <text x="200" y="280" text-anchor="middle" font-size="12">2</text>
+  <text x="280" y="280" text-anchor="middle" font-size="12">3</text>
+  <text x="360" y="280" text-anchor="middle" font-size="12">4</text>
+  <text x="440" y="280" text-anchor="middle" font-size="12">5</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 40 -->
+  <rect x="60" y="120" width="40" height="40" fill="blue"/>
+  
+  <!-- Bar 2: height 100 (tallest, red) -->
+  <rect x="200" y="60" width="40" height="100" fill="red"/>
+  
+  <!-- Bar 3: height 60 -->
+  <rect x="280" y="120" width="40" height="60" fill="blue"/>
+  
+  <!-- Bar 4: height 80 -->
+  <rect x="360" y="120" width="40" height="80" fill="blue"/>
+  
+  <!-- Bar 5: height 40 -->
+  <rect x="440" y="120" width="40" height="40" fill="blue"/>
+</svg>

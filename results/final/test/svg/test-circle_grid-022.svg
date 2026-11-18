@@ -1,0 +1,38 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- 4 rows, 6 columns, total 24 circles -->
+  <!-- Cell size: 200 / 24 ≈ 8.333 -->
+  <!-- Center of each circle: (x + 4.167, y + 4.167) -->
+  
+  <!-- Row 1 -->
+  <circle cx="4.167" cy="4.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="12.5" cy="4.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="20.833" cy="4.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="29.167" cy="4.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="37.5" cy="4.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="45.833" cy="4.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 2 -->
+  <circle cx="4.167" cy="12.5" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="12.5" cy="12.5" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="20.833" cy="12.5" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="29.167" cy="12.5" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="37.5" cy="12.5" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="45.833" cy="12.5" r="4" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 3 -->
+  <circle cx="4.167" cy="20.833" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="12.5" cy="20.833" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="20.833" cy="20.833" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="29.167" cy="20.833" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="37.5" cy="20.833" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="45.833" cy="20.833" r="4" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 4 -->
+  <circle cx="4.167" cy="29.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="12.5" cy="29.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="20.833" cy="29.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="29.167" cy="29.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="37.5" cy="29.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="45.833" cy="29.167" r="4" fill="white" stroke="black" stroke-width="1"/>
+</svg>

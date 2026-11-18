@@ -1,0 +1,52 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="white"/>
+  
+  <!-- Chart margins and grid -->
+  <rect x="60" y="60" width="280" height="180" fill="none" stroke="#e0e0e0" stroke-dasharray="2,2"/>
+  
+  <!-- Y-axis labels and ticks -->
+  <line x1="60" y1="60" x2="60" y2="180" stroke="#333"/>
+  <line x1="120" y1="60" x2="120" y2="180" stroke="#333"/>
+  <line x1="180" y1="60" x2="180" y2="180" stroke="#333"/>
+  <line x1="240" y1="60" x2="240" y2="180" stroke="#333"/>
+  <line x1="300" y1="60" x2="300" y2="180" stroke="#333"/>
+  
+  <!-- Y-axis title -->
+  <text x="20" y="120" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Value</text>
+  
+  <!-- X-axis labels -->
+  <text x="60" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">1</text>
+  <text x="120" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">2</text>
+  <text x="180" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">3</text>
+  <text x="240" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">4</text>
+  <text x="300" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">5</text>
+  <text x="360" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">6</text>
+  <text x="420" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">7</text>
+  <text x="480" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">8</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 40 -->
+  <rect x="60" y="120" width="40" height="40" fill="blue"/>
+  
+  <!-- Bar 2: height 60 -->
+  <rect x="120" y="120" width="40" height="60" fill="blue"/>
+  
+  <!-- Bar 3: height 80 -->
+  <rect x="180" y="120" width="40" height="80" fill="blue"/>
+  
+  <!-- Bar 4: height 100 -->
+  <rect x="240" y="120" width="40" height="100" fill="blue"/>
+  
+  <!-- Bar 5: height 120 -->
+  <rect x="300" y="120" width="40" height="120" fill="blue"/>
+  
+  <!-- Bar 6: height 140 -->
+  <rect x="360" y="120" width="40" height="140" fill="blue"/>
+  
+  <!-- Bar 7: height 160 -->
+  <rect x="420" y="120" width="40" height="160" fill="blue"/>
+  
+  <!-- Bar 8: height 200 (tallest, red) -->
+  <rect x="480" y="120" width="40" height="200" fill="red"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="white"/>
+  
+  <!-- 7 Horizontal Stripes -->
+  <rect x="0" y="0" width="600" height="57.14" fill="#006400"/>
+  <rect x="0" y="114.29" width="600" height="57.14" fill="#009600"/>
+  <rect x="0" y="231.43" width="600" height="57.14" fill="#008C00"/>
+  <rect x="0" y="348.57" width="600" height="57.14" fill="#008C00"/>
+  <rect x="0" y="465.71" width="600" height="57.14" fill="#008C00"/>
+  <rect x="0" y="582.86" width="600" height="57.14" fill="#008C00"/>
+  <rect x="0" y="700" width="600" height="57.14" fill="#008C00"/>
+  
+  <!-- 9 Stars (centered vertically on the stripes) -->
+  <!-- Star 1: Top stripe -->
+  <polygon points="150,57.14 165,35 180,57.14 195,35 210,57.14" fill="#FFD700"/>
+  <!-- Star 2: Second stripe -->
+  <polygon points="150,114.29 165,92.36 180,114.29 195,92.36 210,114.29" fill="#FFD700"/>
+  <!-- Star 3: Third stripe -->
+  <polygon points="150,171.43 165,149.5 180,171.43 195,149.5 210,171.43" fill="#FFD700"/>
+  <!-- Star 4: Fourth stripe -->
+  <polygon points="150,231.43 165,209.5 180,231.43 195,209.5 210,231.43" fill="#FFD700"/>
+  <!-- Star 5: Fifth stripe -->
+  <polygon points="150,348.57 165,326.64 180,348.57 195,326.64 210,348.57" fill="#FFD700"/>
+  <!-- Star 6: Sixth stripe -->
+  <polygon points="150,465.71 165,443.78 180,465.71 195,443.78 210,465.71" fill="#FFD700"/>
+  <!-- Star 7: Seventh stripe -->
+  <polygon points="150,582.86 165,560.93 180,582.86 195,560.93 210,582.86" fill="#FFD700"/>
+</svg>

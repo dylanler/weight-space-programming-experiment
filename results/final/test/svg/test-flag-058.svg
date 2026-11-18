@@ -1,0 +1,40 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- 8 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="25" fill="#003366"/>
+  <rect x="0" y="25" width="300" height="25" fill="#006633"/>
+  <rect x="0" y="50" width="300" height="25" fill="#336600"/>
+  <rect x="0" y="75" width="300" height="25" fill="#663300"/>
+  <rect x="0" y="100" width="300" height="25" fill="#000033"/>
+  <rect x="0" y="125" width="300" height="25" fill="#333366"/>
+  <rect x="0" y="150" width="300" height="25" fill="#666633"/>
+  <rect x="0" y="175" width="300" height="25" fill="#999933"/>
+  
+  <!-- 5 Stars -->
+  <g transform="translate(100, 50)">
+    <polygon points="0,0 6,6 0,12 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(100, 100)">
+    <polygon points="0,0 6,6 0,12 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(100, 150)">
+    <polygon points="0,0 6,6 0,12 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(100, 190)">
+    <polygon points="0,0 6,6 0,12 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(200, 50)">
+    <polygon points="0,0 6,6 0,12 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(200, 100)">
+    <polygon points="0,0 6,6 0,12 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(200, 150)">
+    <polygon points="0,0 6,6 0,12 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(200, 190)">
+    <polygon points="0,0 6,6 0,12 -6,6" fill="#FFD700"/>
+  </g>
+</svg>

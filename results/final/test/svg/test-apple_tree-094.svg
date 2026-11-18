@@ -1,0 +1,39 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="white"/>
+  
+  <!-- Tree trunk -->
+  <rect x="320" y="150" width="40" height="150" fill="#8B4513"/>
+  
+  <!-- Tree branches -->
+  <line x1="320" y1="150" x2="200" y2="200" stroke="#5D4037" stroke-width="8"/>
+  <line x1="320" y1="150" x2="360" y2="250" stroke="#5D4037" stroke-width="8"/>
+  <line x1="320" y1="150" x2="280" y2="300" stroke="#5D4037" stroke-width="8"/>
+  
+  <!-- Tree leaves (green) -->
+  <polygon points="200,200 220,180 240,180" fill="#228B22"/>
+  <polygon points="280,300 300,280 320,280" fill="#228B22"/>
+  <polygon points="360,250 380,230 400,230" fill="#228B22"/>
+  
+  <!-- Apples (red) -->
+  <!-- Apple 1 -->
+  <circle cx="240" cy="180" r="12" fill="red"/>
+  <!-- Apple 2 -->
+  <circle cx="260" cy="160" r="12" fill="red"/>
+  <!-- Apple 3 -->
+  <circle cx="280" cy="220" r="12" fill="red"/>
+  <!-- Apple 4 -->
+  <circle cx="300" cy="240" r="12" fill="red"/>
+  <!-- Apple 5 -->
+  <circle cx="320" cy="260" r="12" fill="red"/>
+  <!-- Apple 6 -->
+  <circle cx="340" cy="200" r="12" fill="red"/>
+  <!-- Apple 7 -->
+  <circle cx="360" cy="220" r="12" fill="red"/>
+  <!-- Apple 8 -->
+  <circle cx="380" cy="180" r="12" fill="red"/>
+  <!-- Apple 9 -->
+  <circle cx="400" cy="200" r="12" fill="red"/>
+  <!-- Apple 10 -->
+  <circle cx="380" cy="240" r="12" fill="red"/>
+</svg>

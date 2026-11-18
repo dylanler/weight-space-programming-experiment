@@ -1,0 +1,38 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="white"/>
+
+  <!-- Tree trunk -->
+  <rect x="320" y="150" width="40" height="200" fill="#8B4513"/>
+
+  <!-- Tree branches -->
+  <line x1="320" y1="150" x2="200" y2="200" stroke="#5D4037" stroke-width="8"/>
+  <line x1="320" y1="150" x2="360" y2="200" stroke="#5D4037" stroke-width="8"/>
+  <line x1="320" y1="150" x2="280" y2="200" stroke="#5D4037" stroke-width="8"/>
+
+  <!-- Tree leaves (green) -->
+  <polygon points="200,200 220,180 240,180" fill="#228B22"/>
+  <polygon points="280,200 300,180 320,180" fill="#228B22"/>
+  <polygon points="360,200 380,180 400,180" fill="#228B22"/>
+  <polygon points="200,200 180,220 160,220" fill="#228B22"/>
+  <polygon points="280,200 300,220 320,220" fill="#228B22"/>
+  <polygon points="360,200 380,220 400,220" fill="#228B22"/>
+
+  <!-- Apples (red) -->
+  <!-- Top-left -->
+  <circle cx="220" cy="180" r="10" fill="red"/>
+  <!-- Top-right -->
+  <circle cx="240" cy="180" r="10" fill="red"/>
+  <!-- Middle-left -->
+  <circle cx="180" cy="220" r="10" fill="red"/>
+  <!-- Middle-right -->
+  <circle cx="300" cy="220" r="10" fill="red"/>
+  <!-- Bottom-left -->
+  <circle cx="160" cy="220" r="10" fill="red"/>
+  <!-- Bottom-right -->
+  <circle cx="320" cy="220" r="10" fill="red"/>
+  <!-- Far bottom-left -->
+  <circle cx="140" cy="240" r="10" fill="red"/>
+  <!-- Far bottom-right -->
+  <circle cx="340" cy="240" r="10" fill="red"/>
+</svg>

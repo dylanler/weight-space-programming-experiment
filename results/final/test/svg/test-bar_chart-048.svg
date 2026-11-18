@@ -1,0 +1,34 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the chart area -->
+  <defs>
+    <clipPath id="chartArea">
+      <rect x="40" y="40" width="320" height="220"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Grid lines (optional for clarity) -->
+  <line x1="40" y1="40" x2="40" y2="260" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="120" y1="40" x2="120" y2="260" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="200" y1="40" x2="200" y2="260" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="280" y1="40" x2="280" y2="260" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="360" y1="40" x2="360" y2="260" stroke="#e0e0e0" stroke-width="1"/>
+
+  <!-- Bars -->
+  <!-- Bar 1: Blue -->
+  <rect x="40" y="140" width="40" height="120" fill="#4169E1" clip-path="url(#chartArea)"/>
+  <!-- Bar 2: Blue -->
+  <rect x="90" y="140" width="40" height="120" fill="#4169E1" clip-path="url(#chartArea)"/>
+  <!-- Bar 3: Blue -->
+  <rect x="140" y="140" width="40" height="120" fill="#4169E1" clip-path="url(#chartArea)"/>
+  <!-- Bar 4: Blue -->
+  <rect x="190" y="140" width="40" height="120" fill="#4169E1" clip-path="url(#chartArea)"/>
+  <!-- Bar 5: Red (Tallest) -->
+  <rect x="240" y="40" width="40" height="260" fill="#FF0000" clip-path="url(#chartArea)"/>
+  <!-- Bar 6: Blue -->
+  <rect x="290" y="140" width="40" height="120" fill="#4169E1" clip-path="url(#chartArea)"/>
+  <!-- Bar 7: Blue -->
+  <rect x="340" y="140" width="40" height="120" fill="#4169E1" clip-path="url(#chartArea)"/>
+</svg>

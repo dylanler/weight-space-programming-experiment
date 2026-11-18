@@ -1,0 +1,31 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="white"/>
+  
+  <!-- 7 Horizontal Stripes -->
+  <rect x="0" y="0" width="600" height="57.14" fill="#006400"/>
+  <rect x="0" y="114.29" width="600" height="57.14" fill="#009600"/>
+  <rect x="0" y="231.43" width="600" height="57.14" fill="#008C00"/>
+  <rect x="0" y="348.57" width="600" height="57.14" fill="#008C00"/>
+  <rect x="0" y="465.71" width="600" height="57.14" fill="#008C00"/>
+  <rect x="0" y="582.86" width="600" height="57.14" fill="#008C00"/>
+  <rect x="0" y="700" width="600" height="57.14" fill="#008C00"/>
+  
+  <!-- 8 Stars -->
+  <!-- Star 1 -->
+  <polygon points="100,50 120,70 140,50 140,70 120,90 100,70 80,90 100,70" fill="#FFD700"/>
+  <!-- Star 2 -->
+  <polygon points="200,50 220,70 240,50 240,70 220,90 200,70 180,90 200,70" fill="#FFD700"/>
+  <!-- Star 3 -->
+  <polygon points="300,50 320,70 340,50 340,70 320,90 300,70 280,90 300,70" fill="#FFD700"/>
+  <!-- Star 4 -->
+  <polygon points="400,50 420,70 440,50 440,70 420,90 400,70 380,90 400,70" fill="#FFD700"/>
+  <!-- Star 5 -->
+  <polygon points="500,50 520,70 540,50 540,70 520,90 500,70 480,90 500,70" fill="#FFD700"/>
+  <!-- Star 6 -->
+  <polygon points="600,50 620,70 640,50 640,70 620,90 600,70 580,90 600,70" fill="#FFD700"/>
+  <!-- Star 7 -->
+  <polygon points="700,50 720,70 740,50 740,70 720,90 700,70 680,90 700,70" fill="#FFD700"/>
+  <!-- Star 8 -->
+  <polygon points="800,50 820,70 840,50 840,70 820,90 800,70 780,90 800,70" fill="#FFD700"/>
+</svg>

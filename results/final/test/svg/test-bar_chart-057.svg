@@ -1,0 +1,42 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="white"/>
+  
+  <!-- Chart margins and grid -->
+  <rect x="60" y="60" width="280" height="180" fill="none" stroke="#e0e0e0" stroke-dasharray="2,2"/>
+  
+  <!-- Y-axis labels -->
+  <text x="50" y="100" text-anchor="end" font-size="12">0</text>
+  <text x="50" y="160" text-anchor="end" font-size="12">50</text>
+  <text x="50" y="220" text-anchor="end" font-size="12">100</text>
+  <text x="50" y="280" text-anchor="end" font-size="12">150</text>
+  
+  <!-- X-axis labels -->
+  <text x="120" y="290" text-anchor="middle" font-size="12">1</text>
+  <text x="180" y="290" text-anchor="middle" font-size="12">2</text>
+  <text x="240" y="290" text-anchor="middle" font-size="12">3</text>
+  <text x="300" y="290" text-anchor="middle" font-size="12">4</text>
+  <text x="360" y="290" text-anchor="middle" font-size="12">5</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: Tallest, red -->
+  <rect x="60" y="60" width="40" height="180" fill="red"/>
+  
+  <!-- Bar 2: Medium height, blue -->
+  <rect x="120" y="120" width="40" height="60" fill="blue"/>
+  
+  <!-- Bar 3: Medium height, blue -->
+  <rect x="180" y="120" width="40" height="60" fill="blue"/>
+  
+  <!-- Bar 4: Short, blue -->
+  <rect x="240" y="120" width="40" height="30" fill="blue"/>
+  
+  <!-- Bar 5: Short, blue -->
+  <rect x="300" y="120" width="40" height="30" fill="blue"/>
+  
+  <!-- Bar 6: Short, blue -->
+  <rect x="360" y="120" width="40" height="30" fill="blue"/>
+  
+  <!-- Bar 7: Shortest, blue -->
+  <rect x="420" y="120" width="40" height="30" fill="blue"/>
+</svg>

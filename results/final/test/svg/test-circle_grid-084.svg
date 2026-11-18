@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- 3 rows, 5 columns, total 15 circles -->
+  <!-- Cell size: 200 / 15 ≈ 13.33 px -->
+  <!-- Center of each circle: (col * 13.33 + 6.67, row * 13.33 + 6.67) -->
+  
+  <!-- Row 1 -->
+  <circle cx="6.67" cy="6.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="36.67" cy="6.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.67" cy="6.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="96.67" cy="6.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="126.67" cy="6.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 2 -->
+  <circle cx="6.67" cy="26.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="36.67" cy="26.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.67" cy="26.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="96.67" cy="26.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="126.67" cy="26.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 3 -->
+  <circle cx="6.67" cy="46.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="36.67" cy="46.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.67" cy="46.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="96.67" cy="46.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="126.67" cy="46.67" r="8" fill="white" stroke="black" stroke-width="1"/>
+</svg>

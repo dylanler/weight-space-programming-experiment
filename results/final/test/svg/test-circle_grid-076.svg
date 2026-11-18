@@ -1,0 +1,46 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- 6x6 grid, 200x200 viewBox, spacing 33.333... -->
+  <!-- Row 1 -->
+  <circle cx="33.33" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.66" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="133.33" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="166.66" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <!-- Row 2 -->
+  <circle cx="33.33" cy="66.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.66" cy="66.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="66.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="133.33" cy="66.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="166.66" cy="66.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="66.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <!-- Row 3 -->
+  <circle cx="33.33" cy="100" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.66" cy="100" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="100" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="133.33" cy="100" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="166.66" cy="100" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="100" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <!-- Row 4 -->
+  <circle cx="33.33" cy="133.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.66" cy="133.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="133.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="133.33" cy="133.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="166.66" cy="133.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="133.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <!-- Row 5 -->
+  <circle cx="33.33" cy="166.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.66" cy="166.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="166.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="133.33" cy="166.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="166.66" cy="166.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="166.66" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <!-- Row 6 -->
+  <circle cx="33.33" cy="200" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.66" cy="200" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="200" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="133.33" cy="200" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="166.66" cy="200" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="200" r="5" fill="white" stroke="black" stroke-width="1"/>
+</svg>

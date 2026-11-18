@@ -1,0 +1,15 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- 6 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="33.3333" fill="#006400"/>
+  <rect x="0" y="66.6667" width="300" height="33.3333" fill="#009600"/>
+  <rect x="0" y="100" width="300" height="33.3333" fill="#008C00"/>
+  <rect x="0" y="133.3333" width="300" height="33.3333" fill="#008800"/>
+  <rect x="0" y="166.6667" width="300" height="33.3333" fill="#008400"/>
+  <rect x="0" y="200" width="300" height="33.3333" fill="#008000"/>
+  
+  <!-- 1 Star -->
+  <polygon points="150,33.3333 165,46.6667 185,46.6667 185,33.3333 165,26.6667" fill="#FFD700"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="white"/>
+  
+  <!-- Flag dimensions: 600x400, 5 stripes, 8 stars -->
+  <!-- Star size: 20x20, spacing: 10, gap: 5 -->
+  <!-- Stars positioned at y = 10, 55, 105, 155, 205 -->
+  
+  <!-- Star 1 -->
+  <polygon points="10,10 20,20 10,30 0,20" fill="gold"/>
+  
+  <!-- Star 2 -->
+  <polygon points="10,55 20,65 10,75 0,65" fill="gold"/>
+  
+  <!-- Star 3 -->
+  <polygon points="10,105 20,115 10,125 0,115" fill="gold"/>
+  
+  <!-- Star 4 -->
+  <polygon points="10,155 20,165 10,175 0,165" fill="gold"/>
+  
+  <!-- Star 5 -->
+  <polygon points="10,205 20,215 10,225 0,215" fill="gold"/>
+</svg>

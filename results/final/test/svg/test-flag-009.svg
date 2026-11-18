@@ -1,0 +1,29 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="white"/>
+  
+  <!-- 7 Horizontal Stripes -->
+  <rect x="0" y="0" width="600" height="57.14" fill="#003366"/>
+  <rect x="0" y="114.29" width="600" height="57.14" fill="#006633"/>
+  <rect x="0" y="231.43" width="600" height="57.14" fill="#336600"/>
+  <rect x="0" y="348.57" width="600" height="57.14" fill="#663300"/>
+  <rect x="0" y="465.71" width="600" height="57.14" fill="#006633"/>
+  <rect x="0" y="582.86" width="600" height="57.14" fill="#336600"/>
+  <rect x="0" y="700" width="600" height="57.14" fill="#003366"/>
+  
+  <!-- 7 Stars (centered on each stripe) -->
+  <!-- Stripe 1 -->
+  <polygon points="300,57.14 306.5,63.64 313,60.14 306.5,56.64 300,63.14" fill="#FFD700"/>
+  <!-- Stripe 2 -->
+  <polygon points="300,231.43 306.5,237.93 313,234.43 306.5,230.93 300,237.43" fill="#FFD700"/>
+  <!-- Stripe 3 -->
+  <polygon points="300,348.57 306.5,355.07 313,351.57 306.5,348.07 300,354.57" fill="#FFD700"/>
+  <!-- Stripe 4 -->
+  <polygon points="300,465.71 306.5,472.21 313,468.71 306.5,466.21 300,472.71" fill="#FFD700"/>
+  <!-- Stripe 5 -->
+  <polygon points="300,582.86 306.5,589.36 313,585.86 306.5,582.36 300,588.86" fill="#FFD700"/>
+  <!-- Stripe 6 -->
+  <polygon points="300,700 306.5,706.5 313,703 306.5,700 300,706.5" fill="#FFD700"/>
+  <!-- Stripe 7 -->
+  <polygon points="300,817.14 306.5,823.64 313,820.14 306.5,816.64 300,823.14" fill="#FFD700"/>
+</svg>

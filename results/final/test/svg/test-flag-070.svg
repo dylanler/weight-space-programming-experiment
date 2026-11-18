@@ -1,0 +1,23 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- 5 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="40" fill="#006400"/>
+  <rect x="0" y="80" width="300" height="40" fill="#009639"/>
+  <rect x="0" y="160" width="300" height="40" fill="#00897b"/>
+  <rect x="0" y="240" width="300" height="40" fill="#004d40"/>
+  <rect x="0" y="320" width="300" height="40" fill="#002200"/>
+  
+  <!-- 5 Stars (centered on each stripe) -->
+  <!-- Star 1: Top stripe -->
+  <polygon points="150,20 145,15 140,20 145,25 150,30 155,25 160,20" fill="#ffd700"/>
+  <!-- Star 2: Second stripe -->
+  <polygon points="150,120 145,115 140,120 145,125 150,130 155,125 160,120" fill="#ffd700"/>
+  <!-- Star 3: Third stripe -->
+  <polygon points="150,240 145,235 140,240 145,245 150,250 155,245 160,240" fill="#ffd700"/>
+  <!-- Star 4: Fourth stripe -->
+  <polygon points="150,360 145,355 140,360 145,365 150,370 155,365 160,360" fill="#ffd700"/>
+  <!-- Star 5: Bottom stripe -->
+  <polygon points="150,480 145,475 140,480 145,485 150,490 155,485 160,480" fill="#ffd700"/>
+</svg>

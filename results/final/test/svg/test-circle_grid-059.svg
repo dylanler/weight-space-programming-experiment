@@ -1,0 +1,19 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- 2 rows, 5 columns, total 10 circles -->
+  <!-- Let's use a 200x100 viewBox for easy spacing -->
+  
+  <!-- Row 1: 5 circles -->
+  <circle cx="40" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="80" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="120" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="160" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 2: 5 circles -->
+  <circle cx="40" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="80" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="120" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="160" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
+</svg>

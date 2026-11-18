@@ -1,0 +1,33 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tree trunk -->
+  <rect x="220" y="120" width="40" height="100" fill="#8B4513" />
+  
+  <!-- Tree branches -->
+  <line x1="220" y1="120" x2="180" y2="100" stroke="#5D4037" stroke-width="8" />
+  <line x1="220" y1="120" x2="240" y2="140" stroke="#5D4037" stroke-width="8" />
+  <line x1="220" y1="120" x2="200" y2="160" stroke="#5D4037" stroke-width="8" />
+  
+  <!-- Tree leaves (green) -->
+  <polygon points="180,100 200,80 220,100 240,120" fill="#2E7D32" />
+  <polygon points="200,140 220,160 240,140 220,160" fill="#2E7D32" />
+  <polygon points="200,160 220,180 240,160 220,180" fill="#2E7D32" />
+  <polygon points="240,120 260,100 280,120 260,140" fill="#2E7D32" />
+  <polygon points="260,140 280,160 300,140 280,160" fill="#2E7D32" />
+  <polygon points="260,160 280,180 300,160 280,180" fill="#2E7D32" />
+  
+  <!-- Apples (red) -->
+  <!-- Apple 1 -->
+  <circle cx="225" cy="105" r="8" fill="#D32F2F" />
+  <!-- Apple 2 -->
+  <circle cx="235" cy="115" r="8" fill="#D32F2F" />
+  <!-- Apple 3 -->
+  <circle cx="215" cy="135" r="8" fill="#D32F2F" />
+  <!-- Apple 4 -->
+  <circle cx="245" cy="125" r="8" fill="#D32F2F" />
+  <!-- Apple 5 -->
+  <circle cx="220" cy="155" r="8" fill="#D32F2F" />
+  <!-- Apple 6 -->
+  <circle cx="250" cy="145" r="8" fill="#D32F2F" />
+  <!-- Apple 7 -->
+  <circle cx="230" cy="165" r="8" fill="#D32F2F" />
+</svg>

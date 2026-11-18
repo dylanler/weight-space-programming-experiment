@@ -1,0 +1,29 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- 7 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="28.57" fill="#006400"/>
+  <rect x="0" y="57.14" width="300" height="28.57" fill="#009600"/>
+  <rect x="0" y="85.71" width="300" height="28.57" fill="#009933"/>
+  <rect x="0" y="114.29" width="300" height="28.57" fill="#009966"/>
+  <rect x="0" y="142.86" width="300" height="28.57" fill="#009999"/>
+  <rect x="0" y="171.43" width="300" height="28.57" fill="#0099CC"/>
+  <rect x="0" y="200" width="300" height="28.57" fill="#0099FF"/>
+  
+  <!-- 5 Stars -->
+  <!-- Star 1: Top-left area -->
+  <polygon points="100,20 110,30 120,20 120,30 110,40 100,50 90,40 80,30 90,20" fill="#FFD700"/>
+  
+  <!-- Star 2: Top-right area -->
+  <polygon points="200,20 190,30 180,20 180,30 190,40 200,50 210,40 220,30 210,20" fill="#FFD700"/>
+  
+  <!-- Star 3: Middle-left area -->
+  <polygon points="100,140 110,150 120,140 120,150 110,160 100,170 90,160 80,150 90,140" fill="#FFD700"/>
+  
+  <!-- Star 4: Middle-right area -->
+  <polygon points="200,140 190,150 180,140 180,150 190,160 200,170 210,160 220,150 210,140" fill="#FFD700"/>
+  
+  <!-- Star 5: Bottom-center area -->
+  <polygon points="150,170 160,180 170,170 170,180 160,190 150,200 140,190 130,180 140,170" fill="#FFD700"/>
+</svg>

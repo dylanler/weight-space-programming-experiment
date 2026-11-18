@@ -1,0 +1,53 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- 6 rows, 6 columns, total 36 circles -->
+  <!-- Cell size: 200 / 36 ≈ 5.56 px -->
+  
+  <!-- Row 1 -->
+  <circle cx="10" cy="10" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="25" cy="10" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="40" cy="10" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="55" cy="10" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="70" cy="10" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="85" cy="10" r="4" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 2 -->
+  <circle cx="10" cy="25" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="25" cy="25" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="40" cy="25" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="55" cy="25" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="70" cy="25" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="85" cy="25" r="4" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 3 -->
+  <circle cx="10" cy="40" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="25" cy="40" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="40" cy="40" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="55" cy="40" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="70" cy="40" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="85" cy="40" r="4" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 4 -->
+  <circle cx="10" cy="55" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="25" cy="55" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="40" cy="55" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="55" cy="55" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="70" cy="55" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="85" cy="55" r="4" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 5 -->
+  <circle cx="10" cy="70" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="25" cy="70" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="40" cy="70" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="55" cy="70" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="70" cy="70" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="85" cy="70" r="4" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- Row 6 -->
+  <circle cx="10" cy="85" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="25" cy="85" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="40" cy="85" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="55" cy="85" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="70" cy="85" r="4" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="85" cy="85" r="4" fill="white" stroke="black" stroke-width="1"/>
+</svg>

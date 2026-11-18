@@ -1,0 +1,25 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="white"/>
+  
+  <!-- Chart margins -->
+  <rect x="60" y="60" width="280" height="180" fill="white"/>
+  
+  <!-- Grid lines (optional for clarity) -->
+  <line x1="60" y1="60" x2="340" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="120" x2="340" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="180" x2="340" y2="180" stroke="black" stroke-width="1"/>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 40 -->
+  <rect x="60" y="120" width="40" height="40" fill="blue"/>
+  
+  <!-- Bar 2: height 60 -->
+  <rect x="120" y="120" width="40" height="60" fill="blue"/>
+  
+  <!-- Bar 3: height 80 -->
+  <rect x="180" y="120" width="40" height="80" fill="blue"/>
+  
+  <!-- Bar 4: height 120 (tallest, red) -->
+  <rect x="240" y="120" width="40" height="120" fill="red"/>
+</svg>

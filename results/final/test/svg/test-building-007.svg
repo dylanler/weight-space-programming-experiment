@@ -1,0 +1,58 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building outline -->
+  <rect x="50" y="50" width="200" height="300" fill="#8B4513" stroke="#5D2906" stroke-width="2"/>
+  
+  <!-- Floors (8 floors total) -->
+  <!-- Floor 1 -->
+  <rect x="60" y="100" width="180" height="40" fill="#A0522D" stroke="#5D2906" stroke-width="1"/>
+  <!-- Floor 2 -->
+  <rect x="60" y="140" width="180" height="40" fill="#A0522D" stroke="#5D2906" stroke-width="1"/>
+  <!-- Floor 3 -->
+  <rect x="60" y="180" width="180" height="40" fill="#A0522D" stroke="#5D2906" stroke-width="1"/>
+  <!-- Floor 4 -->
+  <rect x="60" y="220" width="180" height="40" fill="#A0522D" stroke="#5D2906" stroke-width="1"/>
+  <!-- Floor 5 -->
+  <rect x="60" y="260" width="180" height="40" fill="#A0522D" stroke="#5D2906" stroke-width="1"/>
+  <!-- Floor 6 -->
+  <rect x="60" y="300" width="180" height="40" fill="#A0522D" stroke="#5D2906" stroke-width="1"/>
+  <!-- Floor 7 -->
+  <rect x="60" y="340" width="180" height="40" fill="#A0522D" stroke="#5D2906" stroke-width="1"/>
+  <!-- Floor 8 (top) -->
+  <rect x="60" y="380" width="180" height="40" fill="#A0522D" stroke="#5D2906" stroke-width="1"/>
+  
+  <!-- Windows (7 windows total) -->
+  <!-- Floor 1: 3 windows -->
+  <rect x="100" y="105" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="130" y="105" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="105" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  
+  <!-- Floor 2: 3 windows -->
+  <rect x="100" y="145" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="130" y="145" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="145" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  
+  <!-- Floor 3: 3 windows -->
+  <rect x="100" y="185" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="130" y="185" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="185" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  
+  <!-- Floor 4: 3 windows -->
+  <rect x="100" y="225" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="130" y="225" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="225" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  
+  <!-- Floor 5: 3 windows -->
+  <rect x="100" y="265" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="130" y="265" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="265" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  
+  <!-- Floor 6: 3 windows -->
+  <rect x="100" y="305" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="130" y="305" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="305" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  
+  <!-- Floor 7: 3 windows -->
+  <rect x="100" y="345" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="130" y="345" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="345" width="20" height="35" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the chart area -->
+  <defs>
+    <style>
+      .bar { fill: #ff0000; }
+      .bar-blue { fill: #0000ff; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="30" x2="100" y2="270" stroke="black" stroke-width="2"/>
+  
+  <!-- X-axis -->
+  <line x1="100" y1="270" x2="350" y2="270" stroke="black" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="225" y="20" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Bar Chart</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: Tallest, Red -->
+  <rect x="100" y="100" width="40" height="170" class="bar"/>
+  
+  <!-- Bar 2: Medium, Blue -->
+  <rect x="150" y="100" width="40" height="120" class="bar-blue"/>
+  
+  <!-- Bar 3: Short, Blue -->
+  <rect x="200" y="100" width="40" height="60" class="bar-blue"/>
+  
+  <!-- Bar 4: Medium, Blue -->
+  <rect x="250" y="100" width="40" height="120" class="bar-blue"/>
+  
+  <!-- Bar 5: Shortest, Blue -->
+  <rect x="300" y="100" width="40" height="60" class="bar-blue"/>
+</svg>
