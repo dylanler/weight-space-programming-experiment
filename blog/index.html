@@ -1,1 +1,129 @@
-<!doctype html><title>WSP Qwen3.5-2B</title><p>Experiment in progress.</p>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Can an agent program a 2B model's weights? GPT-6.2 Sol × Qwen3.5-2B</title>
+<style>
+ body{font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:#1d1d1f;max-width:820px;margin:40px auto;padding:0 20px;background:#fff}
+ h1{font-size:2.0em;line-height:1.2;margin-bottom:.2em} h2{margin-top:2em;border-bottom:1px solid #eee;padding-bottom:.2em}
+ .sub{color:#666;margin-top:0} code{background:#f4f4f6;padding:1px 5px;border-radius:4px;font-size:.9em}
+ pre{background:#f4f4f6;padding:12px;border-radius:6px;overflow-x:auto;font-size:.85em}
+ table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.92em} th,td{border-bottom:1px solid #e5e5e5;padding:6px 8px;text-align:right} th:first-child,td:first-child{text-align:left}
+ tr.tot td{font-weight:700;border-top:2px solid #999} .pos{color:#0a7d32} .neg{color:#b3261e}
+ img{max-width:100%;border:1px solid #eee;border-radius:6px} .callout{background:#f0f7ff;border-left:4px solid #3b82f6;padding:12px 16px;border-radius:4px;margin:1.2em 0}
+ .small{font-size:.85em;color:#555}
+</style>
+</head>
+<body>
+<h1>Can an AI agent program a small model's weights by hand?</h1>
+<p class="sub">An end-to-end experiment: GPT-6.2 Sol (in the Devin harness) does <em>weight-space programming</em> on Qwen/Qwen3.5-2B for five SVG-drawing tasks. Code, prompts, every generation, every judgment: <a href="https://github.com/dylanler/weight-space-programming-experiment">github.com/dylanler/weight-space-programming-experiment</a>.</p>
+
+<div class="callout"><b>TL;DR.</b> In about 42 minutes, using 5 generation batches, the agent wrote a rank-1 edit that changes <b>0.073% of the weights</b>: five MLP <code>down_proj</code> matrices in layers 15–23. It used no gradients, no training, and changed no prompts or decoding settings.
+On 500 held-out prompts, image-only judges scored the edited model <b>147/500</b> correct versus <b>88/500</b> for the base model (exact McNemar <i>p</i>&nbsp;&lt;&nbsp;10<sup>−6</sup>).
+A stricter blinded paired re-judging gives <b>120 vs 78</b> (<i>p</i>&nbsp;≈&nbsp;10<sup>−6</sup>).
+The edit almost eliminates degenerate repetition loops: generations hitting the 4096-token cap dropped from 76 to 6. It also improved three of the five tasks. It did <b>not</b> fix counting in the two hardest tasks (buildings and flags).</div>
+
+<h2>1. The question</h2>
+<p><a href="https://rikiyat.github.io/blog/weight-space-programming/">Weight-space programming</a> treats a network's weights as source code that an agent reads and edits directly. The agent inspects activations, finds directions or neurons that implement a behavior, and writes surgical tensor edits, all without gradient descent.
+We asked whether a frontier coding agent can do this <em>effectively</em> (measurable gains on held-out tasks) and <em>efficiently</em> (small edits, little compute, short wall-clock time) on a small open model, <code>Qwen/Qwen3.5-2B</code>.</p>
+
+<h2>2. Setup</h2>
+<h3>Five SVG tasks, 100 randomized test prompts each</h3>
+<table>
+<tr><th>Task</th><th>Prompt (randomized parameters)</th></tr>
+<tr><td>building</td><td style="text-align:left">a building with exactly X windows in total and exactly Y floors (X∈1–24, Y∈1–8)</td></tr>
+<tr><td>apple_tree</td><td style="text-align:left">a tree with exactly N red apples (N∈1–15)</td></tr>
+<tr><td>circle_grid</td><td style="text-align:left">a grid of circles with exactly R rows and C columns (1–6 each)</td></tr>
+<tr><td>bar_chart</td><td style="text-align:left">N vertical bars; the k-th from the left is tallest and red, others blue (N∈3–9)</td></tr>
+<tr><td>flag</td><td style="text-align:left">a flag with exactly S horizontal stripes and M stars (S∈2–9, M∈1–9)</td></tr>
+</table>
+<p>Each task also has a separate set of 30 <b>dev</b> prompts, generated with a different random seed. The editing agent saw only the dev prompts, never the 500 test prompts.</p>
+
+<h3>Inference</h3>
+<p>Qwen3.5-2B runs in vLLM on a single Modal <b>A100-40GB</b> with greedy decoding, non-thinking chat mode and up to 4096 new tokens. Every function scales to zero (60 s idle window for batch jobs), and the containers were stopped explicitly after each phase.
+Generating all 500 test outputs takes one batched call of a few minutes.</p>
+
+<h3>Image-only verification</h3>
+<p>Each SVG is extracted from the output and rendered to a 512&nbsp;px PNG with CairoSVG. Judges are separate GPT-6.2 Sol Devin sessions that receive <b>only the PNGs and the natural-language requirement</b>: no SVG code, no model identity, and randomly hashed item IDs.
+They were told to judge by eye, strictly, and not to count pixels with code. An output with no renderable SVG counts as wrong.</p>
+<ul>
+<li><b>Independent judging</b> (as requested): fresh judges scored the base outputs and, later, other fresh judges scored the edited outputs. Each judge session covered one task with 100 images.</li>
+<li><b>Paired blinded judging</b> (robustness check): for each task, the 100 base and 100 edited images were shuffled together under hashed IDs. One judge scored all 200, so both conditions were held to the same standard.</li>
+</ul>
+
+<h3>The weight-editing agent</h3>
+<p>A GPT-6.2 Sol Devin session received the blog post, the task description, and an authenticated HTTP API to a live Python kernel on an A100. The kernel holds the vLLM model in eager mode, so tensor edits take effect immediately.
+The agent could run arbitrary Python against the live <code>model</code> (inspecting weights and adding temporary forward hooks). It had a budget of 40 generation batches, and it could render and look at its dev-set outputs.
+It saved the final edit as a sparse patch. A separate Modal function later loads that patch onto fresh base weights to generate the test outputs.</p>
+
+<h2>3. What the agent did</h2>
+<ol>
+<li><b>Diagnosis.</b> Loading the base dev outputs showed that most failures were not drawing mistakes. Many outputs were <em>degenerate repetition loops</em> (e.g. emitting <code>&lt;circle .../&gt;</code> for apples, or window rectangles, forever) that hit the token cap and never closed the <code>&lt;/svg&gt;</code>.</li>
+<li><b>Finding the direction.</b> The agent replayed the generations teacher-forced, labelled each token "loop" or "normal", and measured the residual-stream difference at <em>element boundaries</em>, where the model decides between opening another element and closing. The difference grows with depth and peaks in layers 15–23.</li>
+<li><b>Editing.</b> For each of layers 15, 17, 19, 21 and 23, it ranked MLP neurons by how strongly their <code>down_proj</code> column writes along the loop direction <i>u</i>. On the top neurons it applied a rank-1 projection:
+<pre>W_down[:, idx] -= u uᵀ W_down[:, idx]</pre>
+The selected neurons can no longer write the "keep looping" direction.</li>
+<li><b>Second round.</b> It re-measured the direction on the loops that survived the first edit. That direction has only 0.19 cosine with the first at layer 23. It projected this direction out of 32 more neurons per layer.</li>
+<li><b>Ablations.</b> It tried five edits. Wider edits that included early layers 11 and 13, or larger second rounds, removed loops equally well but hurt correctness, so it chose the smaller E5. Before spending a generation batch on each candidate, it screened it with cheap teacher-forced checks (normal-text NLL +4%, greedy agreement 0.989 → 0.987).</li>
+</ol>
+<p>On the dev set it reported 124 → 150/150 rendered and 27 → 46/150 correct by its own visual judgment. The full write-up is in <a href="https://github.com/dylanler/weight-space-programming-experiment/blob/main/edits/editing_report.md">editing_report.md</a>, and the exact reproducible edit is in <a href="https://github.com/dylanler/weight-space-programming-experiment/blob/main/edits/final_edit.py">final_edit.py</a>.</p>
+
+<h2>4. Results on the 500 held-out prompts</h2>
+<img src="img/scores.png" alt="Visually correct outputs per task, base vs edited">
+<h3>Independent judges</h3>
+<table>
+<tr><th>Task</th><th>Rendered base → edit</th><th>Correct base</th><th>Correct edit</th><th>Δ</th><th>fixed / broken</th><th>McNemar p</th></tr>
+<tr><td>building</td><td>77 → 99</td><td>4/100</td><td>2/100</td><td class="neg">−2</td><td>2 / 4</td><td>0.69</td></tr>
+<tr><td>apple_tree</td><td>52 → 98</td><td>11/100</td><td>33/100</td><td class="pos">+22</td><td>28 / 6</td><td>2×10<sup>−4</sup></td></tr>
+<tr><td>circle_grid</td><td>100 → 100</td><td>38/100</td><td>58/100</td><td class="pos">+20</td><td>23 / 3</td><td>9×10<sup>−5</sup></td></tr>
+<tr><td>bar_chart</td><td>100 → 100</td><td>35/100</td><td>54/100</td><td class="pos">+19</td><td>22 / 3</td><td>2×10<sup>−4</sup></td></tr>
+<tr><td>flag</td><td>95 → 97</td><td>0/100</td><td>0/100</td><td>0</td><td>0 / 0</td><td>–</td></tr>
+<tr class="tot"><td>Total</td><td>424 → 494</td><td>88/500</td><td>147/500</td><td class="pos">+59</td><td>75 / 16</td><td>&lt;10<sup>−6</sup></td></tr>
+</table>
+<h3>Paired blinded judges (same judge sees both conditions)</h3>
+<table>
+<tr><th>Task</th><th>Correct base</th><th>Correct edit</th><th>Δ</th><th>fixed / broken</th><th>McNemar p</th></tr>
+<tr><td>building</td><td>5</td><td>4</td><td class="neg">−1</td><td>3 / 4</td><td>1.0</td></tr>
+<tr><td>apple_tree</td><td>12</td><td>33</td><td class="pos">+21</td><td>27 / 6</td><td>3×10<sup>−4</sup></td></tr>
+<tr><td>circle_grid</td><td>21</td><td>29</td><td class="pos">+8</td><td>10 / 2</td><td>0.039</td></tr>
+<tr><td>bar_chart</td><td>40</td><td>54</td><td class="pos">+14</td><td>18 / 4</td><td>0.004</td></tr>
+<tr><td>flag</td><td>0</td><td>0</td><td>0</td><td>0 / 0</td><td>–</td></tr>
+<tr class="tot"><td>Total</td><td>78</td><td>120</td><td class="pos">+42</td><td>58 / 16</td><td>1×10<sup>−6</sup></td></tr>
+</table>
+<p class="small">Judge agreement on the same rendered images (independent vs paired): 93.6% overall, Cohen's κ = 0.82. Agreement is near-perfect for apple_tree, bar_chart and flag (κ ≥ 0.91), but only κ = 0.53 for circle_grid, where judges disagreed on whether partly clipped circles count. The circle-grid gain therefore depends on the judge: +20 versus +8. Both are significant.</p>
+
+<h3>Other measured effects</h3>
+<ul>
+<li>Generations hitting the 4096-token cap: <b>76 → 6</b> of 500. Total generated tokens: 648k → 403k (−38%).</li>
+<li>The edit did not break the model: 494/500 edited outputs are complete, renderable SVGs (examples below).</li>
+</ul>
+<h3>Examples (first four test prompts per task; left: base, right: edited)</h3>
+<img src="img/examples.png" alt="Example renders base vs edited">
+
+<h2>5. What this tells us</h2>
+<p><b>Effective? Partly, and the scope matters.</b> The agent found a real, mechanistic failure mode: a late-layer "keep repeating" direction. It removed that direction with a tiny, interpretable edit, and the gain carried over from 150 dev prompts to 500 unseen test prompts with no task-specific tuning.
+apple_tree gained the most (+21/22), because half its base outputs never finished. bar_chart and circle_grid improved even though their render rates did not change. A plausible reading is that suppressing self-repetition also cut over-generated, duplicated elements.</p>
+<p><b>It did not teach the model to count.</b> Building outputs (exact windows <i>and</i> floors) stayed at 2–5%, and flags with exact stripes <i>and</i> recognizable stars stayed at 0%. Qwen3.5-2B mostly draws dots or diamonds instead of stars. The agent's report says so plainly: it targeted a decoding pathology, not the model's spatial-arithmetic ability. One linear direction did not reach that ability within the budget.</p>
+<p><b>Efficient? Yes.</b> The whole edit took about 42 minutes of agent wall-clock time and 5 generation batches out of a budget of 40, with no gradient computation. It changes 1.37M of 1.88B weights, in five matrices, and is reproducible from a short script.</p>
+
+<h2>6. Caveats</h2>
+<ul>
+<li><b>The judges are an LLM, not humans.</b> We report two independent judging protocols and their agreement. Absolute numbers shift with judge strictness (especially circle_grid), but the direction and significance of the total gain hold under both.</li>
+<li><b>Model identity of the agents.</b> All child sessions were created with the organization's default agent setting, which is GPT-6.2 Sol (Preview). The API reports the mode as "normal" and does not expose the runtime model, so this is the configured model, not one verified per call.</li>
+<li><b>The editor judged its own dev outputs</b> when choosing between edits. The test prompts and their judgments were never available to it.</li>
+<li>Single seed, greedy decoding, one edit. With 100 prompts per task, small per-task differences (building ±2) are noise.</li>
+</ul>
+
+<h2>7. Reproduce</h2>
+<pre>modal deploy wsp/kernel.py                              # inference + editing kernel (A100, scale-to-zero)
+python wsp/tasks.py                                     # prompts (seeded)
+python -m wsp.pipeline generate --model base  --split test
+# editor: run edits/final_edit.py in the kernel, POST /save_patch {"name":"final"}
+python -m wsp.pipeline generate --model final --split test
+python -m wsp.verify_pack final test                    # image-only packs for judges
+python -m wsp.score final test verify/final_test/judgments
+python -m wsp.score_paired; python -m wsp.agreement; python -m wsp.tables base final</pre>
+<p class="small">The LaTeX paper is at <a href="https://github.com/dylanler/weight-space-programming-experiment/tree/main/paper">paper/</a>. Experiment run 2026-11-17/18.</p>
+</body>
+</html>
