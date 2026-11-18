@@ -1,0 +1,504 @@
+{
+ "judgments": [
+  {
+   "item_id": "042dcff612",
+   "correct": false,
+   "observed": "2 rows x 4 cols visible (8); only 2 rows, 4th col clipped"
+  },
+  {
+   "item_id": "05cf4b3596",
+   "correct": true,
+   "observed": "3 rows x 3 cols (9)"
+  },
+  {
+   "item_id": "07ab8a31c9",
+   "correct": true,
+   "observed": "6 rows x 4 cols (24), small touching circles in corner"
+  },
+  {
+   "item_id": "0e7dcfc400",
+   "correct": true,
+   "observed": "4 rows x 3 cols (12), bottom row partly clipped"
+  },
+  {
+   "item_id": "120c69f540",
+   "correct": true,
+   "observed": "4 rows x 4 cols (16), right col/bottom row partly clipped"
+  },
+  {
+   "item_id": "185715576c",
+   "correct": true,
+   "observed": "2 rows x 2 cols (4)"
+  },
+  {
+   "item_id": "18692ff877",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "19d32c82fe",
+   "correct": true,
+   "observed": "3 rows x 5 cols (15), left col partly clipped"
+  },
+  {
+   "item_id": "1a242c7efb",
+   "correct": true,
+   "observed": "1 row x 4 colored circles (4), 4th clipped"
+  },
+  {
+   "item_id": "1e107b4d72",
+   "correct": true,
+   "observed": "2 rows x 5 touching circles (10), edges clipped"
+  },
+  {
+   "item_id": "1f179633c5",
+   "correct": false,
+   "observed": "4 rows x 3 cols visible (12)"
+  },
+  {
+   "item_id": "2036f9a007",
+   "correct": true,
+   "observed": "2 rows x 2 cols (4)"
+  },
+  {
+   "item_id": "222b336e8a",
+   "correct": true,
+   "observed": "1 row x 2 circles (2)"
+  },
+  {
+   "item_id": "2391e230f9",
+   "correct": true,
+   "observed": "6 rows x 6 cols (36)"
+  },
+  {
+   "item_id": "26a56ec236",
+   "correct": true,
+   "observed": "1 row x 4 colored circles (4), 4th clipped"
+  },
+  {
+   "item_id": "283cb0097a",
+   "correct": true,
+   "observed": "3 rows x 6 cols (18)"
+  },
+  {
+   "item_id": "2a834b932b",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "2aee5cf964",
+   "correct": true,
+   "observed": "6 rows x 6 cols (36), right col/bottom row partly clipped"
+  },
+  {
+   "item_id": "2bd85ca180",
+   "correct": true,
+   "observed": "4 rows x 6 cols (24)"
+  },
+  {
+   "item_id": "31310debb5",
+   "correct": false,
+   "observed": "4 circles in a column"
+  },
+  {
+   "item_id": "350fc2095e",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "37210c08ac",
+   "correct": true,
+   "observed": "3 rows x 6 cols (18)"
+  },
+  {
+   "item_id": "398a123887",
+   "correct": true,
+   "observed": "5 rows x 6 cols (30)"
+  },
+  {
+   "item_id": "3aa7072749",
+   "correct": true,
+   "observed": "1 row x 2 circles (2)"
+  },
+  {
+   "item_id": "3ce68429a9",
+   "correct": true,
+   "observed": "6 rows x 6 cols (36), edges partly clipped"
+  },
+  {
+   "item_id": "406ba8a9b3",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "43674cd518",
+   "correct": false,
+   "observed": "4 rows x 4 cols visible (16)"
+  },
+  {
+   "item_id": "4a2675f100",
+   "correct": true,
+   "observed": "3 rows x 6 cols (18)"
+  },
+  {
+   "item_id": "4c1711dea3",
+   "correct": false,
+   "observed": "2 rows x 4 cols visible (8)"
+  },
+  {
+   "item_id": "4c3d74a61b",
+   "correct": true,
+   "observed": "2 rows x 5 touching circles (10), edges clipped"
+  },
+  {
+   "item_id": "4eb26d7fbe",
+   "correct": false,
+   "observed": "4 rows x 2 cols visible (8)"
+  },
+  {
+   "item_id": "5046ca0deb",
+   "correct": true,
+   "observed": "4 rows x 2 cols (8), bottom row partly clipped"
+  },
+  {
+   "item_id": "513088ba15",
+   "correct": true,
+   "observed": "4 rows x 5 cols overlapping (20), edges clipped"
+  },
+  {
+   "item_id": "521a23e63e",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "522d409255",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "56865e07bb",
+   "correct": true,
+   "observed": "2 rows x 6 cols (12), edges clipped"
+  },
+  {
+   "item_id": "569ba1e7ff",
+   "correct": false,
+   "observed": "3 rows x 4 cols visible (12)"
+  },
+  {
+   "item_id": "59c31a30ee",
+   "correct": false,
+   "observed": "4 rows x 3 cols visible (12)"
+  },
+  {
+   "item_id": "5aab04710e",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "5d968f6fcb",
+   "correct": true,
+   "observed": "1 row x 5 circles (5)"
+  },
+  {
+   "item_id": "5e7ca8d150",
+   "correct": true,
+   "observed": "6 rows x 4 cols (24)"
+  },
+  {
+   "item_id": "6650301918",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "67fdc3fd39",
+   "correct": true,
+   "observed": "4 rows x 2 cols (8)"
+  },
+  {
+   "item_id": "6b7b16d094",
+   "correct": true,
+   "observed": "6 rows x 5 cols (30)"
+  },
+  {
+   "item_id": "6c2db93ec6",
+   "correct": false,
+   "observed": "2 rows x 4 cols visible (8)"
+  },
+  {
+   "item_id": "6e96e16931",
+   "correct": true,
+   "observed": "1 row x 2 circles (2)"
+  },
+  {
+   "item_id": "7021279c52",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "73adfa2e0b",
+   "correct": false,
+   "observed": "4 rows x 2 cols visible (8)"
+  },
+  {
+   "item_id": "746362b9e5",
+   "correct": false,
+   "observed": "3 rows x 3 cols visible (9)"
+  },
+  {
+   "item_id": "76a35ab6d9",
+   "correct": false,
+   "observed": "3 rows x 4 cols visible (12)"
+  },
+  {
+   "item_id": "78bd639d13",
+   "correct": true,
+   "observed": "3 rows x 2 cols (6), bottom row partly clipped"
+  },
+  {
+   "item_id": "7bf1d5e99c",
+   "correct": true,
+   "observed": "4 rows x 5 cols overlapping (20), edges clipped"
+  },
+  {
+   "item_id": "80181e5c5a",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "8023a53ec6",
+   "correct": true,
+   "observed": "5 rows x 5 cols overlapping (25)"
+  },
+  {
+   "item_id": "80ba1b11e7",
+   "correct": false,
+   "observed": "2 circles only"
+  },
+  {
+   "item_id": "83311ed3eb",
+   "correct": false,
+   "observed": "4 rows x 2 cols visible (8)"
+  },
+  {
+   "item_id": "8aa3d42514",
+   "correct": false,
+   "observed": "4 rows x 2 cols visible (8)"
+  },
+  {
+   "item_id": "8ef0311def",
+   "correct": false,
+   "observed": "4 rows x 3 cols visible (12)"
+  },
+  {
+   "item_id": "9ac9f5f863",
+   "correct": true,
+   "observed": "1 row x 6 circles (6), last clipped"
+  },
+  {
+   "item_id": "9c050152e5",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "9c6e2ebe97",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "9ddca982c2",
+   "correct": true,
+   "observed": "1 row x 2 circles (2)"
+  },
+  {
+   "item_id": "a39d522852",
+   "correct": true,
+   "observed": "1 row x 4 colored circles (4), 4th clipped"
+  },
+  {
+   "item_id": "a4620b49a7",
+   "correct": false,
+   "observed": "4 rows x 3 cols visible (12)"
+  },
+  {
+   "item_id": "a7b34a3c6c",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "ad5574460d",
+   "correct": false,
+   "observed": "2 rows x 4 cols visible (8)"
+  },
+  {
+   "item_id": "b8eea2f5b8",
+   "correct": false,
+   "observed": "2 rows x 4 cols visible (8)"
+  },
+  {
+   "item_id": "bdc79ba56b",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "be7e47fe68",
+   "correct": false,
+   "observed": "4 rows x 3 cols visible (12)"
+  },
+  {
+   "item_id": "c621714de4",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "c68e050797",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "c90ab51240",
+   "correct": true,
+   "observed": "3 rows x 6 cols (18)"
+  },
+  {
+   "item_id": "cdc3f25a8d",
+   "correct": true,
+   "observed": "3 rows x 2 cols (6), uneven spacing, left col clipped"
+  },
+  {
+   "item_id": "cdf821467a",
+   "correct": false,
+   "observed": "4 rows x 3 cols visible (12)"
+  },
+  {
+   "item_id": "cfec071ca7",
+   "correct": false,
+   "observed": "4 circles in a column"
+  },
+  {
+   "item_id": "cffa142900",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "d10c65bc6a",
+   "correct": true,
+   "observed": "1 row x 6 circles (6), last clipped"
+  },
+  {
+   "item_id": "d452a58a09",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "d54e9dab77",
+   "correct": true,
+   "observed": "4 rows x 2 cols (8), bottom row partly clipped"
+  },
+  {
+   "item_id": "d62819ea23",
+   "correct": true,
+   "observed": "1 row x 6 circles (6), last clipped"
+  },
+  {
+   "item_id": "d993194d55",
+   "correct": true,
+   "observed": "5 rows x 5 cols overlapping (25)"
+  },
+  {
+   "item_id": "d9f87006b6",
+   "correct": false,
+   "observed": "4 colored circles in a column"
+  },
+  {
+   "item_id": "e0c37f4ed2",
+   "correct": true,
+   "observed": "5 rows x 5 cols overlapping (25)"
+  },
+  {
+   "item_id": "e49a71175e",
+   "correct": true,
+   "observed": "6 rows x 6 cols (36), edges partly clipped"
+  },
+  {
+   "item_id": "e5768dd073",
+   "correct": true,
+   "observed": "1 row x 2 circles (2)"
+  },
+  {
+   "item_id": "e730bc787a",
+   "correct": true,
+   "observed": "4 rows x 5 cols overlapping (20), edges clipped"
+  },
+  {
+   "item_id": "e83832e996",
+   "correct": true,
+   "observed": "6 rows x 4 cols (24)"
+  },
+  {
+   "item_id": "eb4a326b91",
+   "correct": true,
+   "observed": "3 rows x 5 cols (15)"
+  },
+  {
+   "item_id": "ec133241d5",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "ed06766589",
+   "correct": false,
+   "observed": "4 rows x 2 cols visible (8)"
+  },
+  {
+   "item_id": "f13a4d3041",
+   "correct": true,
+   "observed": "5 rows x 5 cols overlapping (25)"
+  },
+  {
+   "item_id": "f183abc9e0",
+   "correct": true,
+   "observed": "1 row x 2 circles (2)"
+  },
+  {
+   "item_id": "f20d98884c",
+   "correct": true,
+   "observed": "4 rows x 3 cols (12), bottom row partly clipped"
+  },
+  {
+   "item_id": "f2a32e705f",
+   "correct": true,
+   "observed": "1 row x 2 circles (2)"
+  },
+  {
+   "item_id": "f328b94efb",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "f6fcf20548",
+   "correct": true,
+   "observed": "2 rows x 5 cols (10), top row/left col partly clipped"
+  },
+  {
+   "item_id": "fbd3703ee6",
+   "correct": false,
+   "observed": "1 circle only"
+  },
+  {
+   "item_id": "fc0ecb26fd",
+   "correct": true,
+   "observed": "5 rows x 5 cols overlapping (25)"
+  },
+  {
+   "item_id": "fd8088c488",
+   "correct": false,
+   "observed": "4 rows x 4 cols visible (16)"
+  },
+  {
+   "item_id": "fe4b47d376",
+   "correct": false,
+   "observed": "1 row x 5 circles (5)"
+  }
+ ]
+}

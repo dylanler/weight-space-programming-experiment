@@ -1,0 +1,504 @@
+{
+ "judgments": [
+  {
+   "item_id": "01d3551de2",
+   "correct": false,
+   "observed": "No renderable image."
+  },
+  {
+   "item_id": "022182e2ab",
+   "correct": false,
+   "observed": "5 horizontal stripes; 3 tiny yellow marks, no clear stars."
+  },
+  {
+   "item_id": "074bb1a9ac",
+   "correct": false,
+   "observed": "8 horizontal stripes; 8 yellow diamonds, 2 clipped; no stars."
+  },
+  {
+   "item_id": "08389fdaca",
+   "correct": false,
+   "observed": "9 horizontal stripes; 5 yellow squares, no stars."
+  },
+  {
+   "item_id": "0b10618526",
+   "correct": false,
+   "observed": "7 horizontal stripes; 5 notched yellow shapes, no clear stars."
+  },
+  {
+   "item_id": "161a91d726",
+   "correct": false,
+   "observed": "5 horizontal stripes; 3 white dots, 1 clipped; no stars."
+  },
+  {
+   "item_id": "16af948089",
+   "correct": false,
+   "observed": "8 horizontal stripes; 4 yellow diamonds and a clipped tip, no stars."
+  },
+  {
+   "item_id": "1858f5b3a3",
+   "correct": false,
+   "observed": "3 horizontal stripes; 7 white dots, 1 clipped; no stars."
+  },
+  {
+   "item_id": "1dbbc56d8b",
+   "correct": false,
+   "observed": "4 horizontal stripes; 14 white triangles, no stars."
+  },
+  {
+   "item_id": "2150253a92",
+   "correct": false,
+   "observed": "No renderable image."
+  },
+  {
+   "item_id": "216ad4c9aa",
+   "correct": false,
+   "observed": "9 main horizontal stripes plus a narrow white bottom band; overlapping yellow marks, no clear stars."
+  },
+  {
+   "item_id": "23ffc6a2de",
+   "correct": false,
+   "observed": "9 horizontal stripes; 5 white diamonds, no stars."
+  },
+  {
+   "item_id": "276c0fa543",
+   "correct": false,
+   "observed": "4 horizontal stripes; 3 white arrows, no stars."
+  },
+  {
+   "item_id": "2ec0eb4faa",
+   "correct": false,
+   "observed": "3 horizontal stripes; 3 black dots, no stars."
+  },
+  {
+   "item_id": "31c395728b",
+   "correct": false,
+   "observed": "3 main horizontal stripes plus a white bottom band; 2 black dots, no stars."
+  },
+  {
+   "item_id": "32bcea41e6",
+   "correct": false,
+   "observed": "3 horizontal stripes; 7 white dots, 1 clipped; no stars."
+  },
+  {
+   "item_id": "33f19f040f",
+   "correct": false,
+   "observed": "8 horizontal stripes; 6 yellow notched shapes, no stars."
+  },
+  {
+   "item_id": "39eafaf7d4",
+   "correct": false,
+   "observed": "4 horizontal stripes; 4 white dots, no stars."
+  },
+  {
+   "item_id": "3a45d40f36",
+   "correct": false,
+   "observed": "3 horizontal stripes; 4 white dots, no stars."
+  },
+  {
+   "item_id": "3cb8bd8a62",
+   "correct": false,
+   "observed": "8 horizontal stripes; one white protrusion blends into a stripe, no clear star."
+  },
+  {
+   "item_id": "3d4d26cb8e",
+   "correct": false,
+   "observed": "7 horizontal stripes; 1 yellow parallelogram, no star."
+  },
+  {
+   "item_id": "42ad654254",
+   "correct": false,
+   "observed": "3 main horizontal stripes plus a white bottom band; 2 dots and 3 white bumps, no stars."
+  },
+  {
+   "item_id": "4341755200",
+   "correct": false,
+   "observed": "9 horizontal stripes; 5 white diamonds, no stars."
+  },
+  {
+   "item_id": "462282fdd8",
+   "correct": false,
+   "observed": "3 horizontal stripes; 4 white dots, no stars."
+  },
+  {
+   "item_id": "4780aeb124",
+   "correct": false,
+   "observed": "3 horizontal stripes; 4 black dots, 1 clipped; no stars."
+  },
+  {
+   "item_id": "495d0e2a02",
+   "correct": false,
+   "observed": "3 main horizontal stripes plus a white bottom band; 3 white slanted shapes, no stars."
+  },
+  {
+   "item_id": "4a3104a041",
+   "correct": false,
+   "observed": "8 horizontal stripes; 3 white diamonds, 1 clipped; no stars."
+  },
+  {
+   "item_id": "4ac8fb0bd8",
+   "correct": false,
+   "observed": "6 horizontal stripes; 4 yellow zigzag shapes, no clear stars."
+  },
+  {
+   "item_id": "4c1a8d28dc",
+   "correct": false,
+   "observed": "4 horizontal stripes; 5 white dots, no stars."
+  },
+  {
+   "item_id": "4c57e55f2b",
+   "correct": false,
+   "observed": "3 horizontal stripes; 2 white dots, no stars."
+  },
+  {
+   "item_id": "4c971626f1",
+   "correct": false,
+   "observed": "9 main horizontal stripes plus a narrow white bottom band; overlapping yellow marks, no clear stars."
+  },
+  {
+   "item_id": "4d68b944cb",
+   "correct": false,
+   "observed": "7 horizontal stripes; 3 tiny yellow marks, no clear stars."
+  },
+  {
+   "item_id": "504124c45f",
+   "correct": false,
+   "observed": "6 horizontal bands with faint seams; 5 diamond centers in a connected yellow border, no distinct stars."
+  },
+  {
+   "item_id": "538343c670",
+   "correct": false,
+   "observed": "3 horizontal stripes; 1 black dot, no stars."
+  },
+  {
+   "item_id": "55086756f1",
+   "correct": false,
+   "observed": "3 horizontal stripes; 1 white semicircular bump, no stars."
+  },
+  {
+   "item_id": "556016d644",
+   "correct": false,
+   "observed": "4 horizontal stripes; 1 yellow zigzag, no star."
+  },
+  {
+   "item_id": "5d0d9e38c6",
+   "correct": false,
+   "observed": "7 main horizontal stripes plus a white bottom band; 4 yellow arrow-like marks, no stars."
+  },
+  {
+   "item_id": "5e05f24613",
+   "correct": false,
+   "observed": "3 horizontal stripes; 5 white dots, no stars."
+  },
+  {
+   "item_id": "5f716ae351",
+   "correct": false,
+   "observed": "4 horizontal stripes; 2 yellow diamonds, no stars."
+  },
+  {
+   "item_id": "5ff8a150f3",
+   "correct": false,
+   "observed": "No renderable image."
+  },
+  {
+   "item_id": "610e585340",
+   "correct": false,
+   "observed": "7 horizontal bands with faint seams; 1 angular yellow mark, no star."
+  },
+  {
+   "item_id": "63d61f6ad2",
+   "correct": false,
+   "observed": "7 horizontal bands with faint seams; 6 yellow diamond-like marks, 2 clipped; no stars."
+  },
+  {
+   "item_id": "671a0c678a",
+   "correct": false,
+   "observed": "3 horizontal stripes; 2 white irregular polygons, no stars."
+  },
+  {
+   "item_id": "69bf6e3a5e",
+   "correct": false,
+   "observed": "6 horizontal bands with faint seams; 5 diamond centers in a connected yellow border, no distinct stars."
+  },
+  {
+   "item_id": "6a49ad79b8",
+   "correct": false,
+   "observed": "7 horizontal stripes; 5 yellow chevrons, no stars."
+  },
+  {
+   "item_id": "6a54dd2cb2",
+   "correct": false,
+   "observed": "7 horizontal stripes; 5 white chevrons merging into a stripe, no stars."
+  },
+  {
+   "item_id": "6fa0c84abb",
+   "correct": false,
+   "observed": "3 horizontal stripes; 4 white dots, no stars."
+  },
+  {
+   "item_id": "7062f4add0",
+   "correct": false,
+   "observed": "3 horizontal stripes; 5 white dots, no stars."
+  },
+  {
+   "item_id": "7321bdc9e8",
+   "correct": false,
+   "observed": "5 horizontal stripes; 5 rows of yellow blocks, no stars."
+  },
+  {
+   "item_id": "737fdd255c",
+   "correct": false,
+   "observed": "4 horizontal stripes; 2 yellow triangular marks, no stars."
+  },
+  {
+   "item_id": "74ca70fcf8",
+   "correct": false,
+   "observed": "3 horizontal stripes; 4 black dots, no stars."
+  },
+  {
+   "item_id": "74ff7ed7cd",
+   "correct": false,
+   "observed": "6 horizontal stripes; 1 yellow irregular pentagon, no star."
+  },
+  {
+   "item_id": "8281a678d3",
+   "correct": false,
+   "observed": "3 horizontal stripes; 2 white dots and 4 tiny bumps at stripe edges, no stars."
+  },
+  {
+   "item_id": "8979103bc2",
+   "correct": false,
+   "observed": "6 horizontal bands with faint seams; 5 diamond centers in a connected yellow border, no distinct stars."
+  },
+  {
+   "item_id": "910433f549",
+   "correct": false,
+   "observed": "5 horizontal stripes; 2 yellow angular marks, no stars."
+  },
+  {
+   "item_id": "93541b4664",
+   "correct": false,
+   "observed": "3 horizontal stripes; 2 white dots, no stars."
+  },
+  {
+   "item_id": "94299f983d",
+   "correct": false,
+   "observed": "8 horizontal stripes; 2 notched yellow shapes, no stars."
+  },
+  {
+   "item_id": "9615ab32ee",
+   "correct": false,
+   "observed": "4 horizontal stripes; 1 yellow sawtooth strip with 13 teeth, no stars."
+  },
+  {
+   "item_id": "96f6d8cd24",
+   "correct": false,
+   "observed": "3 horizontal stripes; 7 white dots, 1 clipped; no stars."
+  },
+  {
+   "item_id": "99339a0c26",
+   "correct": false,
+   "observed": "7 horizontal stripes; 6 yellow arrow-like marks, 1 clipped; no stars."
+  },
+  {
+   "item_id": "9c59e4999c",
+   "correct": false,
+   "observed": "4 horizontal stripes; 5 black notched shapes, no clear stars."
+  },
+  {
+   "item_id": "9d0bd1a49b",
+   "correct": false,
+   "observed": "9 main horizontal stripes plus a narrow white bottom band; 0 stars."
+  },
+  {
+   "item_id": "a0ddbfa42f",
+   "correct": false,
+   "observed": "4 horizontal stripes; 1 tiny yellow angular mark, no clear star."
+  },
+  {
+   "item_id": "aad38fd179",
+   "correct": false,
+   "observed": "3 main horizontal stripes plus a white bottom band; 5 white dots, no stars."
+  },
+  {
+   "item_id": "acd02d84c2",
+   "correct": false,
+   "observed": "8 horizontal stripes; 1 white diamond and 1 triangular bump, no stars."
+  },
+  {
+   "item_id": "aedfe6d97e",
+   "correct": false,
+   "observed": "5 horizontal stripes; 3 yellow angular marks, no stars."
+  },
+  {
+   "item_id": "aefceb49a8",
+   "correct": false,
+   "observed": "7 colored horizontal bands with 6 narrow white separators; 5 yellow chevrons, no stars."
+  },
+  {
+   "item_id": "afd62d8c2c",
+   "correct": false,
+   "observed": "5 horizontal stripes; 3 white diamonds and 1 white triangle, no stars."
+  },
+  {
+   "item_id": "affd31e494",
+   "correct": false,
+   "observed": "5 horizontal stripes, 0 stars."
+  },
+  {
+   "item_id": "b0bace8a7e",
+   "correct": false,
+   "observed": "3 horizontal stripes; 2 white-outlined blue circles, no stars."
+  },
+  {
+   "item_id": "b3364bffeb",
+   "correct": false,
+   "observed": "5 horizontal stripes; 3 tiny yellow marks, no clear stars."
+  },
+  {
+   "item_id": "b5fc35388c",
+   "correct": false,
+   "observed": "7 horizontal stripes; 5 yellow chevrons, no stars."
+  },
+  {
+   "item_id": "b831a484e9",
+   "correct": false,
+   "observed": "5 horizontal stripes; 2 black dots, no stars."
+  },
+  {
+   "item_id": "ba6d65fd36",
+   "correct": false,
+   "observed": "3 horizontal stripes; 4 white dots, no stars."
+  },
+  {
+   "item_id": "c087480b80",
+   "correct": false,
+   "observed": "4 horizontal stripes; 14 white triangles, no stars."
+  },
+  {
+   "item_id": "d01976b3b5",
+   "correct": false,
+   "observed": "4 horizontal stripes; 3 blue circles with black outlines, no stars."
+  },
+  {
+   "item_id": "d07ad9ec35",
+   "correct": false,
+   "observed": "4 horizontal stripes; 14 white triangles, no stars."
+  },
+  {
+   "item_id": "d36aff9a45",
+   "correct": false,
+   "observed": "5 horizontal stripes; 3 rows of 15 yellow triangles, no stars."
+  },
+  {
+   "item_id": "d4932ce062",
+   "correct": false,
+   "observed": "Plain white field with 5 yellow diamonds; no stripes or stars."
+  },
+  {
+   "item_id": "d666ab5d54",
+   "correct": false,
+   "observed": "9 main horizontal stripes plus a narrow white bottom band; 1 yellow ribbon shape, no star."
+  },
+  {
+   "item_id": "d7148c2e3e",
+   "correct": false,
+   "observed": "9 main horizontal stripes plus a narrow white bottom band; overlapping yellow marks, no clear stars."
+  },
+  {
+   "item_id": "dd6d16c0fa",
+   "correct": false,
+   "observed": "9 horizontal stripes; 5 white diamonds, no stars."
+  },
+  {
+   "item_id": "ded5127e0f",
+   "correct": false,
+   "observed": "5 horizontal stripes; 2 yellow angular marks, no stars."
+  },
+  {
+   "item_id": "e172ed552a",
+   "correct": false,
+   "observed": "6 horizontal bands with faint seams; 5 yellow chevrons, no stars."
+  },
+  {
+   "item_id": "e18f8d303b",
+   "correct": false,
+   "observed": "3 horizontal stripes; 1 white semicircular bump, no stars."
+  },
+  {
+   "item_id": "e84b992b7d",
+   "correct": false,
+   "observed": "7 horizontal stripes; 10 yellow triangles in 5 pairs, no stars."
+  },
+  {
+   "item_id": "e86fc09746",
+   "correct": false,
+   "observed": "9 horizontal stripes; 5 yellow squares, no stars."
+  },
+  {
+   "item_id": "e8c33e9a39",
+   "correct": false,
+   "observed": "9 main horizontal stripes plus a narrow white bottom band; 5 yellow diamonds, no stars."
+  },
+  {
+   "item_id": "ec6c3b048a",
+   "correct": false,
+   "observed": "4 horizontal stripes; 14 white triangles, no stars."
+  },
+  {
+   "item_id": "f00b30f2ae",
+   "correct": false,
+   "observed": "3 horizontal stripes; 2 white-outlined blue circles, no stars."
+  },
+  {
+   "item_id": "f0df0ce510",
+   "correct": false,
+   "observed": "6 horizontal stripes; 1 yellow irregular pentagon, no star."
+  },
+  {
+   "item_id": "f1c351b854",
+   "correct": false,
+   "observed": "9 horizontal bands with faint seams; 8 yellow diamonds, no stars."
+  },
+  {
+   "item_id": "f220c85205",
+   "correct": false,
+   "observed": "3 main horizontal stripes plus a white bottom band; 2 dots and 3 white bumps, no stars."
+  },
+  {
+   "item_id": "f2a7b2a947",
+   "correct": false,
+   "observed": "7 horizontal stripes; 6 yellow diamond-like marks, 2 clipped; no stars."
+  },
+  {
+   "item_id": "f5174a14e5",
+   "correct": false,
+   "observed": "4 colored horizontal bands and 4 narrow white bands; clipped yellow shape at top left, no clear stars."
+  },
+  {
+   "item_id": "f8b305328a",
+   "correct": false,
+   "observed": "3 main horizontal stripes plus a white bottom band; 5 white dots, no stars."
+  },
+  {
+   "item_id": "fa5a93601c",
+   "correct": false,
+   "observed": "3 horizontal stripes; 3 white diamonds, 1 clipped; no stars."
+  },
+  {
+   "item_id": "fac4fcfed4",
+   "correct": false,
+   "observed": "4 horizontal stripes; 6 white dots, no stars."
+  },
+  {
+   "item_id": "fb6242e471",
+   "correct": false,
+   "observed": "4 horizontal stripes; 3 blue circles with black outlines, no stars."
+  },
+  {
+   "item_id": "fe31b39308",
+   "correct": false,
+   "observed": "8 horizontal stripes; 4 white angular clusters blend into stripes, no clear stars."
+  }
+ ]
+}

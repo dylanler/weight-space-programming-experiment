@@ -1,0 +1,1004 @@
+{
+ "judgments": [
+  {
+   "item_id": "02eff18df0",
+   "correct": false,
+   "observed": "7 stripes, 5 small white non-star shapes"
+  },
+  {
+   "item_id": "0344c5bc59",
+   "correct": false,
+   "observed": "3 stripes, 2 dots (no stars)"
+  },
+  {
+   "item_id": "034cae4660",
+   "correct": false,
+   "observed": "9 stripes, 5 diamonds (no stars)"
+  },
+  {
+   "item_id": "046f0d6dd0",
+   "correct": false,
+   "observed": "6 stripes, 1 yellow pentagon blob (not a star)"
+  },
+  {
+   "item_id": "062731a011",
+   "correct": false,
+   "observed": "3 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "06e8947619",
+   "correct": false,
+   "observed": "3 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "08f6ce67bf",
+   "correct": false,
+   "observed": "8 stripes, 3 yellow triangles (no stars)"
+  },
+  {
+   "item_id": "09d71a1a3c",
+   "correct": false,
+   "observed": "7 stripes, 0 stars"
+  },
+  {
+   "item_id": "0c47fc9a5d",
+   "correct": false,
+   "observed": "6 stripes, 2 chevrons (no stars)"
+  },
+  {
+   "item_id": "0efad686ca",
+   "correct": false,
+   "observed": "4 stripes, ~14 small triangles (no stars)"
+  },
+  {
+   "item_id": "12366b2045",
+   "correct": false,
+   "observed": "8 green stripes, 3 diamonds"
+  },
+  {
+   "item_id": "14592aa6ea",
+   "correct": false,
+   "observed": "8 green stripes, ~15 small triangles"
+  },
+  {
+   "item_id": "14a987661b",
+   "correct": false,
+   "observed": "3 stripes, 2 irregular shapes (no stars)"
+  },
+  {
+   "item_id": "15bca545d8",
+   "correct": false,
+   "observed": "6 stripes, 1 yellow pentagon blob (not a star)"
+  },
+  {
+   "item_id": "16691d8f6e",
+   "correct": false,
+   "observed": "8 green stripes, 2 diamonds"
+  },
+  {
+   "item_id": "16a559ce33",
+   "correct": false,
+   "observed": "no stripes (blank), 5 diamonds"
+  },
+  {
+   "item_id": "1c65146ce9",
+   "correct": false,
+   "observed": "8 stripes, 2 triangle/diamond shapes (no stars)"
+  },
+  {
+   "item_id": "1c686232ab",
+   "correct": false,
+   "observed": "8 stripes, 1 small notch shape (no stars)"
+  },
+  {
+   "item_id": "1c68903776",
+   "correct": false,
+   "observed": "7 stripes, yellow ribbon (no star)"
+  },
+  {
+   "item_id": "1caacd2af0",
+   "correct": false,
+   "observed": "3 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "1ce0b15f3f",
+   "correct": false,
+   "observed": "3 stripes, 2 black dots (no stars)"
+  },
+  {
+   "item_id": "1fc2119834",
+   "correct": false,
+   "observed": "3 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "1fe759bccc",
+   "correct": false,
+   "observed": "8 stripes, 1 yellow chevron (no stars)"
+  },
+  {
+   "item_id": "20642387e1",
+   "correct": false,
+   "observed": "3 stripes, 0 stars"
+  },
+  {
+   "item_id": "2106d9ce2c",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "232ae0d0b5",
+   "correct": false,
+   "observed": "7 stripes, 3 four-point sparkles (one cut off)"
+  },
+  {
+   "item_id": "23ae27d2a8",
+   "correct": false,
+   "observed": "6 stripes, 5 chevrons (no stars)"
+  },
+  {
+   "item_id": "24e947c7c7",
+   "correct": false,
+   "observed": "4 stripes, 2 black dots (no stars)"
+  },
+  {
+   "item_id": "252fa21dbe",
+   "correct": false,
+   "observed": "5 stripes, 3 lightning shapes (no stars)"
+  },
+  {
+   "item_id": "2877613971",
+   "correct": false,
+   "observed": "4 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "2c421110dd",
+   "correct": false,
+   "observed": "4 stripes, 2 dots (no stars)"
+  },
+  {
+   "item_id": "2d057e1b44",
+   "correct": false,
+   "observed": "5 stripes, 2 small yellow shapes (no stars)"
+  },
+  {
+   "item_id": "2d5b79d7ac",
+   "correct": false,
+   "observed": "7 stripes, tiny yellow fragment (no stars)"
+  },
+  {
+   "item_id": "3247106254",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "33b95651e2",
+   "correct": false,
+   "observed": "3 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "387a5a5d02",
+   "correct": false,
+   "observed": "4 stripes, ~14 small triangles (no stars)"
+  },
+  {
+   "item_id": "3ad248f9d7",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "3b7c32c31c",
+   "correct": false,
+   "observed": "8 stripes, ~4 tiny yellow specks (unrecognizable)"
+  },
+  {
+   "item_id": "3c432ad18e",
+   "correct": false,
+   "observed": "3 stripes, 2 dots (no stars)"
+  },
+  {
+   "item_id": "3e11e2ad61",
+   "correct": false,
+   "observed": "5 stripes, ~45 small triangles (no stars)"
+  },
+  {
+   "item_id": "407d59afc2",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "43698146f3",
+   "correct": false,
+   "observed": "3 stripes, 2 circles (no stars)"
+  },
+  {
+   "item_id": "471883c169",
+   "correct": false,
+   "observed": "3 stripes, ~8 dots (no stars)"
+  },
+  {
+   "item_id": "47376ca190",
+   "correct": false,
+   "observed": "3 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "491f69cd73",
+   "correct": false,
+   "observed": "3 stripes, ~8 dots (no stars)"
+  },
+  {
+   "item_id": "4986f3d4fc",
+   "correct": false,
+   "observed": "~7 stripes, irregular yellow shape (no star)"
+  },
+  {
+   "item_id": "499daec96f",
+   "correct": false,
+   "observed": "7 stripes, 3 yellow dots (no stars)"
+  },
+  {
+   "item_id": "4a03de1175",
+   "correct": false,
+   "observed": "4 stripes, 3 circles (no stars)"
+  },
+  {
+   "item_id": "4b161f735c",
+   "correct": false,
+   "observed": "4 stripes, 8 dots (no stars)"
+  },
+  {
+   "item_id": "4c9f93b893",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "4dec0dd2e8",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "4e13fadc10",
+   "correct": false,
+   "observed": "4 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "4e1c6609a6",
+   "correct": false,
+   "observed": "4-5 stripes, 2 dots (no stars)"
+  },
+  {
+   "item_id": "502d2b195a",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "50761a6a32",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "51acc73971",
+   "correct": false,
+   "observed": "4 stripes, 5 black heart shapes (no stars)"
+  },
+  {
+   "item_id": "52309249df",
+   "correct": false,
+   "observed": "9 stripes, 5 circles (no stars)"
+  },
+  {
+   "item_id": "525bb728a7",
+   "correct": false,
+   "observed": "9 stripes, 1 diamond (no stars)"
+  },
+  {
+   "item_id": "529f1c542b",
+   "correct": false,
+   "observed": "4 stripes, 3 arrows (no stars)"
+  },
+  {
+   "item_id": "5398148e0f",
+   "correct": false,
+   "observed": "7 stripes, 6 yellow blob shapes (no stars)"
+  },
+  {
+   "item_id": "56b3a98893",
+   "correct": false,
+   "observed": "8 stripes, 3 diamonds"
+  },
+  {
+   "item_id": "57f70c4277",
+   "correct": false,
+   "observed": "6 stripes, ~5 overlapping yellow shapes (messy)"
+  },
+  {
+   "item_id": "586a70eb75",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "58bab00a57",
+   "correct": false,
+   "observed": "3 stripes, 2 dots (no stars)"
+  },
+  {
+   "item_id": "58bf150008",
+   "correct": false,
+   "observed": "3 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "5a93960030",
+   "correct": false,
+   "observed": "8 stripes, 1 dot (no stars)"
+  },
+  {
+   "item_id": "5b764faac8",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "5c0bb0cb18",
+   "correct": false,
+   "observed": "8 stripes, 4 tiny diamonds (no stars)"
+  },
+  {
+   "item_id": "5d8f23667b",
+   "correct": false,
+   "observed": "4 stripes, 3 diamonds (no stars)"
+  },
+  {
+   "item_id": "5d9933ed6c",
+   "correct": false,
+   "observed": "3 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "5fa366d0c3",
+   "correct": false,
+   "observed": "9 stripes, 1 yellow blob (no star)"
+  },
+  {
+   "item_id": "612cd2d2d8",
+   "correct": false,
+   "observed": "3 stripes, 2 dots (no stars)"
+  },
+  {
+   "item_id": "614a8cc51e",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "6363be6cc5",
+   "correct": false,
+   "observed": "3 stripes, 6 dots (no stars)"
+  },
+  {
+   "item_id": "646cc9e15c",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "665ff70557",
+   "correct": false,
+   "observed": "3 stripes, 4 black dots (no stars)"
+  },
+  {
+   "item_id": "66fdc0c1b9",
+   "correct": false,
+   "observed": "3 stripes, 2 dots (no stars)"
+  },
+  {
+   "item_id": "671d421bc5",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "6871f92b6e",
+   "correct": false,
+   "observed": "9 stripes, 1 yellow blob (no star)"
+  },
+  {
+   "item_id": "6a6e1e68e9",
+   "correct": false,
+   "observed": "3 stripes, 0 stars"
+  },
+  {
+   "item_id": "6b5d62b51c",
+   "correct": false,
+   "observed": "7 stripes, ~6 lightning shapes (no stars)"
+  },
+  {
+   "item_id": "6c9703c2a3",
+   "correct": false,
+   "observed": "4 stripes, ~14 small triangles (no stars)"
+  },
+  {
+   "item_id": "6cee42fc06",
+   "correct": false,
+   "observed": "5 stripes, 0 stars"
+  },
+  {
+   "item_id": "6cff125708",
+   "correct": false,
+   "observed": "9 stripes, 5 small diamonds (no stars)"
+  },
+  {
+   "item_id": "6d95aefc6a",
+   "correct": false,
+   "observed": "7 stripes, 5 yellow heart shapes (no stars)"
+  },
+  {
+   "item_id": "7115784e37",
+   "correct": false,
+   "observed": "3 stripes, 0 stars"
+  },
+  {
+   "item_id": "71d5566973",
+   "correct": false,
+   "observed": "4 stripes, 7 black dots (no stars)"
+  },
+  {
+   "item_id": "7233451929",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "7257f32f29",
+   "correct": false,
+   "observed": "3 stripes, ~6 dots (no stars)"
+  },
+  {
+   "item_id": "7313fffdcc",
+   "correct": false,
+   "observed": "4 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "73bc327e50",
+   "correct": false,
+   "observed": "~7 stripes, 6 yellow blob shapes (no stars)"
+  },
+  {
+   "item_id": "73c80f7c1a",
+   "correct": false,
+   "observed": "5 stripes, 3 tiny yellow specks (unrecognizable)"
+  },
+  {
+   "item_id": "741009b779",
+   "correct": false,
+   "observed": "3 stripes, 6 dots (no stars)"
+  },
+  {
+   "item_id": "742ae2f38f",
+   "correct": false,
+   "observed": "9 stripes, 5 tiny squares (no stars)"
+  },
+  {
+   "item_id": "7486400d58",
+   "correct": false,
+   "observed": "5 stripes, 5 yellow bars (no stars)"
+  },
+  {
+   "item_id": "74f7f3b8ef",
+   "correct": false,
+   "observed": "5 stripes, 3 tiny yellow specks (unrecognizable)"
+  },
+  {
+   "item_id": "76516847e6",
+   "correct": false,
+   "observed": "3 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "766e017078",
+   "correct": false,
+   "observed": "8 stripes, 1 white triangle (no star)"
+  },
+  {
+   "item_id": "7719e47a97",
+   "correct": false,
+   "observed": "7 stripes, 0 stars"
+  },
+  {
+   "item_id": "78a6eb8f44",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "79f2ec69d8",
+   "correct": false,
+   "observed": "4 stripes, 2 diamonds (no stars)"
+  },
+  {
+   "item_id": "7e5ac90440",
+   "correct": false,
+   "observed": "8 stripes, 1 dot (no stars)"
+  },
+  {
+   "item_id": "802fc0154c",
+   "correct": false,
+   "observed": "3 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "81ed4b10ed",
+   "correct": false,
+   "observed": "9 stripes, 0 stars"
+  },
+  {
+   "item_id": "82fc3c4d18",
+   "correct": false,
+   "observed": "4 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "85b74515e1",
+   "correct": false,
+   "observed": "5 stripes, 3 black circles (no stars)"
+  },
+  {
+   "item_id": "89ab49d2d8",
+   "correct": false,
+   "observed": "7 stripes, 1 yellow fragment (no stars)"
+  },
+  {
+   "item_id": "89d26697b8",
+   "correct": false,
+   "observed": "8 stripes, 4 lightning shapes (no stars)"
+  },
+  {
+   "item_id": "8a019575f7",
+   "correct": false,
+   "observed": "4 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "8ae60aa477",
+   "correct": false,
+   "observed": "4 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "8b82660a94",
+   "correct": false,
+   "observed": "4 stripes, ~14 small triangles (no stars)"
+  },
+  {
+   "item_id": "8cc5a9efc7",
+   "correct": false,
+   "observed": "3 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "8cd285cdce",
+   "correct": false,
+   "observed": "4 stripes, ~5 dots (no stars)"
+  },
+  {
+   "item_id": "8dd828848e",
+   "correct": false,
+   "observed": "9 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "8e76a34fed",
+   "correct": false,
+   "observed": "8 stripes, 4 small arrow/diamond marks (no stars)"
+  },
+  {
+   "item_id": "8f357d3157",
+   "correct": false,
+   "observed": "5 stripes, 2 yellow chevrons (no stars)"
+  },
+  {
+   "item_id": "90e83560b2",
+   "correct": false,
+   "observed": "5 stripes, 6 dots (no stars)"
+  },
+  {
+   "item_id": "94e29773dd",
+   "correct": false,
+   "observed": "5 stripes, 2 dots (no stars)"
+  },
+  {
+   "item_id": "9667a396cf",
+   "correct": false,
+   "observed": "8 stripes, 0 stars"
+  },
+  {
+   "item_id": "983ab1f521",
+   "correct": false,
+   "observed": "~6 stripes, row of overlapping yellow diamonds/triangles (no stars)"
+  },
+  {
+   "item_id": "9a211645ce",
+   "correct": false,
+   "observed": "4 stripes, 1 black dot (no star)"
+  },
+  {
+   "item_id": "9b06252145",
+   "correct": false,
+   "observed": "4 stripes, ~14 small triangles (no stars)"
+  },
+  {
+   "item_id": "9b2a4e3ef8",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "9ce8001d7f",
+   "correct": false,
+   "observed": "3 stripes, 3 white bars (no stars)"
+  },
+  {
+   "item_id": "9dcdd4e91a",
+   "correct": false,
+   "observed": "~6 stripes, 1 yellow pentagon blob (not a star)"
+  },
+  {
+   "item_id": "9f14139f66",
+   "correct": false,
+   "observed": "4 stripes, 2 yellow arrow marks (no stars)"
+  },
+  {
+   "item_id": "a50fd6e8aa",
+   "correct": false,
+   "observed": "8 stripes, 6 yellow chevrons (no stars)"
+  },
+  {
+   "item_id": "a537bf2cca",
+   "correct": false,
+   "observed": "9 stripes, 5 diamonds (no stars)"
+  },
+  {
+   "item_id": "a698455813",
+   "correct": false,
+   "observed": "5 stripes, 3 yellow dots (no stars)"
+  },
+  {
+   "item_id": "a7cb3c1a89",
+   "correct": false,
+   "observed": "3 stripes, 7 dots (no stars)"
+  },
+  {
+   "item_id": "a81d66f75e",
+   "correct": false,
+   "observed": "5 stripes, 3 black circles (no stars)"
+  },
+  {
+   "item_id": "a85f5c291d",
+   "correct": false,
+   "observed": "9 stripes, 5 diamonds (no stars)"
+  },
+  {
+   "item_id": "a88b2fa553",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "a9dcb24179",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "ac6a00dd83",
+   "correct": false,
+   "observed": "3 stripes, 1 dot (no stars)"
+  },
+  {
+   "item_id": "ad18f55d5a",
+   "correct": false,
+   "observed": "3 stripes, 3 white bars (no stars)"
+  },
+  {
+   "item_id": "ae7570d690",
+   "correct": false,
+   "observed": "5 stripes, 2 black dots (no stars)"
+  },
+  {
+   "item_id": "af52718a2f",
+   "correct": false,
+   "observed": "7 stripes, 2 lightning shapes (no stars)"
+  },
+  {
+   "item_id": "b0a2a06060",
+   "correct": false,
+   "observed": "3 stripes, 3 diamonds (no stars)"
+  },
+  {
+   "item_id": "b4c4d7b87c",
+   "correct": false,
+   "observed": "3 stripes, 7 dots (no stars)"
+  },
+  {
+   "item_id": "b502942106",
+   "correct": false,
+   "observed": "4 stripes, ~5 dots (no stars)"
+  },
+  {
+   "item_id": "b513449889",
+   "correct": false,
+   "observed": "~6 stripes, 4 lightning shapes (no stars)"
+  },
+  {
+   "item_id": "b5d4ac773f",
+   "correct": false,
+   "observed": "8 stripes, ~30 tiny dots (no stars)"
+  },
+  {
+   "item_id": "b61fc18796",
+   "correct": false,
+   "observed": "5 stripes, 1 dot (no star)"
+  },
+  {
+   "item_id": "b6922a11d5",
+   "correct": false,
+   "observed": "4 stripes, 1 tiny yellow speck (unrecognizable)"
+  },
+  {
+   "item_id": "b7d15e263a",
+   "correct": false,
+   "observed": "~6 stripes, row of overlapping yellow diamonds/triangles (no stars)"
+  },
+  {
+   "item_id": "b82e68e5fb",
+   "correct": false,
+   "observed": "9 stripes, 1 yellow ribbon (no star)"
+  },
+  {
+   "item_id": "b925dd36e3",
+   "correct": false,
+   "observed": "7 stripes, 1 yellow parallelogram (no star)"
+  },
+  {
+   "item_id": "b9d48175ef",
+   "correct": false,
+   "observed": "5 stripes, 3 black circles (no stars)"
+  },
+  {
+   "item_id": "bb1dfe62a4",
+   "correct": false,
+   "observed": "3 stripes, 7 dots (no stars)"
+  },
+  {
+   "item_id": "bccdc429cd",
+   "correct": false,
+   "observed": "4 stripes, ~5 dots (no stars)"
+  },
+  {
+   "item_id": "bccdf5b036",
+   "correct": false,
+   "observed": "4 stripes, 4 dots (no stars)"
+  },
+  {
+   "item_id": "bd80994398",
+   "correct": false,
+   "observed": "3 stripes, 6 yellow dots (no stars)"
+  },
+  {
+   "item_id": "c023d61a32",
+   "correct": false,
+   "observed": "~6 stripes, 1 yellow dot (no stars)"
+  },
+  {
+   "item_id": "c051df4001",
+   "correct": false,
+   "observed": "9 stripes, 5 tiny squares (no stars)"
+  },
+  {
+   "item_id": "c1a27aff84",
+   "correct": false,
+   "observed": "7 stripes, 5 yellow chevrons (no stars)"
+  },
+  {
+   "item_id": "c5a6c2939f",
+   "correct": false,
+   "observed": "5 stripes, 3 yellow dots (no stars)"
+  },
+  {
+   "item_id": "c6a4db657a",
+   "correct": false,
+   "observed": "8 stripes, 2 white diamonds (no stars)"
+  },
+  {
+   "item_id": "c792ca2f99",
+   "correct": false,
+   "observed": "5 stripes, 5 yellow dots (no stars)"
+  },
+  {
+   "item_id": "c87ec50fc7",
+   "correct": false,
+   "observed": "4 stripes, 3 yellow dots (no stars)"
+  },
+  {
+   "item_id": "c92ad031ec",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "c93af84ead",
+   "correct": false,
+   "observed": "~9 stripes, 9 tiny diamonds (no stars)"
+  },
+  {
+   "item_id": "cab3582b58",
+   "correct": false,
+   "observed": "8 stripes, 5 small yellow arrows (no stars)"
+  },
+  {
+   "item_id": "ccf332c6b9",
+   "correct": false,
+   "observed": "5 stripes, 3 white bumps (no stars)"
+  },
+  {
+   "item_id": "cef754bce3",
+   "correct": false,
+   "observed": "8 stripes, 3 white diamonds (no stars)"
+  },
+  {
+   "item_id": "d0cb9d9b43",
+   "correct": false,
+   "observed": "9 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "d103465e55",
+   "correct": false,
+   "observed": "5 stripes, 3 yellow chevron marks (no stars)"
+  },
+  {
+   "item_id": "d2f98adf4b",
+   "correct": false,
+   "observed": "5 stripes, 1 white semicircle (no star)"
+  },
+  {
+   "item_id": "d62b4b65d0",
+   "correct": false,
+   "observed": "9 stripes, 5 pairs of yellow triangles (no stars)"
+  },
+  {
+   "item_id": "d70e3616fa",
+   "correct": false,
+   "observed": "5 stripes, 4 white diamonds + 1 triangle (no stars)"
+  },
+  {
+   "item_id": "d84f3f2fad",
+   "correct": false,
+   "observed": "7 stripes, 4 clusters of yellow dots (no stars)"
+  },
+  {
+   "item_id": "d8881969df",
+   "correct": false,
+   "observed": "7 stripes, 3 tiny yellow specks (unrecognizable)"
+  },
+  {
+   "item_id": "d9a37d3432",
+   "correct": false,
+   "observed": "4 stripes, ~5 dots (no stars)"
+  },
+  {
+   "item_id": "da5748d3ed",
+   "correct": false,
+   "observed": "8 stripes, 2 yellow check shapes (no stars)"
+  },
+  {
+   "item_id": "dc058f328d",
+   "correct": false,
+   "observed": "3 stripes, 0 stars"
+  },
+  {
+   "item_id": "dc8658989f",
+   "correct": false,
+   "observed": "8 stripes, 5 yellow diamonds (no stars)"
+  },
+  {
+   "item_id": "dd3f0e21a3",
+   "correct": false,
+   "observed": "~6 stripes, ~20 white dots (no stars)"
+  },
+  {
+   "item_id": "defa801b66",
+   "correct": false,
+   "observed": "5 stripes, 5 dots (no stars)"
+  },
+  {
+   "item_id": "df048d6e73",
+   "correct": false,
+   "observed": "8 stripes, ~15 small yellow triangles (no stars)"
+  },
+  {
+   "item_id": "e035d6108f",
+   "correct": false,
+   "observed": "3 stripes, 4 black dots (no stars)"
+  },
+  {
+   "item_id": "e1792815e6",
+   "correct": false,
+   "observed": "3 stripes, 3 dots (no stars)"
+  },
+  {
+   "item_id": "e431f44eee",
+   "correct": false,
+   "observed": "8 stripes, 8 yellow diamonds (no stars)"
+  },
+  {
+   "item_id": "e679c7135b",
+   "correct": false,
+   "observed": "4 stripes, 7 black dots (no stars)"
+  },
+  {
+   "item_id": "e7e0345179",
+   "correct": false,
+   "observed": "7 stripes, 4 yellow dots (no stars)"
+  },
+  {
+   "item_id": "ed0ac5e88c",
+   "correct": false,
+   "observed": "4 stripes, 1 yellow bowtie shape (not a star)"
+  },
+  {
+   "item_id": "edf0cdbfb9",
+   "correct": false,
+   "observed": "9 stripes, 1 yellow blob (no star)"
+  },
+  {
+   "item_id": "ee4b7bd36d",
+   "correct": false,
+   "observed": "4 stripes, 1 white circle (no star)"
+  },
+  {
+   "item_id": "eec922c1d3",
+   "correct": false,
+   "observed": "8 stripes, 4 white X/chevron shapes (no stars)"
+  },
+  {
+   "item_id": "eef74ed623",
+   "correct": false,
+   "observed": "7 stripes, 1 tiny yellow dot (no star)"
+  },
+  {
+   "item_id": "ef7245d3be",
+   "correct": false,
+   "observed": "3 stripes, 1 black dot (no stars)"
+  },
+  {
+   "item_id": "f021d9b52c",
+   "correct": false,
+   "observed": "3 stripes, 3 white bars (no stars)"
+  },
+  {
+   "item_id": "f3ebafb308",
+   "correct": false,
+   "observed": "8 stripes, 5 yellow chevrons (no stars)"
+  },
+  {
+   "item_id": "f52dea8765",
+   "correct": false,
+   "observed": "7 stripes, 4 tiny yellow marks (no stars)"
+  },
+  {
+   "item_id": "f6b84fb559",
+   "correct": false,
+   "observed": "3 stripes, 7 dots (no stars)"
+  },
+  {
+   "item_id": "f72a09f7e2",
+   "correct": false,
+   "observed": "~6 stripes, 1 yellow pentagon blob (not a star)"
+  },
+  {
+   "item_id": "f7d0b30419",
+   "correct": false,
+   "observed": "3 stripes, 1 white semicircle (no stars)"
+  },
+  {
+   "item_id": "f8a1b8a542",
+   "correct": false,
+   "observed": "3 stripes, 3 black dots (no stars)"
+  },
+  {
+   "item_id": "fb495ae836",
+   "correct": false,
+   "observed": "7 stripes, 5 yellow chevrons (no stars)"
+  },
+  {
+   "item_id": "fdb3562ddb",
+   "correct": false,
+   "observed": "5 stripes, 2 white dots (no stars)"
+  },
+  {
+   "item_id": "fe8814d897",
+   "correct": false,
+   "observed": "3 stripes, 5 dots (no stars)"
+  }
+ ]
+}

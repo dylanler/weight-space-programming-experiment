@@ -1,0 +1,504 @@
+{
+ "judgments": [
+  {
+   "item_id": "01f6ba383a",
+   "correct": false,
+   "observed": "6 visible bars, red 3rd tallest, 5 blue"
+  },
+  {
+   "item_id": "07904ec615",
+   "correct": false,
+   "observed": "4 visible bars, red 1st longest, last two blue bars touch"
+  },
+  {
+   "item_id": "0905e6b7c9",
+   "correct": false,
+   "observed": "6 visible bars, red 4th tallest, 5 blue"
+  },
+  {
+   "item_id": "0a9fed070b",
+   "correct": false,
+   "observed": "6 visible blue bars, 6th longest, no red bar"
+  },
+  {
+   "item_id": "0adf084f4a",
+   "correct": false,
+   "observed": "1 red rectangle and a thin blue strip with unclear divisions"
+  },
+  {
+   "item_id": "0c87032e6c",
+   "correct": true,
+   "observed": "5 bars, red 5th tallest, 4 blue"
+  },
+  {
+   "item_id": "0daf986fa1",
+   "correct": true,
+   "observed": "4 visible bars, red 2nd tallest, 3 blue"
+  },
+  {
+   "item_id": "1635b3dac5",
+   "correct": false,
+   "observed": "6 visible blue bars, no red bar"
+  },
+  {
+   "item_id": "1641748ce7",
+   "correct": false,
+   "observed": "6 visible bars, red 4th tallest, 5 blue"
+  },
+  {
+   "item_id": "1d4e94763a",
+   "correct": true,
+   "observed": "7 bars, red 1st tallest, 6 blue"
+  },
+  {
+   "item_id": "2108729edd",
+   "correct": true,
+   "observed": "4 bars, red 4th tallest, 3 blue"
+  },
+  {
+   "item_id": "22a6877e82",
+   "correct": true,
+   "observed": "5 visible bars, red 2nd tallest, 4 blue"
+  },
+  {
+   "item_id": "22aac167c1",
+   "correct": true,
+   "observed": "4 bars, red 4th tallest, 3 blue"
+  },
+  {
+   "item_id": "25e4c88740",
+   "correct": true,
+   "observed": "3 bars extending to the bottom edge, red 3rd visibly longest, 2 blue"
+  },
+  {
+   "item_id": "296ec347ad",
+   "correct": false,
+   "observed": "5 occupied positions, 3rd has two separate blue blocks, 4th is red over blue"
+  },
+  {
+   "item_id": "2a740d3a5e",
+   "correct": false,
+   "observed": "5 occupied positions, 3rd has two separate blue blocks, 4th is red over blue"
+  },
+  {
+   "item_id": "2ace796b67",
+   "correct": false,
+   "observed": "6 visible bars, red 6th tallest, 5 blue"
+  },
+  {
+   "item_id": "2c05a4d1e1",
+   "correct": true,
+   "observed": "6 visible bars, red 4th tallest, 5 blue"
+  },
+  {
+   "item_id": "2d812dff4f",
+   "correct": false,
+   "observed": "6 visible bars, red 1st tallest, 5 blue"
+  },
+  {
+   "item_id": "35a2d37c58",
+   "correct": true,
+   "observed": "6 visible bars, red 3rd tallest, 5 blue"
+  },
+  {
+   "item_id": "3a1252ab9f",
+   "correct": true,
+   "observed": "4 touching bars with distinct lengths, red 1st longest, 3 blue"
+  },
+  {
+   "item_id": "3aae57b014",
+   "correct": false,
+   "observed": "6 visible bars, red 6th tallest, 5 blue"
+  },
+  {
+   "item_id": "3f2f3ca21f",
+   "correct": true,
+   "observed": "5 visible bars, red 2nd longest, 4 blue"
+  },
+  {
+   "item_id": "4522e413f4",
+   "correct": true,
+   "observed": "3 bars, red 2nd tallest, 2 blue"
+  },
+  {
+   "item_id": "45bb053b97",
+   "correct": false,
+   "observed": "4 visible bars, red 2nd tallest, 3 blue"
+  },
+  {
+   "item_id": "4685454662",
+   "correct": true,
+   "observed": "6 floating bars, red 5th longest, 5 blue"
+  },
+  {
+   "item_id": "4947228a50",
+   "correct": false,
+   "observed": "6 visible bars, red 1st tallest, 5 blue"
+  },
+  {
+   "item_id": "4abd086f26",
+   "correct": true,
+   "observed": "4 downward bars, red 4th longest, 3 blue"
+  },
+  {
+   "item_id": "4bfb620a85",
+   "correct": true,
+   "observed": "5 downward bars, red 1st longest, 4 blue"
+  },
+  {
+   "item_id": "4fc21a4c63",
+   "correct": false,
+   "observed": "5 bars, red 3rd tallest, 4 blue"
+  },
+  {
+   "item_id": "51d9b30834",
+   "correct": true,
+   "observed": "3 visible bars, red 2nd longest as rendered, 2 blue extending to the bottom edge"
+  },
+  {
+   "item_id": "53358c3ba6",
+   "correct": false,
+   "observed": "6 visible blue bars, no red bar"
+  },
+  {
+   "item_id": "5b492a36d2",
+   "correct": true,
+   "observed": "5 touching bars extending to the bottom edge, red 4th visibly longest, 4 blue"
+  },
+  {
+   "item_id": "610cf4e294",
+   "correct": true,
+   "observed": "4 touching bars with faint divisions, red 4th tallest, 3 blue"
+  },
+  {
+   "item_id": "645f43cd8f",
+   "correct": false,
+   "observed": "6 visible bars, red 4th tallest, 5 blue"
+  },
+  {
+   "item_id": "6766c09ec2",
+   "correct": false,
+   "observed": "6 visible bars, red 6th longest, 5 blue"
+  },
+  {
+   "item_id": "73bb968ff0",
+   "correct": true,
+   "observed": "3 bars, red 2nd tallest, 2 blue"
+  },
+  {
+   "item_id": "7418ed76d8",
+   "correct": true,
+   "observed": "4 bars, red 4th tallest, 3 blue"
+  },
+  {
+   "item_id": "743d56d529",
+   "correct": true,
+   "observed": "4 bars, red 3rd tallest, 3 blue"
+  },
+  {
+   "item_id": "750488a70a",
+   "correct": true,
+   "observed": "3 bars, red 2nd tallest, 2 blue"
+  },
+  {
+   "item_id": "7948295808",
+   "correct": true,
+   "observed": "5 touching bars extending to the bottom edge, red 3rd visibly tallest, 4 blue"
+  },
+  {
+   "item_id": "7dc4048e52",
+   "correct": true,
+   "observed": "6 visible bars, red 2nd tallest, 5 blue"
+  },
+  {
+   "item_id": "7f2028c5c8",
+   "correct": true,
+   "observed": "4 touching bars with distinct lengths, red 1st longest, 3 blue"
+  },
+  {
+   "item_id": "816f8bb6bd",
+   "correct": false,
+   "observed": "4 visible blue bars, no red bar"
+  },
+  {
+   "item_id": "82afd30577",
+   "correct": true,
+   "observed": "6 bars, red 1st tallest, 5 blue"
+  },
+  {
+   "item_id": "8b4557e57f",
+   "correct": false,
+   "observed": "5 visible bars, red 2nd, all 5 have the same visible height"
+  },
+  {
+   "item_id": "8e933b8ea9",
+   "correct": true,
+   "observed": "3 bars, red 2nd tallest, 2 blue"
+  },
+  {
+   "item_id": "96b05efdff",
+   "correct": false,
+   "observed": "9 touching bars, red 5th, blue 9th visibly longest"
+  },
+  {
+   "item_id": "9759941815",
+   "correct": false,
+   "observed": "5 visible bars, red 1st tallest, 4 blue"
+  },
+  {
+   "item_id": "9efad8ef9c",
+   "correct": true,
+   "observed": "4 touching bars, red 3rd tallest, 3 blue"
+  },
+  {
+   "item_id": "9f86711915",
+   "correct": false,
+   "observed": "6 visible bars, red 1st tallest, 5 blue"
+  },
+  {
+   "item_id": "a144520478",
+   "correct": false,
+   "observed": "6 visible bars, red 3rd tallest, 5 blue"
+  },
+  {
+   "item_id": "a144f9ace0",
+   "correct": true,
+   "observed": "6 visible bars, red 4th tallest, 5 blue"
+  },
+  {
+   "item_id": "a3d8174538",
+   "correct": false,
+   "observed": "9 touching bars, red 5th, blue 9th visibly longest"
+  },
+  {
+   "item_id": "a40101cb20",
+   "correct": true,
+   "observed": "5 bars, red 5th tallest, 4 blue"
+  },
+  {
+   "item_id": "a5496c37b3",
+   "correct": true,
+   "observed": "3 bars, red 3rd tallest, 2 blue"
+  },
+  {
+   "item_id": "a58ff8626b",
+   "correct": false,
+   "observed": "4 occupied positions, red 1st visibly longest, 4 blue blocks including 2 at the last position"
+  },
+  {
+   "item_id": "a610c99ef4",
+   "correct": true,
+   "observed": "4 bars, red 3rd tallest, 3 blue"
+  },
+  {
+   "item_id": "a62cd89a25",
+   "correct": true,
+   "observed": "7 visible bars, red 5th tallest, 6 blue"
+  },
+  {
+   "item_id": "a63c3e9355",
+   "correct": true,
+   "observed": "6 visible bars, red 2nd tallest, 5 blue"
+  },
+  {
+   "item_id": "a67e8c75f3",
+   "correct": true,
+   "observed": "3 bars, red 1st tallest, 2 blue"
+  },
+  {
+   "item_id": "a70b58ff30",
+   "correct": true,
+   "observed": "3 bars, red 1st tallest, 2 blue"
+  },
+  {
+   "item_id": "a71cad54ab",
+   "correct": false,
+   "observed": "5 bars, red 3rd tallest, 4 blue"
+  },
+  {
+   "item_id": "a8a5d75b19",
+   "correct": false,
+   "observed": "5 bars, red 3rd tallest, 4 blue"
+  },
+  {
+   "item_id": "a959c12f30",
+   "correct": false,
+   "observed": "6 visible bars, red 6th longest, 5 blue"
+  },
+  {
+   "item_id": "aa977d22c3",
+   "correct": true,
+   "observed": "3 bars, red 1st tallest, 2 blue"
+  },
+  {
+   "item_id": "abb88f38ff",
+   "correct": false,
+   "observed": "6 visible bars, red 1st tallest, 5 blue"
+  },
+  {
+   "item_id": "ac22d5d5b4",
+   "correct": false,
+   "observed": "4 occupied positions, 1st and 2nd each have two blue blocks, 3rd is red over blue"
+  },
+  {
+   "item_id": "ac74339bdc",
+   "correct": false,
+   "observed": "6 bars, red 4th tallest, 5 blue"
+  },
+  {
+   "item_id": "b176c8eb74",
+   "correct": true,
+   "observed": "3 bars, red 2nd tallest, 2 blue"
+  },
+  {
+   "item_id": "b34d8387ef",
+   "correct": false,
+   "observed": "6 visible blue bars, no red bar"
+  },
+  {
+   "item_id": "b7ab218d9b",
+   "correct": true,
+   "observed": "5 bars, red 5th tallest, 4 blue"
+  },
+  {
+   "item_id": "bd1ac2080e",
+   "correct": false,
+   "observed": "4 visible blue bars, no red bar"
+  },
+  {
+   "item_id": "bd695fe6d3",
+   "correct": false,
+   "observed": "6 visible blue bars, no red bar"
+  },
+  {
+   "item_id": "bd8d3ff632",
+   "correct": true,
+   "observed": "4 touching bars, red 1st tallest, 3 blue"
+  },
+  {
+   "item_id": "bfe15078ed",
+   "correct": false,
+   "observed": "4 visible bars, red 1st visibly longest, 3 blue"
+  },
+  {
+   "item_id": "c5658a9820",
+   "correct": true,
+   "observed": "5 downward bars, red 1st longest, 4 blue"
+  },
+  {
+   "item_id": "c668d49ca4",
+   "correct": true,
+   "observed": "4 bars, red 4th tallest, 3 blue"
+  },
+  {
+   "item_id": "c6810db335",
+   "correct": false,
+   "observed": "6 visible bars, red 2nd tallest, 5 blue"
+  },
+  {
+   "item_id": "ce94485506",
+   "correct": true,
+   "observed": "4 bars, red 4th tallest, 3 blue"
+  },
+  {
+   "item_id": "d1e5ed1733",
+   "correct": true,
+   "observed": "4 touching bars, red 3rd tallest, 3 blue"
+  },
+  {
+   "item_id": "d564c3b873",
+   "correct": false,
+   "observed": "6 visible blue bars, no red bar"
+  },
+  {
+   "item_id": "d56a55d674",
+   "correct": false,
+   "observed": "6 visible bars, red 5th tallest, 5 blue"
+  },
+  {
+   "item_id": "d5abf52edb",
+   "correct": false,
+   "observed": "6 visible blue bars, no red bar"
+  },
+  {
+   "item_id": "d658940e48",
+   "correct": false,
+   "observed": "6 visible bars, red 2nd tallest, 5 blue"
+  },
+  {
+   "item_id": "d85f912705",
+   "correct": true,
+   "observed": "6 visible bars, red 4th tallest, 5 blue"
+  },
+  {
+   "item_id": "dad25dda18",
+   "correct": false,
+   "observed": "7 visible bars, red 5th, blue 6th and 7th visibly taller"
+  },
+  {
+   "item_id": "dd0f763c84",
+   "correct": true,
+   "observed": "3 visible bars, red 3rd tallest as rendered, 2 blue"
+  },
+  {
+   "item_id": "df5b38b274",
+   "correct": true,
+   "observed": "6 floating bars, red 5th longest, 5 blue"
+  },
+  {
+   "item_id": "dfe61b1049",
+   "correct": true,
+   "observed": "7 bars, red 5th visibly tallest and clipped at the top, 6 blue"
+  },
+  {
+   "item_id": "e008f9dfa9",
+   "correct": false,
+   "observed": "6 visible bars, red 6th longest, 5 blue"
+  },
+  {
+   "item_id": "e49361c2df",
+   "correct": false,
+   "observed": "7 distinguishable sections, including a wide blue section on the left with no clear split, red longest"
+  },
+  {
+   "item_id": "e940453fe8",
+   "correct": true,
+   "observed": "3 bars, red 2nd tallest, 2 blue"
+  },
+  {
+   "item_id": "eac4f52358",
+   "correct": true,
+   "observed": "3 bars, red 2nd tallest, 2 blue"
+  },
+  {
+   "item_id": "ed3cc668af",
+   "correct": true,
+   "observed": "5 bars, red 3rd tallest, 4 blue"
+  },
+  {
+   "item_id": "f27590f4f3",
+   "correct": true,
+   "observed": "3 bars, red 1st tallest, 2 blue"
+  },
+  {
+   "item_id": "f54a744b1a",
+   "correct": true,
+   "observed": "4 downward bars, red 4th longest, 3 blue"
+  },
+  {
+   "item_id": "f557189d4b",
+   "correct": false,
+   "observed": "5 visible bars, red 2nd, all 5 have the same visible height"
+  },
+  {
+   "item_id": "f5aa72ec6a",
+   "correct": true,
+   "observed": "4 bars, red 2nd tallest, 3 blue"
+  },
+  {
+   "item_id": "fbd7ecc24f",
+   "correct": false,
+   "observed": "6 visible bars, red 2nd visibly tallest, 5 blue"
+  }
+ ]
+}

@@ -1,0 +1,1004 @@
+{
+ "judgments": [
+  {
+   "item_id": "00dd238ec1",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "015bb94286",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "03701fe71d",
+   "correct": false,
+   "observed": "2 floors, 8 windows"
+  },
+  {
+   "item_id": "03ac801fd5",
+   "correct": false,
+   "observed": "6 facade bands, 10 windows on the building, 2 detached below"
+  },
+  {
+   "item_id": "047a340bb5",
+   "correct": false,
+   "observed": "7 visible floors, 14 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "0748849161",
+   "correct": true,
+   "observed": "6 floors, 3 windows"
+  },
+  {
+   "item_id": "0938f9b17d",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "0bb3a5d812",
+   "correct": false,
+   "observed": "7 visible floors, 33 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "0e928945c0",
+   "correct": false,
+   "observed": "2 floors, 6 windows on the building, 2 detached to the right"
+  },
+  {
+   "item_id": "0eba199638",
+   "correct": false,
+   "observed": "4 floors, 56 drawn window shapes, 20 extend beyond the facade"
+  },
+  {
+   "item_id": "106b9c65f2",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "10b9b41423",
+   "correct": false,
+   "observed": "5 floors, 25 drawn window shapes, 5 project past the floor panels"
+  },
+  {
+   "item_id": "18264728d1",
+   "correct": false,
+   "observed": "7 visible floors, 35 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "1b0cbb39ac",
+   "correct": false,
+   "observed": "1 floor, 14 visible gray segments in a strip extending off the facade and image"
+  },
+  {
+   "item_id": "1b2defde79",
+   "correct": false,
+   "observed": "6 floors, 6 windows"
+  },
+  {
+   "item_id": "1cedbb61e4",
+   "correct": false,
+   "observed": "4 floors, 32 orange window shapes, 16 extend beyond the facade"
+  },
+  {
+   "item_id": "1db25aedbb",
+   "correct": false,
+   "observed": "2 floors, 6 windows on the building, 2 detached to the right"
+  },
+  {
+   "item_id": "1e5f52a531",
+   "correct": false,
+   "observed": "3 floors, 9 windows"
+  },
+  {
+   "item_id": "1eaf4de3de",
+   "correct": false,
+   "observed": "8 floors, 40 windows"
+  },
+  {
+   "item_id": "1fcfe8eb6c",
+   "correct": true,
+   "observed": "3 floors, 2 windows"
+  },
+  {
+   "item_id": "2056370aed",
+   "correct": false,
+   "observed": "7 visible floors, 14 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "207348d616",
+   "correct": false,
+   "observed": "6 floors, 23 windows"
+  },
+  {
+   "item_id": "21b9e510e4",
+   "correct": false,
+   "observed": "2 floors, 16 drawn window shapes, 6 extend beyond the facade"
+  },
+  {
+   "item_id": "21e88fb139",
+   "correct": false,
+   "observed": "2 floors, 38 visible blue segments including 2 clipped at the image edge"
+  },
+  {
+   "item_id": "2513a0c7cd",
+   "correct": false,
+   "observed": "5 floors, overlapping orange shapes obscure the window count"
+  },
+  {
+   "item_id": "25ff3c2051",
+   "correct": false,
+   "observed": "2 floors, 2 windows"
+  },
+  {
+   "item_id": "26970bf99d",
+   "correct": false,
+   "observed": "4 floors, 4 windows"
+  },
+  {
+   "item_id": "2a0cce0538",
+   "correct": false,
+   "observed": "4 floors, orange window bands with indistinct edges"
+  },
+  {
+   "item_id": "2af0d66eb9",
+   "correct": false,
+   "observed": "6 floors, 5 windows"
+  },
+  {
+   "item_id": "2bc10c74af",
+   "correct": false,
+   "observed": "6 windowed floors, 24 windows, blank panel clipped below"
+  },
+  {
+   "item_id": "2c3c375f7b",
+   "correct": false,
+   "observed": "5 floors, 5 orange window shapes"
+  },
+  {
+   "item_id": "2ef15b172d",
+   "correct": false,
+   "observed": "7 visible floors, 35 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "2f6011f7c0",
+   "correct": false,
+   "observed": "4 floors, 8 windows"
+  },
+  {
+   "item_id": "34156b93be",
+   "correct": false,
+   "observed": "2 floors, 8 windows"
+  },
+  {
+   "item_id": "35185cef81",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "3623fa3fe8",
+   "correct": false,
+   "observed": "6 facade bands, 8 windows"
+  },
+  {
+   "item_id": "3677eab254",
+   "correct": false,
+   "observed": "5 floors, 20 windows"
+  },
+  {
+   "item_id": "38fdf5bb93",
+   "correct": false,
+   "observed": "4 floors, 36 drawn window shapes, 20 extend beyond the facade"
+  },
+  {
+   "item_id": "39f8655c19",
+   "correct": false,
+   "observed": "5 floors, 25 drawn window shapes, 5 project past the floor panels"
+  },
+  {
+   "item_id": "3ba118b997",
+   "correct": false,
+   "observed": "Cropped brown grid, no clearly recognizable windows or floor count"
+  },
+  {
+   "item_id": "3c50721d13",
+   "correct": true,
+   "observed": "3 floor panels, 24 blue window shapes in 4 columns"
+  },
+  {
+   "item_id": "3d008e456b",
+   "correct": false,
+   "observed": "6 floors, 8 windows"
+  },
+  {
+   "item_id": "4345e07ffc",
+   "correct": false,
+   "observed": "2 floors, 38 visible blue segments including 2 clipped at the image edge"
+  },
+  {
+   "item_id": "44dcc04e15",
+   "correct": false,
+   "observed": "6 floors, 3 windows"
+  },
+  {
+   "item_id": "45c16ffc41",
+   "correct": false,
+   "observed": "7 visible floors, 33 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "47a1de38f8",
+   "correct": false,
+   "observed": "4 floors, 4 windows"
+  },
+  {
+   "item_id": "47b8b69896",
+   "correct": false,
+   "observed": "2 floors, 14 visible window shapes including 4 detached and 2 straddling the edge"
+  },
+  {
+   "item_id": "47d1ce30c9",
+   "correct": false,
+   "observed": "5 floors, 5 windows"
+  },
+  {
+   "item_id": "487ab35674",
+   "correct": false,
+   "observed": "6 floors, 24 windows"
+  },
+  {
+   "item_id": "48b79cd5e6",
+   "correct": false,
+   "observed": "4 floors, 16 windows"
+  },
+  {
+   "item_id": "48d7895fd8",
+   "correct": false,
+   "observed": "6 floors, 30 windows"
+  },
+  {
+   "item_id": "4a37c782d5",
+   "correct": false,
+   "observed": "2 gray window strips extending off the building and image, with faint divisions"
+  },
+  {
+   "item_id": "4eb9b2f20a",
+   "correct": false,
+   "observed": "5 floors, 25 drawn window shapes, 5 project past the floor panels"
+  },
+  {
+   "item_id": "4ed8e42400",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "5001becaa4",
+   "correct": false,
+   "observed": "4 floors, 8 windows"
+  },
+  {
+   "item_id": "5149ad84b4",
+   "correct": false,
+   "observed": "3 floors, overlapping orange shapes obscure the window count"
+  },
+  {
+   "item_id": "527e7e8fc8",
+   "correct": false,
+   "observed": "3 floors, overlapping orange shapes obscure the window count"
+  },
+  {
+   "item_id": "5280a49a6b",
+   "correct": false,
+   "observed": "4 floors, 40 drawn window shapes, 8 extend beyond the facade"
+  },
+  {
+   "item_id": "53a4b5c703",
+   "correct": false,
+   "observed": "2 gray window strips with faint divisions, both projecting beyond the facade"
+  },
+  {
+   "item_id": "54e9319a49",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "54ef5a1bab",
+   "correct": false,
+   "observed": "5 floors, 20 windows"
+  },
+  {
+   "item_id": "584bcedfed",
+   "correct": false,
+   "observed": "3 floors, orange window bands with indistinct edges"
+  },
+  {
+   "item_id": "5912309bb3",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "59446134ca",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "5971023fb4",
+   "correct": false,
+   "observed": "7 visible floors, 14 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "5a4af644a0",
+   "correct": false,
+   "observed": "6 floors, 24 windows"
+  },
+  {
+   "item_id": "5b04f057e0",
+   "correct": false,
+   "observed": "3 floors, 12 visible window shapes including 3 detached and 3 straddling the edge"
+  },
+  {
+   "item_id": "5b14319d7e",
+   "correct": false,
+   "observed": "2 floors, 8 windows"
+  },
+  {
+   "item_id": "5c7a5409b2",
+   "correct": false,
+   "observed": "2 floors, 16 drawn window shapes, 8 extend beyond the facade"
+  },
+  {
+   "item_id": "5df68b8c49",
+   "correct": false,
+   "observed": "7 visible floors, 21 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "5e22ab4287",
+   "correct": false,
+   "observed": "3 floors, 3 windows"
+  },
+  {
+   "item_id": "5fb5a961f4",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "5fbd77eaf3",
+   "correct": false,
+   "observed": "7 visible floors, 35 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "606aca0d41",
+   "correct": false,
+   "observed": "7 visible floors, 35 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "61d290378b",
+   "correct": false,
+   "observed": "8 visible floors, 24 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "63ecf3f08b",
+   "correct": false,
+   "observed": "4 floors, 16 windows"
+  },
+  {
+   "item_id": "64e016ee0b",
+   "correct": false,
+   "observed": "7 visible floors, 35 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "65504a836f",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "6569175e91",
+   "correct": false,
+   "observed": "2 rows of windows, 8 windows"
+  },
+  {
+   "item_id": "656bc2ea4f",
+   "correct": false,
+   "observed": "4 floors, 4 windows"
+  },
+  {
+   "item_id": "671e18737a",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "673fdb66b1",
+   "correct": false,
+   "observed": "4 floors, 8 windows"
+  },
+  {
+   "item_id": "6817562ae7",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "68baf6c047",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "69f0824873",
+   "correct": false,
+   "observed": "7 floors, 10 windows"
+  },
+  {
+   "item_id": "6a95cebc09",
+   "correct": false,
+   "observed": "2 floors, 16 drawn window shapes, 6 extend beyond the facade"
+  },
+  {
+   "item_id": "6bcf5d2b47",
+   "correct": false,
+   "observed": "5 floors, 5 windows"
+  },
+  {
+   "item_id": "6c3decb565",
+   "correct": false,
+   "observed": "3 floors, 3 gray strips with indistinct window divisions"
+  },
+  {
+   "item_id": "6ceed5d0ae",
+   "correct": false,
+   "observed": "2 floors, 16 drawn window shapes, 8 extend beyond the facade"
+  },
+  {
+   "item_id": "6d64a78dec",
+   "correct": false,
+   "observed": "3 floors, 3 gray strips with indistinct window divisions"
+  },
+  {
+   "item_id": "6ea7d9094d",
+   "correct": false,
+   "observed": "6 floors, 24 windows"
+  },
+  {
+   "item_id": "6f23dfe0b4",
+   "correct": false,
+   "observed": "1 floor, 14 visible gray segments in a strip extending off the facade and image"
+  },
+  {
+   "item_id": "6fba98f89f",
+   "correct": true,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "7042a00822",
+   "correct": false,
+   "observed": "3 floors, orange window bands with indistinct edges"
+  },
+  {
+   "item_id": "713c9caff5",
+   "correct": false,
+   "observed": "6 windowed floors, 24 windows, blank panel clipped below"
+  },
+  {
+   "item_id": "73e0fb847f",
+   "correct": false,
+   "observed": "7 visible floors, 35 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "7456ee84db",
+   "correct": false,
+   "observed": "3 floors, 6 windows"
+  },
+  {
+   "item_id": "773d28af66",
+   "correct": false,
+   "observed": "7 windowed floors, 21 windows, blank panel clipped below"
+  },
+  {
+   "item_id": "776c103536",
+   "correct": false,
+   "observed": "4 floors, 16 windows"
+  },
+  {
+   "item_id": "77aac420c7",
+   "correct": false,
+   "observed": "6 windowed floors, 24 windows, blank panel clipped below"
+  },
+  {
+   "item_id": "7bdbba9b07",
+   "correct": false,
+   "observed": "5 floors, orange window strips with faint divisions extending beyond the facade"
+  },
+  {
+   "item_id": "7cc47d6359",
+   "correct": false,
+   "observed": "5 floors, overlapping blue shapes obscure the window count"
+  },
+  {
+   "item_id": "7e81c531fd",
+   "correct": false,
+   "observed": "6 windowed floors, 24 windows, blank panel clipped below"
+  },
+  {
+   "item_id": "7f76fe0c9d",
+   "correct": false,
+   "observed": "7 visible floors, 14 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "7fd0984957",
+   "correct": false,
+   "observed": "6 windowed floors, 12 windows, blank band above"
+  },
+  {
+   "item_id": "8243cb3797",
+   "correct": false,
+   "observed": "2 rows, 10 gray window shapes, 2 extend past the facade"
+  },
+  {
+   "item_id": "829cdcc202",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "8407e91bc6",
+   "correct": false,
+   "observed": "5 floors, 5 orange window shapes"
+  },
+  {
+   "item_id": "8454c7bcdd",
+   "correct": false,
+   "observed": "6 floors, 24 windows"
+  },
+  {
+   "item_id": "87cbf31777",
+   "correct": false,
+   "observed": "4 floors, 4 segmented gray strips projecting beyond the facade"
+  },
+  {
+   "item_id": "899c66be98",
+   "correct": false,
+   "observed": "7 visible floors, 35 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "8a35e7b3c4",
+   "correct": false,
+   "observed": "4 floors, 36 drawn window shapes, 20 extend beyond the facade"
+  },
+  {
+   "item_id": "8a6b54a467",
+   "correct": true,
+   "observed": "2 floors, 8 windows on the building, 8 detached to the right"
+  },
+  {
+   "item_id": "8b0acebde7",
+   "correct": false,
+   "observed": "2 floors, 14 window shapes including 4 detached and 2 straddling the edge"
+  },
+  {
+   "item_id": "8c8c6b6273",
+   "correct": false,
+   "observed": "7 visible floors, 35 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "9113dc7761",
+   "correct": false,
+   "observed": "6 facade bands, 10 windows on the building, 2 detached below"
+  },
+  {
+   "item_id": "9229ef3515",
+   "correct": false,
+   "observed": "7 visible floors, 28 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "92ba290641",
+   "correct": false,
+   "observed": "2 floors, 6 windows"
+  },
+  {
+   "item_id": "94b1c715af",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "95fe20c24d",
+   "correct": false,
+   "observed": "5 floors, 20 windows"
+  },
+  {
+   "item_id": "9857b5cb03",
+   "correct": false,
+   "observed": "8 visible floors, 40 visible window shapes including 8 detached, bottom row clipped"
+  },
+  {
+   "item_id": "98c6f3a4ac",
+   "correct": false,
+   "observed": "2 rows of windows, 8 windows"
+  },
+  {
+   "item_id": "994c50f7ee",
+   "correct": false,
+   "observed": "2 floors, 4 complete on-facade windows per row, additional shapes extend off the facade and image"
+  },
+  {
+   "item_id": "9ad1b7621c",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "9c1e072b31",
+   "correct": false,
+   "observed": "4 floor panels, 48 blue window shapes in 4 grids"
+  },
+  {
+   "item_id": "9cff6aef1e",
+   "correct": false,
+   "observed": "2 floors, 8 windows"
+  },
+  {
+   "item_id": "9d88b30a99",
+   "correct": false,
+   "observed": "5 floors, 5 windows"
+  },
+  {
+   "item_id": "9e992f8e9e",
+   "correct": false,
+   "observed": "2 floors, 4 windows"
+  },
+  {
+   "item_id": "a0e73db4cc",
+   "correct": false,
+   "observed": "6 floors, 24 windows"
+  },
+  {
+   "item_id": "a3bf3bc40e",
+   "correct": false,
+   "observed": "4 floors, 4 windows"
+  },
+  {
+   "item_id": "a458966f54",
+   "correct": false,
+   "observed": "2 rows of gray windows, 14 visible shapes extending off the facade"
+  },
+  {
+   "item_id": "a51eacaf52",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "a5b2722a9f",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "a6af9a7d98",
+   "correct": false,
+   "observed": "3 floors, orange window bands with indistinct edges"
+  },
+  {
+   "item_id": "a6b5f84160",
+   "correct": false,
+   "observed": "7 visible floors, 21 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "a8948242da",
+   "correct": false,
+   "observed": "5 floors, orange window strips with faint divisions extending beyond the facade"
+  },
+  {
+   "item_id": "aba4ebc47c",
+   "correct": false,
+   "observed": "2 rows, 10 gray window shapes, 2 extend past the facade"
+  },
+  {
+   "item_id": "ad3b002b6b",
+   "correct": false,
+   "observed": "4 floors, 8 windows"
+  },
+  {
+   "item_id": "ada19d71d5",
+   "correct": false,
+   "observed": "4 floors, 16 windows"
+  },
+  {
+   "item_id": "adaac74435",
+   "correct": false,
+   "observed": "7 windowed floors, 21 windows, blank panel clipped below"
+  },
+  {
+   "item_id": "af3f33fc1a",
+   "correct": true,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "afc223d098",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "b0759cf820",
+   "correct": false,
+   "observed": "5 floors, 9 windows"
+  },
+  {
+   "item_id": "b20f29c78f",
+   "correct": false,
+   "observed": "5 floors, orange window bands with indistinct edges"
+  },
+  {
+   "item_id": "b36a45f863",
+   "correct": false,
+   "observed": "4 floors, 36 drawn window shapes, 20 extend beyond the facade"
+  },
+  {
+   "item_id": "b36e39e07d",
+   "correct": false,
+   "observed": "8 visible floors, 24 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "b4d66893f4",
+   "correct": false,
+   "observed": "4 floors, orange window bands with indistinct edges"
+  },
+  {
+   "item_id": "b54f96a9d6",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "b5b6c0859a",
+   "correct": false,
+   "observed": "6 floors, 23 windows"
+  },
+  {
+   "item_id": "b714b15f06",
+   "correct": false,
+   "observed": "5 floors, 20 windows"
+  },
+  {
+   "item_id": "b7f16eda80",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "b8e26fbe1c",
+   "correct": false,
+   "observed": "2 floor panels, 8 blue window shapes, 2 extend below the facade"
+  },
+  {
+   "item_id": "b92c3c0988",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "bb61c0f072",
+   "correct": false,
+   "observed": "8 visible floors, 13 visible windows, bottom window clipped"
+  },
+  {
+   "item_id": "bbbcc5778d",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "bbc9d6036e",
+   "correct": false,
+   "observed": "7 visible floors, 28 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "bffa378058",
+   "correct": false,
+   "observed": "8 floors, 32 windows"
+  },
+  {
+   "item_id": "c2be386fe3",
+   "correct": false,
+   "observed": "8 visible floors, 24 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "c4f306405d",
+   "correct": true,
+   "observed": "7 floors, 14 windows"
+  },
+  {
+   "item_id": "c6b2d0a0eb",
+   "correct": false,
+   "observed": "5 floors, orange window strips with faint divisions extending beyond the facade"
+  },
+  {
+   "item_id": "c75c749b68",
+   "correct": false,
+   "observed": "4 floors, 16 windows"
+  },
+  {
+   "item_id": "ca2b14c8a6",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "cdcc8d2417",
+   "correct": false,
+   "observed": "6 facade bands, 10 windows on the building, 2 detached below"
+  },
+  {
+   "item_id": "cf0592406f",
+   "correct": false,
+   "observed": "2 floors, 2 gray window shapes"
+  },
+  {
+   "item_id": "cf84ca78e7",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "d11599b27f",
+   "correct": false,
+   "observed": "3 floors, 12 blue window shapes"
+  },
+  {
+   "item_id": "d35a45ca3c",
+   "correct": false,
+   "observed": "7 visible floors, 35 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "d3f3429ee6",
+   "correct": false,
+   "observed": "3 windowed floors, 15 windows"
+  },
+  {
+   "item_id": "d4a4b3366e",
+   "correct": false,
+   "observed": "6 floors, 30 windows"
+  },
+  {
+   "item_id": "d50c8541fb",
+   "correct": false,
+   "observed": "5 floors, 9 windows"
+  },
+  {
+   "item_id": "daa3a4629c",
+   "correct": false,
+   "observed": "6 floors, 10 windows"
+  },
+  {
+   "item_id": "dba7d25456",
+   "correct": true,
+   "observed": "3 floor panels, 24 blue window shapes in 4 columns"
+  },
+  {
+   "item_id": "dbddffd5ae",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "dc79aa4fdb",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "dca9bb940f",
+   "correct": false,
+   "observed": "1 floor, 14 visible gray segments in a strip extending off the facade and image"
+  },
+  {
+   "item_id": "de29a04d1b",
+   "correct": false,
+   "observed": "4 floors, 4 segmented gray strips projecting beyond the facade"
+  },
+  {
+   "item_id": "dec25cfd58",
+   "correct": false,
+   "observed": "2 blue window strips with faint divisions extending off the building and image"
+  },
+  {
+   "item_id": "e690be7dfa",
+   "correct": false,
+   "observed": "6 floors, 9 windows"
+  },
+  {
+   "item_id": "e8c259c06c",
+   "correct": false,
+   "observed": "4 floors, 32 orange window shapes, 16 extend beyond the facade"
+  },
+  {
+   "item_id": "e9d56eb96f",
+   "correct": false,
+   "observed": "4 floors, 16 windows"
+  },
+  {
+   "item_id": "ea23e6ef0a",
+   "correct": false,
+   "observed": "8 visible floors, 24 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "eaeb3cd125",
+   "correct": false,
+   "observed": "4 floors, 16 orange window shapes"
+  },
+  {
+   "item_id": "eb3f69ee9a",
+   "correct": false,
+   "observed": "6 floors, 18 windows"
+  },
+  {
+   "item_id": "ebc5497709",
+   "correct": true,
+   "observed": "2 floors, 8 windows on the building, 8 detached to the right"
+  },
+  {
+   "item_id": "ed204ddfb8",
+   "correct": false,
+   "observed": "5 floors, 5 windows"
+  },
+  {
+   "item_id": "f0a2b79e4d",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "f0b744735f",
+   "correct": false,
+   "observed": "7 floors, 10 windows"
+  },
+  {
+   "item_id": "f14ccb05d2",
+   "correct": false,
+   "observed": "3 floor panels, 24 visible blue window shapes in overlapping rows"
+  },
+  {
+   "item_id": "f1f474c2d9",
+   "correct": false,
+   "observed": "5 floors, 5 windows"
+  },
+  {
+   "item_id": "f44ea74fb1",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "f556f031bd",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  },
+  {
+   "item_id": "f6cb525891",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "f81eef80ab",
+   "correct": false,
+   "observed": "5 floors, 5 windows"
+  },
+  {
+   "item_id": "f919bda8d8",
+   "correct": false,
+   "observed": "2 floors, 4 blue window shapes"
+  },
+  {
+   "item_id": "f9fb38ffcb",
+   "correct": false,
+   "observed": "2 floors, 6 windows"
+  },
+  {
+   "item_id": "fb945f6510",
+   "correct": false,
+   "observed": "4 visible floors, 16 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "fbc391b12f",
+   "correct": false,
+   "observed": "2 gray window strips extending off the building and image, with faint divisions"
+  },
+  {
+   "item_id": "fbd35f41e4",
+   "correct": false,
+   "observed": "No renderable image"
+  },
+  {
+   "item_id": "fcc0947db2",
+   "correct": false,
+   "observed": "7 visible floors, 28 visible windows, bottom row clipped"
+  },
+  {
+   "item_id": "ffabda58c3",
+   "correct": false,
+   "observed": "6 floors, 12 windows"
+  }
+ ]
+}

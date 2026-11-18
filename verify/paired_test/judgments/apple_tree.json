@@ -1,0 +1,1004 @@
+{
+ "judgments": [
+  {
+   "item_id": "0056d2711b",
+   "correct": false,
+   "observed": "~40 red dots along trunk and canopy, far more than 14"
+  },
+  {
+   "item_id": "02806f69fa",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "03b50049b8",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "04a097e8a3",
+   "correct": true,
+   "observed": "tree with 1 red apple"
+  },
+  {
+   "item_id": "0788dab13a",
+   "correct": true,
+   "observed": "tree with 2 red apples"
+  },
+  {
+   "item_id": "0847d4043a",
+   "correct": false,
+   "observed": "plain green square, no trunk; 4 red dots - not a recognizable tree"
+  },
+  {
+   "item_id": "08fef94dea",
+   "correct": false,
+   "observed": "green square, 3 red rectangles (one off canopy), not a tree"
+  },
+  {
+   "item_id": "0a30a2a4b8",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "0b5df0d222",
+   "correct": true,
+   "observed": "trunk with branch, 7 red apples"
+  },
+  {
+   "item_id": "0bdd3e289e",
+   "correct": false,
+   "observed": "8 red apples"
+  },
+  {
+   "item_id": "0d430c3f37",
+   "correct": false,
+   "observed": "8 red apples"
+  },
+  {
+   "item_id": "0dda763265",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "0df6135a38",
+   "correct": false,
+   "observed": "green square, 3 red circles (one off canopy), no trunk"
+  },
+  {
+   "item_id": "0e77121218",
+   "correct": false,
+   "observed": "26 red apples (rows 8+9+9)"
+  },
+  {
+   "item_id": "0f0a460855",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "116e947a17",
+   "correct": false,
+   "observed": "~33 red dots in triangular grid"
+  },
+  {
+   "item_id": "1454185909",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "14936cff65",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "170d69d517",
+   "correct": false,
+   "observed": "8 red apples"
+  },
+  {
+   "item_id": "19bcc10607",
+   "correct": true,
+   "observed": "tree with 1 red apple"
+  },
+  {
+   "item_id": "1d1e22e545",
+   "correct": false,
+   "observed": "1 red apple"
+  },
+  {
+   "item_id": "1ed068ef89",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "1ff92c9bfd",
+   "correct": false,
+   "observed": "concentric brown/green rings with red center circle, not a recognizable tree"
+  },
+  {
+   "item_id": "21d00a814b",
+   "correct": false,
+   "observed": "green square, 3 red rectangles (one off canopy), not a tree"
+  },
+  {
+   "item_id": "2226386eae",
+   "correct": false,
+   "observed": "1 red apple"
+  },
+  {
+   "item_id": "2286680e55",
+   "correct": false,
+   "observed": "concentric rings with red center, not a recognizable tree"
+  },
+  {
+   "item_id": "23f911204a",
+   "correct": false,
+   "observed": "8 red apples"
+  },
+  {
+   "item_id": "244a97b219",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "258f02acb2",
+   "correct": true,
+   "observed": "branching tree, 10 red apples (2+2+3+3)"
+  },
+  {
+   "item_id": "262889027b",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "26fc0b63d2",
+   "correct": false,
+   "observed": "26 red apples"
+  },
+  {
+   "item_id": "289c6ac0c5",
+   "correct": false,
+   "observed": "green square, 3 red rectangles, not a tree"
+  },
+  {
+   "item_id": "2a26433264",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "2a32a1add5",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "2d0d0f153b",
+   "correct": true,
+   "observed": "tree with 2 red apples"
+  },
+  {
+   "item_id": "2e3e27da0a",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "3247269904",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "324c3d4ff5",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "339f23bf8a",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "33e146f249",
+   "correct": false,
+   "observed": "26 red apples"
+  },
+  {
+   "item_id": "33ef8a9229",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "344a67b90b",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "34d63d7abe",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "36f5782fa9",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "38136f6b25",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "3945bf5d1b",
+   "correct": true,
+   "observed": "dark trunk with green leaves, 5 red apples"
+  },
+  {
+   "item_id": "3d8bbd0af0",
+   "correct": false,
+   "observed": "concentric rings with red center, not a recognizable tree"
+  },
+  {
+   "item_id": "3dd384d815",
+   "correct": false,
+   "observed": "1 red apple"
+  },
+  {
+   "item_id": "403ef3a007",
+   "correct": false,
+   "observed": "10 red apples"
+  },
+  {
+   "item_id": "41e7b93f66",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "4205b3f435",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "437a85edbe",
+   "correct": false,
+   "observed": "7 red apples"
+  },
+  {
+   "item_id": "44479a6be6",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "44b4229752",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "44fe359c17",
+   "correct": true,
+   "observed": "branching tree, 10 red apples"
+  },
+  {
+   "item_id": "4620b8eafc",
+   "correct": true,
+   "observed": "trunk with branch, 5 red apples"
+  },
+  {
+   "item_id": "4638647cda",
+   "correct": true,
+   "observed": "tree with 1 red apple"
+  },
+  {
+   "item_id": "472747e261",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "47a4559042",
+   "correct": false,
+   "observed": "26 red apples"
+  },
+  {
+   "item_id": "4a5bce114a",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "4ae2628286",
+   "correct": false,
+   "observed": "10 red apples"
+  },
+  {
+   "item_id": "4b1985f2fd",
+   "correct": true,
+   "observed": "tree with 9 red apples"
+  },
+  {
+   "item_id": "4bc389528f",
+   "correct": false,
+   "observed": "5 red apples in a row"
+  },
+  {
+   "item_id": "4d2e67758c",
+   "correct": false,
+   "observed": "single red circle in green ring, not a tree"
+  },
+  {
+   "item_id": "4fafeeaacb",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "5015470e71",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "51e77d2ec9",
+   "correct": false,
+   "observed": "23 red apples"
+  },
+  {
+   "item_id": "52b9f37ae6",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "52e16994db",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "537981283c",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "542564676c",
+   "correct": false,
+   "observed": "large green square, 3 red dots at corners, no trunk"
+  },
+  {
+   "item_id": "550ab053e1",
+   "correct": false,
+   "observed": "plain green square, no trunk; 4 red dots - not a recognizable tree"
+  },
+  {
+   "item_id": "58c6885eb3",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "59dd976c41",
+   "correct": true,
+   "observed": "tree with 2 red apples"
+  },
+  {
+   "item_id": "5c23270102",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "5d3e8c0053",
+   "correct": true,
+   "observed": "tree with 7 red apples"
+  },
+  {
+   "item_id": "5e750ab6ec",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "5fff784afc",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "60a75d506e",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "641b41cd06",
+   "correct": true,
+   "observed": "tree with 2 red apples"
+  },
+  {
+   "item_id": "6760c99877",
+   "correct": true,
+   "observed": "tree with 7 red apples"
+  },
+  {
+   "item_id": "67a69fa7ec",
+   "correct": false,
+   "observed": "24 red apples"
+  },
+  {
+   "item_id": "6a84c200a0",
+   "correct": false,
+   "observed": "green square, 3 red rectangles (one off canopy), not a tree"
+  },
+  {
+   "item_id": "6d4dfdf6e8",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "6e957064b3",
+   "correct": false,
+   "observed": "green square, 3 red circles (one off canopy), no trunk"
+  },
+  {
+   "item_id": "70d5a37631",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "720802d1e0",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "741a0642d9",
+   "correct": true,
+   "observed": "tree with 1 red apple"
+  },
+  {
+   "item_id": "751fc462c9",
+   "correct": false,
+   "observed": "26 red apples"
+  },
+  {
+   "item_id": "7651447af1",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "76beeca965",
+   "correct": false,
+   "observed": "green square, 1 red rectangle, not a tree"
+  },
+  {
+   "item_id": "7c7fa013de",
+   "correct": false,
+   "observed": "large green square, 3 red dots at corners, no trunk"
+  },
+  {
+   "item_id": "7e397c17fb",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "7e45b800da",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "7f2242db81",
+   "correct": true,
+   "observed": "trunk with branch, 7 red apples"
+  },
+  {
+   "item_id": "7fc4a45bf4",
+   "correct": false,
+   "observed": "26 red apples"
+  },
+  {
+   "item_id": "81eac9ae33",
+   "correct": true,
+   "observed": "tree with 2 red apples"
+  },
+  {
+   "item_id": "8454aa5fa7",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "8591aee88d",
+   "correct": false,
+   "observed": "10 red apples"
+  },
+  {
+   "item_id": "860ea7db9b",
+   "correct": true,
+   "observed": "trunk with branch, 7 red apples"
+  },
+  {
+   "item_id": "86e0d5251c",
+   "correct": true,
+   "observed": "trunk with branches, 8 overlapping red apples (counted by stems)"
+  },
+  {
+   "item_id": "86fd7fd85e",
+   "correct": true,
+   "observed": "tree with 6 red apples"
+  },
+  {
+   "item_id": "87c4778b2e",
+   "correct": true,
+   "observed": "dark trunk with green leaves, 5 red apples"
+  },
+  {
+   "item_id": "88275530d8",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "8c092c264a",
+   "correct": true,
+   "observed": "trunk with branch, 7 red apples"
+  },
+  {
+   "item_id": "8d3440fd4d",
+   "correct": false,
+   "observed": "single red circle in green ring, not a tree"
+  },
+  {
+   "item_id": "8e78f2ec3a",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "91dd6cb57c",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "94b58223ec",
+   "correct": false,
+   "observed": "25 red apples"
+  },
+  {
+   "item_id": "953f42554b",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "960b896caf",
+   "correct": true,
+   "observed": "trunk with branch, 7 red apples"
+  },
+  {
+   "item_id": "9639590ad2",
+   "correct": false,
+   "observed": "1 red apple"
+  },
+  {
+   "item_id": "975b7350dd",
+   "correct": false,
+   "observed": "concentric rings with red center, not a recognizable tree"
+  },
+  {
+   "item_id": "9844d1f5e3",
+   "correct": false,
+   "observed": "green square, 3 red circles (one off canopy), no trunk"
+  },
+  {
+   "item_id": "99321bda09",
+   "correct": false,
+   "observed": "~40 red dots, far more than 14"
+  },
+  {
+   "item_id": "9943af54d9",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "99d5ce5992",
+   "correct": true,
+   "observed": "tree with 4 red apples"
+  },
+  {
+   "item_id": "9ac8060f97",
+   "correct": false,
+   "observed": "1 red apple"
+  },
+  {
+   "item_id": "9ae2ab0b6e",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "9e0660bd03",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "a10b8086ac",
+   "correct": true,
+   "observed": "tree with 9 red apples"
+  },
+  {
+   "item_id": "a11f8ee098",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "a441b9cdc7",
+   "correct": false,
+   "observed": "plain green square, no trunk; 4 red dots - not a recognizable tree"
+  },
+  {
+   "item_id": "a47916519f",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "a544c22790",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "a58a6b29cc",
+   "correct": true,
+   "observed": "tree with 7 red apples"
+  },
+  {
+   "item_id": "a697c7c2fb",
+   "correct": false,
+   "observed": "8 red apples"
+  },
+  {
+   "item_id": "a7da256114",
+   "correct": false,
+   "observed": "26 red apples"
+  },
+  {
+   "item_id": "a9b6fcc196",
+   "correct": false,
+   "observed": "green square, 3 red circles (one off canopy), no trunk"
+  },
+  {
+   "item_id": "aa6449db84",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "ad3e56c9a2",
+   "correct": false,
+   "observed": "concentric rings with red center, not a recognizable tree"
+  },
+  {
+   "item_id": "aecf28a8ac",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "aef4c6bacf",
+   "correct": false,
+   "observed": "green square, 3 red rectangles, not a tree"
+  },
+  {
+   "item_id": "aef736e7ac",
+   "correct": true,
+   "observed": "tree with 9 red apples"
+  },
+  {
+   "item_id": "b087d1e1d7",
+   "correct": true,
+   "observed": "tree with 8 red apples"
+  },
+  {
+   "item_id": "b4a2ff645e",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "b55e6ea024",
+   "correct": false,
+   "observed": "green square, 3 red rectangles, not a tree"
+  },
+  {
+   "item_id": "b6755f3f85",
+   "correct": true,
+   "observed": "branching tree, 10 red apples (2+2+3+3)"
+  },
+  {
+   "item_id": "b7c87a74ec",
+   "correct": false,
+   "observed": "single red circle in green ring, not a tree"
+  },
+  {
+   "item_id": "b8c8ef2adb",
+   "correct": false,
+   "observed": "1 red apple"
+  },
+  {
+   "item_id": "b9fb3ab2e8",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "bb50dae17d",
+   "correct": true,
+   "observed": "tree with 1 red apple"
+  },
+  {
+   "item_id": "bb6af1bae8",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "bbb4a95c37",
+   "correct": false,
+   "observed": "24 red apples"
+  },
+  {
+   "item_id": "bbffaaf626",
+   "correct": false,
+   "observed": "23 red apples"
+  },
+  {
+   "item_id": "bcbd862995",
+   "correct": false,
+   "observed": "24 red apples"
+  },
+  {
+   "item_id": "be40d89086",
+   "correct": true,
+   "observed": "tree with 10 red apples"
+  },
+  {
+   "item_id": "bea9aaeb0b",
+   "correct": false,
+   "observed": "single red circle in green ring, not a tree"
+  },
+  {
+   "item_id": "c02a22f107",
+   "correct": false,
+   "observed": "green square, 3 red rectangles (one off canopy), not a tree"
+  },
+  {
+   "item_id": "c060542dd4",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "c4c9114ea3",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "c4ef9d5987",
+   "correct": true,
+   "observed": "trunk with branch, 7 red apples"
+  },
+  {
+   "item_id": "c6d0bdb5dd",
+   "correct": true,
+   "observed": "tree with 10 red apples"
+  },
+  {
+   "item_id": "c746dfd1a0",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "c8653e770f",
+   "correct": false,
+   "observed": "single red circle in green ring, not a tree"
+  },
+  {
+   "item_id": "c890532608",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "cc3e5cb454",
+   "correct": true,
+   "observed": "tree with 1 red apple"
+  },
+  {
+   "item_id": "ccc6ce3d41",
+   "correct": false,
+   "observed": "8 red apples"
+  },
+  {
+   "item_id": "cd530cfdf3",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "ced8ec47e5",
+   "correct": false,
+   "observed": "24 red apples"
+  },
+  {
+   "item_id": "cf2f47d418",
+   "correct": true,
+   "observed": "tree with 4 red apples"
+  },
+  {
+   "item_id": "d1a0dd7f77",
+   "correct": true,
+   "observed": "tree with 2 red apples"
+  },
+  {
+   "item_id": "d1d7d682f2",
+   "correct": false,
+   "observed": "concentric rings with red center, not a recognizable tree"
+  },
+  {
+   "item_id": "d2a61e5541",
+   "correct": false,
+   "observed": "~40 red dots, far more than 14"
+  },
+  {
+   "item_id": "d2c228d4c1",
+   "correct": true,
+   "observed": "tree with 8 red apples"
+  },
+  {
+   "item_id": "d5cdbefdd8",
+   "correct": false,
+   "observed": "25 red apples"
+  },
+  {
+   "item_id": "d759bad4b2",
+   "correct": false,
+   "observed": "green square, 3 red rectangles (one off canopy), not a tree"
+  },
+  {
+   "item_id": "d8f888421c",
+   "correct": false,
+   "observed": "concentric rings with red center, not a recognizable tree"
+  },
+  {
+   "item_id": "d920e79366",
+   "correct": false,
+   "observed": "green square, 3 red rectangles (one off canopy), not a tree"
+  },
+  {
+   "item_id": "d969583267",
+   "correct": false,
+   "observed": "1 red apple"
+  },
+  {
+   "item_id": "d989630e55",
+   "correct": false,
+   "observed": "10 red apples"
+  },
+  {
+   "item_id": "da05b3cc10",
+   "correct": false,
+   "observed": "~40 red dots, far more than 14"
+  },
+  {
+   "item_id": "dca6cb88df",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "dcdb156541",
+   "correct": false,
+   "observed": "1 red apple"
+  },
+  {
+   "item_id": "dce81fed3f",
+   "correct": false,
+   "observed": "9 red apples"
+  },
+  {
+   "item_id": "de46cd88fb",
+   "correct": false,
+   "observed": "large green square, 3 red dots at corners, no trunk"
+  },
+  {
+   "item_id": "de9468f584",
+   "correct": true,
+   "observed": "trunk with branch, 5 red apples"
+  },
+  {
+   "item_id": "decfc8a429",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "df3e70cf75",
+   "correct": true,
+   "observed": "tree with 9 red apples"
+  },
+  {
+   "item_id": "e0040a14d2",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "e159b18079",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "e1f12c6991",
+   "correct": false,
+   "observed": "green square, 3 red rectangles (one off canopy), not a tree"
+  },
+  {
+   "item_id": "e275024f1d",
+   "correct": false,
+   "observed": "concentric rings with red center, not a recognizable tree"
+  },
+  {
+   "item_id": "e3a2ea011c",
+   "correct": true,
+   "observed": "tree with 1 red apple"
+  },
+  {
+   "item_id": "e5d284b6a0",
+   "correct": true,
+   "observed": "tree with 6 red apples"
+  },
+  {
+   "item_id": "e607d0de13",
+   "correct": false,
+   "observed": "~33 red dots in triangular grid"
+  },
+  {
+   "item_id": "ec65676481",
+   "correct": false,
+   "observed": "24 red apples"
+  },
+  {
+   "item_id": "eeeaacd27f",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "f05d4bb2e0",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "f47224d681",
+   "correct": false,
+   "observed": "24 red apples"
+  },
+  {
+   "item_id": "f518ac01f9",
+   "correct": false,
+   "observed": "5 red apples in a row"
+  },
+  {
+   "item_id": "fa4dc8792f",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "fa526251ca",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "faa2512f53",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "fb274fbab1",
+   "correct": false,
+   "observed": "8 red apples"
+  },
+  {
+   "item_id": "fbc6d8a00a",
+   "correct": true,
+   "observed": "tree with 10 red apples"
+  },
+  {
+   "item_id": "fbd421eb1f",
+   "correct": false,
+   "observed": "12 red apples"
+  },
+  {
+   "item_id": "fbd8ab3bbc",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "fc5ebdc89d",
+   "correct": true,
+   "observed": "tree with 1 red apple"
+  },
+  {
+   "item_id": "ff9d55d5e9",
+   "correct": true,
+   "observed": "tree with 4 red apples"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "building": {
+  "n_rendered_items": 176,
+  "agreement": 0.983,
+  "cohen_kappa": 0.791
+ },
+ "apple_tree": {
+  "n_rendered_items": 150,
+  "agreement": 0.993,
+  "cohen_kappa": 0.984
+ },
+ "circle_grid": {
+  "n_rendered_items": 200,
+  "agreement": 0.77,
+  "cohen_kappa": 0.531
+ },
+ "bar_chart": {
+  "n_rendered_items": 200,
+  "agreement": 0.955,
+  "cohen_kappa": 0.909
+ },
+ "flag": {
+  "n_rendered_items": 192,
+  "agreement": 1.0,
+  "cohen_kappa": 1.0
+ },
+ "ALL": {
+  "n_rendered_items": 918,
+  "agreement": 0.936,
+  "cohen_kappa": 0.822
+ }
+}

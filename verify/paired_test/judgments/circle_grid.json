@@ -1,0 +1,1004 @@
+{
+ "judgments": [
+  {
+   "item_id": "002a008c2c",
+   "correct": false,
+   "observed": "3 columns visible; only ~3.5 rows visible, bottom rows clipped off canvas"
+  },
+  {
+   "item_id": "0108f51e0d",
+   "correct": false,
+   "observed": "only 2 rows visible, 4th column clipped at right edge"
+  },
+  {
+   "item_id": "01b2afd0f4",
+   "correct": false,
+   "observed": "3rd row clipped at bottom, 4th column clipped, 5th column off canvas"
+  },
+  {
+   "item_id": "01f3f33d2b",
+   "correct": false,
+   "observed": "5 full rows + clipped 6th row; 6th column clipped at right"
+  },
+  {
+   "item_id": "035f645b7f",
+   "correct": false,
+   "observed": "only 1 circle (blue), not 3"
+  },
+  {
+   "item_id": "049034cbe3",
+   "correct": false,
+   "observed": "2 rows (4 + 2), 4th circle clipped; not a single row of 6"
+  },
+  {
+   "item_id": "0573178d26",
+   "correct": true,
+   "observed": "3 rows x 6 columns, 18 circles all visible"
+  },
+  {
+   "item_id": "05e8571406",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "0702494877",
+   "correct": false,
+   "observed": "only 2 rows visible, 4th column clipped at right edge"
+  },
+  {
+   "item_id": "083b341317",
+   "correct": false,
+   "observed": "2 rows (4+3), clipped edges; not 1 row of 6"
+  },
+  {
+   "item_id": "0935821ada",
+   "correct": false,
+   "observed": "2 rows x 2 columns, 4 circles (not 3x2)"
+  },
+  {
+   "item_id": "09598e9cc8",
+   "correct": false,
+   "observed": "3 rows x 3 cols, left column and top row clipped off canvas"
+  },
+  {
+   "item_id": "09b7829656",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th row clipped at bottom"
+  },
+  {
+   "item_id": "09fb8b3f67",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th row clipped at bottom"
+  },
+  {
+   "item_id": "0c136d92d9",
+   "correct": true,
+   "observed": "3 rows x 5 columns, 15 circles"
+  },
+  {
+   "item_id": "0c910e84c8",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "0f44e773e2",
+   "correct": false,
+   "observed": "only 1 circle, not 3"
+  },
+  {
+   "item_id": "0fa6fe589d",
+   "correct": false,
+   "observed": "overlapping circles clipped at top/left edges; grid not clearly 4x5"
+  },
+  {
+   "item_id": "10b6fbd312",
+   "correct": false,
+   "observed": "3 rows x 2 cols but left column and top row clipped off canvas"
+  },
+  {
+   "item_id": "1122753150",
+   "correct": true,
+   "observed": "6 rows x 6 columns, 36 circles"
+  },
+  {
+   "item_id": "11387db765",
+   "correct": false,
+   "observed": "only ~2.5 rows visible, 4th column clipped at right; grid runs off canvas"
+  },
+  {
+   "item_id": "1266d13cbe",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th row clipped; not 5 rows"
+  },
+  {
+   "item_id": "12d4139ca3",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "135b4783e1",
+   "correct": false,
+   "observed": "only 2 circles, not 3"
+  },
+  {
+   "item_id": "17235c87c9",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "1800605050",
+   "correct": false,
+   "observed": "~2.5 rows visible, 4th column clipped; grid runs off canvas"
+  },
+  {
+   "item_id": "18ee6fe25a",
+   "correct": true,
+   "observed": "5 rows x 5 columns of (overlapping) circles, 25 total"
+  },
+  {
+   "item_id": "1a972a1634",
+   "correct": false,
+   "observed": "only 1 row of ~5 (5th clipped); not 2 rows"
+  },
+  {
+   "item_id": "1cf983ac30",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "1e780acd67",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "1f17a37ba6",
+   "correct": false,
+   "observed": "only 1 circle, not 5"
+  },
+  {
+   "item_id": "20105a7759",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th row cut off at bottom edge"
+  },
+  {
+   "item_id": "213394c47b",
+   "correct": false,
+   "observed": "2 rows visible, 5th column clipped; grid runs off canvas"
+  },
+  {
+   "item_id": "2286ce3d18",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "22951e1145",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 5x5"
+  },
+  {
+   "item_id": "25658f62f7",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "2a23ec5afb",
+   "correct": false,
+   "observed": "only 1 circle, not 6"
+  },
+  {
+   "item_id": "2a2f3cb97e",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th row cut off at bottom edge"
+  },
+  {
+   "item_id": "2b9dfdb410",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th row cut off at bottom edge"
+  },
+  {
+   "item_id": "2c4b6101cd",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "2f0b872770",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "2fbab90145",
+   "correct": false,
+   "observed": "1 row of 4, 4th circle clipped at right edge"
+  },
+  {
+   "item_id": "30268c1463",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "30724521de",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "33ef86f101",
+   "correct": false,
+   "observed": "2 rows x 5 touching circles, 2nd row cut off at bottom edge"
+  },
+  {
+   "item_id": "340cac5db1",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th row cut off at bottom edge"
+  },
+  {
+   "item_id": "3bdc859038",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "3c3b2007d3",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped; 3 full rows + 4th clipped; not 5x4"
+  },
+  {
+   "item_id": "3c8073fc6a",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "3ca2fe4ab7",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "3cb77a4a1b",
+   "correct": false,
+   "observed": "only 1 circle, not 6"
+  },
+  {
+   "item_id": "3dc8310e4b",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 6x6"
+  },
+  {
+   "item_id": "3dec87f5a2",
+   "correct": true,
+   "observed": "3 rows x 3 columns, 9 circles"
+  },
+  {
+   "item_id": "43c06aa835",
+   "correct": false,
+   "observed": "only 2 rows visible, 4th column clipped at right edge"
+  },
+  {
+   "item_id": "45af63b222",
+   "correct": false,
+   "observed": "2 rows of touching circles, left circle and bottom row clipped"
+  },
+  {
+   "item_id": "45ff0a68f6",
+   "correct": true,
+   "observed": "2 rows x 2 columns, 4 circles"
+  },
+  {
+   "item_id": "46310d75a3",
+   "correct": false,
+   "observed": "2 columns colored, 2 full rows + 3rd row cut off at bottom"
+  },
+  {
+   "item_id": "46817e0f7b",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 5x5"
+  },
+  {
+   "item_id": "4780bf606a",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "483a8d5dd4",
+   "correct": false,
+   "observed": "only 1 circle, not 2"
+  },
+  {
+   "item_id": "4bdafe9cc2",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 6x4"
+  },
+  {
+   "item_id": "4c9c113801",
+   "correct": false,
+   "observed": "1 row of 4, 4th clipped at right; not 5"
+  },
+  {
+   "item_id": "4fd10ef004",
+   "correct": false,
+   "observed": "only 1 circle, not 2"
+  },
+  {
+   "item_id": "4fee8194db",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "5185ee7004",
+   "correct": false,
+   "observed": "1 column of ~4 circles, top clipped and overlapping; not 6"
+  },
+  {
+   "item_id": "526bae0324",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "535cf680ab",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 6x4"
+  },
+  {
+   "item_id": "57152cf57c",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 5 rows"
+  },
+  {
+   "item_id": "598541d74b",
+   "correct": false,
+   "observed": "only 1 circle, not 2"
+  },
+  {
+   "item_id": "5a53af4838",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 6x4"
+  },
+  {
+   "item_id": "5bcfa8b55a",
+   "correct": false,
+   "observed": "1 column of ~4 colored circles, top and bottom clipped; not 6"
+  },
+  {
+   "item_id": "5eee049b8b",
+   "correct": false,
+   "observed": "2 rows, 5th column clipped and 2nd row cut off at bottom"
+  },
+  {
+   "item_id": "6194a79432",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "61c9c77382",
+   "correct": true,
+   "observed": "3 rows x 6 columns, 18 circles"
+  },
+  {
+   "item_id": "62b35f6d7c",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "66d0d2811c",
+   "correct": true,
+   "observed": "3 rows x 6 columns, 18 circles"
+  },
+  {
+   "item_id": "67475317ee",
+   "correct": false,
+   "observed": "only 1 circle, not 2"
+  },
+  {
+   "item_id": "6808f62b43",
+   "correct": false,
+   "observed": "only 1 circle, not 2"
+  },
+  {
+   "item_id": "68f1defde5",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "69da62dd16",
+   "correct": false,
+   "observed": "only 1 circle, not 5"
+  },
+  {
+   "item_id": "6a53c27df5",
+   "correct": false,
+   "observed": "only 1 circle, not 5"
+  },
+  {
+   "item_id": "6ba260804f",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 5x4"
+  },
+  {
+   "item_id": "704d38934b",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 5x5"
+  },
+  {
+   "item_id": "7132dd92e5",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "7137144dd2",
+   "correct": false,
+   "observed": "5 full columns + 6th clipped, 5 full rows + 6th clipped"
+  },
+  {
+   "item_id": "722e841b2a",
+   "correct": false,
+   "observed": "1 row of 6 touching circles, 6th clipped at right edge"
+  },
+  {
+   "item_id": "73259140be",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "73c1e838a2",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 5 rows"
+  },
+  {
+   "item_id": "745a067dfb",
+   "correct": true,
+   "observed": "2 rows x 2 columns, 4 circles"
+  },
+  {
+   "item_id": "747bc8d632",
+   "correct": false,
+   "observed": "~4 rows x 6 cols of touching circles, top row and left column clipped at edges"
+  },
+  {
+   "item_id": "77299844ee",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "7948650594",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "7b36b6794b",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "7fa674d679",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "81fc820ada",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 5x5"
+  },
+  {
+   "item_id": "82676bc726",
+   "correct": false,
+   "observed": "1 row of 4, 4th clipped at right edge"
+  },
+  {
+   "item_id": "84016c1d3e",
+   "correct": false,
+   "observed": "1 row of 6 touching circles, 6th clipped at right edge"
+  },
+  {
+   "item_id": "84407ef3bb",
+   "correct": false,
+   "observed": "1 row of 4 colored circles, 4th (yellow) clipped at right edge"
+  },
+  {
+   "item_id": "84cd7cbbb5",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "872a9f6cfa",
+   "correct": false,
+   "observed": "~2.5 rows visible, 4th column clipped; grid runs off canvas"
+  },
+  {
+   "item_id": "896df99478",
+   "correct": false,
+   "observed": "only 1 circle, not 6"
+  },
+  {
+   "item_id": "89b180e732",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "8b4ee482d1",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "8b7965031d",
+   "correct": false,
+   "observed": "only 1 circle, not 5"
+  },
+  {
+   "item_id": "8d23f598ae",
+   "correct": false,
+   "observed": "5 full columns + 6th clipped, 5 full rows + 6th clipped"
+  },
+  {
+   "item_id": "8dae0e2b9f",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "8dfe55d545",
+   "correct": false,
+   "observed": "2 rows, 6th column clipped and 2nd row cut off at bottom"
+  },
+  {
+   "item_id": "8f9271e9c8",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "90e90390bd",
+   "correct": true,
+   "observed": "3 rows x 6 columns, 18 circles"
+  },
+  {
+   "item_id": "913e48c319",
+   "correct": true,
+   "observed": "1 row x 5 circles"
+  },
+  {
+   "item_id": "942e156ca5",
+   "correct": false,
+   "observed": "~6 rows x 4 cols of touching circles, top row and left column clipped at edges"
+  },
+  {
+   "item_id": "946f4736f2",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "9471524c59",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "947b13e197",
+   "correct": false,
+   "observed": "1 column of ~4 colored circles, top and bottom clipped; not 6"
+  },
+  {
+   "item_id": "959351aec0",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th row cut off at bottom edge"
+  },
+  {
+   "item_id": "97b61a7601",
+   "correct": false,
+   "observed": "1 row of 4 colored circles, 4th clipped at right edge"
+  },
+  {
+   "item_id": "98682a794d",
+   "correct": true,
+   "observed": "3 rows x 6 columns, 18 circles"
+  },
+  {
+   "item_id": "988c650007",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "99078cb596",
+   "correct": true,
+   "observed": "5 rows x 6 columns, 30 circles"
+  },
+  {
+   "item_id": "9941bbba28",
+   "correct": false,
+   "observed": "2 rows x 5 touching circles, 2nd row cut off at bottom edge"
+  },
+  {
+   "item_id": "99d109c3b8",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 5x5"
+  },
+  {
+   "item_id": "9a9dfee17a",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "9c379683d3",
+   "correct": true,
+   "observed": "2 rows x 2 columns, 4 circles"
+  },
+  {
+   "item_id": "9e085e4b67",
+   "correct": false,
+   "observed": "1 row of 4 colored circles, 4th clipped at right edge"
+  },
+  {
+   "item_id": "9f467304c9",
+   "correct": true,
+   "observed": "2 rows x 2 columns, 4 circles"
+  },
+  {
+   "item_id": "9fee428690",
+   "correct": false,
+   "observed": "2 rows of touching circles, left circle and bottom row clipped"
+  },
+  {
+   "item_id": "a613e7089d",
+   "correct": false,
+   "observed": "2 columns, 2 full rows + 3rd row cut off at bottom"
+  },
+  {
+   "item_id": "a6694cec09",
+   "correct": false,
+   "observed": "~6 rows x 4 cols of touching circles, top row and left column clipped at edges"
+  },
+  {
+   "item_id": "a703f8880e",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "a83f524d3b",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "ab02e4a456",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "abf44bd840",
+   "correct": true,
+   "observed": "3 rows x 3 columns, 9 circles"
+  },
+  {
+   "item_id": "ad053a571e",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "ad4b5480d4",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "af59e6ab7b",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 6x6"
+  },
+  {
+   "item_id": "afb0d48ba8",
+   "correct": true,
+   "observed": "3 rows x 6 columns, 18 circles"
+  },
+  {
+   "item_id": "b12adcae2b",
+   "correct": false,
+   "observed": "only 2 rows visible, 4th column clipped at right edge"
+  },
+  {
+   "item_id": "b245f0cfb9",
+   "correct": false,
+   "observed": "only 1 circle, not 5"
+  },
+  {
+   "item_id": "b2505bf6af",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 6x6"
+  },
+  {
+   "item_id": "b35c921995",
+   "correct": false,
+   "observed": "1 row of 6 touching circles, 6th clipped at right edge"
+  },
+  {
+   "item_id": "b447b36b06",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "b515b02b2f",
+   "correct": false,
+   "observed": "2 rows x 5 touching circles, 2nd row cut off at bottom edge"
+  },
+  {
+   "item_id": "b557c5a434",
+   "correct": true,
+   "observed": "5 rows x 5 columns of (overlapping) circles, 25 total"
+  },
+  {
+   "item_id": "b5c5c5a43e",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th row cut off at bottom edge"
+  },
+  {
+   "item_id": "b68625e50b",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "b90344b6b3",
+   "correct": false,
+   "observed": "only 2 rows visible, 4th column clipped at right edge"
+  },
+  {
+   "item_id": "b98f2c2b87",
+   "correct": false,
+   "observed": "2 rows x 2 columns, 4 circles (not 3x2)"
+  },
+  {
+   "item_id": "b9aa2eceaf",
+   "correct": false,
+   "observed": "~6 rows x 4 cols of touching circles, top row and left column clipped at edges"
+  },
+  {
+   "item_id": "bb2eef9dc6",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "bcddf23bd7",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "bd731299f9",
+   "correct": true,
+   "observed": "5 rows x 5 columns of (overlapping) circles, 25 total"
+  },
+  {
+   "item_id": "be3616bd46",
+   "correct": true,
+   "observed": "1 circle"
+  },
+  {
+   "item_id": "bea621c17b",
+   "correct": false,
+   "observed": "only 1 circle, not 2"
+  },
+  {
+   "item_id": "bf5ea55d93",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 6x6"
+  },
+  {
+   "item_id": "c015ebc188",
+   "correct": false,
+   "observed": "only 1 circle, not 2"
+  },
+  {
+   "item_id": "c01aa91bf9",
+   "correct": true,
+   "observed": "6 rows x 5 columns, 30 circles"
+  },
+  {
+   "item_id": "c10df140cc",
+   "correct": true,
+   "observed": "4 rows x 6 columns, 24 circles"
+  },
+  {
+   "item_id": "c35ce5aa23",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th row cut off"
+  },
+  {
+   "item_id": "c366b19cfc",
+   "correct": false,
+   "observed": "only 2 rows visible, 4th column clipped at right edge"
+  },
+  {
+   "item_id": "c7a57833ae",
+   "correct": false,
+   "observed": "only 1 circle, not 5"
+  },
+  {
+   "item_id": "c948b932ea",
+   "correct": false,
+   "observed": "3 rows (3rd cut off at bottom), 4th column clipped; 5th off canvas"
+  },
+  {
+   "item_id": "cad43e251e",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th row cut off"
+  },
+  {
+   "item_id": "cd791b7f20",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "ce36c647e0",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 5 rows"
+  },
+  {
+   "item_id": "d037cb22b6",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th row cut off at bottom edge"
+  },
+  {
+   "item_id": "d11cfbba9a",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "d170396b79",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 5x6"
+  },
+  {
+   "item_id": "d28a43c566",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th row cut off at bottom edge"
+  },
+  {
+   "item_id": "d664641ff9",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "d8071942e1",
+   "correct": false,
+   "observed": "3 rows x 5 cols but top row and left column clipped at edges"
+  },
+  {
+   "item_id": "d83fe0cd34",
+   "correct": false,
+   "observed": "only 1 circle, not 2"
+  },
+  {
+   "item_id": "d8f6e9a18d",
+   "correct": false,
+   "observed": "2 rows of small circles, top row and left column clipped at edges"
+  },
+  {
+   "item_id": "d9c919fc1f",
+   "correct": false,
+   "observed": "overlapping circles clipped at top/left edges; grid not clearly 4x5"
+  },
+  {
+   "item_id": "db84f24efc",
+   "correct": true,
+   "observed": "3 rows x 6 columns, 18 circles"
+  },
+  {
+   "item_id": "dbc959a7f9",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "dbfde80de2",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "dded348753",
+   "correct": false,
+   "observed": "only 1 circle, not 3"
+  },
+  {
+   "item_id": "ded0ffb125",
+   "correct": true,
+   "observed": "5 rows x 5 columns of (overlapping) circles, 25 total"
+  },
+  {
+   "item_id": "dfb2446b91",
+   "correct": true,
+   "observed": "1 row x 2 circles"
+  },
+  {
+   "item_id": "e20ba73a66",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 5x4"
+  },
+  {
+   "item_id": "e21e105663",
+   "correct": false,
+   "observed": "only 2 rows visible, 4th column clipped at right edge"
+  },
+  {
+   "item_id": "e2dc07c759",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "e40ef449c7",
+   "correct": false,
+   "observed": "~2.5 rows visible, 4th column clipped; grid runs off canvas"
+  },
+  {
+   "item_id": "e4e1199b73",
+   "correct": true,
+   "observed": "5 rows x 5 columns of (overlapping) circles, 25 total"
+  },
+  {
+   "item_id": "e532d73e44",
+   "correct": false,
+   "observed": "2 rows, 6th column clipped and 2nd row cut off at bottom"
+  },
+  {
+   "item_id": "e6dd37b001",
+   "correct": true,
+   "observed": "3 rows x 5 columns, 15 circles"
+  },
+  {
+   "item_id": "ec1582b7e6",
+   "correct": false,
+   "observed": "colored circles, ~2.5 rows visible, 4th column clipped; grid runs off canvas"
+  },
+  {
+   "item_id": "ec9d31f631",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 5x4"
+  },
+  {
+   "item_id": "edeff84b26",
+   "correct": false,
+   "observed": "3 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "eef66f5079",
+   "correct": false,
+   "observed": "2 columns, 3 full rows + 4th clipped; not 6 rows"
+  },
+  {
+   "item_id": "f007b2149b",
+   "correct": false,
+   "observed": "only 2 rows visible, 5th column clipped at right edge"
+  },
+  {
+   "item_id": "f0602a9701",
+   "correct": false,
+   "observed": "1 row of 4, 4th clipped at right edge"
+  },
+  {
+   "item_id": "f2f4e10914",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "f4b46dbb96",
+   "correct": false,
+   "observed": "3 full columns + 4th clipped, 3 full rows + 4th clipped; not 6x5"
+  },
+  {
+   "item_id": "f77b39566e",
+   "correct": false,
+   "observed": "only 2 rows visible, 5th column clipped at right edge"
+  },
+  {
+   "item_id": "fbb8983aae",
+   "correct": false,
+   "observed": "overlapping circles clipped at top/left edges; grid not clearly 4x5"
+  },
+  {
+   "item_id": "fc3f7636d6",
+   "correct": false,
+   "observed": "only 1 circle, not 4"
+  },
+  {
+   "item_id": "fd326bfb49",
+   "correct": false,
+   "observed": "2 rows (4+3), 4th clipped and 2nd row cut off; not 1 row of 6"
+  },
+  {
+   "item_id": "fe3aa4378f",
+   "correct": false,
+   "observed": "only 2 rows visible, 4th column clipped at right edge"
+  },
+  {
+   "item_id": "feb9ff31a6",
+   "correct": true,
+   "observed": "3 rows x 6 columns, 18 circles"
+  }
+ ]
+}

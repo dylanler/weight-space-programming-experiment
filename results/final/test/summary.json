@@ -1,0 +1,38 @@
+{
+ "building": {
+  "n": 100,
+  "rendered": 99,
+  "correct": 2,
+  "unjudged": 0
+ },
+ "apple_tree": {
+  "n": 100,
+  "rendered": 98,
+  "correct": 33,
+  "unjudged": 0
+ },
+ "circle_grid": {
+  "n": 100,
+  "rendered": 100,
+  "correct": 58,
+  "unjudged": 0
+ },
+ "bar_chart": {
+  "n": 100,
+  "rendered": 100,
+  "correct": 54,
+  "unjudged": 0
+ },
+ "flag": {
+  "n": 100,
+  "rendered": 97,
+  "correct": 0,
+  "unjudged": 0
+ },
+ "TOTAL": {
+  "n": 500,
+  "rendered": 494,
+  "correct": 147,
+  "unjudged": 0
+ }
+}

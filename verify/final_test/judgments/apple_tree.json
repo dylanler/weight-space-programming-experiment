@@ -1,0 +1,504 @@
+{
+ "judgments": [
+  {
+   "item_id": "0115083b14",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "01a19d3c67",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "0487bfe224",
+   "correct": false,
+   "observed": "4 red dots on plain green square; no trunk, not recognizable as tree"
+  },
+  {
+   "item_id": "05803bf5de",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "05f4b1f615",
+   "correct": false,
+   "observed": "7 apples (needs 9)"
+  },
+  {
+   "item_id": "08c5cb52f3",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 14)"
+  },
+  {
+   "item_id": "0934cbe9ca",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 13)"
+  },
+  {
+   "item_id": "0cf179f0da",
+   "correct": true,
+   "observed": "10 apples on trunk/branches (one at edge)"
+  },
+  {
+   "item_id": "0eed416468",
+   "correct": true,
+   "observed": "5 apples on trunk/branch tree"
+  },
+  {
+   "item_id": "0f10a4ad6d",
+   "correct": true,
+   "observed": "2 apples on tree"
+  },
+  {
+   "item_id": "0f8c99f709",
+   "correct": true,
+   "observed": "2 apples on tree"
+  },
+  {
+   "item_id": "1118d62161",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 13)"
+  },
+  {
+   "item_id": "1486675fdc",
+   "correct": true,
+   "observed": "1 apple on trunk with leaves"
+  },
+  {
+   "item_id": "152b614234",
+   "correct": true,
+   "observed": "2 apples on tree"
+  },
+  {
+   "item_id": "1b443939c8",
+   "correct": false,
+   "observed": "9 apples (needs 10)"
+  },
+  {
+   "item_id": "1c7397d904",
+   "correct": true,
+   "observed": "2 apples on tree"
+  },
+  {
+   "item_id": "1ff9942d58",
+   "correct": true,
+   "observed": "1 apple on trunk with leaves"
+  },
+  {
+   "item_id": "21140f72b7",
+   "correct": false,
+   "observed": "10 apples (needs 11)"
+  },
+  {
+   "item_id": "2269525636",
+   "correct": false,
+   "observed": "4 red dots on plain green square; no trunk, not recognizable as tree"
+  },
+  {
+   "item_id": "24f362b6a1",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 13)"
+  },
+  {
+   "item_id": "28c918ee2b",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "2d39c67053",
+   "correct": false,
+   "observed": "23 apples in 3 rows (needs 15)"
+  },
+  {
+   "item_id": "2e19147a84",
+   "correct": true,
+   "observed": "10 apples on trunk/branches (one at edge)"
+  },
+  {
+   "item_id": "3197a0ce17",
+   "correct": false,
+   "observed": "9 apples (needs 12)"
+  },
+  {
+   "item_id": "32045300d8",
+   "correct": true,
+   "observed": "1 apple on trunk with leaves"
+  },
+  {
+   "item_id": "3275d003d7",
+   "correct": false,
+   "observed": "9 apples (needs 12)"
+  },
+  {
+   "item_id": "32a9cd107e",
+   "correct": false,
+   "observed": "8 apples (needs 7)"
+  },
+  {
+   "item_id": "3820e27653",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 13)"
+  },
+  {
+   "item_id": "3973aaa53c",
+   "correct": false,
+   "observed": "9 apples (needs 10)"
+  },
+  {
+   "item_id": "42d8064967",
+   "correct": false,
+   "observed": "8 apples (needs 7)"
+  },
+  {
+   "item_id": "467c3d3c87",
+   "correct": false,
+   "observed": "8 apples (needs 7)"
+  },
+  {
+   "item_id": "47e3ae7dd0",
+   "correct": false,
+   "observed": "8 apples (needs 7)"
+  },
+  {
+   "item_id": "4b44441060",
+   "correct": false,
+   "observed": "9 apples (needs 12)"
+  },
+  {
+   "item_id": "4e20ce691b",
+   "correct": true,
+   "observed": "9 apples on tree"
+  },
+  {
+   "item_id": "50bc566343",
+   "correct": false,
+   "observed": "8 apples (needs 7)"
+  },
+  {
+   "item_id": "5167d4f805",
+   "correct": true,
+   "observed": "4 apples on tree"
+  },
+  {
+   "item_id": "5ab64783c4",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "5b726de46c",
+   "correct": false,
+   "observed": "10 apples (needs 11)"
+  },
+  {
+   "item_id": "5ecff87773",
+   "correct": false,
+   "observed": "9 apples (needs 10)"
+  },
+  {
+   "item_id": "612b645af2",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "613c9c3f2d",
+   "correct": true,
+   "observed": "1 apple on trunk with leaves"
+  },
+  {
+   "item_id": "6400ae1361",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "6506b742f8",
+   "correct": true,
+   "observed": "7 apples clustered on tree"
+  },
+  {
+   "item_id": "664ae9efc2",
+   "correct": false,
+   "observed": "25 apples in 3 rows (needs 14)"
+  },
+  {
+   "item_id": "68a6ad91a8",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "6b8eede9ca",
+   "correct": false,
+   "observed": "9 apples (needs 10)"
+  },
+  {
+   "item_id": "6bb0bf5cae",
+   "correct": true,
+   "observed": "1 apple on trunk with leaves"
+  },
+  {
+   "item_id": "70a387bd0c",
+   "correct": true,
+   "observed": "1 apple on trunk with leaves"
+  },
+  {
+   "item_id": "7309db7dde",
+   "correct": false,
+   "observed": "3 red circles over plain green square (one off it); not a recognizable tree"
+  },
+  {
+   "item_id": "7a55b14e37",
+   "correct": false,
+   "observed": "23 apples in 3 rows (needs 15)"
+  },
+  {
+   "item_id": "7f640b7fbf",
+   "correct": false,
+   "observed": "9 apples (needs 12)"
+  },
+  {
+   "item_id": "810eadb0c0",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 13)"
+  },
+  {
+   "item_id": "81bb8f0010",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "85800fa315",
+   "correct": true,
+   "observed": "4 apples on tree"
+  },
+  {
+   "item_id": "878eefc602",
+   "correct": false,
+   "observed": "9 apples (needs 12)"
+  },
+  {
+   "item_id": "89b555ceda",
+   "correct": false,
+   "observed": "3 red circles over plain green square (one off it); not a recognizable tree"
+  },
+  {
+   "item_id": "8bc95f4694",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 14)"
+  },
+  {
+   "item_id": "8d8e4f1264",
+   "correct": true,
+   "observed": "2 apples on tree"
+  },
+  {
+   "item_id": "9322792f9c",
+   "correct": true,
+   "observed": "9 apples on tree"
+  },
+  {
+   "item_id": "95c9263557",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 13)"
+  },
+  {
+   "item_id": "9bbce18c37",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "9c6043e7fe",
+   "correct": false,
+   "observed": "9 apples (needs 10)"
+  },
+  {
+   "item_id": "a790a90272",
+   "correct": true,
+   "observed": "2 apples on tree"
+  },
+  {
+   "item_id": "abad5f9d8f",
+   "correct": true,
+   "observed": "6 apples on tree"
+  },
+  {
+   "item_id": "ae4bc9f074",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "b30d70eaec",
+   "correct": false,
+   "observed": "25 apples in 3 rows (needs 14)"
+  },
+  {
+   "item_id": "b75a93c9a1",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 13)"
+  },
+  {
+   "item_id": "ba6842d1a0",
+   "correct": true,
+   "observed": "10 apples on trunk/branches (one at edge)"
+  },
+  {
+   "item_id": "ba97663b55",
+   "correct": false,
+   "observed": "3 red dots at corners of plain green square; not a recognizable tree"
+  },
+  {
+   "item_id": "bd55a7c3b0",
+   "correct": true,
+   "observed": "6 apples on tree"
+  },
+  {
+   "item_id": "bf12fa95de",
+   "correct": false,
+   "observed": "9 apples (needs 10)"
+  },
+  {
+   "item_id": "c089afe852",
+   "correct": false,
+   "observed": "8 apples (needs 7)"
+  },
+  {
+   "item_id": "c316220a65",
+   "correct": false,
+   "observed": "10 apples (needs 11)"
+  },
+  {
+   "item_id": "c31e5a1246",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 14)"
+  },
+  {
+   "item_id": "c72013f129",
+   "correct": true,
+   "observed": "1 apple on trunk with leaves"
+  },
+  {
+   "item_id": "c7e3a51ad7",
+   "correct": false,
+   "observed": "9 apples (needs 12)"
+  },
+  {
+   "item_id": "d2a08e5150",
+   "correct": false,
+   "observed": "9 apples (needs 12)"
+  },
+  {
+   "item_id": "d47dfacdc4",
+   "correct": false,
+   "observed": "3 red dots at corners of plain green square; not a recognizable tree"
+  },
+  {
+   "item_id": "d615835200",
+   "correct": true,
+   "observed": "7 apples clustered on tree"
+  },
+  {
+   "item_id": "d682fab9cd",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "db500c54b6",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 13)"
+  },
+  {
+   "item_id": "dc37c54e7d",
+   "correct": false,
+   "observed": "3 red circles over plain green square (one off it); not a recognizable tree"
+  },
+  {
+   "item_id": "de009f8639",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 13)"
+  },
+  {
+   "item_id": "e24236bae7",
+   "correct": true,
+   "observed": "9 apples on tree"
+  },
+  {
+   "item_id": "e5fcb62be7",
+   "correct": false,
+   "observed": "12 apples (needs 15)"
+  },
+  {
+   "item_id": "e77c4ff35b",
+   "correct": false,
+   "observed": "9 apples (needs 12)"
+  },
+  {
+   "item_id": "e7d8e690c5",
+   "correct": false,
+   "observed": "4 red dots on plain green square; no trunk, not recognizable as tree"
+  },
+  {
+   "item_id": "e8194c3b3c",
+   "correct": true,
+   "observed": "8 apples on/beside trunk with branches and leaves"
+  },
+  {
+   "item_id": "e8d7530b1f",
+   "correct": true,
+   "observed": "5 apples on trunk/branch tree"
+  },
+  {
+   "item_id": "ed02420f3c",
+   "correct": true,
+   "observed": "7 apples clustered on tree"
+  },
+  {
+   "item_id": "ee288f6867",
+   "correct": true,
+   "observed": "8 apples on tree"
+  },
+  {
+   "item_id": "eef20b74f0",
+   "correct": false,
+   "observed": "10 apples (needs 11)"
+  },
+  {
+   "item_id": "f19edbaabb",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "f2c55d8b23",
+   "correct": false,
+   "observed": "24 apples in 3 rows (needs 14)"
+  },
+  {
+   "item_id": "f64a1bd5e5",
+   "correct": true,
+   "observed": "1 apple on trunk with leaves"
+  },
+  {
+   "item_id": "f7224803aa",
+   "correct": false,
+   "observed": "9 apples (needs 10)"
+  },
+  {
+   "item_id": "f7374a8030",
+   "correct": true,
+   "observed": "9 apples on tree"
+  },
+  {
+   "item_id": "f8ddddac69",
+   "correct": false,
+   "observed": "3 red circles over plain green square (one off it); not a recognizable tree"
+  },
+  {
+   "item_id": "f909a6a72c",
+   "correct": false,
+   "observed": "3 red dots at corners of plain green square; not a recognizable tree"
+  },
+  {
+   "item_id": "fc8eb22fb9",
+   "correct": true,
+   "observed": "4 apples on tree"
+  }
+ ]
+}
