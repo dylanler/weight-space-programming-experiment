@@ -1,20 +1,33 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
-  <!-- Horizontal stripes (7) -->
-  <rect x="0" y="0" width="300" height="28.571428571428573" fill="#FFD700"/>
-  <rect x="0" y="57.14285714285714" width="300" height="28.571428571428573" fill="#FFA500"/>
-  <rect x="0" y="105.71428571428571" width="300" height="28.571428571428573" fill="#FFFF00"/>
-  <rect x="0" y="154.28571428571428" width="300" height="28.571428571428573" fill="#FF69B4"/>
-  <rect x="0" y="202.85714285714286" width="300" height="28.571428571428573" fill="#FF1493"/>
-  <rect x="0" y="251.42857142857144" width="300" height="28.571428571428573" fill="#FF4500"/>
-  <rect x="0" y="300" width="300" height="28.571428571428573" fill="#FF8C00"/>
-
-  <!-- Stars (5) -->
-  <circle cx="100" cy="14.285714285714286" r="4" fill="#000000"/>
-  <circle cx="150" cy="14.285714285714286" r="4" fill="#000000"/>
-  <circle cx="200" cy="14.285714285714286" r="4" fill="#000000"/>
-  <circle cx="250" cy="14.285714285714286" r="4" fill="#000000"/>
-  <circle cx="300" cy="14.285714285714286" r="4" fill="#000000"/>
+  
+  <!-- 7 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="28.57" fill="#006400"/>
+  <rect x="0" y="57.14" width="300" height="28.57" fill="#009600"/>
+  <rect x="0" y="105.71" width="300" height="28.57" fill="#009933"/>
+  <rect x="0" y="154.29" width="300" height="28.57" fill="#009966"/>
+  <rect x="0" y="202.86" width="300" height="28.57" fill="#009999"/>
+  <rect x="0" y="251.43" width="300" height="28.57" fill="#0099CC"/>
+  <rect x="0" y="300" width="300" height="28.57" fill="#0099FF"/>
+  
+  <!-- 5 Stars -->
+  <g transform="translate(100, 100)">
+    <polygon points="0,0 4.5,4.5 0,9 4.5,13.5 0,18 4.5,22.5 9,18 13.5,13.5 9,9 13.5,4.5 0,0" fill="#FFD700"/>
+  </g>
+  <g transform="translate(200, 100)">
+    <polygon points="0,0 4.5,4.5 0,9 4.5,13.5 0,18 4.5,22.5 9,18 13.5,13.5 9,9 13.5,4.5 0,0" fill="#FFD700"/>
+  </g>
+  <g transform="translate(300, 100)">
+    <polygon points="0,0 4.5,4.5 0,9 4.5,13.5 0,18 4.5,22.5 9,18 13.5,13.5 9,9 13.5,4.5 0,0" fill="#FFD700"/>
+  </g>
+  <g transform="translate(100, 200)">
+    <polygon points="0,0 4.5,4.5 0,9 4.5,13.5 0,18 4.5,22.5 9,18 13.5,13.5 9,9 13.5,4.5 0,0" fill="#FFD700"/>
+  </g>
+  <g transform="translate(200, 200)">
+    <polygon points="0,0 4.5,4.5 0,9 4.5,13.5 0,18 4.5,22.5 9,18 13.5,13.5 9,9 13.5,4.5 0,0" fill="#FFD700"/>
+  </g>
+  <g transform="translate(300, 200)">
+    <polygon points="0,0 4.5,4.5 0,9 4.5,13.5 0,18 4.5,22.5 9,18 13.5,13.5 9,9 13.5,4.5 0,0" fill="#FFD700"/>
+  </g>
 </svg>

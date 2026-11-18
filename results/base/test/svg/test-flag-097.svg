@@ -1,21 +1,23 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
-  <!-- Horizontal stripes (6) -->
-  <rect x="0" y="0" width="300" height="33.3333" fill="#1E88E5"/>
-  <rect x="0" y="66.6667" width="300" height="33.3333" fill="#4CAF50"/>
-  <rect x="0" y="100" width="300" height="33.3333" fill="#FFC107"/>
-  <rect x="0" y="133.333" width="300" height="33.3333" fill="#F44336"/>
-  <rect x="0" y="166.666" width="300" height="33.3333" fill="#2196F3"/>
-  <rect x="0" y="200" width="300" height="33.3333" fill="#9C27B0"/>
-
-  <!-- Stars (7) -->
-  <circle cx="10" cy="16.6667" r="3" fill="#FFFFFF"/>
-  <circle cx="10" cy="50" r="3" fill="#FFFFFF"/>
-  <circle cx="10" cy="83.3333" r="3" fill="#FFFFFF"/>
-  <circle cx="10" cy="116.666" r="3" fill="#FFFFFF"/>
-  <circle cx="10" cy="150" r="3" fill="#FFFFFF"/>
-  <circle cx="10" cy="183.333" r="3" fill="#FFFFFF"/>
-  <circle cx="10" cy="216.666" r="3" fill="#FFFFFF"/>
+  
+  <!-- 6 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="33.3333" fill="#006400"/>
+  <rect x="0" y="66.6667" width="300" height="33.3333" fill="#009600"/>
+  <rect x="0" y="100" width="300" height="33.3333" fill="#008C00"/>
+  <rect x="0" y="133.3333" width="300" height="33.3333" fill="#008800"/>
+  <rect x="0" y="166.6667" width="300" height="33.3333" fill="#008400"/>
+  <rect x="0" y="200" width="300" height="33.3333" fill="#008000"/>
+  
+  <!-- 7 Stars -->
+  <g fill="#FFD700">
+    <circle cx="10" cy="10" r="3" transform="rotate(-45 10 10)"/>
+    <circle cx="10" cy="10" r="3" transform="rotate(45 10 10)"/>
+    <circle cx="10" cy="10" r="3" transform="rotate(90 10 10)"/>
+    <circle cx="10" cy="10" r="3" transform="rotate(-90 10 10)"/>
+    <circle cx="10" cy="10" r="3" transform="rotate(135 10 10)"/>
+    <circle cx="10" cy="10" r="3" transform="rotate(-135 10 10)"/>
+    <circle cx="10" cy="10" r="3" transform="rotate(180 10 10)"/>
+  </g>
 </svg>

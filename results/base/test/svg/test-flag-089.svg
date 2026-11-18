@@ -1,27 +1,27 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
+  
   <!-- Top stripe (blue) -->
   <rect x="0" y="0" width="300" height="60" fill="#003399"/>
-
+  
   <!-- Second stripe (red) -->
   <rect x="0" y="60" width="300" height="60" fill="#B22234"/>
-
-  <!-- Third stripe (yellow) -->
-  <rect x="0" y="120" width="300" height="60" fill="#FFCC00"/>
-
-  <!-- Fourth stripe (green) -->
-  <rect x="0" y="180" width="300" height="60" fill="#006400"/>
-
-  <!-- Fifth stripe (blue) -->
-  <rect x="0" y="240" width="300" height="60" fill="#003399"/>
-
-  <!-- Sixth stripe (red) -->
-  <rect x="0" y="300" width="300" height="60" fill="#B22234"/>
-
+  
+  <!-- Third stripe (white) -->
+  <rect x="0" y="120" width="300" height="60" fill="#FFFFFF"/>
+  
+  <!-- Fourth stripe (blue) -->
+  <rect x="0" y="180" width="300" height="60" fill="#003399"/>
+  
+  <!-- Fifth stripe (red) -->
+  <rect x="0" y="240" width="300" height="60" fill="#B22234"/>
+  
+  <!-- Sixth stripe (white) -->
+  <rect x="0" y="300" width="300" height="60" fill="#FFFFFF"/>
+  
   <!-- Stars -->
-  <circle cx="50" cy="30" r="4" fill="#FFFFFF"/>
-  <circle cx="170" cy="30" r="4" fill="#FFFFFF"/>
-  <circle cx="290" cy="30" r="4" fill="#FFFFFF"/>
+  <circle cx="100" cy="30" r="5" fill="#FFD700"/>
+  <circle cx="200" cy="30" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="30" r="5" fill="#FFD700"/>
 </svg>

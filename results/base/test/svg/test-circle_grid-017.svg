@@ -1,40 +1,15 @@
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Define grid parameters -->
-  <!-- 5 rows, 5 columns, total 25 circles -->
-  <!-- Center of each circle: x = (i+1)*40, y = (j+1)*40 for i=0..4, j=0..4 -->
-  
-  <!-- Row 1 -->
-  <circle cx="40" cy="80" r="10" fill="white"/>
-  <circle cx="80" cy="80" r="10" fill="white"/>
-  <circle cx="120" cy="80" r="10" fill="white"/>
-  <circle cx="160" cy="80" r="10" fill="white"/>
-  <circle cx="200" cy="80" r="10" fill="white"/>
-  
-  <!-- Row 2 -->
-  <circle cx="40" cy="120" r="10" fill="white"/>
-  <circle cx="80" cy="120" r="10" fill="white"/>
-  <circle cx="120" cy="120" r="10" fill="white"/>
-  <circle cx="160" cy="120" r="10" fill="white"/>
-  <circle cx="200" cy="120" r="10" fill="white"/>
-  
-  <!-- Row 3 -->
-  <circle cx="40" cy="160" r="10" fill="white"/>
-  <circle cx="80" cy="160" r="10" fill="white"/>
-  <circle cx="120" cy="160" r="10" fill="white"/>
-  <circle cx="160" cy="160" r="10" fill="white"/>
-  <circle cx="200" cy="160" r="10" fill="white"/>
-  
-  <!-- Row 4 -->
-  <circle cx="40" cy="200" r="10" fill="white"/>
-  <circle cx="80" cy="200" r="10" fill="white"/>
-  <circle cx="120" cy="200" r="10" fill="white"/>
-  <circle cx="160" cy="200" r="10" fill="white"/>
-  <circle cx="200" cy="200" r="10" fill="white"/>
-  
-  <!-- Row 5 -->
-  <circle cx="40" cy="240" r="10" fill="white"/>
-  <circle cx="80" cy="240" r="10" fill="white"/>
-  <circle cx="120" cy="240" r="10" fill="white"/>
-  <circle cx="160" cy="240" r="10" fill="white"/>
-  <circle cx="200" cy="240" r="10" fill="white"/>
+  <!-- 5x5 Grid of Circles -->
+  <circle cx="50" cy="50" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="50" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="50" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="50" cy="100" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="100" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="100" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="50" cy="150" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="150" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="150" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="50" cy="200" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="200" r="15" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="200" r="15" fill="white" stroke="black" stroke-width="1"/>
 </svg>

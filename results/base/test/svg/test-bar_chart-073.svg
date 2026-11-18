@@ -1,36 +1,46 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect x="0" y="0" width="400" height="300" fill="white"/>
-
-  <!-- Chart margins and grid area -->
-  <!-- Left margin: 60, Right margin: 20, Top margin: 20, Bottom margin: 60 -->
-  <!-- Plot area: x from 60 to 380, y from 20 to 240 -->
-
-  <!-- Bar widths (each bar = 50px) -->
-  <!-- Bars at positions: 100, 150, 200, 250, 300 -->
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .bar { fill: blue; }
+      .tall-bar { fill: red; }
+    </style>
+  </defs>
   
-  <!-- Bar 1: Blue -->
-  <rect x="100" y="20" width="50" height="120" fill="#1E90FF"/>
-
-  <!-- Bar 2: Blue -->
-  <rect x="150" y="20" width="50" height="120" fill="#1E90FF"/>
-
-  <!-- Bar 3: Blue -->
-  <rect x="200" y="20" width="50" height="120" fill="#1E90FF"/>
-
-  <!-- Bar 4: Blue -->
-  <rect x="250" y="20" width="50" height="120" fill="#1E90FF"/>
-
-  <!-- Bar 5: Red (tallest) -->
-  <rect x="300" y="20" width="50" height="240" fill="#FF0000"/>
-
+  <!-- Chart margins and axes -->
+  <rect x="60" y="60" width="280" height="180" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- X-axis ticks and labels -->
+  <line x1="60" y1="220" x2="60" y2="240" stroke="black" stroke-width="1"/>
+  <line x1="120" y1="220" x2="120" y2="240" stroke="black" stroke-width="1"/>
+  <line x1="180" y1="220" x2="180" y2="240" stroke="black" stroke-width="1"/>
+  <line x1="240" y1="220" x2="240" y2="240" stroke="black" stroke-width="1"/>
+  <line x1="300" y1="220" x2="300" y2="240" stroke="black" stroke-width="1"/>
+  
   <!-- X-axis labels -->
-  <text x="100" y="280" text-anchor="middle" font-size="12">Bar 1</text>
-  <text x="150" y="280" text-anchor="middle" font-size="12">Bar 2</text>
-  <text x="200" y="280" text-anchor="middle" font-size="12">Bar 3</text>
-  <text x="250" y="280" text-anchor="middle" font-size="12">Bar 4</text>
-  <text x="300" y="280" text-anchor="middle" font-size="12">Bar 5</text>
-
-  <!-- Y-axis label -->
-  <text x="20" y="170" text-anchor="middle" font-size="12" transform="rotate(-90, 20, 170)">Value</text>
+  <text x="60" y="255" text-anchor="middle" font-size="12">1</text>
+  <text x="120" y="255" text-anchor="middle" font-size="12">2</text>
+  <text x="180" y="255" text-anchor="middle" font-size="12">3</text>
+  <text x="240" y="255" text-anchor="middle" font-size="12">4</text>
+  <text x="300" y="255" text-anchor="middle" font-size="12">5</text>
+  
+  <!-- Y-axis -->
+  <line x1="60" y1="60" x2="60" y2="240" stroke="black" stroke-width="1"/>
+  <text x="50" y="40" text-anchor="middle" font-size="12" transform="rotate(-90, 50, 40)">Value</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 40 -->
+  <rect x="60" y="180" width="20" height="40" class="bar"/>
+  
+  <!-- Bar 2: height 60 -->
+  <rect x="120" y="140" width="20" height="60" class="bar"/>
+  
+  <!-- Bar 3: height 80 -->
+  <rect x="180" y="100" width="20" height="80" class="bar"/>
+  
+  <!-- Bar 4: height 100 -->
+  <rect x="240" y="60" width="20" height="100" class="bar"/>
+  
+  <!-- Bar 5: height 120 (tallest, red) -->
+  <rect x="300" y="40" width="20" height="120" class="tall-bar"/>
 </svg>

@@ -1,45 +1,58 @@
-<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .apple { fill: #ff4d4d; }
-      .leaf { fill: #2d5a27; }
-      .stem { stroke: #2d5a27; stroke-width: 1; }
+      .stem { fill: none; stroke: #333; stroke-width: 2; }
+      .leaf { fill: #2d5a2d; }
     </style>
   </defs>
   
   <!-- Tree trunk -->
-  <rect x="160" y="80" width="40" height="120" rx="5" class="stem"/>
+  <rect x="100" y="100" width="10" height="100" fill="#8B4513" />
   
-  <!-- Main tree branches -->
-  <path d="M160 80 L190 100" stroke="#8b4513" stroke-width="8" fill="none" stroke-linecap="round"/>
-  <path d="M160 80 L130 120" stroke="#8b4513" stroke-width="8" fill="none" stroke-linecap="round"/>
-  <path d="M160 80 L140 140" stroke="#8b4513" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Tree branches -->
+  <path d="M100 100 L120 120" stroke="#5D4037" stroke-width="4" fill="none" />
+  <path d="M100 100 L80 120" stroke="#5D4037" stroke-width="4" fill="none" />
+  <path d="M100 100 L120 80" stroke="#5D4037" stroke-width="4" fill="none" />
   
   <!-- Apple 1 -->
-  <circle cx="175" cy="95" r="10" class="apple"/>
+  <circle cx="110" cy="110" r="10" class="apple" />
+  <line x1="110" y1="110" x2="110" y2="100" class="stem" />
   
   <!-- Apple 2 -->
-  <circle cx="185" cy="110" r="10" class="apple"/>
+  <circle cx="130" cy="110" r="10" class="apple" />
+  <line x1="130" y1="110" x2="130" y2="100" class="stem" />
   
   <!-- Apple 3 -->
-  <circle cx="195" cy="125" r="10" class="apple"/>
+  <circle cx="100" cy="130" r="10" class="apple" />
+  <line x1="100" y1="130" x2="100" y2="120" class="stem" />
   
   <!-- Apple 4 -->
-  <circle cx="165" cy="135" r="10" class="apple"/>
+  <circle cx="120" cy="130" r="10" class="apple" />
+  <line x1="120" y1="130" x2="120" y2="120" class="stem" />
   
   <!-- Apple 5 -->
-  <circle cx="155" cy="150" r="10" class="apple"/>
+  <circle cx="140" cy="130" r="10" class="apple" />
+  <line x1="140" y1="130" x2="140" y2="120" class="stem" />
   
   <!-- Apple 6 -->
-  <circle cx="145" cy="165" r="10" class="apple"/>
+  <circle cx="110" cy="150" r="10" class="apple" />
+  <line x1="110" y1="150" x2="110" y2="140" class="stem" />
   
   <!-- Apple 7 -->
-  <circle cx="135" cy="180" r="10" class="apple"/>
+  <circle cx="130" cy="150" r="10" class="apple" />
+  <line x1="130" y1="150" x2="130" y2="140" class="stem" />
   
   <!-- Leaves -->
-  <path d="M160 100 Q180 80 190 100" class="leaf"/>
-  <path d="M160 120 Q180 140 190 120" class="leaf"/>
-  <path d="M160 140 Q180 160 190 140" class="leaf"/>
-  <path d="M160 160 Q180 180 190 160" class="leaf"/>
-  <path d="M160 180 Q180 200 190 180" class="leaf"/>
+  <path d="M100 100 L120 120" class="leaf" />
+  <path d="M100 100 L80 120" class="leaf" />
+  <path d="M100 100 L120 80" class="leaf" />
+  <path d="M100 130 L120 150" class="leaf" />
+  <path d="M100 130 L80 150" class="leaf" />
+  <path d="M100 130 L120 110" class="leaf" />
+  <path d="M100 130 L80 110" class="leaf" />
+  <path d="M100 150 L120 170" class="leaf" />
+  <path d="M100 150 L80 170" class="leaf" />
+  <path d="M100 150 L120 190" class="leaf" />
+  <path d="M100 150 L80 190" class="leaf" />
 </svg>

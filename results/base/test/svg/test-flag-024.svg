@@ -5,17 +5,15 @@
   <!-- Top stripe (blue) -->
   <rect x="0" y="0" width="300" height="50" fill="#003399"/>
   
-  <!-- Second stripe (red) -->
-  <rect x="0" y="50" width="300" height="50" fill="#B22234"/>
+  <!-- Second stripe (white) -->
+  <rect x="0" y="50" width="300" height="50" fill="#ffffff"/>
   
-  <!-- Third stripe (yellow) -->
-  <rect x="0" y="100" width="300" height="50" fill="#FFCC00"/>
+  <!-- Third stripe (red) -->
+  <rect x="0" y="100" width="300" height="50" fill="#cc0000"/>
   
-  <!-- Bottom stripe (green) -->
-  <rect x="0" y="150" width="300" height="50" fill="#006400"/>
+  <!-- Bottom stripe (yellow) -->
+  <rect x="0" y="150" width="300" height="50" fill="#ffcc00"/>
   
-  <!-- Stars in the center of each stripe -->
-  <circle cx="150" cy="25" r="8" fill="#FFFFFF"/>
-  <circle cx="150" cy="125" r="8" fill="#FFFFFF"/>
-  <circle cx="150" cy="200" r="8" fill="#FFFFFF"/>
+  <!-- Stars (1 star in the center of the red stripe) -->
+  <circle cx="150" cy="125" r="10" fill="#ffffff"/>
 </svg>

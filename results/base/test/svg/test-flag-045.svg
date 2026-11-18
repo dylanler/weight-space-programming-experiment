@@ -1,29 +1,26 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
+  
   <!-- Top stripe (blue) -->
   <rect x="0" y="0" width="300" height="66.6667" fill="#003399"/>
-
-  <!-- Middle stripe (red) -->
-  <rect x="0" y="66.6667" width="300" height="66.6667" fill="#B22234"/>
-
-  <!-- Bottom stripe (green) -->
-  <rect x="0" y="133.3334" width="300" height="66.6667" fill="#008000"/>
-
-  <!-- Stars in the center of each stripe -->
-  <!-- Top stripe stars -->
-  <circle cx="150" cy="33.3334" r="4" fill="#FFD700"/>
-  <circle cx="150" cy="33.3334" r="2" fill="#FFA500"/>
-  <circle cx="150" cy="33.3334" r="1" fill="#FFFF00"/>
-
-  <!-- Middle stripe stars -->
-  <circle cx="150" cy="100" r="4" fill="#FFD700"/>
-  <circle cx="150" cy="100" r="2" fill="#FFA500"/>
-  <circle cx="150" cy="100" r="1" fill="#FFFF00"/>
-
-  <!-- Bottom stripe stars -->
-  <circle cx="150" cy="166.6667" r="4" fill="#FFD700"/>
-  <circle cx="150" cy="166.6667" r="2" fill="#FFA500"/>
-  <circle cx="150" cy="166.6667" r="1" fill="#FFFF00"/>
+  
+  <!-- Middle stripe (white) -->
+  <rect x="0" y="66.6667" width="300" height="66.6667" fill="#FFFFFF"/>
+  
+  <!-- Bottom stripe (red) -->
+  <rect x="0" y="133.3334" width="300" height="66.6667" fill="#D22020"/>
+  
+  <!-- Stars (6 total, evenly distributed) -->
+  <!-- Top stripe: 2 stars -->
+  <circle cx="150" cy="10" r="4" fill="#FFD700"/>
+  <circle cx="180" cy="10" r="4" fill="#FFD700"/>
+  
+  <!-- Middle stripe: 2 stars -->
+  <circle cx="150" cy="70" r="4" fill="#FFD700"/>
+  <circle cx="180" cy="70" r="4" fill="#FFD700"/>
+  
+  <!-- Bottom stripe: 2 stars -->
+  <circle cx="150" cy="130" r="4" fill="#FFD700"/>
+  <circle cx="180" cy="130" r="4" fill="#FFD700"/>
 </svg>

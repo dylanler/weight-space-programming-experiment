@@ -1,33 +1,34 @@
-<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Building outline -->
-  <rect x="40" y="60" width="120" height="90" fill="#8B7355"/>
+  <rect x="50" y="50" width="100" height="100" fill="#8B4513" stroke="#5D2906" stroke-width="2"/>
   
-  <!-- Floor structure -->
-  <line x1="40" y1="60" x2="160" y2="60" stroke="#5D4E3A" stroke-width="2"/>
-  <line x1="40" y1="60" x2="40" y2="150" stroke="#5D4E3A" stroke-width="2"/>
+  <!-- Floor 1: 11 windows -->
+  <rect x="60" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="80" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="100" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="120" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="140" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="160" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="180" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="200" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="220" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="240" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="260" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="280" y="60" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="300" y="60" width="20" height="20" fill="#A9A9A9"/>
   
-  <!-- Windows (exactly 22) -->
-  <!-- Row 1: 6 windows -->
-  <rect x="50" y="65" width="20" height="20" fill="#A89F91"/>
-  <rect x="70" y="65" width="20" height="20" fill="#A89F91"/>
-  <rect x="90" y="65" width="20" height="20" fill="#A89F91"/>
-  <rect x="110" y="65" width="20" height="20" fill="#A89F91"/>
-  <rect x="130" y="65" width="20" height="20" fill="#A89F91"/>
-  <rect x="150" y="65" width="20" height="20" fill="#A89F91"/>
-  
-  <!-- Row 2: 6 windows -->
-  <rect x="50" y="90" width="20" height="20" fill="#A89F91"/>
-  <rect x="70" y="90" width="20" height="20" fill="#A89F91"/>
-  <rect x="90" y="90" width="20" height="20" fill="#A89F91"/>
-  <rect x="110" y="90" width="20" height="20" fill="#A89F91"/>
-  <rect x="130" y="90" width="20" height="20" fill="#A89F91"/>
-  <rect x="150" y="90" width="20" height="20" fill="#A89F91"/>
-  
-  <!-- Row 3: 6 windows -->
-  <rect x="50" y="115" width="20" height="20" fill="#A89F91"/>
-  <rect x="70" y="115" width="20" height="20" fill="#A89F91"/>
-  <rect x="90" y="115" width="20" height="20" fill="#A89F91"/>
-  <rect x="110" y="115" width="20" height="20" fill="#A89F91"/>
-  <rect x="130" y="115" width="20" height="20" fill="#A89F91"/>
-  <rect x="150" y="115" width="20" height="20" fill="#A89F91"/>
+  <!-- Floor 2: 11 windows -->
+  <rect x="60" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="80" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="100" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="120" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="140" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="160" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="180" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="200" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="220" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="240" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="260" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="280" y="120" width="20" height="20" fill="#A9A9A9"/>
+  <rect x="300" y="120" width="20" height="20" fill="#A9A9A9"/>
 </svg>

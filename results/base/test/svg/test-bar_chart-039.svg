@@ -1,36 +1,51 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect x="0" y="0" width="400" height="300" fill="white"/>
-
-  <!-- Chart margins and data range assumption: max value = 10, min = 0, bar width = 60, spacing = 40 -->
-  <!-- Bar positions (x=60 to x=280) with heights based on values [10, 5, 8, 3, 7, 9] -->
+  <rect width="400" height="300" fill="white"/>
   
-  <!-- Bar 1: tallest (value 10), red -->
-  <rect x="60" y="0" width="60" height="100" fill="red"/>
-
-  <!-- Bar 2: value 5, blue -->
-  <rect x="120" y="0" width="60" height="50" fill="blue"/>
-
-  <!-- Bar 3: value 8, blue -->
-  <rect x="180" y="0" width="60" height="80" fill="blue"/>
-
-  <!-- Bar 4: value 3, blue -->
-  <rect x="240" y="0" width="60" height="30" fill="blue"/>
-
-  <!-- Bar 5: value 7, blue -->
-  <rect x="300" y="0" width="60" height="70" fill="blue"/>
-
-  <!-- Bar 6: value 9, blue -->
-  <rect x="360" y="0" width="60" height="90" fill="blue"/>
-
-  <!-- X-axis labels (optional for clarity) -->
-  <text x="60" y="290" text-anchor="middle" font-size="12">1</text>
-  <text x="120" y="290" text-anchor="middle" font-size="12">2</text>
-  <text x="180" y="290" text-anchor="middle" font-size="12">3</text>
-  <text x="240" y="290" text-anchor="middle" font-size="12">4</text>
-  <text x="300" y="290" text-anchor="middle" font-size="12">5</text>
-  <text x="360" y="290" text-anchor="middle" font-size="12">6</text>
-
-  <!-- Y-axis label -->
-  <text x="10" y="150" text-anchor="middle" font-size="12" transform="rotate(-90 10 150)">Value</text>
+  <!-- Chart margins -->
+  <rect x="60" y="60" width="280" height="180" fill="white"/>
+  
+  <!-- Y-axis line -->
+  <line x1="60" y1="60" x2="60" y2="180" stroke="black" stroke-width="2"/>
+  
+  <!-- X-axis line -->
+  <line x1="60" y1="180" x2="340" y2="180" stroke="black" stroke-width="2"/>
+  
+  <!-- X-axis ticks and labels -->
+  <line x1="60" y1="180" x2="60" y2="195" stroke="black" stroke-width="1"/>
+  <text x="60" y="210" text-anchor="middle" font-size="12">1</text>
+  
+  <line x1="180" y1="180" x2="180" y2="195" stroke="black" stroke-width="1"/>
+  <text x="180" y="210" text-anchor="middle" font-size="12">2</text>
+  
+  <line x1="300" y1="180" x2="300" y2="195" stroke="black" stroke-width="1"/>
+  <text x="300" y="210" text-anchor="middle" font-size="12">3</text>
+  
+  <line x1="340" y1="180" x2="340" y2="195" stroke="black" stroke-width="1"/>
+  <text x="340" y="210" text-anchor="middle" font-size="12">4</text>
+  
+  <!-- Y-axis labels -->
+  <text x="40" y="195" text-anchor="end" font-size="12">100</text>
+  <text x="40" y="150" text-anchor="end" font-size="12">200</text>
+  <text x="40" y="105" text-anchor="end" font-size="12">300</text>
+  <text x="40" y="60" text-anchor="end" font-size="12">400</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: Tallest, red -->
+  <rect x="60" y="60" width="100" height="120" fill="red"/>
+  
+  <!-- Bar 2: Medium height, blue -->
+  <rect x="180" y="120" width="100" height="60" fill="blue"/>
+  
+  <!-- Bar 3: Medium height, blue -->
+  <rect x="300" y="120" width="100" height="60" fill="blue"/>
+  
+  <!-- Bar 4: Short, blue -->
+  <rect x="340" y="180" width="100" height="10" fill="blue"/>
+  
+  <!-- Bar 5: Short, blue -->
+  <rect x="60" y="180" width="100" height="10" fill="blue"/>
+  
+  <!-- Bar 6: Shortest, blue -->
+  <rect x="180" y="180" width="100" height="10" fill="blue"/>
 </svg>

@@ -1,16 +1,16 @@
-<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Building outline -->
-  <rect x="50" y="40" width="100" height="110" fill="#8B7355"/>
+  <rect x="50" y="50" width="100" height="100" fill="#8B4513" stroke="#5D2906" stroke-width="2"/>
   
-  <!-- Floor 1 (bottom) -->
-  <rect x="60" y="90" width="80" height="20" fill="#AABCBF"/>
+  <!-- Floor 1 -->
+  <rect x="55" y="55" width="90" height="30" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
   
-  <!-- Floor 2 (top) -->
-  <rect x="60" y="110" width="80" height="20" fill="#AABCBF"/>
+  <!-- Floor 2 -->
+  <rect x="55" y="85" width="90" height="30" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
   
-  <!-- Window 1 on floor 1 -->
-  <rect x="70" y="95" width="15" height="15" fill="#E0C090"/>
+  <!-- Window 1 (Floor 1) -->
+  <rect x="65" y="65" width="20" height="20" fill="#E0E0E0" stroke="#5D2906" stroke-width="1"/>
   
-  <!-- Window 2 on floor 2 -->
-  <rect x="70" y="115" width="15" height="15" fill="#E0C090"/>
+  <!-- Window 2 (Floor 2) -->
+  <rect x="65" y="85" width="20" height="20" fill="#E0E0E0" stroke="#5D2906" stroke-width="1"/>
 </svg>

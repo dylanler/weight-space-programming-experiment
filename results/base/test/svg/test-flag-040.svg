@@ -1,17 +1,17 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
+  
   <!-- Top stripe (red) -->
   <rect x="0" y="0" width="300" height="66.6667" fill="#b22234"/>
-
+  
   <!-- Middle stripe (white) -->
   <rect x="0" y="66.6667" width="300" height="66.6667" fill="#ffffff"/>
-
+  
   <!-- Bottom stripe (blue) -->
   <rect x="0" y="133.3334" width="300" height="66.6667" fill="#003399"/>
-
-  <!-- Stars in the middle stripe -->
-  <circle cx="150" cy="83.3334" r="4" fill="#fff"/>
-  <circle cx="180" cy="83.3334" r="4" fill="#fff"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="33.3334" r="4" fill="#ffffff"/>
+  <circle cx="200" cy="33.3334" r="4" fill="#ffffff"/>
 </svg>

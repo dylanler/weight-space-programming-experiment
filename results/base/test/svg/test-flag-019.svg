@@ -1,40 +1,25 @@
-<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="600" height="400" fill="white"/>
-
-  <!-- Horizontal stripes (9 total) -->
-  <!-- Stripe 1: top -->
-  <rect x="0" y="0" width="600" height="50" fill="#FFD700"/>
-  <!-- Stripe 2 -->
-  <rect x="0" y="50" width="600" height="50" fill="#87CEEB"/>
-  <!-- Stripe 3 -->
-  <rect x="0" y="100" width="600" height="50" fill="#8B4513"/>
-  <!-- Stripe 4 -->
-  <rect x="0" y="150" width="600" height="50" fill="#FFA500"/>
-  <!-- Stripe 5 -->
-  <rect x="0" y="200" width="600" height="50" fill="#ADD8E6"/>
-  <!-- Stripe 6 -->
-  <rect x="0" y="250" width="600" height="50" fill="#87CEEB"/>
-  <!-- Stripe 7 -->
-  <rect x="0" y="300" width="600" height="50" fill="#FFD700"/>
-  <!-- Stripe 8 -->
-  <rect x="0" y="350" width="600" height="50" fill="#8B4513"/>
-  <!-- Stripe 9: bottom -->
-  <rect x="0" y="400" width="600" height="50" fill="#FFA500"/>
-
-  <!-- Stars (7 total, evenly distributed across the flag) -->
-  <!-- Star 1: top-left area -->
-  <polygon points="100,20 110,30 120,20 120,10 110,20 100,30" fill="#FFD700"/>
-  <!-- Star 2: top-right area -->
-  <polygon points="500,20 510,30 520,20 520,10 510,20 500,30" fill="#FFD700"/>
-  <!-- Star 3: middle-left area -->
-  <polygon points="100,250 110,260 120,250 120,240 110,250 100,260" fill="#FFD700"/>
-  <!-- Star 4: middle-right area -->
-  <polygon points="500,250 510,260 520,250 520,240 510,250 500,260" fill="#FFD700"/>
-  <!-- Star 5: lower-left area -->
-  <polygon points="100,350 110,360 120,350 120,340 110,350 100,360" fill="#FFD700"/>
-  <!-- Star 6: lower-right area -->
-  <polygon points="500,350 510,360 520,350 520,340 510,350 500,360" fill="#FFD700"/>
-  <!-- Star 7: bottom-center area -->
-  <polygon points="300,350 310,360 320,350 320,340 310,350 300,360" fill="#FFD700"/>
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- 9 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="20" fill="#003366"/>
+  <rect x="0" y="25" width="300" height="20" fill="#006699"/>
+  <rect x="0" y="50" width="300" height="20" fill="#0099CC"/>
+  <rect x="0" y="75" width="300" height="20" fill="#00CCFF"/>
+  <rect x="0" y="100" width="300" height="20" fill="#0099CC"/>
+  <rect x="0" y="125" width="300" height="20" fill="#006699"/>
+  <rect x="0" y="150" width="300" height="20" fill="#003366"/>
+  <rect x="0" y="175" width="300" height="20" fill="#0099CC"/>
+  <rect x="0" y="200" width="300" height="20" fill="#00CCFF"/>
+  
+  <!-- 7 Stars -->
+  <g fill="#FFD700">
+    <polygon points="10,10 20,20 30,10 20,0 10,10"/>
+    <polygon points="110,10 120,20 130,10 120,0 110,10"/>
+    <polygon points="210,10 220,20 230,10 220,0 210,10"/>
+    <polygon points="310,10 320,20 330,10 320,0 310,10"/>
+    <polygon points="410,10 420,20 430,10 420,0 410,10"/>
+    <polygon points="510,10 520,20 530,10 520,0 510,10"/>
+  </g>
 </svg>

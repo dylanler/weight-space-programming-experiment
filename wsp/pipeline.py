@@ -34,10 +34,11 @@ def load(split):
 
 
 def run_generate(model: str, split: str, max_tokens: int = 4096):
+    """model = 'base' or a saved patch name; uses the same eager in-process engine as the editing kernel."""
     import modal
-    gen = modal.Function.from_name("wsp-qwen35", "generate")
+    gen = modal.Function.from_name("wsp-qwen35", "generate_patched")
     rows = load(split)
-    outs = gen.remote(model, [r["prompt"] for r in rows], max_tokens=max_tokens, temperature=0.0)
+    outs = gen.remote(model, [r["prompt"] for r in rows], max_tokens=max_tokens)
     save_outputs(model, split, rows, outs)
 
 

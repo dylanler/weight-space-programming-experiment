@@ -1,25 +1,29 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
-  <!-- Horizontal stripes (9 total) -->
-  <rect x="0" y="0" width="300" height="20" fill="#1E88E5"/>
-  <rect x="0" y="40" width="300" height="20" fill="#8BC34A"/>
-  <rect x="0" y="60" width="300" height="20" fill="#FFEB3B"/>
-  <rect x="0" y="80" width="300" height="20" fill="#F44336"/>
-  <rect x="0" y="100" width="300" height="20" fill="#4CAF50"/>
-  <rect x="0" y="120" width="300" height="20" fill="#2196F3"/>
-  <rect x="0" y="140" width="300" height="20" fill="#FF9800"/>
-  <rect x="0" y="160" width="300" height="20" fill="#9C27B0"/>
-  <rect x="0" y="180" width="300" height="20" fill="#009688"/>
-
-  <!-- Stars (4 total, evenly distributed across the flag) -->
-  <!-- Star 1: Top-left area -->
-  <polygon points="100,20 110,10 115,20 110,30 100,20" fill="#FFFFFF"/>
-  <!-- Star 2: Top-right area -->
-  <polygon points="200,20 190,10 185,20 190,30 200,20" fill="#FFFFFF"/>
-  <!-- Star 3: Bottom-left area -->
-  <polygon points="100,180 110,190 115,180 110,170 100,180" fill="#FFFFFF"/>
-  <!-- Star 4: Bottom-right area -->
-  <polygon points="200,180 190,190 185,180 190,170 200,180" fill="#FFFFFF"/>
+  
+  <!-- 9 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="20" fill="#003366"/>
+  <rect x="0" y="25" width="300" height="20" fill="#0066cc"/>
+  <rect x="0" y="50" width="300" height="20" fill="#0099ff"/>
+  <rect x="0" y="75" width="300" height="20" fill="#00ccff"/>
+  <rect x="0" y="100" width="300" height="20" fill="#00ffff"/>
+  <rect x="0" y="125" width="300" height="20" fill="#0088ff"/>
+  <rect x="0" y="150" width="300" height="20" fill="#003366"/>
+  <rect x="0" y="175" width="300" height="20" fill="#0066cc"/>
+  <rect x="0" y="200" width="300" height="20" fill="#0099ff"/>
+  
+  <!-- 4 Stars -->
+  <g transform="translate(100, 50)">
+    <polygon points="0,-6 3,0 0,6 -3,0" fill="#ffffff"/>
+  </g>
+  <g transform="translate(100, 100)">
+    <polygon points="0,-6 3,0 0,6 -3,0" fill="#ffffff"/>
+  </g>
+  <g transform="translate(100, 150)">
+    <polygon points="0,-6 3,0 0,6 -3,0" fill="#ffffff"/>
+  </g>
+  <g transform="translate(100, 190)">
+    <polygon points="0,-6 3,0 0,6 -3,0" fill="#ffffff"/>
+  </g>
 </svg>

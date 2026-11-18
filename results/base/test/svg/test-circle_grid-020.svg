@@ -1,29 +1,29 @@
-<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Define grid parameters -->
-  <!-- Rows: 3, Columns: 6 -->
-  <!-- Cell size: 40x40 (total 120x120) -->
+  <!-- 3 rows, 6 columns, total 18 circles -->
+  <!-- Cell size: 200 / 18 ≈ 11.11 px -->
   
   <!-- Row 1 -->
-  <circle cx="40" cy="80" r="10" fill="white"/>
-  <circle cx="80" cy="80" r="10" fill="white"/>
-  <circle cx="120" cy="80" r="10" fill="white"/>
-  <circle cx="160" cy="80" r="10" fill="white"/>
-  <circle cx="200" cy="80" r="10" fill="white"/>
-  <circle cx="240" cy="80" r="10" fill="white"/>
-
+  <circle cx="11.11" cy="11.11" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="22.22" cy="11.11" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="33.33" cy="11.11" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="44.44" cy="11.11" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="55.56" cy="11.11" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.67" cy="11.11" r="5" fill="white" stroke="black" stroke-width="1"/>
+  
   <!-- Row 2 -->
-  <circle cx="40" cy="120" r="10" fill="white"/>
-  <circle cx="80" cy="120" r="10" fill="white"/>
-  <circle cx="120" cy="120" r="10" fill="white"/>
-  <circle cx="160" cy="120" r="10" fill="white"/>
-  <circle cx="200" cy="120" r="10" fill="white"/>
-  <circle cx="240" cy="120" r="10" fill="white"/>
-
+  <circle cx="11.11" cy="22.22" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="22.22" cy="22.22" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="33.33" cy="22.22" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="44.44" cy="22.22" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="55.56" cy="22.22" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.67" cy="22.22" r="5" fill="white" stroke="black" stroke-width="1"/>
+  
   <!-- Row 3 -->
-  <circle cx="40" cy="160" r="10" fill="white"/>
-  <circle cx="80" cy="160" r="10" fill="white"/>
-  <circle cx="120" cy="160" r="10" fill="white"/>
-  <circle cx="160" cy="160" r="10" fill="white"/>
-  <circle cx="200" cy="160" r="10" fill="white"/>
-  <circle cx="240" cy="160" r="10" fill="white"/>
+  <circle cx="11.11" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="22.22" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="33.33" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="44.44" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="55.56" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="66.67" cy="33.33" r="5" fill="white" stroke="black" stroke-width="1"/>
 </svg>

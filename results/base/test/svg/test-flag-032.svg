@@ -1,47 +1,24 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
-  <!-- Top stripe (red) -->
-  <rect x="0" y="0" width="300" height="50" fill="#b22234"/>
-
-  <!-- Second stripe (white) -->
-  <rect x="0" y="50" width="300" height="50" fill="#ffffff"/>
-
-  <!-- Third stripe (blue) -->
-  <rect x="0" y="100" width="300" height="50" fill="#003399"/>
-
-  <!-- Fourth stripe (yellow) -->
-  <rect x="0" y="150" width="300" height="50" fill="#ffd700"/>
-
-  <!-- Fifth stripe (red) -->
-  <rect x="0" y="200" width="300" height="50" fill="#b22234"/>
-
-  <!-- Bottom two stripes combined as white for simplicity in this design, but we need exactly 8 horizontal stripes total. Let's restructure:
-   Red, White, Blue, Yellow, Red, White, Blue, Yellow (alternating)
-   But the prompt says "exactly 8 horizontal stripes and exactly 2 stars". 
-   Typically flags have alternating colors. Let's do:
-   R, W, B, Y, R, W, B, Y -> that's 8 stripes.
-   We'll place 2 stars on the blue or yellow stripes. Let's put them on the second stripe (white) and fifth stripe (red).
-   Actually, standard flag of India has 6 stripes. This is a custom request for 8 stripes.
-   Let's make it an 8-stripes flag with 2 stars.
-   Positions:
-   Stripe 1: Red
-   Stripe 2: White
-   Stripe 3: Blue
-   Stripe 4: Yellow
-   Stripe 5: Red
-   Stripe 6: White
-   Stripe 7: Blue
-   Stripe 8: Yellow
-   
-   Place one star on stripe 2 (white) and one on stripe 5 (red).
-   Stars are typically yellow/gold.
-   */
-
-  <!-- Star 1 on stripe 2 (y=100) -->
-  <polygon points="150,100 160,80 160,120 150,100 140,120 140,80" fill="#ffd700"/>
-
-  <!-- Star 2 on stripe 5 (y=250) -->
-  <polygon points="150,250 160,230 160,270 150,250 140,270 140,230" fill="#ffd700"/>
+  
+  <!-- 8 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="25" fill="#006400"/>
+  <rect x="0" y="50" width="300" height="25" fill="#009639"/>
+  <rect x="0" y="75" width="300" height="25" fill="#00897b"/>
+  <rect x="0" y="100" width="300" height="25" fill="#00796b"/>
+  <rect x="0" y="125" width="300" height="25" fill="#006400"/>
+  <rect x="0" y="150" width="300" height="25" fill="#009639"/>
+  <rect x="0" y="175" width="300" height="25" fill="#00897b"/>
+  <rect x="0" y="200" width="300" height="25" fill="#00796b"/>
+  
+  <!-- 2 Stars -->
+  <g transform="translate(100, 100)">
+    <polygon points="0,0 6,6 0,12 6,6" fill="#FFD700"/>
+    <polygon points="0,0 6,6 0,12 6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(200, 100)">
+    <polygon points="0,0 6,6 0,12 6,6" fill="#FFD700"/>
+    <polygon points="0,0 6,6 0,12 6,6" fill="#FFD700"/>
+  </g>
 </svg>

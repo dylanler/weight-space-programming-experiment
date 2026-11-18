@@ -1,57 +1,32 @@
-<svg width="300" height="450" xmlns="http://www.w3.org/2000/svg">
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
   <!-- Building outline -->
-  <rect x="100" y="80" width="100" height="300" fill="#a8c6e9"/>
+  <rect x="100" y="50" width="100" height="300" fill="#8B4513" stroke="#5D2906" stroke-width="2"/>
   
-  <!-- Floors (each floor is a rectangle) -->
+  <!-- Floors (6 floors) -->
+  <rect x="100" y="100" width="100" height="50" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  <rect x="100" y="150" width="100" height="50" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  <rect x="100" y="200" width="100" height="50" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  <rect x="100" y="250" width="100" height="50" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  <rect x="100" y="300" width="100" height="50" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  <rect x="100" y="350" width="100" height="50" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  
+  <!-- Windows (10 total, 2 per floor) -->
   <!-- Floor 1 -->
-  <rect x="100" y="120" width="100" height="60" fill="#f7f7f7"/>
+  <rect x="110" y="110" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="110" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
   <!-- Floor 2 -->
-  <rect x="100" y="180" width="100" height="60" fill="#f7f7f7"/>
+  <rect x="110" y="160" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="160" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
   <!-- Floor 3 -->
-  <rect x="100" y="240" width="100" height="60" fill="#f7f7f7"/>
+  <rect x="110" y="210" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="210" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
   <!-- Floor 4 -->
-  <rect x="100" y="300" width="100" height="60" fill="#f7f7f7"/>
+  <rect x="110" y="260" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="260" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
   <!-- Floor 5 -->
-  <rect x="100" y="360" width="100" height="60" fill="#f7f7f7"/>
+  <rect x="110" y="310" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="310" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
   <!-- Floor 6 -->
-  <rect x="100" y="420" width="100" height="60" fill="#f7f7f7"/>
-  
-  <!-- Windows on each floor (6 windows per floor = 6 floors * 6 windows = 36 total, but we need exactly 10) -->
-  <!-- Let's place windows strategically: 2 on left, 2 on right, 2 on top floor, 2 on bottom floor -->
-  
-  <!-- Floor 1: 2 windows on left, 2 on right -->
-  <rect x="120" y="130" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="130" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="120" y="180" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="180" width="20" height="40" fill="#d4e1f7"/>
-  
-  <!-- Floor 2: 2 windows on left, 2 on right -->
-  <rect x="120" y="230" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="230" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="120" y="280" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="280" width="20" height="40" fill="#d4e1f7"/>
-  
-  <!-- Floor 3: 2 windows on left, 2 on right -->
-  <rect x="120" y="330" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="330" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="120" y="380" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="380" width="20" height="40" fill="#d4e1f7"/>
-  
-  <!-- Floor 4: 2 windows on left, 2 on right -->
-  <rect x="120" y="430" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="430" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="120" y="480" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="480" width="20" height="40" fill="#d4e1f7"/>
-  
-  <!-- Floor 5: 2 windows on left, 2 on right -->
-  <rect x="120" y="530" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="530" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="120" y="580" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="580" width="20" height="40" fill="#d4e1f7"/>
-  
-  <!-- Floor 6: 2 windows on left, 2 on right -->
-  <rect x="120" y="630" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="630" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="120" y="680" width="20" height="40" fill="#d4e1f7"/>
-  <rect x="160" y="680" width="20" height="40" fill="#d4e1f7"/>
+  <rect x="110" y="360" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="360" width="30" height="30" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
 </svg>

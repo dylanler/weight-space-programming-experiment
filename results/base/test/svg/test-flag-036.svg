@@ -1,35 +1,32 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
+  
   <!-- Top stripe (red) -->
   <rect x="0" y="0" width="300" height="50" fill="#b22234"/>
-
+  
   <!-- Second stripe (white) -->
   <rect x="0" y="50" width="300" height="50" fill="#ffffff"/>
-
+  
   <!-- Third stripe (blue) -->
   <rect x="0" y="100" width="300" height="50" fill="#003399"/>
-
+  
   <!-- Bottom stripe (yellow) -->
   <rect x="0" y="150" width="300" height="50" fill="#ffd700"/>
-
-  <!-- Stars (7 total, evenly distributed across the flag) -->
-  <!-- Row 1: 2 stars on left, 2 in center, 2 on right -->
-  <circle cx="60" cy="80" r="3" fill="#fff"/>
-  <circle cx="120" cy="80" r="3" fill="#fff"/>
-  <circle cx="180" cy="80" r="3" fill="#fff"/>
-  <circle cx="240" cy="80" r="3" fill="#fff"/>
-
-  <!-- Row 2: 2 stars on left, 2 in center, 2 on right -->
-  <circle cx="60" cy="120" r="3" fill="#fff"/>
-  <circle cx="120" cy="120" r="3" fill="#fff"/>
-  <circle cx="180" cy="120" r="3" fill="#fff"/>
-  <circle cx="240" cy="120" r="3" fill="#fff"/>
-
-  <!-- Row 3: 2 stars on left, 2 in center, 2 on right -->
-  <circle cx="60" cy="160" r="3" fill="#fff"/>
-  <circle cx="120" cy="160" r="3" fill="#fff"/>
-  <circle cx="180" cy="160" r="3" fill="#fff"/>
-  <circle cx="240" cy="160" r="3" fill="#fff"/>
+  
+  <!-- Stars (7 total) -->
+  <!-- Top stripe: 2 stars -->
+  <circle cx="10" cy="10" r="3" fill="#000000"/>
+  <circle cx="280" cy="10" r="3" fill="#000000"/>
+  
+  <!-- Second stripe: 2 stars -->
+  <circle cx="10" cy="60" r="3" fill="#000000"/>
+  <circle cx="280" cy="60" r="3" fill="#000000"/>
+  
+  <!-- Third stripe: 2 stars -->
+  <circle cx="10" cy="120" r="3" fill="#000000"/>
+  <circle cx="280" cy="120" r="3" fill="#000000"/>
+  
+  <!-- Bottom stripe: 1 star -->
+  <circle cx="10" cy="170" r="3" fill="#000000"/>
 </svg>

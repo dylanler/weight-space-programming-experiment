@@ -1,23 +1,63 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect x="0" y="0" width="400" height="300" fill="white"/>
-
-  <!-- Chart margins and data range assumption: max value = 10, min = 0, bar width = 20, spacing = 50 -->
-  <!-- Bars will be at x positions: 50, 100, 150, 200, 250, 300, 350, 400 (8 bars) -->
+  <rect width="400" height="300" fill="white"/>
   
-  <!-- Bar heights (in units of 1): 1, 2, 3, 4, 5, 6, 7, 8 -->
-  <!-- 8th bar is tallest (height=8), colored red; others blue -->
+  <!-- Chart margins -->
+  <rect x="60" y="60" width="280" height="180" fill="white"/>
   
-  <!-- Blue bars -->
-  <rect x="50" y="2" width="20" height="8" fill="#1f77b4"/>
-  <rect x="100" y="0" width="20" height="10" fill="#1f77b4"/>
-  <rect x="150" y="0" width="20" height="10" fill="#1f77b4"/>
-  <rect x="200" y="0" width="20" height="10" fill="#1f77b4"/>
-  <rect x="250" y="0" width="20" height="10" fill="#1f77b4"/>
-  <rect x="300" y="0" width="20" height="10" fill="#1f77b4"/>
-  <rect x="350" y="0" width="20" height="10" fill="#1f77b4"/>
-  <rect x="400" y="0" width="20" height="10" fill="#1f77b4"/>
-
-  <!-- Red bar (8th from left, index 7 in 0-based array) -->
-  <rect x="350" y="0" width="20" height="8" fill="#d62728"/>
+  <!-- Grid lines -->
+  <line x1="60" y1="60" x2="340" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="120" x2="340" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="180" x2="340" y2="180" stroke="black" stroke-width="1"/>
+  
+  <!-- X-axis ticks and labels -->
+  <line x1="60" y1="180" x2="60" y2="185" stroke="black" stroke-width="1"/>
+  <text x="60" y="200" text-anchor="middle" font-size="12">1</text>
+  
+  <line x1="180" y1="180" x2="180" y2="185" stroke="black" stroke-width="1"/>
+  <text x="180" y="200" text-anchor="middle" font-size="12">2</text>
+  
+  <line x1="300" y1="180" x2="300" y2="185" stroke="black" stroke-width="1"/>
+  <text x="300" y="200" text-anchor="middle" font-size="12">3</text>
+  
+  <line x1="340" y1="180" x2="340" y2="185" stroke="black" stroke-width="1"/>
+  <text x="340" y="200" text-anchor="middle" font-size="12">4</text>
+  
+  <!-- Y-axis ticks and labels -->
+  <line x1="55" y1="60" x2="60" y2="60" stroke="black" stroke-width="1"/>
+  <text x="50" y="65" text-anchor="end" font-size="12">0</text>
+  
+  <line x1="55" y1="120" x2="60" y2="120" stroke="black" stroke-width="1"/>
+  <text x="50" y="125" text-anchor="end" font-size="12">50</text>
+  
+  <line x1="55" y1="180" x2="60" y2="180" stroke="black" stroke-width="1"/>
+  <text x="50" y="185" text-anchor="end" font-size="12">100</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 40 -->
+  <rect x="60" y="140" width="20" height="40" fill="blue"/>
+  
+  <!-- Bar 2: height 60 -->
+  <rect x="180" y="120" width="20" height="60" fill="blue"/>
+  
+  <!-- Bar 3: height 80 -->
+  <rect x="300" y="100" width="20" height="80" fill="blue"/>
+  
+  <!-- Bar 4: height 100 -->
+  <rect x="340" y="80" width="20" height="100" fill="blue"/>
+  
+  <!-- Bar 5: height 120 -->
+  <rect x="60" y="80" width="20" height="120" fill="blue"/>
+  
+  <!-- Bar 6: height 140 -->
+  <rect x="180" y="60" width="20" height="140" fill="blue"/>
+  
+  <!-- Bar 7: height 160 -->
+  <rect x="300" y="40" width="20" height="160" fill="blue"/>
+  
+  <!-- Bar 8: height 180 (tallest, red) -->
+  <rect x="340" y="20" width="20" height="180" fill="red"/>
+  
+  <!-- Bar 9: height 200 -->
+  <rect x="60" y="0" width="20" height="200" fill="blue"/>
 </svg>

@@ -1,28 +1,31 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect x="0" y="0" width="400" height="300" fill="white"/>
-
-  <!-- Chart margins and data range assumption: max value = 100, min = 0, bar width = 60, spacing = 40 -->
-  <!-- Bar positions (left): 80, 140, 200, 260 -->
+  <rect width="400" height="300" fill="white"/>
   
-  <!-- Bar 1 (blue) -->
-  <rect x="80" y="50" width="60" height="100" fill="blue"/>
-
-  <!-- Bar 2 (blue) -->
-  <rect x="140" y="50" width="60" height="100" fill="blue"/>
-
-  <!-- Bar 3 (red) - tallest at 100 -->
-  <rect x="200" y="0" width="60" height="100" fill="red"/>
-
-  <!-- Bar 4 (blue) -->
-  <rect x="260" y="50" width="60" height="100" fill="blue"/>
-
+  <!-- Chart margins -->
+  <rect x="60" y="60" width="280" height="180" fill="white"/>
+  
+  <!-- Grid lines -->
+  <line x1="60" y1="60" x2="340" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="120" x2="340" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="180" x2="340" y2="180" stroke="black" stroke-width="1"/>
+  
+  <!-- Bars -->
+  <!-- Bar 1: Blue, height 40 -->
+  <rect x="60" y="140" width="40" height="40" fill="blue"/>
+  
+  <!-- Bar 2: Blue, height 60 -->
+  <rect x="120" y="100" width="40" height="60" fill="blue"/>
+  
+  <!-- Bar 3: Red, height 100 (tallest) -->
+  <rect x="180" y="0" width="40" height="100" fill="red"/>
+  
+  <!-- Bar 4: Blue, height 80 -->
+  <rect x="240" y="40" width="40" height="80" fill="blue"/>
+  
   <!-- X-axis labels -->
-  <text x="100" y="290" text-anchor="middle" font-size="12">Bar 1</text>
-  <text x="200" y="290" text-anchor="middle" font-size="12">Bar 2</text>
-  <text x="300" y="290" text-anchor="middle" font-size="12">Bar 3</text>
-  <text x="400" y="290" text-anchor="middle" font-size="12">Bar 4</text>
-
-  <!-- Y-axis label -->
-  <text x="170" y="310" text-anchor="middle" font-size="12" transform="rotate(-90, 170, 310)">Value</text>
+  <text x="60" y="200" text-anchor="middle" font-size="12">1</text>
+  <text x="120" y="200" text-anchor="middle" font-size="12">2</text>
+  <text x="180" y="200" text-anchor="middle" font-size="12">3</text>
+  <text x="240" y="200" text-anchor="middle" font-size="12">4</text>
 </svg>

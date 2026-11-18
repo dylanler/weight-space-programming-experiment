@@ -1,25 +1,41 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect x="0" y="0" width="400" height="300" fill="white"/>
-
-  <!-- Chart margins and data range assumption: max value = 100, min = 0, bar width = 20, spacing = 60 -->
-  <!-- Bars will be at x positions: 60, 120, 180, 240, 300, 360 -->
+  <rect width="400" height="300" fill="white"/>
   
-  <!-- Bar 1 (blue) -->
-  <rect x="60" y="50" width="20" height="100" fill="blue"/>
-
-  <!-- Bar 2 (blue) -->
-  <rect x="120" y="50" width="20" height="100" fill="blue"/>
-
-  <!-- Bar 3 (blue) -->
-  <rect x="180" y="50" width="20" height="100" fill="blue"/>
-
-  <!-- Bar 4 (blue) -->
-  <rect x="240" y="50" width="20" height="100" fill="blue"/>
-
-  <!-- Bar 5 (blue) -->
-  <rect x="300" y="50" width="20" height="100" fill="blue"/>
-
-  <!-- Bar 6 (red) - tallest, reaching full height of 100 -->
-  <rect x="360" y="0" width="20" height="100" fill="red"/>
+  <!-- Chart margins -->
+  <rect x="60" y="20" width="280" height="260" fill="none" stroke="black" stroke-width="1"/>
+  
+  <!-- Y-axis labels -->
+  <text x="50" y="100" text-anchor="end" font-size="12">0</text>
+  <text x="50" y="140" text-anchor="end" font-size="12">50</text>
+  <text x="50" y="180" text-anchor="end" font-size="12">100</text>
+  <text x="50" y="220" text-anchor="end" font-size="12">150</text>
+  <text x="50" y="260" text-anchor="end" font-size="12">200</text>
+  
+  <!-- X-axis labels -->
+  <text x="100" y="290" text-anchor="middle" font-size="12">1</text>
+  <text x="160" y="290" text-anchor="middle" font-size="12">2</text>
+  <text x="220" y="290" text-anchor="middle" font-size="12">3</text>
+  <text x="280" y="290" text-anchor="middle" font-size="12">4</text>
+  <text x="340" y="290" text-anchor="middle" font-size="12">5</text>
+  <text x="400" y="290" text-anchor="middle" font-size="12">6</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 40 -->
+  <rect x="60" y="100" width="40" height="40" fill="blue"/>
+  
+  <!-- Bar 2: height 60 -->
+  <rect x="120" y="80" width="40" height="60" fill="blue"/>
+  
+  <!-- Bar 3: height 80 -->
+  <rect x="180" y="60" width="40" height="80" fill="blue"/>
+  
+  <!-- Bar 4: height 100 -->
+  <rect x="240" y="40" width="40" height="100" fill="blue"/>
+  
+  <!-- Bar 5: height 120 -->
+  <rect x="300" y="20" width="40" height="120" fill="blue"/>
+  
+  <!-- Bar 6: height 160 (tallest, red) -->
+  <rect x="360" y="0" width="40" height="160" fill="red"/>
 </svg>

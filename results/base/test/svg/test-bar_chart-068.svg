@@ -1,16 +1,35 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect x="0" y="0" width="400" height="300" fill="white"/>
-
-  <!-- Bar chart settings: max value = 100, bar width = 60, spacing = 50 -->
-  <!-- Bar positions (x): 80, 140, 200 -->
+  <rect width="400" height="300" fill="white"/>
   
-  <!-- 1st bar: tallest, red -->
-  <rect x="80" y="40" width="60" height="90" fill="red"/>
-
-  <!-- 2nd bar: medium height, blue -->
-  <rect x="140" y="70" width="60" height="30" fill="blue"/>
-
-  <!-- 3rd bar: shortest height, blue -->
-  <rect x="200" y="100" width="60" height="0" fill="blue"/>
+  <!-- Chart margins -->
+  <rect x="60" y="60" width="280" height="180" fill="white"/>
+  
+  <!-- Grid lines -->
+  <line x1="60" y1="60" x2="340" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="120" x2="340" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="180" x2="340" y2="180" stroke="black" stroke-width="1"/>
+  
+  <!-- X-axis ticks and labels -->
+  <line x1="60" y1="180" x2="60" y2="185" stroke="black" stroke-width="1"/>
+  <text x="60" y="200" text-anchor="middle" font-size="12">1</text>
+  
+  <line x1="180" y1="180" x2="180" y2="185" stroke="black" stroke-width="1"/>
+  <text x="180" y="200" text-anchor="middle" font-size="12">2</text>
+  
+  <line x1="300" y1="180" x2="300" y2="185" stroke="black" stroke-width="1"/>
+  <text x="300" y="200" text-anchor="middle" font-size="12">3</text>
+  
+  <!-- Y-axis label -->
+  <text x="20" y="150" text-anchor="middle" font-size="12" transform="rotate(-90, 20, 150)">Value</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: Tallest, red -->
+  <rect x="60" y="60" width="100" height="120" fill="red"/>
+  
+  <!-- Bar 2: Medium height, blue -->
+  <rect x="180" y="60" width="100" height="60" fill="blue"/>
+  
+  <!-- Bar 3: Shortest, blue -->
+  <rect x="300" y="60" width="100" height="20" fill="blue"/>
 </svg>

@@ -1,36 +1,44 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect x="0" y="0" width="400" height="300" fill="white"/>
-
-  <!-- Chart margins and data range -->
-  <!-- Left margin: 80, Right margin: 20, Top margin: 40, Bottom margin: 60 -->
-  <!-- Data range: max value = 100 (red bar), min value = 50 -->
-  <!-- Bar width: 40, spacing: 20 -->
+  <rect width="400" height="300" fill="white"/>
   
-  <!-- Bar positions (x from 80 to 380) -->
-  <!-- Bar 1: x=80, height=50 -->
-  <!-- Bar 2: x=120, height=100 (tallest, red) -->
-  <!-- Bar 3: x=160, height=70 -->
-  <!-- Bar 4: x=200, height=50 -->
-
-  <!-- Define styles -->
-  <defs>
-    <style>
-      .bar { fill: blue; }
-      .tall-bar { fill: red; }
-    </style>
-  </defs>
-
-  <!-- Bar 1 -->
-  <rect x="80" y="200" width="40" height="50" class="bar"/>
-
-  <!-- Bar 2 (Tallest, Red) -->
-  <rect x="120" y="100" width="40" height="100" class="tall-bar"/>
-
-  <!-- Bar 3 -->
-  <rect x="160" y="30" width="40" height="70" class="bar"/>
-
-  <!-- Bar 4 -->
-  <rect x="200" y="150" width="40" height="50" class="bar"/>
-
+  <!-- Chart margins -->
+  <rect x="60" y="60" width="280" height="180" fill="white"/>
+  
+  <!-- Grid lines -->
+  <line x1="60" y1="60" x2="340" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="120" x2="340" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="180" x2="340" y2="180" stroke="black" stroke-width="1"/>
+  
+  <!-- X-axis ticks and labels -->
+  <line x1="60" y1="180" x2="60" y2="185" stroke="black" stroke-width="1"/>
+  <text x="60" y="200" text-anchor="middle" font-size="12">1</text>
+  
+  <line x1="180" y1="180" x2="180" y2="185" stroke="black" stroke-width="1"/>
+  <text x="180" y="200" text-anchor="middle" font-size="12">2</text>
+  
+  <line x1="300" y1="180" x2="300" y2="185" stroke="black" stroke-width="1"/>
+  <text x="300" y="200" text-anchor="middle" font-size="12">3</text>
+  
+  <line x1="340" y1="180" x2="340" y2="185" stroke="black" stroke-width="1"/>
+  <text x="340" y="200" text-anchor="middle" font-size="12">4</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 60 -->
+  <rect x="60" y="120" width="40" height="60" fill="blue"/>
+  
+  <!-- Bar 2: height 120 (tallest, red) -->
+  <rect x="180" y="60" width="40" height="120" fill="red"/>
+  
+  <!-- Bar 3: height 80 -->
+  <rect x="300" y="100" width="40" height="80" fill="blue"/>
+  
+  <!-- Bar 4: height 60 -->
+  <rect x="340" y="120" width="40" height="60" fill="blue"/>
+  
+  <!-- Axis labels -->
+  <text x="100" y="220" text-anchor="middle" font-size="14">Bar 1</text>
+  <text x="220" y="220" text-anchor="middle" font-size="14">Bar 2</text>
+  <text x="340" y="220" text-anchor="middle" font-size="14">Bar 3</text>
+  <text x="380" y="220" text-anchor="middle" font-size="14">Bar 4</text>
 </svg>

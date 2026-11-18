@@ -1,49 +1,68 @@
-<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       .apple { fill: #ff4d4d; }
-      .leaf { fill: #2d6a4f; }
-      .stem { stroke: #2d6a4f; stroke-width: 1.5; }
+      .leaf { fill: #2d5a27; }
+      .stem { fill: none; stroke: #2d5a27; stroke-width: 2; }
     </style>
   </defs>
   
   <!-- Tree trunk -->
-  <rect x="380" y="150" width="10" height="300" class="stem"/>
+  <rect x="300" y="150" width="10" height="200" fill="#8B4513" />
   
-  <!-- Main tree branches -->
-  <path d="M390 150 L410 170" class="stem"/>
-  <path d="M390 150 L410 130" class="stem"/>
-  <path d="M390 150 L410 190" class="stem"/>
+  <!-- Tree branches -->
+  <path d="M300 150 L280 100" stroke="#8B4513" stroke-width="8" fill="none" />
+  <path d="M300 150 L320 100" stroke="#8B4513" stroke-width="8" fill="none" />
+  <path d="M300 150 L340 100" stroke="#8B4513" stroke-width="8" fill="none" />
   
-  <!-- Left branch with apples -->
-  <path d="M390 170 C380 170, 370 180, 370 200" class="stem"/>
-  <path d="M390 190 C380 190, 370 200, 370 220" class="stem"/>
-  <path d="M390 130 C380 130, 370 140, 370 160" class="stem"/>
+  <!-- Tree leaves -->
+  <path d="M280 100 Q240 80 220 120 Q200 160 240 180 Q280 160 280 100" class="leaf" />
+  <path d="M320 100 Q360 80 380 120 Q400 160 360 180 Q320 160 320 100" class="leaf" />
+  <path d="M340 100 Q380 80 400 120 Q420 160 380 180 Q340 160 340 100" class="leaf" />
   
-  <!-- Right branch with apples -->
-  <path d="M410 170 C420 170, 430 180, 430 200" class="stem"/>
-  <path d="M410 190 C420 190, 430 200, 430 220" class="stem"/>
-  <path d="M410 130 C420 130, 430 140, 430 160" class="stem"/>
+  <!-- Apples (14 total) -->
+  <!-- Top row -->
+  <circle cx="280" cy="90" r="6" class="apple" />
+  <circle cx="300" cy="90" r="6" class="apple" />
+  <circle cx="320" cy="90" r="6" class="apple" />
   
-  <!-- Apples on left side (1-4) -->
-  <circle cx="370" cy="180" r="6" class="apple"/>
-  <circle cx="370" cy="200" r="6" class="apple"/>
-  <circle cx="370" cy="220" r="6" class="apple"/>
-  <circle cx="370" cy="195" r="6" class="apple"/>
+  <!-- Second row -->
+  <circle cx="260" cy="110" r="6" class="apple" />
+  <circle cx="280" cy="110" r="6" class="apple" />
+  <circle cx="300" cy="110" r="6" class="apple" />
+  <circle cx="320" cy="110" r="6" class="apple" />
   
-  <!-- Apples on right side (5-8) -->
-  <circle cx="430" cy="180" r="6" class="apple"/>
-  <circle cx="430" cy="200" r="6" class="apple"/>
-  <circle cx="430" cy="220" r="6" class="apple"/>
-  <circle cx="430" cy="195" r="6" class="apple"/>
+  <!-- Third row -->
+  <circle cx="240" cy="130" r="6" class="apple" />
+  <circle cx="260" cy="130" r="6" class="apple" />
+  <circle cx="280" cy="130" r="6" class="apple" />
+  <circle cx="300" cy="130" r="6" class="apple" />
+  <circle cx="320" cy="130" r="6" class="apple" />
   
-  <!-- Apples on far right (9-12) -->
-  <circle cx="430" cy="170" r="6" class="apple"/>
-  <circle cx="430" cy="190" r="6" class="apple"/>
-  <circle cx="430" cy="210" r="6" class="apple"/>
-  <circle cx="430" cy="185" r="6" class="apple"/>
+  <!-- Fourth row -->
+  <circle cx="220" cy="150" r="6" class="apple" />
+  <circle cx="240" cy="150" r="6" class="apple" />
+  <circle cx="260" cy="150" r="6" class="apple" />
+  <circle cx="280" cy="150" r="6" class="apple" />
+  <circle cx="300" cy="150" r="6" class="apple" />
+  <circle cx="320" cy="150" r="6" class="apple" />
   
-  <!-- Apples on far left (13-14) -->
-  <circle cx="370" cy="165" r="6" class="apple"/>
-  <circle cx="370" cy="185" r="6" class="apple"/>
+  <!-- Fifth row -->
+  <circle cx="200" cy="170" r="6" class="apple" />
+  <circle cx="220" cy="170" r="6" class="apple" />
+  <circle cx="240" cy="170" r="6" class="apple" />
+  <circle cx="260" cy="170" r="6" class="apple" />
+  <circle cx="280" cy="170" r="6" class="apple" />
+  <circle cx="300" cy="170" r="6" class="apple" />
+  <circle cx="320" cy="170" r="6" class="apple" />
+  
+  <!-- Sixth row -->
+  <circle cx="180" cy="190" r="6" class="apple" />
+  <circle cx="200" cy="190" r="6" class="apple" />
+  <circle cx="220" cy="190" r="6" class="apple" />
+  <circle cx="240" cy="190" r="6" class="apple" />
+  <circle cx="260" cy="190" r="6" class="apple" />
+  <circle cx="280" cy="190" r="6" class="apple" />
+  <circle cx="300" cy="190" r="6" class="apple" />
+  <circle cx="320" cy="190" r="6" class="apple" />
 </svg>

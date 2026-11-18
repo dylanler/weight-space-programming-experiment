@@ -1,34 +1,57 @@
-<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Define a common bar width and spacing -->
-  <defs>
-    <style>
-      .bar { fill: blue; }
-      .tall-bar { fill: red; }
-    </style>
-  </defs>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="white"/>
   
-  <!-- Background (optional, for clarity) -->
-  <rect x="0" y="0" width="400" height="200" fill="white"/>
+  <!-- Chart margins -->
+  <rect x="60" y="60" width="280" height="180" fill="white"/>
   
-  <!-- Bar positions: assuming equal widths of 50px, starting at x=50, with gaps of 100px between bars -->
-  <!-- Bar 1: x=50 -->
-  <rect x="50" y="80" width="50" height="60" class="bar"/>
+  <!-- Grid lines -->
+  <line x1="60" y1="60" x2="340" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="120" x2="340" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="180" x2="340" y2="180" stroke="black" stroke-width="1"/>
   
-  <!-- Bar 2: x=150 - TALLER BAR (colored red) -->
-  <rect x="150" y="40" width="50" height="100" class="tall-bar"/>
+  <!-- X-axis ticks and labels -->
+  <line x1="60" y1="180" x2="60" y2="185" stroke="black" stroke-width="1"/>
+  <text x="60" y="200" text-anchor="middle" font-size="12">1</text>
   
-  <!-- Bar 3: x=250 -->
-  <rect x="250" y="120" width="50" height="40" class="bar"/>
+  <line x1="180" y1="180" x2="180" y2="185" stroke="black" stroke-width="1"/>
+  <text x="180" y="200" text-anchor="middle" font-size="12">2</text>
   
-  <!-- Bar 4: x=350 -->
-  <rect x="350" y="100" width="50" height="50" class="bar"/>
+  <line x1="300" y1="180" x2="300" y2="185" stroke="black" stroke-width="1"/>
+  <text x="300" y="200" text-anchor="middle" font-size="12">3</text>
   
-  <!-- Bar 5: x=450 -->
-  <rect x="450" y="90" width="50" height="60" class="bar"/>
+  <line x1="420" y1="180" x2="420" y2="185" stroke="black" stroke-width="1"/>
+  <text x="420" y="200" text-anchor="middle" font-size="12">4</text>
   
-  <!-- Bar 6: x=550 -->
-  <rect x="550" y="110" width="50" height="40" class="bar"/>
+  <!-- Y-axis ticks and labels -->
+  <line x1="55" y1="60" x2="60" y2="60" stroke="black" stroke-width="1"/>
+  <text x="50" y="65" text-anchor="end" font-size="12">0</text>
   
-  <!-- Bar 7: x=650 -->
-  <rect x="650" y="130" width="50" height="30" class="bar"/>
+  <line x1="55" y1="120" x2="60" y2="120" stroke="black" stroke-width="1"/>
+  <text x="50" y="125" text-anchor="end" font-size="12">50</text>
+  
+  <line x1="55" y1="180" x2="60" y2="180" stroke="black" stroke-width="1"/>
+  <text x="50" y="185" text-anchor="end" font-size="12">100</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 50 -->
+  <rect x="60" y="120" width="40" height="50" fill="blue"/>
+  
+  <!-- Bar 2: height 150 (tallest, red) -->
+  <rect x="180" y="30" width="40" height="150" fill="red"/>
+  
+  <!-- Bar 3: height 75 -->
+  <rect x="300" y="110" width="40" height="70" fill="blue"/>
+  
+  <!-- Bar 4: height 100 -->
+  <rect x="420" y="80" width="40" height="100" fill="blue"/>
+  
+  <!-- Bar 5: height 50 -->
+  <rect x="60" y="120" width="40" height="50" fill="blue"/>
+  
+  <!-- Bar 6: height 100 -->
+  <rect x="180" y="80" width="40" height="100" fill="blue"/>
+  
+  <!-- Bar 7: height 75 -->
+  <rect x="300" y="110" width="40" height="70" fill="blue"/>
 </svg>

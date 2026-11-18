@@ -1,47 +1,39 @@
-<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
-  <!-- Define grid parameters -->
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- 6 rows, 5 columns -->
-  <!-- Cell size: (200 - 4) / 5 = 39.2 for x, (150 - 4) / 6 = 24.17 for y -->
-  
   <!-- Row 1 -->
-  <circle cx="4" cy="24.17" r="8" fill="#e74c3c"/>
-  <circle cx="40" cy="24.17" r="8" fill="#e74c3c"/>
-  <circle cx="80" cy="24.17" r="8" fill="#e74c3c"/>
-  <circle cx="120" cy="24.17" r="8" fill="#e74c3c"/>
-  <circle cx="160" cy="24.17" r="8" fill="#e74c3c"/>
-
+  <circle cx="50" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="250" cy="50" r="10" fill="white" stroke="black" stroke-width="1"/>
   <!-- Row 2 -->
-  <circle cx="4" cy="48.33" r="8" fill="#f1c40f"/>
-  <circle cx="40" cy="48.33" r="8" fill="#f1c40f"/>
-  <circle cx="80" cy="48.33" r="8" fill="#f1c40f"/>
-  <circle cx="120" cy="48.33" r="8" fill="#f1c40f"/>
-  <circle cx="160" cy="48.33" r="8" fill="#f1c40f"/>
-
+  <circle cx="50" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="250" cy="100" r="10" fill="white" stroke="black" stroke-width="1"/>
   <!-- Row 3 -->
-  <circle cx="4" cy="72.49" r="8" fill="#2ecc71"/>
-  <circle cx="40" cy="72.49" r="8" fill="#2ecc71"/>
-  <circle cx="80" cy="72.49" r="8" fill="#2ecc71"/>
-  <circle cx="120" cy="72.49" r="8" fill="#2ecc71"/>
-  <circle cx="160" cy="72.49" r="8" fill="#2ecc71"/>
-
+  <circle cx="50" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="250" cy="150" r="10" fill="white" stroke="black" stroke-width="1"/>
   <!-- Row 4 -->
-  <circle cx="4" cy="96.66" r="8" fill="#3498db"/>
-  <circle cx="40" cy="96.66" r="8" fill="#3498db"/>
-  <circle cx="80" cy="96.66" r="8" fill="#3498db"/>
-  <circle cx="120" cy="96.66" r="8" fill="#3498db"/>
-  <circle cx="160" cy="96.66" r="8" fill="#3498db"/>
-
+  <circle cx="50" cy="200" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="200" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="200" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="200" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="250" cy="200" r="10" fill="white" stroke="black" stroke-width="1"/>
   <!-- Row 5 -->
-  <circle cx="4" cy="120.83" r="8" fill="#9b59b6"/>
-  <circle cx="40" cy="120.83" r="8" fill="#9b59b6"/>
-  <circle cx="80" cy="120.83" r="8" fill="#9b59b6"/>
-  <circle cx="120" cy="120.83" r="8" fill="#9b59b6"/>
-  <circle cx="160" cy="120.83" r="8" fill="#9b59b6"/>
-
+  <circle cx="50" cy="250" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="250" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="250" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="250" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="250" cy="250" r="10" fill="white" stroke="black" stroke-width="1"/>
   <!-- Row 6 -->
-  <circle cx="4" cy="145" r="8" fill="#e67e22"/>
-  <circle cx="40" cy="145" r="8" fill="#e67e22"/>
-  <circle cx="80" cy="145" r="8" fill="#e67e22"/>
-  <circle cx="120" cy="145" r="8" fill="#e67e22"/>
-  <circle cx="160" cy="145" r="8" fill="#e67e22"/>
+  <circle cx="50" cy="300" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="100" cy="300" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="150" cy="300" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="200" cy="300" r="10" fill="white" stroke="black" stroke-width="1"/>
+  <circle cx="250" cy="300" r="10" fill="white" stroke="black" stroke-width="1"/>
 </svg>

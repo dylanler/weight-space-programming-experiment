@@ -1,60 +1,91 @@
 <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="600" height="400" fill="white"/>
-
-  <!-- Flag dimensions: 600x400, stripes are equal height = 100px each -->
-  <!-- Top stripe (blue) -->
-  <rect x="0" y="0" width="600" height="100" fill="#003399"/>
   
-  <!-- Second stripe (red) -->
-  <rect x="0" y="100" width="600" height="100" fill="#B22234"/>
+  <!-- 7 Horizontal Stripes -->
+  <rect x="0" y="0" width="600" height="57.14" fill="#003366"/>
+  <rect x="0" y="114.29" width="600" height="57.14" fill="#006633"/>
+  <rect x="0" y="231.43" width="600" height="57.14" fill="#009900"/>
+  <rect x="0" y="348.57" width="600" height="57.14" fill="#006633"/>
+  <rect x="0" y="465.71" width="600" height="57.14" fill="#003366"/>
+  <rect x="0" y="582.86" width="600" height="57.14" fill="#009900"/>
+  <rect x="0" y="700" width="600" height="57.14" fill="#006633"/>
   
-  <!-- Third stripe (yellow) -->
-  <rect x="0" y="200" width="600" height="100" fill="#FFCC00"/>
+  <!-- 9 Stars (each 10x10, centered on stripe) -->
+  <!-- Stripe 1 (y=0) -->
+  <circle cx="300" cy="10" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="10" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="10" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="10" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="10" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="10" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="10" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="10" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="10" r="5" fill="#FFD700"/>
   
-  <!-- Fourth stripe (green) -->
-  <rect x="0" y="300" width="600" height="100" fill="#006400"/>
+  <!-- Stripe 2 (y=114.29) -->
+  <circle cx="300" cy="115" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="115" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="115" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="115" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="115" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="115" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="115" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="115" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="115" r="5" fill="#FFD700"/>
   
-  <!-- Fifth stripe (white) -->
-  <rect x="0" y="400" width="600" height="100" fill="#FFFFFF"/>
-
-  <!-- Stars (9 stars total, evenly distributed across the flag) -->
-  <!-- Each star is a circle with a white center and black outline -->
-  <!-- Positions calculated to be roughly centered vertically in each stripe area -->
+  <!-- Stripe 3 (y=231.43) -->
+  <circle cx="300" cy="232" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="232" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="232" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="232" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="232" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="232" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="232" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="232" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="232" r="5" fill="#FFD700"/>
   
-  <!-- Star 1 (top-left quadrant of blue stripe) -->
-  <circle cx="150" cy="50" r="8" fill="white" stroke="black" stroke-width="1.5"/>
-  <circle cx="150" cy="50" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  <!-- Stripe 4 (y=348.57) -->
+  <circle cx="300" cy="349" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="349" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="349" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="349" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="349" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="349" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="349" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="349" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="349" r="5" fill="#FFD700"/>
   
-  <!-- Star 2 (top-right quadrant of blue stripe) -->
-  <circle cx="450" cy="50" r="8" fill="white" stroke="black" stroke-width="1.5"/>
-  <circle cx="450" cy="50" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  <!-- Stripe 5 (y=465.71) -->
+  <circle cx="300" cy="466" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="466" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="466" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="466" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="466" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="466" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="466" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="466" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="466" r="5" fill="#FFD700"/>
   
-  <!-- Star 3 (middle-left of red stripe) -->
-  <circle cx="150" cy="150" r="8" fill="white" stroke="black" stroke-width="1.5"/>
-  <circle cx="150" cy="150" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  <!-- Stripe 6 (y=582.86) -->
+  <circle cx="300" cy="583" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="583" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="583" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="583" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="583" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="583" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="583" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="583" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="583" r="5" fill="#FFD700"/>
   
-  <!-- Star 4 (middle-right of red stripe) -->
-  <circle cx="450" cy="150" r="8" fill="white" stroke="black" stroke-width="1.5"/>
-  <circle cx="450" cy="150" r="12" fill="none" stroke="black" stroke-width="1.5"/>
-  
-  <!-- Star 5 (bottom-left of yellow stripe) -->
-  <circle cx="150" cy="250" r="8" fill="white" stroke="black" stroke-width="1.5"/>
-  <circle cx="150" cy="250" r="12" fill="none" stroke="black" stroke-width="1.5"/>
-  
-  <!-- Star 6 (bottom-right of yellow stripe) -->
-  <circle cx="450" cy="250" r="8" fill="white" stroke="black" stroke-width="1.5"/>
-  <circle cx="450" cy="250" r="12" fill="none" stroke="black" stroke-width="1.5"/>
-  
-  <!-- Star 7 (left side of green stripe) -->
-  <circle cx="150" cy="350" r="8" fill="white" stroke="black" stroke-width="1.5"/>
-  <circle cx="150" cy="350" r="12" fill="none" stroke="black" stroke-width="1.5"/>
-  
-  <!-- Star 8 (right side of green stripe) -->
-  <circle cx="450" cy="350" r="8" fill="white" stroke="black" stroke-width="1.5"/>
-  <circle cx="450" cy="350" r="12" fill="none" stroke="black" stroke-width="1.5"/>
-  
-  <!-- Star 9 (center of white stripe) -->
-  <circle cx="300" cy="400" r="8" fill="white" stroke="black" stroke-width="1.5"/>
-  <circle cx="300" cy="400" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  <!-- Stripe 7 (y=700) -->
+  <circle cx="300" cy="700" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="700" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="700" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="700" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="700" r="5" fill="#FFD700"/>
+  <circle cx="290" cy="700" r="5" fill="#FFD700"/>
+  <circle cx="310" cy="700" r="5" fill="#FFD700"/>
+  <circle cx="280" cy="700" r="5" fill="#FFD700"/>
+  <circle cx="300" cy="700" r="5" fill="#FFD700"/>
 </svg>

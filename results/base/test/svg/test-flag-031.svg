@@ -1,46 +1,64 @@
-<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="600" height="400" fill="white"/>
-
-  <!-- Flag dimensions: 5 stripes, 8 stars (top) -->
-  <!-- Total height = 400px. Each stripe is 80px. Stars are centered on each stripe. -->
+  <rect width="300" height="200" fill="white"/>
   
-  <!-- Stripe 1 (top) -->
-  <rect x="0" y="0" width="600" height="80" fill="#0099FF"/>
+  <!-- 5 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="40" fill="#003366"/>
+  <rect x="0" y="80" width="300" height="40" fill="#006633"/>
+  <rect x="0" y="160" width="300" height="40" fill="#336600"/>
+  <rect x="0" y="240" width="300" height="40" fill="#663300"/>
+  <rect x="0" y="320" width="300" height="40" fill="#006633"/>
   
-  <!-- Stripe 2 -->
-  <rect x="0" y="80" width="600" height="80" fill="#FFCC00"/>
-  
-  <!-- Stripe 3 -->
-  <rect x="0" y="160" width="600" height="80" fill="#0099FF"/>
-  
-  <!-- Stripe 4 -->
-  <rect x="0" y="240" width="600" height="80" fill="#FFCC00"/>
-  
-  <!-- Stripe 5 (bottom) -->
-  <rect x="0" y="320" width="600" height="80" fill="#0099FF"/>
-
-  <!-- Stars (8 total, evenly distributed across the flag) -->
-  <!-- Star size: 20x20, center at (300, 200) for top star, etc. -->
-  
-  <!-- Top row of stars (on stripe 1 and 2) -->
-  <circle cx="150" cy="40" r="20" fill="#FFFFFF"/>
-  <circle cx="250" cy="40" r="20" fill="#FFFFFF"/>
-  <circle cx="350" cy="40" r="20" fill="#FFFFFF"/>
-  <circle cx="450" cy="40" r="20" fill="#FFFFFF"/>
-  <circle cx="550" cy="40" r="20" fill="#FFFFFF"/>
-
-  <!-- Middle rows of stars (on stripe 3 and 4) -->
-  <circle cx="150" cy="180" r="20" fill="#FFFFFF"/>
-  <circle cx="250" cy="180" r="20" fill="#FFFFFF"/>
-  <circle cx="350" cy="180" r="20" fill="#FFFFFF"/>
-  <circle cx="450" cy="180" r="20" fill="#FFFFFF"/>
-  <circle cx="550" cy="180" r="20" fill="#FFFFFF"/>
-
-  <!-- Bottom rows of stars (on stripe 5) -->
-  <circle cx="150" cy="320" r="20" fill="#FFFFFF"/>
-  <circle cx="250" cy="320" r="20" fill="#FFFFFF"/>
-  <circle cx="350" cy="320" r="20" fill="#FFFFFF"/>
-  <circle cx="450" cy="320" r="20" fill="#FFFFFF"/>
-  <circle cx="550" cy="320" r="20" fill="#FFFFFF"/>
+  <!-- 8 Stars (each 10x10, centered on stripe) -->
+  <g fill="#FFD700">
+    <!-- Stripe 1 (y=0) -->
+    <circle cx="150" cy="10" r="5" fill="#FFD700"/>
+    <circle cx="150" cy="10" r="3" fill="#FFD700"/>
+    <circle cx="150" cy="10" r="1" fill="#FFD700"/>
+    <circle cx="150" cy="10" r="0.5" fill="#FFD700"/>
+    <circle cx="150" cy="10" r="0.25" fill="#FFD700"/>
+    <circle cx="150" cy="10" r="0.125" fill="#FFD700"/>
+    <circle cx="150" cy="10" r="0.0625" fill="#FFD700"/>
+    <circle cx="150" cy="10" r="0.03125" fill="#FFD700"/>
+    
+    <!-- Stripe 2 (y=80) -->
+    <circle cx="150" cy="90" r="5" fill="#FFD700"/>
+    <circle cx="150" cy="90" r="3" fill="#FFD700"/>
+    <circle cx="150" cy="90" r="1" fill="#FFD700"/>
+    <circle cx="150" cy="90" r="0.5" fill="#FFD700"/>
+    <circle cx="150" cy="90" r="0.25" fill="#FFD700"/>
+    <circle cx="150" cy="90" r="0.125" fill="#FFD700"/>
+    <circle cx="150" cy="90" r="0.0625" fill="#FFD700"/>
+    <circle cx="150" cy="90" r="0.03125" fill="#FFD700"/>
+    
+    <!-- Stripe 3 (y=160) -->
+    <circle cx="150" cy="170" r="5" fill="#FFD700"/>
+    <circle cx="150" cy="170" r="3" fill="#FFD700"/>
+    <circle cx="150" cy="170" r="1" fill="#FFD700"/>
+    <circle cx="150" cy="170" r="0.5" fill="#FFD700"/>
+    <circle cx="150" cy="170" r="0.25" fill="#FFD700"/>
+    <circle cx="150" cy="170" r="0.125" fill="#FFD700"/>
+    <circle cx="150" cy="170" r="0.0625" fill="#FFD700"/>
+    <circle cx="150" cy="170" r="0.03125" fill="#FFD700"/>
+    
+    <!-- Stripe 4 (y=240) -->
+    <circle cx="150" cy="250" r="5" fill="#FFD700"/>
+    <circle cx="150" cy="250" r="3" fill="#FFD700"/>
+    <circle cx="150" cy="250" r="1" fill="#FFD700"/>
+    <circle cx="150" cy="250" r="0.5" fill="#FFD700"/>
+    <circle cx="150" cy="250" r="0.25" fill="#FFD700"/>
+    <circle cx="150" cy="250" r="0.125" fill="#FFD700"/>
+    <circle cx="150" cy="250" r="0.0625" fill="#FFD700"/>
+    <circle cx="150" cy="250" r="0.03125" fill="#FFD700"/>
+    
+    <!-- Stripe 5 (y=320) -->
+    <circle cx="150" cy="330" r="5" fill="#FFD700"/>
+    <circle cx="150" cy="330" r="3" fill="#FFD700"/>
+    <circle cx="150" cy="330" r="1" fill="#FFD700"/>
+    <circle cx="150" cy="330" r="0.5" fill="#FFD700"/>
+    <circle cx="150" cy="330" r="0.25" fill="#FFD700"/>
+    <circle cx="150" cy="330" r="0.125" fill="#FFD700"/>
+    <circle cx="150" cy="330" r="0.0625" fill="#FFD700"/>
+    <circle cx="150" cy="330" r="0.03125" fill="#FFD700"/>
+  </g>
 </svg>

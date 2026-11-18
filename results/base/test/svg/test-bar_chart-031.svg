@@ -2,30 +2,36 @@
   <!-- Define the chart area -->
   <defs>
     <clipPath id="chartArea">
-      <rect x="50" y="60" width="300" height="180"/>
+      <rect x="50" y="50" width="300" height="200"/>
     </clipPath>
   </defs>
 
-  <!-- Background grid lines (optional for clarity) -->
-  <line x1="50" y1="70" x2="350" y2="70" stroke="#ddd" stroke-width="1"/>
-  <line x1="50" y1="100" x2="350" y2="100" stroke="#ddd" stroke-width="1"/>
-  <line x1="50" y1="130" x2="350" y2="130" stroke="#ddd" stroke-width="1"/>
-  <line x1="50" y1="160" x2="350" y2="160" stroke="#ddd" stroke-width="1"/>
-  <line x1="50" y1="190" x2="350" y2="190" stroke="#ddd" stroke-width="1"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
 
-  <!-- Bar definitions: all blue except the 7th (index 6) which is red -->
-  <!-- Bar 1 -->
-  <rect x="50" y="70" width="40" height="30" fill="#1e90ff" clip-path="url(#chartArea)"/>
-  <!-- Bar 2 -->
-  <rect x="100" y="70" width="40" height="30" fill="#1e90ff" clip-path="url(#chartArea)"/>
-  <!-- Bar 3 -->
-  <rect x="150" y="70" width="40" height="30" fill="#1e90ff" clip-path="url(#chartArea)"/>
-  <!-- Bar 4 -->
-  <rect x="200" y="70" width="40" height="30" fill="#1e90ff" clip-path="url(#chartArea)"/>
-  <!-- Bar 5 -->
-  <rect x="250" y="70" width="40" height="30" fill="#1e90ff" clip-path="url(#chartArea)"/>
-  <!-- Bar 6 -->
-  <rect x="300" y="70" width="40" height="30" fill="#1e90ff" clip-path="url(#chartArea)"/>
-  <!-- Bar 7 (Tallest, Red) -->
-  <rect x="350" y="70" width="40" height="110" fill="#ff0000" clip-path="url(#chartArea)"/>
+  <!-- Grid lines (optional, for clarity) -->
+  <g stroke="#e0e0e0" stroke-width="1">
+    <line x1="50" y1="50" x2="50" y2="250"/>
+    <line x1="150" y1="50" x2="150" y2="250"/>
+    <line x1="250" y1="50" x2="250" y2="250"/>
+    <line x1="350" y1="50" x2="350" y2="250"/>
+  </g>
+
+  <!-- Bar group with clipping -->
+  <g clip-path="url(#chartArea)">
+    <!-- Bar 1: Blue -->
+    <rect x="50" y="150" width="40" height="100" fill="blue"/>
+    <!-- Bar 2: Blue -->
+    <rect x="100" y="150" width="40" height="100" fill="blue"/>
+    <!-- Bar 3: Blue -->
+    <rect x="150" y="150" width="40" height="100" fill="blue"/>
+    <!-- Bar 4: Blue -->
+    <rect x="200" y="150" width="40" height="100" fill="blue"/>
+    <!-- Bar 5: Blue -->
+    <rect x="250" y="150" width="40" height="100" fill="blue"/>
+    <!-- Bar 6: Blue -->
+    <rect x="300" y="150" width="40" height="100" fill="blue"/>
+    <!-- Bar 7: Red (tallest) -->
+    <rect x="350" y="50" width="40" height="250" fill="red"/>
+  </g>
 </svg>

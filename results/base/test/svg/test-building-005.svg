@@ -1,52 +1,92 @@
 <svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
   <!-- Building outline -->
-  <rect x="100" y="80" width="200" height="320" fill="#8B7355"/>
+  <rect x="100" y="50" width="200" height="400" fill="#8B4513" stroke="#5D2906" stroke-width="2"/>
   
-  <!-- Floor 1 (Ground floor) - 6 windows -->
-  <rect x="110" y="120" width="20" height="40" fill="#A89F9F"/>
-  <rect x="130" y="120" width="20" height="40" fill="#A89F9F"/>
-  <rect x="150" y="120" width="20" height="40" fill="#A89F9F"/>
-  <rect x="170" y="120" width="20" height="40" fill="#A89F9F"/>
-  <rect x="190" y="120" width="20" height="40" fill="#A89F9F"/>
-  <rect x="110" y="160" width="20" height="40" fill="#A89F9F"/>
-  <rect x="130" y="160" width="20" height="40" fill="#A89F9F"/>
-  <rect x="150" y="160" width="20" height="40" fill="#A89F9F"/>
-  <rect x="170" y="160" width="20" height="40" fill="#A89F9F"/>
-  <rect x="190" y="160" width="20" height="40" fill="#A89F9F"/>
-
-  <!-- Floor 2 - 6 windows -->
-  <rect x="110" y="180" width="20" height="40" fill="#A89F9F"/>
-  <rect x="130" y="180" width="20" height="40" fill="#A89F9F"/>
-  <rect x="150" y="180" width="20" height="40" fill="#A89F9F"/>
-  <rect x="170" y="180" width="20" height="40" fill="#A89F9F"/>
-  <rect x="190" y="180" width="20" height="40" fill="#A89F9F"/>
-  <rect x="110" y="220" width="20" height="40" fill="#A89F9F"/>
-  <rect x="130" y="220" width="20" height="40" fill="#A89F9F"/>
-  <rect x="150" y="220" width="20" height="40" fill="#A89F9F"/>
-  <rect x="170" y="220" width="20" height="40" fill="#A89F9F"/>
-  <rect x="190" y="220" width="20" height="40" fill="#A89F9F"/>
-
-  <!-- Floor 3 - 6 windows -->
-  <rect x="110" y="240" width="20" height="40" fill="#A89F9F"/>
-  <rect x="130" y="240" width="20" height="40" fill="#A89F9F"/>
-  <rect x="150" y="240" width="20" height="40" fill="#A89F9F"/>
-  <rect x="170" y="240" width="20" height="40" fill="#A89F9F"/>
-  <rect x="190" y="240" width="20" height="40" fill="#A89F9F"/>
-  <rect x="110" y="280" width="20" height="40" fill="#A89F9F"/>
-  <rect x="130" y="280" width="20" height="40" fill="#A89F9F"/>
-  <rect x="150" y="280" width="20" height="40" fill="#A89F9F"/>
-  <rect x="170" y="280" width="20" height="40" fill="#A89F9F"/>
-  <rect x="190" y="280" width="20" height="40" fill="#A89F9F"/>
-
-  <!-- Floor 4 (Top floor) - 6 windows -->
-  <rect x="110" y="300" width="20" height="40" fill="#A89F9F"/>
-  <rect x="130" y="300" width="20" height="40" fill="#A89F9F"/>
-  <rect x="150" y="300" width="20" height="40" fill="#A89F9F"/>
-  <rect x="170" y="300" width="20" height="40" fill="#A89F9F"/>
-  <rect x="190" y="300" width="20" height="40" fill="#A89F9F"/>
-  <rect x="110" y="340" width="20" height="40" fill="#A89F9F"/>
-  <rect x="130" y="340" width="20" height="40" fill="#A89F9F"/>
-  <rect x="150" y="340" width="20" height="40" fill="#A89F9F"/>
-  <rect x="170" y="340" width="20" height="40" fill="#A89F9F"/>
-  <rect x="190" y="340" width="20" height="40" fill="#A89F9F"/>
+  <!-- Floor 1 -->
+  <rect x="110" y="100" width="180" height="60" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  <rect x="115" y="105" width="170" height="50" fill="#8B4513" stroke="#5D2906" stroke-width="1"/>
+  <rect x="120" y="110" width="160" height="40" fill="#654321" stroke="#5D2906" stroke-width="1"/>
+  <rect x="125" y="115" width="150" height="30" fill="#4A2C18" stroke="#5D2906" stroke-width="1"/>
+  <rect x="130" y="120" width="140" height="20" fill="#3D2512" stroke="#5D2906" stroke-width="1"/>
+  <rect x="135" y="125" width="130" height="10" fill="#2F1B0F" stroke="#5D2906" stroke-width="1"/>
+  
+  <!-- Floor 2 -->
+  <rect x="110" y="160" width="180" height="60" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  <rect x="115" y="165" width="170" height="50" fill="#8B4513" stroke="#5D2906" stroke-width="1"/>
+  <rect x="120" y="170" width="160" height="40" fill="#654321" stroke="#5D2906" stroke-width="1"/>
+  <rect x="125" y="175" width="150" height="30" fill="#4A2C18" stroke="#5D2906" stroke-width="1"/>
+  <rect x="130" y="180" width="140" height="20" fill="#3D2512" stroke="#5D2906" stroke-width="1"/>
+  <rect x="135" y="185" width="130" height="10" fill="#2F1B0F" stroke="#5D2906" stroke-width="1"/>
+  
+  <!-- Floor 3 -->
+  <rect x="110" y="220" width="180" height="60" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  <rect x="115" y="225" width="170" height="50" fill="#8B4513" stroke="#5D2906" stroke-width="1"/>
+  <rect x="120" y="230" width="160" height="40" fill="#654321" stroke="#5D2906" stroke-width="1"/>
+  <rect x="125" y="235" width="150" height="30" fill="#4A2C18" stroke="#5D2906" stroke-width="1"/>
+  <rect x="130" y="240" width="140" height="20" fill="#3D2512" stroke="#5D2906" stroke-width="1"/>
+  <rect x="135" y="245" width="130" height="10" fill="#2F1B0F" stroke="#5D2906" stroke-width="1"/>
+  
+  <!-- Floor 4 -->
+  <rect x="110" y="280" width="180" height="60" fill="#A0522D" stroke="#5D2906" stroke-width="2"/>
+  <rect x="115" y="285" width="170" height="50" fill="#8B4513" stroke="#5D2906" stroke-width="1"/>
+  <rect x="120" y="290" width="160" height="40" fill="#654321" stroke="#5D2906" stroke-width="1"/>
+  <rect x="125" y="295" width="150" height="30" fill="#4A2C18" stroke="#5D2906" stroke-width="1"/>
+  <rect x="130" y="300" width="140" height="20" fill="#3D2512" stroke="#5D2906" stroke-width="1"/>
+  <rect x="135" y="305" width="130" height="10" fill="#2F1B0F" stroke="#5D2906" stroke-width="1"/>
+  
+  <!-- Windows on Floor 1 -->
+  <rect x="120" y="105" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="105" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="105" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="105" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="120" y="115" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="115" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="115" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="115" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="120" y="125" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="125" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="125" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="125" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  
+  <!-- Windows on Floor 2 -->
+  <rect x="120" y="165" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="165" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="165" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="165" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="120" y="175" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="175" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="175" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="175" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="120" y="185" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="185" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="185" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="185" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  
+  <!-- Windows on Floor 3 -->
+  <rect x="120" y="225" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="225" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="225" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="225" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="120" y="235" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="235" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="235" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="235" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="120" y="245" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="245" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="245" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="245" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  
+  <!-- Windows on Floor 4 -->
+  <rect x="120" y="285" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="285" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="285" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="285" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="120" y="295" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="295" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="295" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="295" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="120" y="305" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="140" y="305" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="160" y="305" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
+  <rect x="180" y="305" width="20" height="20" fill="#87CEEB" stroke="#000080" stroke-width="1"/>
 </svg>

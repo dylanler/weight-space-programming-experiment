@@ -6,24 +6,45 @@
       .tall-bar { fill: red; }
     </style>
   </defs>
-
-  <!-- Chart margins and dimensions -->
-  <!-- Left margin: 60, Right margin: 20, Top margin: 20, Bottom margin: 60 -->
-  <!-- Plot area: x from 60 to 380 (width 320), y from 20 to 240 (height 220) -->
-
-  <!-- Bar 1: value 40 -->
-  <rect x="60" y="150" width="40" height="90" class="bar" />
-
-  <!-- Bar 2: value 70 -->
-  <rect x="120" y="120" width="40" height="120" class="bar" />
-
-  <!-- Bar 3: value 50 -->
-  <rect x="180" y="140" width="40" height="100" class="bar" />
-
-  <!-- Bar 4: value 80 -->
-  <rect x="240" y="100" width="40" height="140" class="bar" />
-
-  <!-- Bar 5: value 100 (tallest, red) -->
-  <rect x="300" y="80" width="40" height="160" class="tall-bar" />
-
+  
+  <!-- Chart margins and axes -->
+  <rect x="60" y="60" width="280" height="180" fill="white" stroke="black" stroke-width="1"/>
+  
+  <!-- X-axis ticks and labels -->
+  <line x1="60" y1="220" x2="60" y2="240" stroke="black" stroke-width="1"/>
+  <line x1="120" y1="220" x2="120" y2="240" stroke="black" stroke-width="1"/>
+  <line x1="180" y1="220" x2="180" y2="240" stroke="black" stroke-width="1"/>
+  <line x1="240" y1="220" x2="240" y2="240" stroke="black" stroke-width="1"/>
+  <line x1="300" y1="220" x2="300" y2="240" stroke="black" stroke-width="1"/>
+  
+  <!-- X-axis labels -->
+  <text x="60" y="255" text-anchor="middle" font-size="12">1</text>
+  <text x="120" y="255" text-anchor="middle" font-size="12">2</text>
+  <text x="180" y="255" text-anchor="middle" font-size="12">3</text>
+  <text x="240" y="255" text-anchor="middle" font-size="12">4</text>
+  <text x="300" y="255" text-anchor="middle" font-size="12">5</text>
+  
+  <!-- Y-axis -->
+  <line x1="60" y1="60" x2="60" y2="240" stroke="black" stroke-width="1"/>
+  <text x="50" y="70" text-anchor="middle" font-size="12" transform="rotate(-90, 50, 70)">10</text>
+  <text x="50" y="140" text-anchor="middle" font-size="12" transform="rotate(-90, 50, 140)">20</text>
+  <text x="50" y="210" text-anchor="middle" font-size="12" transform="rotate(-90, 50, 210)">30</text>
+  <text x="50" y="280" text-anchor="middle" font-size="12" transform="rotate(-90, 50, 280)">40</text>
+  <text x="50" y="350" text-anchor="middle" font-size="12" transform="rotate(-90, 50, 350)">50</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1: height 20 -->
+  <rect x="60" y="140" width="20" height="80" class="bar"/>
+  
+  <!-- Bar 2: height 30 -->
+  <rect x="120" y="110" width="20" height="110" class="bar"/>
+  
+  <!-- Bar 3: height 40 -->
+  <rect x="180" y="80" width="20" height="140" class="bar"/>
+  
+  <!-- Bar 4: height 50 -->
+  <rect x="240" y="50" width="20" height="190" class="bar"/>
+  
+  <!-- Bar 5: height 60 (tallest, red) -->
+  <rect x="300" y="20" width="20" height="220" class="tall-bar"/>
 </svg>

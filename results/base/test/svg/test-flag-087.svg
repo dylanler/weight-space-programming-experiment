@@ -1,35 +1,33 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
+  
   <!-- Top stripe (red) -->
   <rect x="0" y="0" width="300" height="50" fill="#b22234"/>
-
+  
   <!-- Second stripe (white) -->
   <rect x="0" y="50" width="300" height="50" fill="#ffffff"/>
-
+  
   <!-- Third stripe (blue) -->
   <rect x="0" y="100" width="300" height="50" fill="#003399"/>
-
-  <!-- Bottom stripe (yellow) -->
-  <rect x="0" y="150" width="300" height="50" fill="#ffd700"/>
-
-  <!-- Stars (8 total, evenly distributed across the flag) -->
-  <!-- Row 1: 2 stars on left, 2 in center, 2 on right -->
-  <circle cx="60" cy="100" r="4" fill="#fff"/>
-  <circle cx="120" cy="100" r="4" fill="#fff"/>
-  <circle cx="180" cy="100" r="4" fill="#fff"/>
-  <circle cx="240" cy="100" r="4" fill="#fff"/>
-
-  <!-- Row 2: 2 stars on left, 2 in center, 2 on right -->
-  <circle cx="60" cy="150" r="4" fill="#fff"/>
-  <circle cx="120" cy="150" r="4" fill="#fff"/>
-  <circle cx="180" cy="150" r="4" fill="#fff"/>
-  <circle cx="240" cy="150" r="4" fill="#fff"/>
-
-  <!-- Row 3: 2 stars on left, 2 in center, 2 on right -->
-  <circle cx="60" cy="200" r="4" fill="#fff"/>
-  <circle cx="120" cy="200" r="4" fill="#fff"/>
-  <circle cx="180" cy="200" r="4" fill="#fff"/>
-  <circle cx="240" cy="200" r="4" fill="#fff"/>
+  
+  <!-- Bottom stripe (red) -->
+  <rect x="0" y="150" width="300" height="50" fill="#b22234"/>
+  
+  <!-- Stars (8 total, evenly distributed) -->
+  <!-- Row 1: 2 stars -->
+  <circle cx="150" cy="25" r="5" fill="#ffffff"/>
+  <circle cx="225" cy="25" r="5" fill="#ffffff"/>
+  
+  <!-- Row 2: 2 stars -->
+  <circle cx="150" cy="55" r="5" fill="#ffffff"/>
+  <circle cx="225" cy="55" r="5" fill="#ffffff"/>
+  
+  <!-- Row 3: 2 stars -->
+  <circle cx="150" cy="85" r="5" fill="#ffffff"/>
+  <circle cx="225" cy="85" r="5" fill="#ffffff"/>
+  
+  <!-- Row 4: 2 stars -->
+  <circle cx="150" cy="115" r="5" fill="#ffffff"/>
+  <circle cx="225" cy="115" r="5" fill="#ffffff"/>
 </svg>

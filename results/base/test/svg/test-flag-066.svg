@@ -1,22 +1,22 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
+  
   <!-- Top stripe (red) -->
   <rect x="0" y="0" width="300" height="50" fill="#b22234"/>
-
+  
   <!-- Second stripe (white) -->
   <rect x="0" y="50" width="300" height="50" fill="#ffffff"/>
-
+  
   <!-- Third stripe (blue) -->
   <rect x="0" y="100" width="300" height="50" fill="#003399"/>
-
+  
   <!-- Bottom stripe (yellow) -->
   <rect x="0" y="150" width="300" height="50" fill="#ffd700"/>
-
-  <!-- Stars in the center of each stripe -->
-  <circle cx="150" cy="25" r="8" fill="#fff"/>
-  <circle cx="150" cy="125" r="8" fill="#fff"/>
-  <circle cx="150" cy="200" r="8" fill="#fff"/>
-  <circle cx="150" cy="175" r="8" fill="#fff"/>
+  
+  <!-- Stars -->
+  <circle cx="10" cy="25" r="3" fill="#003399"/>
+  <circle cx="10" cy="125" r="3" fill="#003399"/>
+  <circle cx="10" cy="200" r="3" fill="#003399"/>
+  <circle cx="10" cy="175" r="3" fill="#003399"/>
 </svg>

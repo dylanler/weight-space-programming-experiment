@@ -1,24 +1,35 @@
 <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect x="0" y="0" width="400" height="300" fill="white"/>
-
-  <!-- Bar chart data (assuming equal widths for simplicity) -->
-  <!-- Bar 1: value 50, Bar 2: value 100 (tallest), Bar 3: value 75 -->
+  <rect width="400" height="300" fill="white"/>
   
-  <!-- Bar 1 (Blue) -->
-  <rect x="50" y="80" width="60" height="120" fill="#1f77b4"/>
+  <!-- Chart margins -->
+  <rect x="60" y="60" width="280" height="180" fill="white"/>
   
-  <!-- Bar 2 (Red) - Tallest -->
-  <rect x="150" y="80" width="60" height="220" fill="#d62728"/>
+  <!-- Grid lines -->
+  <line x1="60" y1="60" x2="340" y2="60" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="120" x2="340" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="60" y1="180" x2="340" y2="180" stroke="black" stroke-width="1"/>
   
-  <!-- Bar 3 (Blue) -->
-  <rect x="250" y="80" width="60" height="120" fill="#1f77b4"/>
-
-  <!-- X-axis labels -->
-  <text x="50" y="290" text-anchor="middle" font-size="12">Bar 1</text>
-  <text x="150" y="290" text-anchor="middle" font-size="12">Bar 2</text>
-  <text x="250" y="290" text-anchor="middle" font-size="12">Bar 3</text>
-
+  <!-- X-axis ticks and labels -->
+  <line x1="60" y1="180" x2="60" y2="185" stroke="black" stroke-width="1"/>
+  <text x="60" y="200" text-anchor="middle" font-family="Arial" font-size="12">1</text>
+  
+  <line x1="180" y1="180" x2="180" y2="185" stroke="black" stroke-width="1"/>
+  <text x="180" y="200" text-anchor="middle" font-family="Arial" font-size="12">2</text>
+  
+  <line x1="300" y1="180" x2="300" y2="185" stroke="black" stroke-width="1"/>
+  <text x="300" y="200" text-anchor="middle" font-family="Arial" font-size="12">3</text>
+  
   <!-- Y-axis label -->
-  <text x="10" y="150" text-anchor="middle" font-size="12" transform="rotate(-90 10 150)">Value</text>
+  <text x="20" y="150" text-anchor="middle" font-family="Arial" font-size="12" transform="rotate(-90, 20, 150)">Value</text>
+  
+  <!-- Bars -->
+  <!-- Bar 1 (blue) -->
+  <rect x="60" y="120" width="40" height="60" fill="blue"/>
+  
+  <!-- Bar 2 (red, tallest) -->
+  <rect x="180" y="60" width="40" height="120" fill="red"/>
+  
+  <!-- Bar 3 (blue) -->
+  <rect x="300" y="120" width="40" height="60" fill="blue"/>
 </svg>

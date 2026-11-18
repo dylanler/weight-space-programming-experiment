@@ -1,25 +1,27 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
+  
   <!-- Top stripe (red) -->
   <rect x="0" y="0" width="300" height="50" fill="#b22234"/>
-
+  
   <!-- Second stripe (white) -->
   <rect x="0" y="50" width="300" height="50" fill="#ffffff"/>
-
+  
   <!-- Third stripe (blue) -->
   <rect x="0" y="100" width="300" height="50" fill="#003399"/>
-
-  <!-- Fourth stripe (yellow) -->
-  <rect x="0" y="150" width="300" height="50" fill="#ffd700"/>
-
-  <!-- Bottom stripe (green) -->
-  <rect x="0" y="200" width="300" height="50" fill="#006400"/>
-
-  <!-- Stars (4, evenly spaced horizontally across the white stripe) -->
-  <circle cx="100" cy="80" r="5" fill="#fff"/>
-  <circle cx="150" cy="80" r="5" fill="#fff"/>
-  <circle cx="200" cy="80" r="5" fill="#fff"/>
-  <circle cx="250" cy="80" r="5" fill="#fff"/>
+  
+  <!-- Fourth stripe (red) -->
+  <rect x="0" y="150" width="300" height="50" fill="#b22234"/>
+  
+  <!-- Fifth stripe (white) -->
+  <rect x="0" y="200" width="300" height="50" fill="#ffffff"/>
+  
+  <!-- Stars (4 stars, evenly spaced) -->
+  <g fill="#003399">
+    <circle cx="100" cy="100" r="5"/>
+    <circle cx="200" cy="100" r="5"/>
+    <circle cx="300" cy="100" r="5"/>
+    <circle cx="100" cy="150" r="5"/>
+  </g>
 </svg>

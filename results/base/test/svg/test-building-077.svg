@@ -1,49 +1,18 @@
-<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Building outline -->
-  <rect x="40" y="20" width="120" height="110" fill="#8B7355"/>
+  <rect x="50" y="50" width="100" height="100" fill="#8B4513" stroke="#5D2906" stroke-width="2"/>
   
-  <!-- Floor structure -->
-  <line x1="60" y1="20" x2="140" y2="20" stroke="#5D4E3A" stroke-width="2"/>
-  <line x1="60" y1="40" x2="140" y2="40" stroke="#5D4E3A" stroke-width="2"/>
-  <line x1="60" y1="60" x2="140" y2="60" stroke="#5D4E3A" stroke-width="2"/>
-  <line x1="60" y1="80" x2="140" y2="80" stroke="#5D4E3A" stroke-width="2"/>
-  <line x1="60" y1="100" x2="140" y2="100" stroke="#5D4E3A" stroke-width="2"/>
-  <line x1="60" y1="120" x2="140" y2="120" stroke="#5D4E3A" stroke-width="2"/>
-  <line x1="60" y1="140" x2="140" y2="140" stroke="#5D4E3A" stroke-width="2"/>
+  <!-- Floor 1: 5 windows -->
+  <rect x="60" y="70" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
+  <rect x="80" y="70" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
+  <rect x="100" y="70" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
+  <rect x="120" y="70" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
+  <rect x="140" y="70" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
   
-  <!-- Windows (15 total, 1 floor) -->
-  <!-- Row 1: 5 windows -->
-  <rect x="70" y="20" width="20" height="20" fill="#F0E68C"/>
-  <rect x="90" y="20" width="20" height="20" fill="#F0E68C"/>
-  <rect x="110" y="20" width="20" height="20" fill="#F0E68C"/>
-  <rect x="130" y="20" width="20" height="20" fill="#F0E68C"/>
-  <rect x="150" y="20" width="20" height="20" fill="#F0E68C"/>
-  
-  <!-- Row 2: 5 windows -->
-  <rect x="70" y="40" width="20" height="20" fill="#F0E68C"/>
-  <rect x="90" y="40" width="20" height="20" fill="#F0E68C"/>
-  <rect x="110" y="40" width="20" height="20" fill="#F0E68C"/>
-  <rect x="130" y="40" width="20" height="20" fill="#F0E68C"/>
-  <rect x="150" y="40" width="20" height="20" fill="#F0E68C"/>
-  
-  <!-- Row 3: 5 windows -->
-  <rect x="70" y="60" width="20" height="20" fill="#F0E68C"/>
-  <rect x="90" y="60" width="20" height="20" fill="#F0E68C"/>
-  <rect x="110" y="60" width="20" height="20" fill="#F0E68C"/>
-  <rect x="130" y="60" width="20" height="20" fill="#F0E68C"/>
-  <rect x="150" y="60" width="20" height="20" fill="#F0E68C"/>
-  
-  <!-- Row 4: 5 windows -->
-  <rect x="70" y="80" width="20" height="20" fill="#F0E68C"/>
-  <rect x="90" y="80" width="20" height="20" fill="#F0E68C"/>
-  <rect x="110" y="80" width="20" height="20" fill="#F0E68C"/>
-  <rect x="130" y="80" width="20" height="20" fill="#F0E68C"/>
-  <rect x="150" y="80" width="20" height="20" fill="#F0E68C"/>
-  
-  <!-- Row 5: 5 windows -->
-  <rect x="70" y="100" width="20" height="20" fill="#F0E68C"/>
-  <rect x="90" y="100" width="20" height="20" fill="#F0E68C"/>
-  <rect x="110" y="100" width="20" height="20" fill="#F0E68C"/>
-  <rect x="130" y="100" width="20" height="20" fill="#F0E68C"/>
-  <rect x="150" y="100" width="20" height="20" fill="#F0E68C"/>
+  <!-- Floor 2: 5 windows -->
+  <rect x="60" y="90" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
+  <rect x="80" y="90" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
+  <rect x="100" y="90" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
+  <rect x="120" y="90" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
+  <rect x="140" y="90" width="20" height="20" fill="#A9A9A9" stroke="#5D2906" stroke-width="1"/>
 </svg>

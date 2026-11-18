@@ -1,18 +1,26 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
-  <!-- Horizontal stripes (6) -->
-  <rect x="0" y="0" width="300" height="50" fill="#1E88E5"/>
-  <rect x="0" y="50" width="300" height="50" fill="#4CAF50"/>
-  <rect x="0" y="100" width="300" height="50" fill="#FFC107"/>
-  <rect x="0" y="150" width="300" height="50" fill="#F44336"/>
-  <rect x="0" y="200" width="300" height="50" fill="#9C27B0"/>
-  <rect x="0" y="250" width="300" height="50" fill="#607D8B"/>
-
-  <!-- Stars (4) - evenly distributed across the top stripe -->
-  <circle cx="100" cy="50" r="5" fill="#FFFFFF"/>
-  <circle cx="150" cy="50" r="5" fill="#FFFFFF"/>
-  <circle cx="200" cy="50" r="5" fill="#FFFFFF"/>
-  <circle cx="250" cy="50" r="5" fill="#FFFFFF"/>
+  
+  <!-- 6 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="33.3333" fill="#006400"/>
+  <rect x="0" y="66.6667" width="300" height="33.3333" fill="#009600"/>
+  <rect x="0" y="100" width="300" height="33.3333" fill="#008C00"/>
+  <rect x="0" y="133.3333" width="300" height="33.3333" fill="#008800"/>
+  <rect x="0" y="166.6667" width="300" height="33.3333" fill="#008400"/>
+  <rect x="0" y="200" width="300" height="33.3333" fill="#008000"/>
+  
+  <!-- 4 Stars -->
+  <g transform="translate(100, 100)">
+    <polygon points="0,0 6,6 3,6 0,3 -3,6 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(100, 166.6667)">
+    <polygon points="0,0 6,6 3,6 0,3 -3,6 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(100, 233.3333)">
+    <polygon points="0,0 6,6 3,6 0,3 -3,6 -6,6" fill="#FFD700"/>
+  </g>
+  <g transform="translate(100, 299.9999)">
+    <polygon points="0,0 6,6 3,6 0,3 -3,6 -6,6" fill="#FFD700"/>
+  </g>
 </svg>

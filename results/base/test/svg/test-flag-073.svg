@@ -1,22 +1,30 @@
 <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
   <rect width="300" height="200" fill="white"/>
-
-  <!-- Horizontal stripes (7) -->
-  <rect x="0" y="0" width="300" height="50" fill="#1E88E5"/>
-  <rect x="0" y="50" width="300" height="50" fill="#4CAF50"/>
-  <rect x="0" y="100" width="300" height="50" fill="#FFC107"/>
-  <rect x="0" y="150" width="300" height="50" fill="#F44336"/>
-  <rect x="0" y="200" width="300" height="50" fill="#9C27B0"/>
-  <rect x="0" y="250" width="300" height="50" fill="#607D8B"/>
-  <rect x="0" y="300" width="300" height="50" fill="#E91E63"/>
-
-  <!-- Stars (5) - evenly distributed across the flag -->
-  <g transform="translate(10, 10)">
-    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
-    <circle cx="0" cy="-4" r="4" fill="#FFFFFF"/>
-    <circle cx="0" cy="4" r="4" fill="#FFFFFF"/>
-    <circle cx="-4" cy="0" r="4" fill="#FFFFFF"/>
-    <circle cx="4" cy="0" r="4" fill="#FFFFFF"/>
+  
+  <!-- 7 Horizontal Stripes -->
+  <rect x="0" y="0" width="300" height="28.57" fill="#006400"/>
+  <rect x="0" y="57.14" width="300" height="28.57" fill="#009600"/>
+  <rect x="0" y="105.71" width="300" height="28.57" fill="#009933"/>
+  <rect x="0" y="154.29" width="300" height="28.57" fill="#009966"/>
+  <rect x="0" y="202.86" width="300" height="28.57" fill="#009999"/>
+  <rect x="0" y="251.43" width="300" height="28.57" fill="#0099CC"/>
+  <rect x="0" y="300" width="300" height="28.57" fill="#0099FF"/>
+  
+  <!-- 5 Stars -->
+  <g transform="translate(100, 142.86)">
+    <polygon points="0,-10 5,-2 9,-1 5,2 0,10 -5,2 -9,1 -5,-2" fill="#FFD700"/>
+  </g>
+  <g transform="translate(100, 291.43)">
+    <polygon points="0,-10 5,-2 9,-1 5,2 0,10 -5,2 -9,1 -5,-2" fill="#FFD700"/>
+  </g>
+  <g transform="translate(200, 142.86)">
+    <polygon points="0,-10 5,-2 9,-1 5,2 0,10 -5,2 -9,1 -5,-2" fill="#FFD700"/>
+  </g>
+  <g transform="translate(200, 291.43)">
+    <polygon points="0,-10 5,-2 9,-1 5,2 0,10 -5,2 -9,1 -5,-2" fill="#FFD700"/>
+  </g>
+  <g transform="translate(300, 142.86)">
+    <polygon points="0,-10 5,-2 9,-1 5,2 0,10 -5,2 -9,1 -5,-2" fill="#FFD700"/>
   </g>
 </svg>

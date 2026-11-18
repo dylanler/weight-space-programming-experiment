@@ -1,40 +1,18 @@
-<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .tree { fill: #4CAF50; }
-      .apple { fill: #FF5722; }
-      .stem { stroke: #388E3C; stroke-width: 2; }
-      .leaf { fill: #66BB6A; }
+      .tree { fill: #2d5a27; }
+      .apple { fill: #d32f2f; }
+      .stem { fill: none; stroke: #2d5a27; stroke-width: 2; }
     </style>
   </defs>
-  
-  <!-- Tree trunk -->
-  <rect x="100" y="100" width="10" height="150" class="tree" />
-  
-  <!-- Main tree branches -->
-  <path d="M100,100 L120,100 L120,150 L100,150 Z" class="tree" />
-  <path d="M100,100 L90,100 L90,150 L100,150 Z" class="tree" />
-  <path d="M100,100 L110,100 L110,150 L100,150 Z" class="tree" />
-  
-  <!-- Apple 1 -->
-  <circle cx="115" cy="110" r="6" class="apple" />
-  <line x1="115" y1="110" x2="115" y2="100" class="stem" />
-  
-  <!-- Apple 2 -->
-  <circle cx="125" cy="120" r="6" class="apple" />
-  <line x1="125" y1="120" x2="125" y2="110" class="stem" />
-  
-  <!-- Apple 3 -->
-  <circle cx="105" cy="130" r="6" class="apple" />
-  <line x1="105" y1="130" x2="105" y2="120" class="stem" />
-  
-  <!-- Apple 4 -->
-  <circle cx="135" cy="140" r="6" class="apple" />
-  <line x1="135" y1="140" x2="135" y2="130" class="stem" />
-  
-  <!-- Leaves -->
-  <path d="M100,100 Q80,120 90,140" class="leaf" />
-  <path d="M120,100 Q140,120 130,140" class="leaf" />
-  <path d="M100,150 Q80,130 90,110" class="leaf" />
-  <path d="M120,150 Q140,130 130,110" class="leaf" />
+  <g transform="translate(50, 50)">
+    <path class="tree" d="M0,0 L0,100 L100,100 L100,0 Z" />
+    <path class="apple" d="M20,20 L30,20 L30,25 L20,25 Z" />
+    <path class="apple" d="M80,20 L90,20 L90,25 L80,25 Z" />
+    <path class="apple" d="M120,20 L130,20 L130,25 L120,25 Z" />
+    <path class="apple" d="M160,20 L170,20 L170,25 L160,25 Z" />
+    <line x1="0" y1="100" x2="100" y2="100" class="stem" />
+    <line x1="0" y1="50" x2="100" y2="50" class="stem" />
+  </g>
 </svg>
