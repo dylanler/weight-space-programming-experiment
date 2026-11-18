@@ -1,0 +1,504 @@
+{
+ "judgments": [
+  {
+   "item_id": "064c1274c2",
+   "correct": true,
+   "observed": "4 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "07c264fc6a",
+   "correct": true,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue, 3rd extends below baseline"
+  },
+  {
+   "item_id": "08c048380b",
+   "correct": false,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "09c402285b",
+   "correct": false,
+   "observed": "4 bar positions with blue segments below the axis and a clipped red bar at the 1st"
+  },
+  {
+   "item_id": "0b4c4dfa0e",
+   "correct": false,
+   "observed": "4 vertical bars, 1st red and longest, others blue"
+  },
+  {
+   "item_id": "0dd4a622fa",
+   "correct": false,
+   "observed": "4 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "0f36e2ced7",
+   "correct": true,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "174f1794cd",
+   "correct": true,
+   "observed": "4 vertical bars, 3rd red and visibly tallest despite clipping at the top, others blue"
+  },
+  {
+   "item_id": "175c1029ad",
+   "correct": false,
+   "observed": "5 visible bars, 1st red and clipped, 4 blue"
+  },
+  {
+   "item_id": "187584b817",
+   "correct": false,
+   "observed": "Red at 1st position, blue shapes merge on right, no clear count of 6 bars"
+  },
+  {
+   "item_id": "19b39da85b",
+   "correct": true,
+   "observed": "5 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "1abf164230",
+   "correct": false,
+   "observed": "4 visible bar positions, 1st red and longest, others blue, last 2 touch"
+  },
+  {
+   "item_id": "1be88bc402",
+   "correct": true,
+   "observed": "5 vertical bars, 5th red and tallest, others blue"
+  },
+  {
+   "item_id": "1c1349e515",
+   "correct": false,
+   "observed": "4 visible bar positions, 2nd red and tallest, 2 blue bars touch on right"
+  },
+  {
+   "item_id": "1d59393e34",
+   "correct": false,
+   "observed": "1st red and extends below the axis, blue shapes merge on right, no clear count of 5 bars"
+  },
+  {
+   "item_id": "1deb559651",
+   "correct": false,
+   "observed": "4 vertical bars of equal visible length, 4th red, others blue"
+  },
+  {
+   "item_id": "23e70242db",
+   "correct": true,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "24d5d5b42b",
+   "correct": true,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "27a24fcac9",
+   "correct": false,
+   "observed": "1st red and extends below the axis, blue shapes merge on right, no clear count of 5 bars"
+  },
+  {
+   "item_id": "28de54283d",
+   "correct": false,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "2ac4833399",
+   "correct": false,
+   "observed": "3 wide rectangles aligned along their tops in a descending step, 1st red and 2 blue"
+  },
+  {
+   "item_id": "2c437a1fe8",
+   "correct": false,
+   "observed": "4 vertical bars, 4th red, 2nd blue and tallest"
+  },
+  {
+   "item_id": "30aecffa2f",
+   "correct": true,
+   "observed": "5 visible vertical bars, 4th red and tallest, others blue, 5th clipped at right edge"
+  },
+  {
+   "item_id": "31a8c52726",
+   "correct": false,
+   "observed": "4 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "31bdaeb009",
+   "correct": true,
+   "observed": "5 vertical bars, 5th red and visibly tallest despite clipping, others blue"
+  },
+  {
+   "item_id": "339b04096e",
+   "correct": true,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "352a1f825e",
+   "correct": true,
+   "observed": "7 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "368ec603ee",
+   "correct": false,
+   "observed": "1st red and extends below the axis, blue shapes merge on right, no clear count of 5 bars"
+  },
+  {
+   "item_id": "36ea63a7fd",
+   "correct": true,
+   "observed": "7 vertical bars, 6th red and tallest, others blue"
+  },
+  {
+   "item_id": "39fb2af507",
+   "correct": true,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "3aed747cec",
+   "correct": false,
+   "observed": "1st red below axis, blue shapes merge and a detached blue segment appears at the right edge"
+  },
+  {
+   "item_id": "3b59864e29",
+   "correct": true,
+   "observed": "4 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "3d37641d85",
+   "correct": false,
+   "observed": "4 vertical bars, 1st red and visibly tallest despite clipping, others blue"
+  },
+  {
+   "item_id": "3ff62e08e6",
+   "correct": true,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "41f51a67ee",
+   "correct": true,
+   "observed": "3 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "427160bc9e",
+   "correct": false,
+   "observed": "3 vertical bars, tallest is the 2nd with a red top and blue base"
+  },
+  {
+   "item_id": "484ab36282",
+   "correct": false,
+   "observed": "6 equal-height blue vertical bars, no red bar"
+  },
+  {
+   "item_id": "49a0f3a757",
+   "correct": false,
+   "observed": "7 apparent positions in a continuous stepped shape, with red in the 3rd position and indistinct blue bar boundaries"
+  },
+  {
+   "item_id": "4f32918476",
+   "correct": false,
+   "observed": "4 vertical bars, 4th red and visibly tallest despite clipping, others blue"
+  },
+  {
+   "item_id": "579a7de192",
+   "correct": true,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "5d2a609626",
+   "correct": false,
+   "observed": "4 downward bar positions, 1st blue over red, others blue"
+  },
+  {
+   "item_id": "5d5a04c3fa",
+   "correct": false,
+   "observed": "4 vertical bars, 3rd red and tied in visible length with the first 2 blue bars"
+  },
+  {
+   "item_id": "6105147980",
+   "correct": true,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "6528d66925",
+   "correct": false,
+   "observed": "4 bar positions with blue segments below the axis and a clipped red bar at the 1st"
+  },
+  {
+   "item_id": "65413c4a11",
+   "correct": true,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "6d2756c2f2",
+   "correct": false,
+   "observed": "4 vertical bars, 4th red, 2nd blue and tallest"
+  },
+  {
+   "item_id": "6f29c6e151",
+   "correct": false,
+   "observed": "Tall red block at left, wide blue rectangles step down and touch on the right, no clear set of 4 vertical bars"
+  },
+  {
+   "item_id": "7948664be6",
+   "correct": false,
+   "observed": "4 vertical bars, 1st red, 2nd blue and tallest"
+  },
+  {
+   "item_id": "8041481664",
+   "correct": true,
+   "observed": "3 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "84885c4013",
+   "correct": false,
+   "observed": "4 labeled positions with disconnected blue blocks and a red-over-blue bar at the 2nd"
+  },
+  {
+   "item_id": "87d87278ed",
+   "correct": false,
+   "observed": "6 vertical bars, 5th red and tallest, others blue"
+  },
+  {
+   "item_id": "8ef0940664",
+   "correct": false,
+   "observed": "4 vertical bars, 4th red, 1st blue and visibly tallest despite clipping"
+  },
+  {
+   "item_id": "8fde58df09",
+   "correct": false,
+   "observed": "5 connected blue steps and a red block at right, blue and red both reach the top edge"
+  },
+  {
+   "item_id": "917e13e1d5",
+   "correct": true,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "94d4cea019",
+   "correct": true,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "96b04e87b1",
+   "correct": false,
+   "observed": "Tall red block at left, wide blue rectangles step down and touch on the right, no clear set of 4 vertical bars"
+  },
+  {
+   "item_id": "980a152a98",
+   "correct": false,
+   "observed": "4 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "9c0bdac1a8",
+   "correct": false,
+   "observed": "4 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "9e4ce31aac",
+   "correct": false,
+   "observed": "Tall red block at left, wide blue rectangles step down and touch on the right, no clear set of 4 vertical bars"
+  },
+  {
+   "item_id": "a0b0b09b80",
+   "correct": false,
+   "observed": "4 visible bar positions, 1st red and longest, others blue, last 2 touch"
+  },
+  {
+   "item_id": "a374983c1d",
+   "correct": false,
+   "observed": "4 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "a536475f55",
+   "correct": true,
+   "observed": "3 vertical bars extending down from a common top, 1st red and longest, others blue"
+  },
+  {
+   "item_id": "a5e7a937ce",
+   "correct": true,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "a6d0af0552",
+   "correct": true,
+   "observed": "6 visible vertical bars, 6th red and visibly tallest despite clipping, others blue"
+  },
+  {
+   "item_id": "aa9f58f979",
+   "correct": false,
+   "observed": "3 vertical bars, tallest is the 3rd with a red top and blue base"
+  },
+  {
+   "item_id": "aad38a9f5f",
+   "correct": false,
+   "observed": "4 vertical bars, 2nd red, 3rd blue and tallest"
+  },
+  {
+   "item_id": "ae7c84bb24",
+   "correct": false,
+   "observed": "4 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "b5b08a78a7",
+   "correct": false,
+   "observed": "4 vertical bars, 3rd red, 4th blue and tallest"
+  },
+  {
+   "item_id": "b705df07bf",
+   "correct": true,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "b7695c1bb8",
+   "correct": false,
+   "observed": "6 visible vertical bars, 4th red, clipped 6th blue bar visibly longer"
+  },
+  {
+   "item_id": "b849a14d58",
+   "correct": false,
+   "observed": "4 downward bar positions, 1st blue over red, others blue"
+  },
+  {
+   "item_id": "bbe2336237",
+   "correct": false,
+   "observed": "4 vertical bars, 3rd red, 4th blue and tallest"
+  },
+  {
+   "item_id": "bd25a710e0",
+   "correct": false,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "c1bc681eb5",
+   "correct": false,
+   "observed": "7 equal-height vertical bars, 1st red, others blue"
+  },
+  {
+   "item_id": "c35bc325a8",
+   "correct": true,
+   "observed": "4 vertical bars extending down from a common top, 3rd red and longest, others blue"
+  },
+  {
+   "item_id": "c68ab8dfd5",
+   "correct": false,
+   "observed": "4 vertical bars, 3rd red, 4th blue and tallest"
+  },
+  {
+   "item_id": "cb0b622124",
+   "correct": false,
+   "observed": "4 vertical bars, 4th red, 1st blue and visibly tallest despite clipping"
+  },
+  {
+   "item_id": "cd84f5ef21",
+   "correct": true,
+   "observed": "4 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "cef5cfc0ea",
+   "correct": false,
+   "observed": "3 vertical bars, tallest is the 2nd with a red top and blue base"
+  },
+  {
+   "item_id": "cf5500d901",
+   "correct": true,
+   "observed": "3 vertical bars extending down from a common top, 1st red and longest, others blue"
+  },
+  {
+   "item_id": "d28c3eacf7",
+   "correct": false,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "d6fd73d9d0",
+   "correct": true,
+   "observed": "4 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "d8508ae84d",
+   "correct": false,
+   "observed": "4 vertical bars, 1st red and visibly tallest despite clipping, others blue"
+  },
+  {
+   "item_id": "d8c137eb1b",
+   "correct": false,
+   "observed": "4 vertical bars, 1st red, 2nd blue and tallest"
+  },
+  {
+   "item_id": "d8dbcf511a",
+   "correct": false,
+   "observed": "4 vertical bar positions, 1st red with a blue middle, others blue"
+  },
+  {
+   "item_id": "da1c5f4263",
+   "correct": false,
+   "observed": "4 labeled positions with disconnected blue blocks and a red-over-blue bar at the 2nd"
+  },
+  {
+   "item_id": "df0f678add",
+   "correct": false,
+   "observed": "3 vertical bars, tallest is the 2nd with a red top and blue base"
+  },
+  {
+   "item_id": "e041e88199",
+   "correct": false,
+   "observed": "4 vertical bars, 1st red, 2nd blue and tallest"
+  },
+  {
+   "item_id": "e64b1e2df7",
+   "correct": true,
+   "observed": "3 vertical bars, 3rd red and tallest, others blue"
+  },
+  {
+   "item_id": "e9a4e79c98",
+   "correct": true,
+   "observed": "4 vertical bars, 4th red and tallest, others blue"
+  },
+  {
+   "item_id": "eacf11e0af",
+   "correct": false,
+   "observed": "Tall red block at left and 2 wide blue blocks stepping diagonally down to the right, no clear vertical bar chart"
+  },
+  {
+   "item_id": "eaf3e0c922",
+   "correct": false,
+   "observed": "4 vertical bars, 3rd red and tied in visible length with the first 2 blue bars"
+  },
+  {
+   "item_id": "edee78714b",
+   "correct": false,
+   "observed": "4 vertical bars, tallest is the 4th with a red top and blue base"
+  },
+  {
+   "item_id": "f002efbc84",
+   "correct": false,
+   "observed": "6 vertical bars, 5th red and tallest, others blue"
+  },
+  {
+   "item_id": "f1671e2cd4",
+   "correct": true,
+   "observed": "5 vertical bars, 5th red and tallest, others blue"
+  },
+  {
+   "item_id": "f178f485ee",
+   "correct": true,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "f509645a8c",
+   "correct": false,
+   "observed": "3 vertical bars, tallest is the 2nd with a red top and blue base"
+  },
+  {
+   "item_id": "f52e3c1225",
+   "correct": false,
+   "observed": "7 equal-height vertical bars, 1st red, others blue"
+  },
+  {
+   "item_id": "f58052ba50",
+   "correct": false,
+   "observed": "3 vertical bars, 2nd red and tallest, others blue"
+  },
+  {
+   "item_id": "fa4b9748c4",
+   "correct": false,
+   "observed": "4 vertical bars, 1st red, 2nd blue and tallest"
+  }
+ ]
+}

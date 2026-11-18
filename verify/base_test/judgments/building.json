@@ -1,0 +1,504 @@
+{
+ "judgments": [
+  {
+   "item_id": "00a223d2cd",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "01e53d30e4",
+   "correct": true,
+   "observed": "6 floors, 3 windows"
+  },
+  {
+   "item_id": "043468e6a0",
+   "correct": false,
+   "observed": "2 window rows/bands (2 floors), 8 windows"
+  },
+  {
+   "item_id": "045bc985c6",
+   "correct": false,
+   "observed": "6 floors, 24 windows (4 per floor)"
+  },
+  {
+   "item_id": "0cb2bc7a72",
+   "correct": false,
+   "observed": "2 rows, 10 windows overhanging building"
+  },
+  {
+   "item_id": "12b722d7b5",
+   "correct": false,
+   "observed": "4 floors, ~40 windows (10 per floor)"
+  },
+  {
+   "item_id": "14836c5357",
+   "correct": false,
+   "observed": "7 floors, 21 windows"
+  },
+  {
+   "item_id": "191d87ac42",
+   "correct": false,
+   "observed": "5 floors + floating window below; 6 double windows"
+  },
+  {
+   "item_id": "20ea78fa01",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "244062cb6e",
+   "correct": false,
+   "observed": "4 floors, 8 windows"
+  },
+  {
+   "item_id": "31e8e2f8a1",
+   "correct": false,
+   "observed": "6 floors, 30 windows"
+  },
+  {
+   "item_id": "379699d387",
+   "correct": false,
+   "observed": "2 grey strips extending off building; unclear, ~12 cells"
+  },
+  {
+   "item_id": "39c8ca75f9",
+   "correct": false,
+   "observed": "5 floors, 8 windows"
+  },
+  {
+   "item_id": "3a898a385d",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "3b0df95613",
+   "correct": false,
+   "observed": "2 rows (2 floors), 8 windows"
+  },
+  {
+   "item_id": "3ba92ed736",
+   "correct": false,
+   "observed": "4 floors, 4 windows"
+  },
+  {
+   "item_id": "3bd019177a",
+   "correct": false,
+   "observed": "2 floor bands, 1 window split across 2 floors (ambiguous)"
+  },
+  {
+   "item_id": "3cacef6f67",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "3d7d433786",
+   "correct": false,
+   "observed": "6 floors, 8 windows"
+  },
+  {
+   "item_id": "3ec9f947b4",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "3f9d3eed59",
+   "correct": false,
+   "observed": "5 floors (cut off), 5 windows"
+  },
+  {
+   "item_id": "42db7c4861",
+   "correct": false,
+   "observed": "4 floors, 8 windows"
+  },
+  {
+   "item_id": "4366e8ef1c",
+   "correct": false,
+   "observed": "2 grey strips extending off building; unclear, ~12 cells"
+  },
+  {
+   "item_id": "456dcea456",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "4718af9a15",
+   "correct": false,
+   "observed": "4 floors, ~48 window panes (12 per floor)"
+  },
+  {
+   "item_id": "4bd5d96cea",
+   "correct": false,
+   "observed": "3 rows, 9 windows"
+  },
+  {
+   "item_id": "4ed742e2c8",
+   "correct": false,
+   "observed": "7 visible floors (cut off), 35 windows"
+  },
+  {
+   "item_id": "4f0ace98cf",
+   "correct": false,
+   "observed": "3 rows, 6 double windows"
+  },
+  {
+   "item_id": "50e9926e25",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "51b7f4e788",
+   "correct": false,
+   "observed": "2 floors, 16 windows overhanging building"
+  },
+  {
+   "item_id": "5272f74b95",
+   "correct": false,
+   "observed": "2 floors, 16 windows overhanging building"
+  },
+  {
+   "item_id": "54385b63f8",
+   "correct": false,
+   "observed": "8 floors, 40 windows"
+  },
+  {
+   "item_id": "57a934bb21",
+   "correct": false,
+   "observed": "7 visible floors (cut off), 35 windows"
+  },
+  {
+   "item_id": "58108f59f9",
+   "correct": false,
+   "observed": "7 visible floors (cut off), 14 windows"
+  },
+  {
+   "item_id": "58dc40441a",
+   "correct": false,
+   "observed": "2 rows, 14 windows overhanging building"
+  },
+  {
+   "item_id": "5acc05c7d2",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "5cbf347728",
+   "correct": false,
+   "observed": "5 floors, 4 double + 1 single window"
+  },
+  {
+   "item_id": "5db602f2f1",
+   "correct": false,
+   "observed": "6 floors, 24 windows"
+  },
+  {
+   "item_id": "5de4675646",
+   "correct": false,
+   "observed": "2 blue strips off building; floors/windows unclear"
+  },
+  {
+   "item_id": "5e290f5a96",
+   "correct": false,
+   "observed": "3 floors, 15 windows"
+  },
+  {
+   "item_id": "5e3d0d1078",
+   "correct": false,
+   "observed": "4 floors, 36 windows overhanging"
+  },
+  {
+   "item_id": "5e7d04bab7",
+   "correct": false,
+   "observed": "2 floors, 6 windows"
+  },
+  {
+   "item_id": "635574e877",
+   "correct": false,
+   "observed": "5 floors + floating window below; 6 double windows"
+  },
+  {
+   "item_id": "66593cec70",
+   "correct": false,
+   "observed": "2 rows, 14 grey windows overhanging"
+  },
+  {
+   "item_id": "68309833a9",
+   "correct": true,
+   "observed": "3 floors, 2 windows"
+  },
+  {
+   "item_id": "693377a5f4",
+   "correct": false,
+   "observed": "5 floors, 25 windows overhanging"
+  },
+  {
+   "item_id": "69d3aae337",
+   "correct": true,
+   "observed": "3 floors, 24 windows (4 columns x 6)"
+  },
+  {
+   "item_id": "6a4f4949e8",
+   "correct": false,
+   "observed": "6 floors, 6 double windows"
+  },
+  {
+   "item_id": "6bbce73235",
+   "correct": false,
+   "observed": "6 floors, 23 windows"
+  },
+  {
+   "item_id": "6e9e85b6a4",
+   "correct": false,
+   "observed": "5 floors (cut off), 5 windows"
+  },
+  {
+   "item_id": "6eccd45aaf",
+   "correct": false,
+   "observed": "7 visible floors (cut off), 21 windows"
+  },
+  {
+   "item_id": "6f117c6987",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "7096b15223",
+   "correct": false,
+   "observed": "7 visible floors (cut off), 28 windows"
+  },
+  {
+   "item_id": "76cea409ce",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "78dea61d83",
+   "correct": false,
+   "observed": "4 floors, 4 windows"
+  },
+  {
+   "item_id": "795b1f0acf",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "7a7148efa6",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "7e158b71d6",
+   "correct": false,
+   "observed": "7 visible floors (cut off), 35 windows"
+  },
+  {
+   "item_id": "86f141d7f0",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "88aa1d5029",
+   "correct": false,
+   "observed": "7 visible floors (cut off), 14 windows"
+  },
+  {
+   "item_id": "8a90c0abc5",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "8f20321fef",
+   "correct": false,
+   "observed": "2 floors, 14 windows overhanging"
+  },
+  {
+   "item_id": "9045725ddd",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "92125c9e98",
+   "correct": false,
+   "observed": "no windows; unrecognizable overlapping rectangles"
+  },
+  {
+   "item_id": "9278801520",
+   "correct": false,
+   "observed": "2 floors, ~38 tiny windows overhanging"
+  },
+  {
+   "item_id": "9480081b82",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "94ae1f9921",
+   "correct": false,
+   "observed": "5 floors, 25 windows"
+  },
+  {
+   "item_id": "94e62bc73b",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "9708c7fc6e",
+   "correct": false,
+   "observed": "6 floors, 6 windows"
+  },
+  {
+   "item_id": "9bb36b1d66",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "9d402ca057",
+   "correct": false,
+   "observed": "4 floors, 16 windows"
+  },
+  {
+   "item_id": "9f8f6f872f",
+   "correct": false,
+   "observed": "6 floors, 6 double windows"
+  },
+  {
+   "item_id": "a64745af54",
+   "correct": false,
+   "observed": "8 rows (last cut off), ~40 windows, many outside building"
+  },
+  {
+   "item_id": "a67e2143da",
+   "correct": false,
+   "observed": "6 floors, 6 double windows (12 panes, ambiguous)"
+  },
+  {
+   "item_id": "ad4bac47e9",
+   "correct": false,
+   "observed": "5 floors + floating window below; 6 double windows"
+  },
+  {
+   "item_id": "b24b5ef23c",
+   "correct": false,
+   "observed": "4 floors, ~56 windows overhanging"
+  },
+  {
+   "item_id": "b3ba7bd032",
+   "correct": false,
+   "observed": "5 floors, 4 double + 1 single window"
+  },
+  {
+   "item_id": "b48f412eca",
+   "correct": false,
+   "observed": "6 floors, 6 double windows"
+  },
+  {
+   "item_id": "b83f63fba7",
+   "correct": false,
+   "observed": "6 floors, 30 windows"
+  },
+  {
+   "item_id": "b924a3fa52",
+   "correct": false,
+   "observed": "2 floors, 4 windows"
+  },
+  {
+   "item_id": "ba86f2a58d",
+   "correct": false,
+   "observed": "7 floor divisions, 10 windows"
+  },
+  {
+   "item_id": "ba95fc37f3",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "babdd88720",
+   "correct": true,
+   "observed": "3 floors, 24 windows (4 columns x 6)"
+  },
+  {
+   "item_id": "bc5f0d55fd",
+   "correct": false,
+   "observed": "4 floors, 40 windows overhanging"
+  },
+  {
+   "item_id": "c23fc7c3bb",
+   "correct": false,
+   "observed": "5 floors (cut off), 5 windows"
+  },
+  {
+   "item_id": "c65a8284ed",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "cc4d644da0",
+   "correct": false,
+   "observed": "6 floors, 6 double windows"
+  },
+  {
+   "item_id": "d5a047d935",
+   "correct": false,
+   "observed": "4 floors, 40 windows overhanging"
+  },
+  {
+   "item_id": "d863e1a905",
+   "correct": false,
+   "observed": "6 floors, 24 windows"
+  },
+  {
+   "item_id": "e2490f2609",
+   "correct": false,
+   "observed": "5 floors, 5 windows"
+  },
+  {
+   "item_id": "e7bf75b54a",
+   "correct": false,
+   "observed": "8 rows (last cut off), 24 windows"
+  },
+  {
+   "item_id": "e93f550ffd",
+   "correct": false,
+   "observed": "7 visible floors (cut off), 35 windows"
+  },
+  {
+   "item_id": "eaa11a0a05",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "f414958719",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "f5db7808ba",
+   "correct": false,
+   "observed": "2 window rows/bands (2 floors), 8 windows"
+  },
+  {
+   "item_id": "f8129a2afe",
+   "correct": false,
+   "observed": "6 floors, 24 windows"
+  },
+  {
+   "item_id": "f90fd4adfe",
+   "correct": false,
+   "observed": "2 floors, ~38 tiny windows overhanging"
+  },
+  {
+   "item_id": "fe9cfa1cfb",
+   "correct": false,
+   "observed": "no image"
+  },
+  {
+   "item_id": "fea99933db",
+   "correct": false,
+   "observed": "8 rows (last cut off), 24 windows"
+  },
+  {
+   "item_id": "ffea454278",
+   "correct": false,
+   "observed": "8 floors, 32 windows"
+  }
+ ]
+}

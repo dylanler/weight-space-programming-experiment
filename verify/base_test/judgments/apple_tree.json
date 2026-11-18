@@ -1,0 +1,504 @@
+{
+ "judgments": [
+  {
+   "item_id": "0440faaf3a",
+   "correct": false,
+   "observed": "green circle with 1 red disc; not a recognizable tree; 1 apple"
+  },
+  {
+   "item_id": "063493f599",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "08b3da73db",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "09ac291fde",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "0a97bf039d",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "0c4aff7937",
+   "correct": false,
+   "observed": "green square with 1 red rectangle; not a recognizable tree"
+  },
+  {
+   "item_id": "0cdb075eca",
+   "correct": false,
+   "observed": "stick tree with 1 red apple"
+  },
+  {
+   "item_id": "0db2e00434",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "0e749af68f",
+   "correct": false,
+   "observed": "green circle with 1 red disc; not a recognizable tree; 1 apple"
+  },
+  {
+   "item_id": "14441065a8",
+   "correct": true,
+   "observed": "stick tree with branches; 10 red apples"
+  },
+  {
+   "item_id": "15192e47e4",
+   "correct": true,
+   "observed": "trunk with branch; 5 red apples"
+  },
+  {
+   "item_id": "16a901541c",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "1cdae5062e",
+   "correct": true,
+   "observed": "trunk with branch; 7 red apples"
+  },
+  {
+   "item_id": "214e00e318",
+   "correct": false,
+   "observed": "concentric rings with red center; not a recognizable tree"
+  },
+  {
+   "item_id": "25236ca8d1",
+   "correct": false,
+   "observed": "stick tree with 1 red apple"
+  },
+  {
+   "item_id": "28723df33a",
+   "correct": true,
+   "observed": "stick tree with branches; 10 red apples"
+  },
+  {
+   "item_id": "37342f3608",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "3baa672ad2",
+   "correct": false,
+   "observed": "stick tree with 1 red apple"
+  },
+  {
+   "item_id": "3cb656dbb5",
+   "correct": false,
+   "observed": "stick tree with 1 red apple"
+  },
+  {
+   "item_id": "3d9793a4d7",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "3e100eb96b",
+   "correct": false,
+   "observed": "tree with ~50 red dots, far more than 14"
+  },
+  {
+   "item_id": "3fc6fd8c75",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "4074bc7dd9",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "459881881c",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "4cb23d302d",
+   "correct": true,
+   "observed": "stick tree with branches; 10 red apples"
+  },
+  {
+   "item_id": "4ceb2af9da",
+   "correct": false,
+   "observed": "trunk with row of 5 red apples"
+  },
+  {
+   "item_id": "50c96645b1",
+   "correct": false,
+   "observed": "green square with 3 red rectangles (1 outside); not a recognizable tree"
+  },
+  {
+   "item_id": "5377966696",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "551f073b95",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "570dc7c67f",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "576cc9a4ae",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "5e3bed1f12",
+   "correct": false,
+   "observed": "green square with 3 red rectangles (1 outside); not a recognizable tree"
+  },
+  {
+   "item_id": "5e93bd9d86",
+   "correct": false,
+   "observed": "tree with ~50 red dots, far more than 14"
+  },
+  {
+   "item_id": "6437f1974f",
+   "correct": false,
+   "observed": "tree with ~50 red dots, far more than 14"
+  },
+  {
+   "item_id": "65aeda3710",
+   "correct": false,
+   "observed": "green square with 3 red rectangles; not a recognizable tree"
+  },
+  {
+   "item_id": "65c0c3c5b3",
+   "correct": false,
+   "observed": "concentric rings with red center; not a recognizable tree"
+  },
+  {
+   "item_id": "6708d24f8e",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "67cd4673f7",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "6ac38bdfde",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "6c569f6500",
+   "correct": true,
+   "observed": "trunk with branch; 7 red apples"
+  },
+  {
+   "item_id": "711c4a8268",
+   "correct": false,
+   "observed": "concentric rings with red center; not a recognizable tree"
+  },
+  {
+   "item_id": "718fee9298",
+   "correct": false,
+   "observed": "tree with ~50 red dots, far more than 14"
+  },
+  {
+   "item_id": "7456f6aa96",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "77650f9e4f",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "7877a466e6",
+   "correct": false,
+   "observed": "green square with 3 red rectangles (1 cut off at edge); not a recognizable tree"
+  },
+  {
+   "item_id": "78bd7668b2",
+   "correct": false,
+   "observed": "tree with ~33 red dots, not 14"
+  },
+  {
+   "item_id": "7974668e37",
+   "correct": false,
+   "observed": "concentric rings with red center; not a recognizable tree"
+  },
+  {
+   "item_id": "79e29d98fa",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "7ed541c475",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "7fcb5a1a3e",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "80484c1d5d",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "809281ac16",
+   "correct": false,
+   "observed": "green circle with 1 red disc; not a recognizable tree"
+  },
+  {
+   "item_id": "86d90014f6",
+   "correct": false,
+   "observed": "brown block with ~8 overlapping apples, last cut off at edge; ambiguous, unclear tree"
+  },
+  {
+   "item_id": "89219f1241",
+   "correct": false,
+   "observed": "concentric rings with red center; not a recognizable tree"
+  },
+  {
+   "item_id": "8a82c308c4",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "8d82b4ebf4",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "93683d277e",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "9506c2ac88",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "97d51fe53f",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "9a532717da",
+   "correct": false,
+   "observed": "green circle with 1 red disc; not a recognizable tree"
+  },
+  {
+   "item_id": "9c5139eb7c",
+   "correct": false,
+   "observed": "stick tree with 1 red apple"
+  },
+  {
+   "item_id": "9e97db2118",
+   "correct": false,
+   "observed": "green circle with 1 red disc; not a recognizable tree"
+  },
+  {
+   "item_id": "9f31da7742",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "a345831a11",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "a502514fae",
+   "correct": false,
+   "observed": "tree with ~33 red dots, not 14"
+  },
+  {
+   "item_id": "a82e89e665",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "ac47fa21cc",
+   "correct": false,
+   "observed": "concentric rings with red center; not a recognizable tree"
+  },
+  {
+   "item_id": "ad1a5cf36a",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "b091467c96",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "b499af0bdf",
+   "correct": false,
+   "observed": "green square with 3 red rectangles; not a recognizable tree"
+  },
+  {
+   "item_id": "b775776ee1",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "b83db09901",
+   "correct": false,
+   "observed": "stick tree with 1 red apple"
+  },
+  {
+   "item_id": "bfc9de6fc5",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "c0ae95357f",
+   "correct": false,
+   "observed": "green square with 3 red rectangles (1 cut off at edge); not a recognizable tree"
+  },
+  {
+   "item_id": "c11a3e1094",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "c1560e2b52",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "c4a1ddfcee",
+   "correct": false,
+   "observed": "green square with 3 red rectangles (1 outside); not a recognizable tree"
+  },
+  {
+   "item_id": "c4aff7fa97",
+   "correct": true,
+   "observed": "trunk with branch; 5 red apples"
+  },
+  {
+   "item_id": "c56268b5e2",
+   "correct": true,
+   "observed": "trunk with branch; 7 red apples"
+  },
+  {
+   "item_id": "c74e08a60e",
+   "correct": false,
+   "observed": "green square with 3 red rectangles (1 outside); not a recognizable tree"
+  },
+  {
+   "item_id": "c82426d82e",
+   "correct": false,
+   "observed": "green square with 3 red rectangles; not a recognizable tree"
+  },
+  {
+   "item_id": "c9c5f2f5fc",
+   "correct": false,
+   "observed": "trunk with row of 5 red apples"
+  },
+  {
+   "item_id": "cb42c23e2b",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "d09ab564dd",
+   "correct": false,
+   "observed": "concentric rings with red center; not a recognizable tree"
+  },
+  {
+   "item_id": "d27aaf6d2f",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "d3961ce05c",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "dda3576bb1",
+   "correct": true,
+   "observed": "trunk with branch; 7 red apples"
+  },
+  {
+   "item_id": "df0f0436ad",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "e23ef3b41f",
+   "correct": false,
+   "observed": "concentric rings with red center; not a recognizable tree"
+  },
+  {
+   "item_id": "e7474197f9",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "e7757de66c",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "e903b6b6f9",
+   "correct": true,
+   "observed": "trunk with branch; 7 red apples"
+  },
+  {
+   "item_id": "ed25b83d5b",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "f17c468d2e",
+   "correct": true,
+   "observed": "trunk with branch; 7 red apples"
+  },
+  {
+   "item_id": "f1b58c82f1",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "f997af4703",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "fa22fbe7b5",
+   "correct": false,
+   "observed": "no image produced"
+  },
+  {
+   "item_id": "fa91aa513d",
+   "correct": false,
+   "observed": "stick tree with 1 red apple"
+  },
+  {
+   "item_id": "fcb774861b",
+   "correct": false,
+   "observed": "green square with 3 red rectangles (1 cut off at edge); not a recognizable tree"
+  },
+  {
+   "item_id": "fd3c578ce7",
+   "correct": false,
+   "observed": "stick tree with 1 red apple"
+  }
+ ]
+}
