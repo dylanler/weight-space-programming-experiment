@@ -1,0 +1,46 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building outline -->
+  <rect x="50" y="40" width="100" height="220" fill="#8B7355"/>
+  
+  <!-- Floor 1 (bottom) -->
+  <rect x="60" y="90" width="80" height="60" fill="#AABCBF"/>
+  <rect x="70" y="90" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="90" y="90" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="110" y="90" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="130" y="90" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="150" y="90" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="170" y="90" width="20" height="60" fill="#E0E0E0"/>
+  
+  <!-- Floor 2 (middle) -->
+  <rect x="60" y="150" width="80" height="60" fill="#AABCBF"/>
+  <rect x="70" y="150" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="90" y="150" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="110" y="150" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="130" y="150" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="150" y="150" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="170" y="150" width="20" height="60" fill="#E0E0E0"/>
+  
+  <!-- Floor 3 (top) -->
+  <rect x="60" y="210" width="80" height="60" fill="#AABCBF"/>
+  <rect x="70" y="210" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="90" y="210" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="110" y="210" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="130" y="210" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="150" y="210" width="20" height="60" fill="#E0E0E0"/>
+  <rect x="170" y="210" width="20" height="60" fill="#E0E0E0"/>
+  
+  <!-- Windows on Floor 1 -->
+  <rect x="80" y="100" width="10" height="40" fill="#FFFFFF"/>
+  <rect x="100" y="100" width="10" height="40" fill="#FFFFFF"/>
+  <rect x="120" y="100" width="10" height="40" fill="#FFFFFF"/>
+  
+  <!-- Windows on Floor 2 -->
+  <rect x="80" y="160" width="10" height="40" fill="#FFFFFF"/>
+  <rect x="100" y="160" width="10" height="40" fill="#FFFFFF"/>
+  <rect x="120" y="160" width="10" height="40" fill="#FFFFFF"/>
+  
+  <!-- Windows on Floor 3 -->
+  <rect x="80" y="220" width="10" height="40" fill="#FFFFFF"/>
+  <rect x="100" y="220" width="10" height="40" fill="#FFFFFF"/>
+  <rect x="120" y="220" width="10" height="40" fill="#FFFFFF"/>
+</svg>

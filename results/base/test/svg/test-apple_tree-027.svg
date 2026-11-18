@@ -1,0 +1,67 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .apple { fill: #ff4d4d; }
+      .leaf { fill: #2d5a27; }
+      .stem { stroke: #2d5a27; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Tree trunk -->
+  <rect x="280" y="100" width="40" height="160" rx="5" class="stem"/>
+  
+  <!-- Main tree branches -->
+  <path d="M290 100 L310 100 L310 120 L290 120 Z" class="stem"/>
+  <path d="M290 100 L310 100 L310 140 L290 140 Z" class="stem"/>
+  <path d="M290 100 L310 100 L310 160 L290 160 Z" class="stem"/>
+  
+  <!-- Apple 1 -->
+  <circle cx="300" cy="105" r="8" class="apple"/>
+  
+  <!-- Apple 2 -->
+  <circle cx="305" cy="115" r="8" class="apple"/>
+  
+  <!-- Apple 3 -->
+  <circle cx="310" cy="125" r="8" class="apple"/>
+  
+  <!-- Apple 4 -->
+  <circle cx="300" cy="135" r="8" class="apple"/>
+  
+  <!-- Apple 5 -->
+  <circle cx="315" cy="145" r="8" class="apple"/>
+  
+  <!-- Apple 6 -->
+  <circle cx="305" cy="155" r="8" class="apple"/>
+  
+  <!-- Apple 7 -->
+  <circle cx="295" cy="165" r="8" class="apple"/>
+  
+  <!-- Apple 8 -->
+  <circle cx="310" cy="175" r="8" class="apple"/>
+  
+  <!-- Apple 9 -->
+  <circle cx="300" cy="185" r="8" class="apple"/>
+  
+  <!-- Apple 10 -->
+  <circle cx="315" cy="195" r="8" class="apple"/>
+  
+  <!-- Apple 11 -->
+  <circle cx="305" cy="205" r="8" class="apple"/>
+  
+  <!-- Apple 12 -->
+  <circle cx="295" cy="215" r="8" class="apple"/>
+  
+  <!-- Leaves (simplified as rounded shapes) -->
+  <ellipse cx="290" cy="100" rx="15" ry="10" class="leaf"/>
+  <ellipse cx="310" cy="100" rx="15" ry="10" class="leaf"/>
+  <ellipse cx="290" cy="120" rx="12" ry="8" class="leaf"/>
+  <ellipse cx="310" cy="120" rx="12" ry="8" class="leaf"/>
+  <ellipse cx="290" cy="140" rx="10" ry="6" class="leaf"/>
+  <ellipse cx="310" cy="140" rx="10" ry="6" class="leaf"/>
+  <ellipse cx="290" cy="160" rx="8" ry="5" class="leaf"/>
+  <ellipse cx="310" cy="160" rx="8" ry="5" class="leaf"/>
+  <ellipse cx="290" cy="180" rx="6" ry="4" class="leaf"/>
+  <ellipse cx="310" cy="180" rx="6" ry="4" class="leaf"/>
+  <ellipse cx="290" cy="200" rx="4" ry="3" class="leaf"/>
+  <ellipse cx="310" cy="200" rx="4" ry="3" class="leaf"/>
+</svg>

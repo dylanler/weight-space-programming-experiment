@@ -1,0 +1,46 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="white"/>
+
+  <!-- Flag dimensions: 5 stripes, 8 stars (top) -->
+  <!-- Total height = 400px. Each stripe is 80px. Stars are centered on each stripe. -->
+  
+  <!-- Stripe 1 (top) -->
+  <rect x="0" y="0" width="600" height="80" fill="#0099FF"/>
+  
+  <!-- Stripe 2 -->
+  <rect x="0" y="80" width="600" height="80" fill="#FFCC00"/>
+  
+  <!-- Stripe 3 -->
+  <rect x="0" y="160" width="600" height="80" fill="#0099FF"/>
+  
+  <!-- Stripe 4 -->
+  <rect x="0" y="240" width="600" height="80" fill="#FFCC00"/>
+  
+  <!-- Stripe 5 (bottom) -->
+  <rect x="0" y="320" width="600" height="80" fill="#0099FF"/>
+
+  <!-- Stars (8 total, evenly distributed across the flag) -->
+  <!-- Star size: 20x20, center at (300, 200) for top star, etc. -->
+  
+  <!-- Top row of stars (on stripe 1 and 2) -->
+  <circle cx="150" cy="40" r="20" fill="#FFFFFF"/>
+  <circle cx="250" cy="40" r="20" fill="#FFFFFF"/>
+  <circle cx="350" cy="40" r="20" fill="#FFFFFF"/>
+  <circle cx="450" cy="40" r="20" fill="#FFFFFF"/>
+  <circle cx="550" cy="40" r="20" fill="#FFFFFF"/>
+
+  <!-- Middle rows of stars (on stripe 3 and 4) -->
+  <circle cx="150" cy="180" r="20" fill="#FFFFFF"/>
+  <circle cx="250" cy="180" r="20" fill="#FFFFFF"/>
+  <circle cx="350" cy="180" r="20" fill="#FFFFFF"/>
+  <circle cx="450" cy="180" r="20" fill="#FFFFFF"/>
+  <circle cx="550" cy="180" r="20" fill="#FFFFFF"/>
+
+  <!-- Bottom rows of stars (on stripe 5) -->
+  <circle cx="150" cy="320" r="20" fill="#FFFFFF"/>
+  <circle cx="250" cy="320" r="20" fill="#FFFFFF"/>
+  <circle cx="350" cy="320" r="20" fill="#FFFFFF"/>
+  <circle cx="450" cy="320" r="20" fill="#FFFFFF"/>
+  <circle cx="550" cy="320" r="20" fill="#FFFFFF"/>
+</svg>

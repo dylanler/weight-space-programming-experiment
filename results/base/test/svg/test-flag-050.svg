@@ -1,0 +1,70 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+
+  <!-- Top stripe (red) -->
+  <rect x="0" y="0" width="300" height="100" fill="#b22234"/>
+
+  <!-- Middle stripe (white) -->
+  <rect x="0" y="100" width="300" height="50" fill="#ffffff"/>
+
+  <!-- Bottom stripe (blue) -->
+  <rect x="0" y="150" width="300" height="50" fill="#003399"/>
+
+  <!-- Stars (7 total, evenly distributed across the white middle stripe) -->
+  <!-- Star 1: top-left of middle stripe -->
+  <circle cx="60" cy="120" r="3" fill="#fff"/>
+  <circle cx="60" cy="120" r="1.5" fill="#000"/>
+  <circle cx="60" cy="120" r="1" fill="#fff"/>
+  <circle cx="60" cy="120" r="0.5" fill="#000"/>
+  <circle cx="60" cy="120" r="0.25" fill="#fff"/>
+  <circle cx="60" cy="120" r="0.125" fill="#000"/>
+
+  <!-- Star 2: center-top of middle stripe -->
+  <circle cx="150" cy="120" r="3" fill="#fff"/>
+  <circle cx="150" cy="120" r="1.5" fill="#000"/>
+  <circle cx="150" cy="120" r="1" fill="#fff"/>
+  <circle cx="150" cy="120" r="0.5" fill="#000"/>
+  <circle cx="150" cy="120" r="0.25" fill="#fff"/>
+  <circle cx="150" cy="120" r="0.125" fill="#000"/>
+
+  <!-- Star 3: bottom-center of middle stripe -->
+  <circle cx="210" cy="120" r="3" fill="#fff"/>
+  <circle cx="210" cy="120" r="1.5" fill="#000"/>
+  <circle cx="210" cy="120" r="1" fill="#fff"/>
+  <circle cx="210" cy="120" r="0.5" fill="#000"/>
+  <circle cx="210" cy="120" r="0.25" fill="#fff"/>
+  <circle cx="210" cy="120" r="0.125" fill="#000"/>
+
+  <!-- Star 4: right of middle stripe -->
+  <circle cx="270" cy="120" r="3" fill="#fff"/>
+  <circle cx="270" cy="120" r="1.5" fill="#000"/>
+  <circle cx="270" cy="120" r="1" fill="#fff"/>
+  <circle cx="270" cy="120" r="0.5" fill="#000"/>
+  <circle cx="270" cy="120" r="0.25" fill="#fff"/>
+  <circle cx="270" cy="120" r="0.125" fill="#000"/>
+
+  <!-- Star 5: left of middle stripe -->
+  <circle cx="30" cy="120" r="3" fill="#fff"/>
+  <circle cx="30" cy="120" r="1.5" fill="#000"/>
+  <circle cx="30" cy="120" r="1" fill="#fff"/>
+  <circle cx="30" cy="120" r="0.5" fill="#000"/>
+  <circle cx="30" cy="120" r="0.25" fill="#fff"/>
+  <circle cx="30" cy="120" r="0.125" fill="#000"/>
+
+  <!-- Star 6: far-right of middle stripe -->
+  <circle cx="285" cy="120" r="3" fill="#fff"/>
+  <circle cx="285" cy="120" r="1.5" fill="#000"/>
+  <circle cx="285" cy="120" r="1" fill="#fff"/>
+  <circle cx="285" cy="120" r="0.5" fill="#000"/>
+  <circle cx="285" cy="120" r="0.25" fill="#fff"/>
+  <circle cx="285" cy="120" r="0.125" fill="#000"/>
+
+  <!-- Star 7: far-left of middle stripe -->
+  <circle cx="15" cy="120" r="3" fill="#fff"/>
+  <circle cx="15" cy="120" r="1.5" fill="#000"/>
+  <circle cx="15" cy="120" r="1" fill="#fff"/>
+  <circle cx="15" cy="120" r="0.5" fill="#000"/>
+  <circle cx="15" cy="120" r="0.25" fill="#fff"/>
+  <circle cx="15" cy="120" r="0.125" fill="#000"/>
+</svg>

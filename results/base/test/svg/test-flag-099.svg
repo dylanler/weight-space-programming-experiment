@@ -1,0 +1,30 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+
+  <!-- Horizontal stripes (7 total) -->
+  <!-- Stripe 1: top -->
+  <rect x="0" y="0" width="300" height="40" fill="#FFD700"/>
+  <!-- Stripe 2 -->
+  <rect x="0" y="40" width="300" height="40" fill="#87CEEB"/>
+  <!-- Stripe 3 -->
+  <rect x="0" y="80" width="300" height="40" fill="#90EE90"/>
+  <!-- Stripe 4 -->
+  <rect x="0" y="120" width="300" height="40" fill="#ADD8E6"/>
+  <!-- Stripe 5 -->
+  <rect x="0" y="160" width="300" height="40" fill="#F0FFFF"/>
+  <!-- Stripe 6 -->
+  <rect x="0" y="200" width="300" height="40" fill="#DDA0DD"/>
+  <!-- Stripe 7: bottom -->
+  <rect x="0" y="240" width="300" height="40" fill="#FFFFFF"/>
+
+  <!-- Stars (4 total, evenly distributed across the flag) -->
+  <!-- Star 1: top-left area -->
+  <polygon points="100,20 110,30 115,40 105,50 95,40 90,30 100,20" fill="#FFD700"/>
+  <!-- Star 2: top-right area -->
+  <polygon points="200,20 190,30 185,40 195,50 205,40 210,30 200,20" fill="#FFD700"/>
+  <!-- Star 3: middle-left area -->
+  <polygon points="100,160 110,170 115,180 105,190 95,180 90,170 100,160" fill="#FFD700"/>
+  <!-- Star 4: middle-right area -->
+  <polygon points="200,160 190,170 185,180 195,190 205,180 210,170 200,160" fill="#FFD700"/>
+</svg>

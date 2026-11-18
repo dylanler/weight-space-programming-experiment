@@ -1,0 +1,60 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="white"/>
+
+  <!-- Flag dimensions: 600x400, stripes are equal height = 100px each -->
+  <!-- Top stripe (blue) -->
+  <rect x="0" y="0" width="600" height="100" fill="#003399"/>
+  
+  <!-- Second stripe (red) -->
+  <rect x="0" y="100" width="600" height="100" fill="#B22234"/>
+  
+  <!-- Third stripe (yellow) -->
+  <rect x="0" y="200" width="600" height="100" fill="#FFCC00"/>
+  
+  <!-- Fourth stripe (green) -->
+  <rect x="0" y="300" width="600" height="100" fill="#006400"/>
+  
+  <!-- Fifth stripe (white) -->
+  <rect x="0" y="400" width="600" height="100" fill="#FFFFFF"/>
+
+  <!-- Stars (9 stars total, evenly distributed across the flag) -->
+  <!-- Each star is a circle with a white center and black outline -->
+  <!-- Positions calculated to be roughly centered vertically in each stripe area -->
+  
+  <!-- Star 1 (top-left quadrant of blue stripe) -->
+  <circle cx="150" cy="50" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <circle cx="150" cy="50" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Star 2 (top-right quadrant of blue stripe) -->
+  <circle cx="450" cy="50" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <circle cx="450" cy="50" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Star 3 (middle-left of red stripe) -->
+  <circle cx="150" cy="150" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <circle cx="150" cy="150" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Star 4 (middle-right of red stripe) -->
+  <circle cx="450" cy="150" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <circle cx="450" cy="150" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Star 5 (bottom-left of yellow stripe) -->
+  <circle cx="150" cy="250" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <circle cx="150" cy="250" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Star 6 (bottom-right of yellow stripe) -->
+  <circle cx="450" cy="250" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <circle cx="450" cy="250" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Star 7 (left side of green stripe) -->
+  <circle cx="150" cy="350" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <circle cx="150" cy="350" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Star 8 (right side of green stripe) -->
+  <circle cx="450" cy="350" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <circle cx="450" cy="350" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+  
+  <!-- Star 9 (center of white stripe) -->
+  <circle cx="300" cy="400" r="8" fill="white" stroke="black" stroke-width="1.5"/>
+  <circle cx="300" cy="400" r="12" fill="none" stroke="black" stroke-width="1.5"/>
+</svg>

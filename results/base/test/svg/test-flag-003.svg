@@ -1,0 +1,65 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+
+  <!-- Top stripe (blue) -->
+  <rect x="0" y="0" width="300" height="60" fill="#003399"/>
+
+  <!-- Second stripe (red) -->
+  <rect x="0" y="60" width="300" height="60" fill="#B22234"/>
+
+  <!-- Third stripe (yellow) -->
+  <rect x="0" y="120" width="300" height="60" fill="#FFCC00"/>
+
+  <!-- Bottom stripe (green) -->
+  <rect x="0" y="180" width="300" height="60" fill="#006400"/>
+
+  <!-- Stars (6 total, evenly distributed across the flag) -->
+  <!-- Star 1: top-left area -->
+  <circle cx="50" cy="30" r="4" fill="black"/>
+  <circle cx="50" cy="30" r="2" fill="white"/>
+  <circle cx="50" cy="30" r="1" fill="black"/>
+  <circle cx="50" cy="30" r="1" fill="white"/>
+  <circle cx="50" cy="30" r="1" fill="black"/>
+  <circle cx="50" cy="30" r="1" fill="white"/>
+
+  <!-- Star 2: top-right area -->
+  <circle cx="250" cy="30" r="4" fill="black"/>
+  <circle cx="250" cy="30" r="2" fill="white"/>
+  <circle cx="250" cy="30" r="1" fill="black"/>
+  <circle cx="250" cy="30" r="1" fill="white"/>
+  <circle cx="250" cy="30" r="1" fill="black"/>
+  <circle cx="250" cy="30" r="1" fill="white"/>
+
+  <!-- Star 3: middle-left area -->
+  <circle cx="50" cy="150" r="4" fill="black"/>
+  <circle cx="50" cy="150" r="2" fill="white"/>
+  <circle cx="50" cy="150" r="1" fill="black"/>
+  <circle cx="50" cy="150" r="1" fill="white"/>
+  <circle cx="50" cy="150" r="1" fill="black"/>
+  <circle cx="50" cy="150" r="1" fill="white"/>
+
+  <!-- Star 4: middle-right area -->
+  <circle cx="250" cy="150" r="4" fill="black"/>
+  <circle cx="250" cy="150" r="2" fill="white"/>
+  <circle cx="250" cy="150" r="1" fill="black"/>
+  <circle cx="250" cy="150" r="1" fill="white"/>
+  <circle cx="250" cy="150" r="1" fill="black"/>
+  <circle cx="250" cy="150" r="1" fill="white"/>
+
+  <!-- Star 5: bottom-left area -->
+  <circle cx="50" cy="210" r="4" fill="black"/>
+  <circle cx="50" cy="210" r="2" fill="white"/>
+  <circle cx="50" cy="210" r="1" fill="black"/>
+  <circle cx="50" cy="210" r="1" fill="white"/>
+  <circle cx="50" cy="210" r="1" fill="black"/>
+  <circle cx="50" cy="210" r="1" fill="white"/>
+
+  <!-- Star 6: bottom-right area -->
+  <circle cx="250" cy="210" r="4" fill="black"/>
+  <circle cx="250" cy="210" r="2" fill="white"/>
+  <circle cx="250" cy="210" r="1" fill="black"/>
+  <circle cx="250" cy="210" r="1" fill="white"/>
+  <circle cx="250" cy="210" r="1" fill="black"/>
+  <circle cx="250" cy="210" r="1" fill="white"/>
+</svg>

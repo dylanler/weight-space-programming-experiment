@@ -1,0 +1,29 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+
+  <!-- Top stripe (blue) -->
+  <rect x="0" y="0" width="300" height="66.6667" fill="#003399"/>
+
+  <!-- Middle stripe (red) -->
+  <rect x="0" y="66.6667" width="300" height="66.6667" fill="#B22234"/>
+
+  <!-- Bottom stripe (green) -->
+  <rect x="0" y="133.3334" width="300" height="66.6667" fill="#008000"/>
+
+  <!-- Stars in the center of each stripe -->
+  <!-- Top stripe stars -->
+  <circle cx="150" cy="33.3334" r="4" fill="#FFD700"/>
+  <circle cx="150" cy="33.3334" r="2" fill="#FFA500"/>
+  <circle cx="150" cy="33.3334" r="1" fill="#FFFF00"/>
+
+  <!-- Middle stripe stars -->
+  <circle cx="150" cy="100" r="4" fill="#FFD700"/>
+  <circle cx="150" cy="100" r="2" fill="#FFA500"/>
+  <circle cx="150" cy="100" r="1" fill="#FFFF00"/>
+
+  <!-- Bottom stripe stars -->
+  <circle cx="150" cy="166.6667" r="4" fill="#FFD700"/>
+  <circle cx="150" cy="166.6667" r="2" fill="#FFA500"/>
+  <circle cx="150" cy="166.6667" r="1" fill="#FFFF00"/>
+</svg>

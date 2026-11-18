@@ -1,0 +1,24 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building outline -->
+  <rect x="100" y="50" width="100" height="300" fill="#8B7355"/>
+  
+  <!-- Floor 1 (Ground floor) - 2 windows -->
+  <rect x="120" y="100" width="40" height="60" fill="#A89F91"/>
+  <rect x="160" y="100" width="40" height="60" fill="#A89F91"/>
+  
+  <!-- Floor 2 - 2 windows -->
+  <rect x="120" y="160" width="40" height="60" fill="#A89F91"/>
+  <rect x="160" y="160" width="40" height="60" fill="#A89F91"/>
+  
+  <!-- Floor 3 - 2 windows -->
+  <rect x="120" y="220" width="40" height="60" fill="#A89F91"/>
+  <rect x="160" y="220" width="40" height="60" fill="#A89F91"/>
+  
+  <!-- Floor 4 - 2 windows -->
+  <rect x="120" y="280" width="40" height="60" fill="#A89F91"/>
+  <rect x="160" y="280" width="40" height="60" fill="#A89F91"/>
+  
+  <!-- Floor 5 (Top floor) - 2 windows -->
+  <rect x="120" y="340" width="40" height="60" fill="#A89F91"/>
+  <rect x="160" y="340" width="40" height="60" fill="#A89F91"/>
+</svg>

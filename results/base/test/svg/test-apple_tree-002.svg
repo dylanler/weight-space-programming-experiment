@@ -1,0 +1,19 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .trunk { fill: #8B4513; stroke: #654321; stroke-width: 4; }
+      .leaf { fill: #228B22; stroke: #1E5D1E; stroke-width: 2; }
+      .apple { fill: #FF0000; stroke: #990000; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Tree trunk -->
+  <rect x="170" y="100" width="20" height="150" class="trunk"/>
+  
+  <!-- Main tree shape (simplified) -->
+  <path d="M150,100 L150,120 L160,120 L160,140 L150,140 L150,160 L140,160 L140,180 L150,180 L150,200 L160,200 L160,220 L150,220 L150,240 L140,240 L140,260 L150,260 L150,280 L140,280 L140,300 Z" 
+        class="leaf"/>
+  
+  <!-- Apple on the right side of the tree -->
+  <circle cx="165" cy="130" r="6" class="apple"/>
+</svg>

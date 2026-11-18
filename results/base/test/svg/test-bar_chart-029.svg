@@ -1,0 +1,38 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range assumption: max value = 100, min = 0, bar width = 20, spacing = 60 -->
+  <!-- Bars will be at x positions: 60, 120, 180, 240, 300, 360, 420, 480, 540 (each 60px wide) -->
+  
+  <!-- Bar definitions: index 0 to 8. Index 2 is the 3rd bar (red), others blue -->
+  <!-- Heights: all bars start from bottom (y=300) and go up to some height based on values -->
+  <!-- Let's assume heights: [10, 15, 20, 25, 30, 35, 40, 45, 50] for visualization purposes -->
+  
+  <!-- Bar 0 (blue): x=60, h=10 -->
+  <rect x="60" y="290" width="20" height="10" fill="#1E90FF"/>
+  
+  <!-- Bar 1 (blue): x=120, h=15 -->
+  <rect x="120" y="275" width="20" height="15" fill="#1E90FF"/>
+  
+  <!-- Bar 2 (red): x=180, h=20 (tallest) -->
+  <rect x="180" y="260" width="20" height="20" fill="#FF0000"/>
+  
+  <!-- Bar 3 (blue): x=240, h=25 -->
+  <rect x="240" y="250" width="20" height="25" fill="#1E90FF"/>
+  
+  <!-- Bar 4 (blue): x=300, h=30 -->
+  <rect x="300" y="240" width="20" height="30" fill="#1E90FF"/>
+  
+  <!-- Bar 5 (blue): x=360, h=35 -->
+  <rect x="360" y="230" width="20" height="35" fill="#1E90FF"/>
+  
+  <!-- Bar 6 (blue): x=420, h=40 -->
+  <rect x="420" y="220" width="20" height="40" fill="#1E90FF"/>
+  
+  <!-- Bar 7 (blue): x=480, h=45 -->
+  <rect x="480" y="210" width="20" height="45" fill="#1E90FF"/>
+  
+  <!-- Bar 8 (blue): x=540, h=50 -->
+  <rect x="540" y="200" width="20" height="50" fill="#1E90FF"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+
+  <!-- Horizontal stripes (5) -->
+  <rect x="0" y="0" width="300" height="40" fill="#1E88E5"/>
+  <rect x="0" y="40" width="300" height="40" fill="#8BC34A"/>
+  <rect x="0" y="80" width="300" height="40" fill="#FFEB3B"/>
+  <rect x="0" y="120" width="300" height="40" fill="#F44336"/>
+  <rect x="0" y="160" width="300" height="40" fill="#4CAF50"/>
+
+  <!-- Stars (6) - evenly distributed across the flag -->
+  <g transform="translate(10, 20)">
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 60)">
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 100)">
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 140)">
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 180)">
+    <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+  </g>
+</svg>

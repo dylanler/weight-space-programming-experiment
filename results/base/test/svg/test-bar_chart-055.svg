@@ -1,0 +1,23 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range assumption: max value = 10, min = 0, bar width = 20, spacing = 50 -->
+  <!-- Bars will be at x positions: 50, 100, 150, 200, 250, 300, 350, 400 (8 bars) -->
+  
+  <!-- Bar heights (in units of 1): 1, 2, 3, 4, 5, 6, 7, 8 -->
+  <!-- 8th bar is tallest (height=8), colored red; others blue -->
+  
+  <!-- Blue bars -->
+  <rect x="50" y="2" width="20" height="8" fill="#1f77b4"/>
+  <rect x="100" y="0" width="20" height="10" fill="#1f77b4"/>
+  <rect x="150" y="0" width="20" height="10" fill="#1f77b4"/>
+  <rect x="200" y="0" width="20" height="10" fill="#1f77b4"/>
+  <rect x="250" y="0" width="20" height="10" fill="#1f77b4"/>
+  <rect x="300" y="0" width="20" height="10" fill="#1f77b4"/>
+  <rect x="350" y="0" width="20" height="10" fill="#1f77b4"/>
+  <rect x="400" y="0" width="20" height="10" fill="#1f77b4"/>
+
+  <!-- Red bar (8th from left, index 7 in 0-based array) -->
+  <rect x="350" y="0" width="20" height="8" fill="#d62728"/>
+</svg>

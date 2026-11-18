@@ -1,0 +1,18 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+  
+  <!-- Horizontal stripes (9 total) -->
+  <rect x="0" y="0" width="300" height="20" fill="#FFD700"/>
+  <rect x="0" y="40" width="300" height="20" fill="#87CEEB"/>
+  <rect x="0" y="60" width="300" height="20" fill="#FFA500"/>
+  <rect x="0" y="80" width="300" height="20" fill="#87CEEB"/>
+  <rect x="0" y="100" width="300" height="20" fill="#FFD700"/>
+  <rect x="0" y="120" width="300" height="20" fill="#87CEEB"/>
+  <rect x="0" y="140" width="300" height="20" fill="#FFA500"/>
+  <rect x="0" y="160" width="300" height="20" fill="#87CEEB"/>
+  <rect x="0" y="180" width="300" height="20" fill="#FFD700"/>
+  
+  <!-- Stars (1 total) -->
+  <polygon points="150,10 155,15 160,10 165,15 170,10" fill="#FFD700"/>
+</svg>

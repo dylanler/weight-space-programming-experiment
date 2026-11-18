@@ -1,0 +1,41 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"/>
+
+  <!-- Horizontal stripes (9 total) -->
+  <rect x="0" y="0" width="100%" height="50" fill="#FFD700"/>
+  <rect x="0" y="50" width="100%" height="50" fill="#8B4513"/>
+  <rect x="0" y="100" width="100%" height="50" fill="#FFA500"/>
+  <rect x="0" y="150" width="100%" height="50" fill="#8B4513"/>
+  <rect x="0" y="200" width="100%" height="50" fill="#FFD700"/>
+  <rect x="0" y="250" width="100%" height="50" fill="#8B4513"/>
+  <rect x="0" y="300" width="100%" height="50" fill="#FFA500"/>
+  <rect x="0" y="350" width="100%" height="50" fill="#8B4513"/>
+  <rect x="0" y="400" width="100%" height="50" fill="#FFD700"/>
+
+  <!-- Stars (8 total, evenly distributed across the flag) -->
+  <!-- Row 1: 2 stars -->
+  <circle cx="60" cy="25" r="3" fill="#FFFFFF"/>
+  <circle cx="140" cy="25" r="3" fill="#FFFFFF"/>
+  <!-- Row 2: 2 stars -->
+  <circle cx="60" cy="55" r="3" fill="#FFFFFF"/>
+  <circle cx="140" cy="55" r="3" fill="#FFFFFF"/>
+  <!-- Row 3: 2 stars -->
+  <circle cx="60" cy="85" r="3" fill="#FFFFFF"/>
+  <circle cx="140" cy="85" r="3" fill="#FFFFFF"/>
+  <!-- Row 4: 2 stars -->
+  <circle cx="60" cy="115" r="3" fill="#FFFFFF"/>
+  <circle cx="140" cy="115" r="3" fill="#FFFFFF"/>
+  <!-- Row 5: 2 stars -->
+  <circle cx="60" cy="145" r="3" fill="#FFFFFF"/>
+  <circle cx="140" cy="145" r="3" fill="#FFFFFF"/>
+  <!-- Row 6: 2 stars -->
+  <circle cx="60" cy="175" r="3" fill="#FFFFFF"/>
+  <circle cx="140" cy="175" r="3" fill="#FFFFFF"/>
+  <!-- Row 7: 2 stars -->
+  <circle cx="60" cy="205" r="3" fill="#FFFFFF"/>
+  <circle cx="140" cy="205" r="3" fill="#FFFFFF"/>
+  <!-- Row 8: 2 stars -->
+  <circle cx="60" cy="235" r="3" fill="#FFFFFF"/>
+  <circle cx="140" cy="235" r="3" fill="#FFFFFF"/>
+</svg>

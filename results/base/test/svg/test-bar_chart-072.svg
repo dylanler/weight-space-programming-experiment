@@ -1,0 +1,33 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define a common bar width and spacing -->
+  <defs>
+    <style>
+      .bar { fill: #ff0000; }
+      .blue-bar { fill: #0000ff; }
+    </style>
+  </defs>
+  
+  <!-- Background (optional, for clarity) -->
+  <rect x="0" y="0" width="400" height="200" fill="white"/>
+  
+  <!-- Bar 1: Tallest, Red -->
+  <rect x="50" y="80" width="60" height="120" class="bar"/>
+  
+  <!-- Bar 2: Blue -->
+  <rect x="120" y="70" width="60" height="130" class="blue-bar"/>
+  
+  <!-- Bar 3: Blue -->
+  <rect x="190" y="60" width="60" height="140" class="blue-bar"/>
+  
+  <!-- Bar 4: Blue -->
+  <rect x="260" y="50" width="60" height="150" class="blue-bar"/>
+  
+  <!-- Bar 5: Blue -->
+  <rect x="330" y="40" width="60" height="160" class="blue-bar"/>
+  
+  <!-- Bar 6: Blue -->
+  <rect x="400" y="30" width="60" height="170" class="blue-bar"/>
+  
+  <!-- Bar 7: Blue -->
+  <rect x="470" y="20" width="60" height="180" class="blue-bar"/>
+</svg>

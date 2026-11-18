@@ -1,0 +1,15 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Top stripe -->
+  <rect x="0" y="0" width="300" height="100" fill="#FFD700"/>
+  
+  <!-- Middle stripe -->
+  <rect x="0" y="100" width="300" height="50" fill="#8B4513"/>
+  
+  <!-- Bottom stripe -->
+  <rect x="0" y="150" width="300" height="50" fill="#006400"/>
+  
+  <!-- Stars (centered horizontally) -->
+  <circle cx="150" cy="50" r="5" fill="#FFFFFF"/>
+  <circle cx="150" cy="150" r="5" fill="#FFFFFF"/>
+  <circle cx="150" cy="250" r="5" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building outline -->
+  <rect x="100" y="80" width="200" height="340" fill="#8B7355"/>
+  
+  <!-- Floors (6 floors) -->
+  <!-- Floor 1 -->
+  <rect x="110" y="120" width="180" height="60" fill="#AABCB9"/>
+  <!-- Floor 2 -->
+  <rect x="110" y="180" width="180" height="60" fill="#AABCB9"/>
+  <!-- Floor 3 -->
+  <rect x="110" y="240" width="180" height="60" fill="#AABCB9"/>
+  <!-- Floor 4 -->
+  <rect x="110" y="300" width="180" height="60" fill="#AABCB9"/>
+  <!-- Floor 5 -->
+  <rect x="110" y="360" width="180" height="60" fill="#AABCB9"/>
+  <!-- Floor 6 (roof area) -->
+  <rect x="110" y="420" width="180" height="60" fill="#AABCB9"/>
+
+  <!-- Windows: 20 total, 4 per floor = 20 windows -->
+  <!-- Floor 1 (y=120) -->
+  <rect x="120" y="125" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="140" y="125" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="160" y="125" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="180" y="125" width="20" height="20" fill="#E0F7FA"/>
+  <!-- Floor 2 (y=180) -->
+  <rect x="120" y="185" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="140" y="185" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="160" y="185" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="180" y="185" width="20" height="20" fill="#E0F7FA"/>
+  <!-- Floor 3 (y=240) -->
+  <rect x="120" y="245" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="140" y="245" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="160" y="245" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="180" y="245" width="20" height="20" fill="#E0F7FA"/>
+  <!-- Floor 4 (y=300) -->
+  <rect x="120" y="305" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="140" y="305" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="160" y="305" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="180" y="305" width="20" height="20" fill="#E0F7FA"/>
+  <!-- Floor 5 (y=360) -->
+  <rect x="120" y="365" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="140" y="365" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="160" y="365" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="180" y="365" width="20" height="20" fill="#E0F7FA"/>
+  <!-- Floor 6 (y=420) -->
+  <rect x="120" y="425" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="140" y="425" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="160" y="425" width="20" height="20" fill="#E0F7FA"/>
+  <rect x="180" y="425" width="20" height="20" fill="#E0F7FA"/>
+</svg>

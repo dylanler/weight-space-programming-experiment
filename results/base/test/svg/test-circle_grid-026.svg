@@ -1,0 +1,19 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- 2 rows, 5 columns, total cells = 10 -->
+  <!-- Cell size: 200 / 5 = 40px per cell, 150 / 2 = 75px per row -->
+  
+  <!-- Row 1 (y=0) -->
+  <circle cx="40" cy="0" r="8" fill="#e74c3c"/>
+  <circle cx="80" cy="0" r="8" fill="#3498db"/>
+  <circle cx="120" cy="0" r="8" fill="#f1c40f"/>
+  <circle cx="160" cy="0" r="8" fill="#9b59b6"/>
+  <circle cx="200" cy="0" r="8" fill="#2ecc71"/>
+
+  <!-- Row 2 (y=75) -->
+  <circle cx="40" cy="75" r="8" fill="#e74c3c"/>
+  <circle cx="80" cy="75" r="8" fill="#3498db"/>
+  <circle cx="120" cy="75" r="8" fill="#f1c40f"/>
+  <circle cx="160" cy="75" r="8" fill="#9b59b6"/>
+  <circle cx="200" cy="75" r="8" fill="#2ecc71"/>
+</svg>

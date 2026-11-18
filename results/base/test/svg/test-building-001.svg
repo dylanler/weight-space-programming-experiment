@@ -1,0 +1,34 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building outline -->
+  <rect x="100" y="50" width="100" height="300" fill="#8B7355"/>
+  
+  <!-- Floor 1 (bottom) -->
+  <rect x="100" y="150" width="100" height="60" fill="#AABCB9"/>
+  
+  <!-- Floor 2 (top) -->
+  <rect x="100" y="210" width="100" height="60" fill="#C7B29D"/>
+  
+  <!-- Windows on Floor 1 (left side) -->
+  <rect x="110" y="160" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="130" y="160" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="150" y="160" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="170" y="160" width="20" height="40" fill="#E8F4F8"/>
+  
+  <!-- Windows on Floor 1 (right side) -->
+  <rect x="190" y="160" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="210" y="160" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="230" y="160" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="250" y="160" width="20" height="40" fill="#E8F4F8"/>
+  
+  <!-- Windows on Floor 2 (left side) -->
+  <rect x="110" y="170" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="130" y="170" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="150" y="170" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="170" y="170" width="20" height="40" fill="#E8F4F8"/>
+  
+  <!-- Windows on Floor 2 (right side) -->
+  <rect x="190" y="170" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="210" y="170" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="230" y="170" width="20" height="40" fill="#E8F4F8"/>
+  <rect x="250" y="170" width="20" height="40" fill="#E8F4F8"/>
+</svg>

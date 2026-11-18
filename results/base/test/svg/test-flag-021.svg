@@ -1,0 +1,34 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+
+  <!-- Horizontal stripes (5) -->
+  <rect x="0" y="0" width="300" height="40" fill="#FFD700"/>
+  <rect x="0" y="80" width="300" height="40" fill="#FFA500"/>
+  <rect x="0" y="160" width="300" height="40" fill="#FFFF00"/>
+  <rect x="0" y="240" width="300" height="40" fill="#00BFFF"/>
+  <rect x="0" y="320" width="300" height="40" fill="#000080"/>
+
+  <!-- Stars (8) -->
+  <g transform="translate(10, 20)">
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 60)">
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 100)">
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 140)">
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 180)">
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 220)">
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(10, 260)">
+    <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+  </g>
+</svg>

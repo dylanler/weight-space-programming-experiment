@@ -1,0 +1,28 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range assumption: bars from 10 to 150, max value 150 -->
+  <!-- Bar width: 60, spacing: 40, left margin: 80, right margin: 20 -->
+  
+  <!-- Bar 1 (blue) -->
+  <rect x="80" y="100" width="60" height="100" fill="blue"/>
+
+  <!-- Bar 2 (blue) -->
+  <rect x="160" y="100" width="60" height="100" fill="blue"/>
+
+  <!-- Bar 3 (blue) -->
+  <rect x="240" y="100" width="60" height="100" fill="blue"/>
+
+  <!-- Bar 4 (red) - tallest at 150 -->
+  <rect x="320" y="100" width="60" height="150" fill="red"/>
+
+  <!-- X-axis labels -->
+  <text x="100" y="290" text-anchor="middle" font-size="12">10</text>
+  <text x="180" y="290" text-anchor="middle" font-size="12">12.5</text>
+  <text x="260" y="290" text-anchor="middle" font-size="12">15</text>
+  <text x="340" y="290" text-anchor="middle" font-size="12">17.5</text>
+
+  <!-- Y-axis label -->
+  <text x="10" y="150" text-anchor="middle" font-size="12" transform="rotate(-90 10 150)">Value</text>
+</svg>

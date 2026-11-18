@@ -1,0 +1,43 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range -->
+  <!-- Left margin: 60, Right margin: 20, Top margin: 20, Bottom margin: 60 -->
+  <!-- Data range: max value = 100 (9th bar), min value = 50 -->
+  <!-- Bar width: 40, spacing: 20 -->
+  
+  <!-- Define common styles -->
+  <style>
+    .bar { fill: blue; }
+    .tall-bar { fill: red; }
+  </style>
+
+  <!-- Bars -->
+  <!-- Bar 1: 70 -->
+  <rect class="bar" x="60" y="80" width="40" height="20" />
+  
+  <!-- Bar 2: 80 -->
+  <rect class="bar" x="110" y="80" width="40" height="20" />
+  
+  <!-- Bar 3: 90 -->
+  <rect class="bar" x="160" y="80" width="40" height="20" />
+  
+  <!-- Bar 4: 95 -->
+  <rect class="bar" x="210" y="80" width="40" height="20" />
+  
+  <!-- Bar 5: 98 -->
+  <rect class="bar" x="260" y="80" width="40" height="20" />
+  
+  <!-- Bar 6: 99 -->
+  <rect class="bar" x="310" y="80" width="40" height="20" />
+  
+  <!-- Bar 7: 99.5 -->
+  <rect class="bar" x="360" y="80" width="40" height="20" />
+  
+  <!-- Bar 8: 99.8 -->
+  <rect class="bar" x="410" y="80" width="40" height="20" />
+  
+  <!-- Bar 9 (Tallest): 100 -->
+  <rect class="tall-bar" x="460" y="80" width="40" height="20" />
+</svg>

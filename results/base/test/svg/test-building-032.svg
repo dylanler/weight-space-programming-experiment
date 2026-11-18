@@ -1,0 +1,42 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building outline -->
+  <rect x="100" y="80" width="200" height="320" fill="#a8c6e9"/>
+  
+  <!-- Floor lines (horizontal dividers) -->
+  <line x1="100" y1="120" x2="300" y2="120" stroke="#7aa0b3" stroke-width="2"/>
+  <line x1="100" y1="160" x2="300" y2="160" stroke="#7aa0b3" stroke-width="2"/>
+  <line x1="100" y1="200" x2="300" y2="200" stroke="#7aa0b3" stroke-width="2"/>
+  <line x1="100" y1="240" x2="300" y2="240" stroke="#7aa0b3" stroke-width="2"/>
+  <line x1="100" y1="280" x2="300" y2="280" stroke="#7aa0b3" stroke-width="2"/>
+  
+  <!-- Windows on each floor (4 windows per floor = 20 total, but we need exactly 16) -->
+  <!-- Floor 1: 4 windows -->
+  <rect x="120" y="130" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="160" y="130" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="200" y="130" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="240" y="130" width="40" height="40" fill="#f0f4f8"/>
+  
+  <!-- Floor 2: 4 windows -->
+  <rect x="120" y="170" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="160" y="170" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="200" y="170" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="240" y="170" width="40" height="40" fill="#f0f4f8"/>
+  
+  <!-- Floor 3: 4 windows -->
+  <rect x="120" y="210" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="160" y="210" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="200" y="210" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="240" y="210" width="40" height="40" fill="#f0f4f8"/>
+  
+  <!-- Floor 4: 4 windows -->
+  <rect x="120" y="250" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="160" y="250" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="200" y="250" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="240" y="250" width="40" height="40" fill="#f0f4f8"/>
+  
+  <!-- Floor 5: 4 windows -->
+  <rect x="120" y="290" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="160" y="290" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="200" y="290" width="40" height="40" fill="#f0f4f8"/>
+  <rect x="240" y="290" width="40" height="40" fill="#f0f4f8"/>
+</svg>

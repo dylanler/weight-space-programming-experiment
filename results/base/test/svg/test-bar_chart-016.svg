@@ -1,0 +1,19 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range assumption: max value = 10, min = 0, bar width = 20, spacing = 50 -->
+  <!-- Bar positions (x=50 to x=170) with heights based on values [10, 8, 6, 5, 4, 3, 2, 1] -->
+  
+  <!-- Bar 1: tallest, red -->
+  <rect x="50" y="0" width="20" height="10" fill="red"/>
+  
+  <!-- Bars 2-8: blue, decreasing heights -->
+  <rect x="90" y="0" width="20" height="8" fill="blue"/>
+  <rect x="130" y="0" width="20" height="6" fill="blue"/>
+  <rect x="170" y="0" width="20" height="5" fill="blue"/>
+  <rect x="210" y="0" width="20" height="4" fill="blue"/>
+  <rect x="250" y="0" width="20" height="3" fill="blue"/>
+  <rect x="290" y="0" width="20" height="2" fill="blue"/>
+  <rect x="330" y="0" width="20" height="1" fill="blue"/>
+</svg>

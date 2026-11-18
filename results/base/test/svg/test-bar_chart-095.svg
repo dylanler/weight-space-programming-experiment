@@ -1,0 +1,22 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Bar chart data (assuming equal widths for simplicity) -->
+  <!-- Bar 1: tallest, red -->
+  <rect x="50" y="80" width="60" height="120" fill="red"/>
+  
+  <!-- Bar 2: medium height, blue -->
+  <rect x="150" y="100" width="60" height="90" fill="blue"/>
+  
+  <!-- Bar 3: shortest height, blue -->
+  <rect x="250" y="120" width="60" height="80" fill="blue"/>
+
+  <!-- X-axis labels -->
+  <text x="70" y="290" text-anchor="middle" font-size="12">Bar 1</text>
+  <text x="170" y="290" text-anchor="middle" font-size="12">Bar 2</text>
+  <text x="270" y="290" text-anchor="middle" font-size="12">Bar 3</text>
+
+  <!-- Y-axis label -->
+  <text x="10" y="150" text-anchor="middle" font-size="12" transform="rotate(-90 10 150)">Value</text>
+</svg>

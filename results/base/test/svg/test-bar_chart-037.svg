@@ -1,0 +1,40 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range assumption: max value = 100, min = 0, bar width = 20, spacing = 60 -->
+  <!-- Bars will be at x positions: 60, 120, 180, 240, 300 (5th bar), 360, 420 -->
+  
+  <!-- Bar 1 (blue) -->
+  <rect x="60" y="100" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 2 (blue) -->
+  <rect x="120" y="100" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 3 (blue) -->
+  <rect x="180" y="100" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 4 (blue) -->
+  <rect x="240" y="100" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 5 (red) - tallest -->
+  <rect x="300" y="0" width="20" height="100" fill="red"/>
+
+  <!-- Bar 6 (blue) -->
+  <rect x="360" y="100" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 7 (blue) -->
+  <rect x="420" y="100" width="20" height="100" fill="blue"/>
+
+  <!-- X-axis labels for clarity -->
+  <text x="60" y="290" text-anchor="middle" font-size="12">Bar 1</text>
+  <text x="120" y="290" text-anchor="middle" font-size="12">Bar 2</text>
+  <text x="180" y="290" text-anchor="middle" font-size="12">Bar 3</text>
+  <text x="240" y="290" text-anchor="middle" font-size="12">Bar 4</text>
+  <text x="300" y="290" text-anchor="middle" font-size="12">Bar 5</text>
+  <text x="360" y="290" text-anchor="middle" font-size="12">Bar 6</text>
+  <text x="420" y="290" text-anchor="middle" font-size="12">Bar 7</text>
+
+  <!-- Y-axis label -->
+  <text x="10" y="150" text-anchor="middle" font-size="12" transform="rotate(-90 10 150)">Value</text>
+</svg>

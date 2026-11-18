@@ -1,0 +1,26 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range assumption: max value = 10, min = 0, bar width = 20, spacing = 50 -->
+  <!-- Bars will be at x positions: 50, 100, 150, 200, 250, 300, 350, 400 (8 bars) + one more to make 9 -->
+  <!-- Let's define 9 bars with widths of 20px, gaps of 50px between them, starting at x=50 -->
+  
+  <!-- Bar definitions: index 0-8 -->
+  <!-- Index 0: blue, height 2 -->
+  <rect x="50" y="280" width="20" height="20" fill="#1E90FF"/>
+  <!-- Index 1: blue, height 3 -->
+  <rect x="100" y="260" width="20" height="30" fill="#1E90FF"/>
+  <!-- Index 2: blue, height 4 -->
+  <rect x="150" y="240" width="20" height="40" fill="#1E90FF"/>
+  <!-- Index 3: red, height 10 (tallest) -->
+  <rect x="200" y="200" width="20" height="100" fill="#FF0000"/>
+  <!-- Index 4: blue, height 5 -->
+  <rect x="250" y="210" width="20" height="50" fill="#1E90FF"/>
+  <!-- Index 5: blue, height 6 -->
+  <rect x="300" y="190" width="20" height="60" fill="#1E90FF"/>
+  <!-- Index 6: blue, height 7 -->
+  <rect x="350" y="170" width="20" height="70" fill="#1E90FF"/>
+  <!-- Index 7: blue, height 8 -->
+  <rect x="400" y="150" width="20" height="80" fill="#1E90FF"/>
+</svg>

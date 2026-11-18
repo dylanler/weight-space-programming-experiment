@@ -1,0 +1,29 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .bar { fill: blue; }
+      .tall-bar { fill: red; }
+    </style>
+  </defs>
+
+  <!-- Chart margins and dimensions -->
+  <!-- Left margin: 60, Right margin: 20, Top margin: 20, Bottom margin: 60 -->
+  <!-- Plot area: x from 60 to 380 (width 320), y from 20 to 240 (height 220) -->
+
+  <!-- Bar 1: value 40 -->
+  <rect x="60" y="150" width="40" height="90" class="bar" />
+
+  <!-- Bar 2: value 70 -->
+  <rect x="120" y="120" width="40" height="120" class="bar" />
+
+  <!-- Bar 3: value 50 -->
+  <rect x="180" y="140" width="40" height="100" class="bar" />
+
+  <!-- Bar 4: value 80 -->
+  <rect x="240" y="100" width="40" height="140" class="bar" />
+
+  <!-- Bar 5: value 100 (tallest, red) -->
+  <rect x="300" y="80" width="40" height="160" class="tall-bar" />
+
+</svg>

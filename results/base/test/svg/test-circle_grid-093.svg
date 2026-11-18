@@ -1,0 +1,145 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- Rows: 6, Columns: 3 -->
+  <!-- Cell size: 40x40 (total 240x240, but we'll use 200x150) -->
+  <!-- Let's make each cell 33.33x33.33 to fit in 200x150 with some padding or overlap? 
+       Better approach: Use a fixed cell size that divides evenly if possible, 
+       or just calculate based on total dimensions.
+       
+       Total rows = 6, cols = 3
+       If we want equal spacing, let's say cell height = 25, cell width = 25
+       Then 6*25 = 150, 3*25 = 75 -> fits in 200x150 with margins.
+       
+       Let's do: margin=10, so inner area 180x130
+       180 / 6 = 30 per row
+       130 / 3 ≈ 43.33 per col -> not integer.
+       
+       Alternative: Make cells square and adjust layout.
+       Let's try: cell_size = 40
+       6 * 40 = 240 (too big for 150 height)
+       
+       Best fit: Use aspect ratio matching.
+       Let's set cell_height = 25, then 6*25=150 (perfect for height)
+       For columns: 150 / 3 = 50 per column
+       So: 6 rows of circles, 3 columns, each circle diameter 50, centered with 10px margin on sides.
+       
+       Total width needed: 3*(50+10) + 10 = 190 (fits in 200)
+       Total height needed: 6*(25+10) = 210 (exceeds 150)
+       
+       Wait, let's recalculate properly:
+       Height constraint: 150
+       Rows: 6
+       If we center vertically: (150 - 2*margin)/6 = (150-20)/6 = 20 per row from top/bottom
+       So radius = 20, diameter = 40
+       Width constraint: 200
+       Cols: 3
+       If we center horizontally: (200 - 2*margin)/3 = (200-20)/3 = 60 per column from left/right
+       So radius = 60, diameter = 120
+       
+       This won't work because circles are different sizes.
+       
+       Solution: Make all circles same size.
+       Let's choose diameter = 30
+       Height: 6 * 30 = 180 > 150 (too tall)
+       Width: 3 * 30 = 90 < 200 (ok)
+       
+       We need to compress vertically.
+       Let's use a common approach: define the SVG viewBox to match content, then scale.
+       
+       Actually, simplest: create a grid where each cell is a circle of fixed size, arranged in 6x3.
+       Let's make cell_size = 30
+       Total height = 6*30 = 180 (need to reduce)
+       Total width = 3*30 = 90 (ok)
+       
+       To fit in 150 height:
+       Let's make the grid span the full height by adjusting positions.
+       
+       New plan:
+       Circle diameter = 30
+       Row height = 30
+       Column width = 30
+       But 6 rows * 30 = 180 > 150
+       
+       Let's try: circle diameter = 25
+       6 * 25 = 150 (perfect height)
+       3 * 25 = 75 (width)
+       With margins: add 10px on each side
+       Total width = 3*(25+10) + 10 = 95 (fits in 200)
+       Total height = 6*(25+10) = 210 (still too tall)
+       
+       Okay, I'll make the circles smaller and arrange them tightly.
+       Let's use: circle diameter = 20
+       6 * 20 = 120 (height)
+       3 * 20 = 60 (width)
+       Add 10px margin on each side:
+       Width = 3*(20+10) + 10 = 90 (fits in 200)
+       Height = 6*(20+10) = 200 (exceeds 150)
+       
+       Final solution:
+       Use a viewBox that matches the content, then scale to 200x150.
+       Or simply: make the circles small enough to fit.
+       
+       Let's do this:
+       Circle diameter = 20
+       Arrange in 6 rows, 3 columns
+       Center vertically: (150 - 2*radius)/6 = (150-20)/6 = 20 per row from top/bottom
+       So y position = 20 + i*20 for i=0..5
+       Center horizontally: (200 - 2*radius)/3 = (200-20)/3 = 60 per column from left/right
+       So x position = 10 + j*60 for j=0..2
+       
+       This gives:
+       Top-left: (10, 20), Bottom-right: (190, 140)
+       Fits perfectly!
+       
+       Circle radius = 10, diameter = 20
+       Grid: 6 rows, 3 columns
+</think>
+
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="1" height="1" patternUnits="userSpaceOnUse">
+      <circle cx="0" cy="0" r="1" fill="none" stroke="#ccc" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background grid -->
+  <rect width="200" height="150" fill="white"/>
+  
+  <!-- Grid lines -->
+  <line x1="10" y1="20" x2="190" y2="20" stroke="#eee" stroke-width="1"/>
+  <line x1="10" y1="40" x2="190" y2="40" stroke="#eee" stroke-width="1"/>
+  <line x1="10" y1="60" x2="190" y2="60" stroke="#eee" stroke-width="1"/>
+  <line x1="10" y1="80" x2="190" y2="80" stroke="#eee" stroke-width="1"/>
+  <line x1="10" y1="100" x2="190" y2="100" stroke="#eee" stroke-width="1"/>
+  <line x1="10" y1="120" x2="190" y2="120" stroke="#eee" stroke-width="1"/>
+  <line x1="10" y1="140" x2="190" y2="140" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Circles -->
+  <circle cx="10" cy="20" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="70" cy="20" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="20" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="10" cy="40" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="70" cy="40" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="40" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="10" cy="60" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="70" cy="60" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="60" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="10" cy="80" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="70" cy="80" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="80" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="10" cy="100" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="70" cy="100" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="100" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="10" cy="120" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="70" cy="120" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="120" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="10" cy="140" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="70" cy="140" r="10" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="140" cy="140" r="10" fill="none" stroke="#333" stroke-width="2"/>
+</svg>

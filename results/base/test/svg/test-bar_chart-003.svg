@@ -1,0 +1,29 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and grid area -->
+  <!-- Left margin: 80, Right margin: 20, Top margin: 40, Bottom margin: 60 -->
+  <!-- Bars will be placed from x=80 to x=380 -->
+  
+  <!-- Bar widths: 50px each, spacing between bars: 10px, padding: 10px -->
+  <!-- Heights: 50, 70, 90, 110, 130 (tallest), 150 -->
+  
+  <!-- Bar 1: height 50 -->
+  <rect x="80" y="200" width="50" height="50" fill="blue"/>
+  
+  <!-- Bar 2: height 70 -->
+  <rect x="140" y="130" width="50" height="70" fill="blue"/>
+  
+  <!-- Bar 3: height 90 -->
+  <rect x="200" y="100" width="50" height="90" fill="blue"/>
+  
+  <!-- Bar 4: height 110 -->
+  <rect x="260" y="90" width="50" height="110" fill="blue"/>
+  
+  <!-- Bar 5: height 130 (TALLEST) - RED -->
+  <rect x="320" y="70" width="50" height="130" fill="red"/>
+  
+  <!-- Bar 6: height 150 -->
+  <rect x="380" y="50" width="50" height="150" fill="blue"/>
+</svg>

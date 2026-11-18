@@ -1,0 +1,37 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range assumption: max value = 100, min = 0, bar width = 20, spacing = 50 -->
+  <!-- Bars will be at x positions: 50, 100, 150, 200, 250, 300, 350, 400, 450 (with gaps) -->
+  
+  <!-- Bar definitions: index 0 to 8. Index 4 is the 5th bar (tallest, red). All others blue. -->
+  <!-- Assuming heights are proportional to indices for simplicity, with index 4 being 100 -->
+  
+  <!-- Bar 0 (blue) -->
+  <rect x="50" y="20" width="20" height="70" fill="#1E90FF"/>
+  
+  <!-- Bar 1 (blue) -->
+  <rect x="100" y="20" width="20" height="70" fill="#1E90FF"/>
+  
+  <!-- Bar 2 (blue) -->
+  <rect x="150" y="20" width="20" height="70" fill="#1E90FF"/>
+  
+  <!-- Bar 3 (blue) -->
+  <rect x="200" y="20" width="20" height="70" fill="#1E90FF"/>
+  
+  <!-- Bar 4 (red) - Tallest -->
+  <rect x="250" y="20" width="20" height="100" fill="#FF0000"/>
+  
+  <!-- Bar 5 (blue) -->
+  <rect x="300" y="20" width="20" height="70" fill="#1E90FF"/>
+  
+  <!-- Bar 6 (blue) -->
+  <rect x="350" y="20" width="20" height="70" fill="#1E90FF"/>
+  
+  <!-- Bar 7 (blue) -->
+  <rect x="400" y="20" width="20" height="70" fill="#1E90FF"/>
+  
+  <!-- Bar 8 (blue) -->
+  <rect x="450" y="20" width="20" height="70" fill="#1E90FF"/>
+</svg>

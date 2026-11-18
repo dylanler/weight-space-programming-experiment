@@ -1,0 +1,34 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define a common bar width and spacing -->
+  <defs>
+    <style>
+      .bar { fill: blue; }
+      .tall-bar { fill: red; }
+    </style>
+  </defs>
+  
+  <!-- Background (optional, for clarity) -->
+  <rect x="0" y="0" width="400" height="200" fill="white"/>
+  
+  <!-- Bar positions: assuming equal widths of 50px, starting at x=50, with gaps of 100px between bars -->
+  <!-- Bar 1: x=50 -->
+  <rect x="50" y="80" width="50" height="60" class="bar"/>
+  
+  <!-- Bar 2: x=150 - TALLER BAR (colored red) -->
+  <rect x="150" y="40" width="50" height="100" class="tall-bar"/>
+  
+  <!-- Bar 3: x=250 -->
+  <rect x="250" y="120" width="50" height="40" class="bar"/>
+  
+  <!-- Bar 4: x=350 -->
+  <rect x="350" y="100" width="50" height="50" class="bar"/>
+  
+  <!-- Bar 5: x=450 -->
+  <rect x="450" y="90" width="50" height="60" class="bar"/>
+  
+  <!-- Bar 6: x=550 -->
+  <rect x="550" y="110" width="50" height="40" class="bar"/>
+  
+  <!-- Bar 7: x=650 -->
+  <rect x="650" y="130" width="50" height="30" class="bar"/>
+</svg>

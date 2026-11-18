@@ -1,0 +1,56 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range -->
+  <!-- Left margin: 60, Right margin: 20, Top margin: 20, Bottom margin: 60 -->
+  <!-- Data range: max value = 100 (bar 2), min value = 50 -->
+  <!-- Bar width: 40, spacing: 20 -->
+  
+  <!-- Bars definition -->
+  <!-- Bar 1: height 70 -->
+  <!-- Bar 2: height 100 (tallest) -->
+  <!-- Bar 3: height 80 -->
+  <!-- Bar 4: height 90 -->
+  <!-- Bar 5: height 60 -->
+  <!-- Bar 6: height 75 -->
+  <!-- Bar 7: height 50 -->
+  <!-- Bar 8: height 65 -->
+
+  <!-- Bar 1 -->
+  <rect x="60" y="20" width="40" height="70" fill="#1E90FF"/>
+  
+  <!-- Bar 2 (Red, tallest) -->
+  <rect x="120" y="10" width="40" height="90" fill="#FF0000"/>
+  
+  <!-- Bar 3 -->
+  <rect x="180" y="20" width="40" height="80" fill="#1E90FF"/>
+  
+  <!-- Bar 4 -->
+  <rect x="240" y="10" width="40" height="90" fill="#1E90FF"/>
+  
+  <!-- Bar 5 -->
+  <rect x="300" y="40" width="40" height="60" fill="#1E90FF"/>
+  
+  <!-- Bar 6 -->
+  <rect x="360" y="20" width="40" height="75" fill="#1E90FF"/>
+  
+  <!-- Bar 7 -->
+  <rect x="420" y="50" width="40" height="50" fill="#1E90FF"/>
+  
+  <!-- Bar 8 -->
+  <rect x="480" y="35" width="40" height="65" fill="#1E90FF"/>
+
+  <!-- X-axis labels -->
+  <text x="60" y="280" text-anchor="middle" font-size="12">1</text>
+  <text x="120" y="280" text-anchor="middle" font-size="12">2</text>
+  <text x="180" y="280" text-anchor="middle" font-size="12">3</text>
+  <text x="240" y="280" text-anchor="middle" font-size="12">4</text>
+  <text x="300" y="280" text-anchor="middle" font-size="12">5</text>
+  <text x="360" y="280" text-anchor="middle" font-size="12">6</text>
+  <text x="420" y="280" text-anchor="middle" font-size="12">7</text>
+  <text x="480" y="280" text-anchor="middle" font-size="12">8</text>
+
+  <!-- Y-axis label -->
+  <text x="20" y="150" text-anchor="middle" font-size="12" transform="rotate(-90, 20, 150)">Value</text>
+</svg>

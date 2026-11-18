@@ -1,0 +1,25 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range assumption: max value = 100, min = 0, bar width = 20, spacing = 60 -->
+  <!-- Bars will be at x positions: 60, 120, 180, 240, 300, 360 -->
+  
+  <!-- Bar 1 (blue) -->
+  <rect x="60" y="50" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 2 (blue) -->
+  <rect x="120" y="50" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 3 (blue) -->
+  <rect x="180" y="50" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 4 (blue) -->
+  <rect x="240" y="50" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 5 (blue) -->
+  <rect x="300" y="50" width="20" height="100" fill="blue"/>
+
+  <!-- Bar 6 (red) - tallest, reaching full height of 100 -->
+  <rect x="360" y="0" width="20" height="100" fill="red"/>
+</svg>

@@ -1,0 +1,93 @@
+<svg width="300" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building outline -->
+  <rect x="100" y="80" width="100" height="370" fill="#a8c6e9"/>
+  
+  <!-- Floor 1 (bottom) -->
+  <rect x="110" y="120" width="80" height="60" fill="#f0f0f0"/>
+  <rect x="120" y="120" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="140" y="120" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="160" y="120" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="180" y="120" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="200" y="120" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="220" y="120" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="240" y="120" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="260" y="120" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="280" y="120" width="20" height="60" fill="#d0d0d0"/>
+  
+  <!-- Floor 2 -->
+  <rect x="110" y="180" width="80" height="60" fill="#f0f0f0"/>
+  <rect x="120" y="180" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="140" y="180" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="160" y="180" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="180" y="180" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="200" y="180" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="220" y="180" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="240" y="180" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="260" y="180" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="280" y="180" width="20" height="60" fill="#d0d0d0"/>
+  
+  <!-- Floor 3 -->
+  <rect x="110" y="240" width="80" height="60" fill="#f0f0f0"/>
+  <rect x="120" y="240" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="140" y="240" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="160" y="240" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="180" y="240" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="200" y="240" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="220" y="240" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="240" y="240" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="260" y="240" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="280" y="240" width="20" height="60" fill="#d0d0d0"/>
+  
+  <!-- Floor 4 (top) -->
+  <rect x="110" y="300" width="80" height="60" fill="#f0f0f0"/>
+  <rect x="120" y="300" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="140" y="300" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="160" y="300" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="180" y="300" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="200" y="300" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="220" y="300" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="240" y="300" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="260" y="300" width="20" height="60" fill="#d0d0d0"/>
+  <rect x="280" y="300" width="20" height="60" fill="#d0d0d0"/>
+  
+  <!-- Windows on each floor -->
+  <!-- Floor 1: Left side windows -->
+  <rect x="130" y="120" width="10" height="60" fill="#88ccff"/>
+  <rect x="150" y="120" width="10" height="60" fill="#88ccff"/>
+  <rect x="170" y="120" width="10" height="60" fill="#88ccff"/>
+  <rect x="190" y="120" width="10" height="60" fill="#88ccff"/>
+  <rect x="210" y="120" width="10" height="60" fill="#88ccff"/>
+  <rect x="230" y="120" width="10" height="60" fill="#88ccff"/>
+  <rect x="250" y="120" width="10" height="60" fill="#88ccff"/>
+  <rect x="270" y="120" width="10" height="60" fill="#88ccff"/>
+  
+  <!-- Floor 1: Right side windows -->
+  <rect x="130" y="180" width="10" height="60" fill="#88ccff"/>
+  <rect x="150" y="180" width="10" height="60" fill="#88ccff"/>
+  <rect x="170" y="180" width="10" height="60" fill="#88ccff"/>
+  <rect x="190" y="180" width="10" height="60" fill="#88ccff"/>
+  <rect x="210" y="180" width="10" height="60" fill="#88ccff"/>
+  <rect x="230" y="180" width="10" height="60" fill="#88ccff"/>
+  <rect x="250" y="180" width="10" height="60" fill="#88ccff"/>
+  <rect x="270" y="180" width="10" height="60" fill="#88ccff"/>
+  
+  <!-- Floor 2: Left side windows -->
+  <rect x="130" y="240" width="10" height="60" fill="#88ccff"/>
+  <rect x="150" y="240" width="10" height="60" fill="#88ccff"/>
+  <rect x="170" y="240" width="10" height="60" fill="#88ccff"/>
+  <rect x="190" y="240" width="10" height="60" fill="#88ccff"/>
+  <rect x="210" y="240" width="10" height="60" fill="#88ccff"/>
+  <rect x="230" y="240" width="10" height="60" fill="#88ccff"/>
+  <rect x="250" y="240" width="10" height="60" fill="#88ccff"/>
+  <rect x="270" y="240" width="10" height="60" fill="#88ccff"/>
+  
+  <!-- Floor 2: Right side windows -->
+  <rect x="130" y="300" width="10" height="60" fill="#88ccff"/>
+  <rect x="150" y="300" width="10" height="60" fill="#88ccff"/>
+  <rect x="170" y="300" width="10" height="60" fill="#88ccff"/>
+  <rect x="190" y="300" width="10" height="60" fill="#88ccff"/>
+  <rect x="210" y="300" width="10" height="60" fill="#88ccff"/>
+  <rect x="230" y="300" width="10" height="60" fill="#88ccff"/>
+  <rect x="250" y="300" width="10" height="60" fill="#88ccff"/>
+  <rect x="270" y="300" width="10" height="60" fill="#88ccff"/>
+</svg>

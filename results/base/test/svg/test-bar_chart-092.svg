@@ -1,0 +1,36 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range -->
+  <!-- Left margin: 80, Right margin: 20, Top margin: 40, Bottom margin: 60 -->
+  <!-- Data range: max value = 100 (red bar), min value = 50 -->
+  <!-- Bar width: 40, spacing: 20 -->
+  
+  <!-- Bar positions (x from 80 to 380) -->
+  <!-- Bar 1: x=80, height=50 -->
+  <!-- Bar 2: x=120, height=100 (tallest, red) -->
+  <!-- Bar 3: x=160, height=70 -->
+  <!-- Bar 4: x=200, height=50 -->
+
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .bar { fill: blue; }
+      .tall-bar { fill: red; }
+    </style>
+  </defs>
+
+  <!-- Bar 1 -->
+  <rect x="80" y="200" width="40" height="50" class="bar"/>
+
+  <!-- Bar 2 (Tallest, Red) -->
+  <rect x="120" y="100" width="40" height="100" class="tall-bar"/>
+
+  <!-- Bar 3 -->
+  <rect x="160" y="30" width="40" height="70" class="bar"/>
+
+  <!-- Bar 4 -->
+  <rect x="200" y="150" width="40" height="50" class="bar"/>
+
+</svg>

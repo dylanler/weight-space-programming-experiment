@@ -1,0 +1,42 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+
+  <!-- Horizontal stripes (7) -->
+  <rect x="0" y="0" width="300" height="50" fill="#1E88E5"/>
+  <rect x="0" y="50" width="300" height="50" fill="#4CAF50"/>
+  <rect x="0" y="100" width="300" height="50" fill="#FFC107"/>
+  <rect x="0" y="150" width="300" height="50" fill="#F44336"/>
+  <rect x="0" y="200" width="300" height="50" fill="#9C27B0"/>
+  <rect x="0" y="250" width="300" height="50" fill="#607D8B"/>
+  <rect x="0" y="300" width="300" height="50" fill="#E91E63"/>
+
+  <!-- Stars (7, centered vertically in each stripe) -->
+  <!-- Stripe 1: y=25, center at 25+25=50 -->
+  <circle cx="150" cy="50" r="4" fill="#FFFFFF"/>
+  <circle cx="150" cy="50" r="2" fill="#000000"/>
+  
+  <!-- Stripe 2: y=75, center at 75+25=100 -->
+  <circle cx="150" cy="100" r="4" fill="#FFFFFF"/>
+  <circle cx="150" cy="100" r="2" fill="#000000"/>
+  
+  <!-- Stripe 3: y=125, center at 125+25=150 -->
+  <circle cx="150" cy="150" r="4" fill="#FFFFFF"/>
+  <circle cx="150" cy="150" r="2" fill="#000000"/>
+  
+  <!-- Stripe 4: y=175, center at 175+25=200 -->
+  <circle cx="150" cy="200" r="4" fill="#FFFFFF"/>
+  <circle cx="150" cy="200" r="2" fill="#000000"/>
+  
+  <!-- Stripe 5: y=225, center at 225+25=250 -->
+  <circle cx="150" cy="250" r="4" fill="#FFFFFF"/>
+  <circle cx="150" cy="250" r="2" fill="#000000"/>
+  
+  <!-- Stripe 6: y=275, center at 275+25=300 -->
+  <circle cx="150" cy="300" r="4" fill="#FFFFFF"/>
+  <circle cx="150" cy="300" r="2" fill="#000000"/>
+  
+  <!-- Stripe 7: y=325, center at 325+25=350 -->
+  <circle cx="150" cy="350" r="4" fill="#FFFFFF"/>
+  <circle cx="150" cy="350" r="2" fill="#000000"/>
+</svg>

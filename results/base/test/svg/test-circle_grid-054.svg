@@ -1,0 +1,29 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- 6 columns, 3 rows, total cells = 18 -->
+  <!-- Cell size: 200 / 6 ≈ 33.33, 150 / 3 = 50 -->
+  
+  <!-- Row 1 (y=0) -->
+  <circle cx="33.33" cy="0" r="4" fill="#e74c3c"/>
+  <circle cx="66.67" cy="0" r="4" fill="#e74c3c"/>
+  <circle cx="100"   cy="0" r="4" fill="#e74c3c"/>
+  <circle cx="133.33" cy="0" r="4" fill="#e74c3c"/>
+  <circle cx="166.67" cy="0" r="4" fill="#e74c3c"/>
+  <circle cx="190"   cy="0" r="4" fill="#e74c3c"/>
+
+  <!-- Row 2 (y=50) -->
+  <circle cx="33.33" cy="50" r="4" fill="#f1c40f"/>
+  <circle cx="66.67" cy="50" r="4" fill="#f1c40f"/>
+  <circle cx="100"   cy="50" r="4" fill="#f1c40f"/>
+  <circle cx="133.33" cy="50" r="4" fill="#f1c40f"/>
+  <circle cx="166.67" cy="50" r="4" fill="#f1c40f"/>
+  <circle cx="190"   cy="50" r="4" fill="#f1c40f"/>
+
+  <!-- Row 3 (y=100) -->
+  <circle cx="33.33" cy="100" r="4" fill="#2ecc71"/>
+  <circle cx="66.67" cy="100" r="4" fill="#2ecc71"/>
+  <circle cx="100"   cy="100" r="4" fill="#2ecc71"/>
+  <circle cx="133.33" cy="100" r="4" fill="#2ecc71"/>
+  <circle cx="166.67" cy="100" r="4" fill="#2ecc71"/>
+  <circle cx="190"   cy="100" r="4" fill="#2ecc71"/>
+</svg>

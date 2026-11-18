@@ -1,0 +1,70 @@
+<svg width="400" height="560" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building outline -->
+  <rect x="100" y="80" width="200" height="480" fill="#a8c6e9"/>
+  
+  <!-- Floors (7 floors) -->
+  <!-- Floor 1 -->
+  <rect x="110" y="100" width="180" height="60" fill="#f0f4f8"/>
+  <!-- Floor 2 -->
+  <rect x="110" y="160" width="180" height="60" fill="#f0f4f8"/>
+  <!-- Floor 3 -->
+  <rect x="110" y="220" width="180" height="60" fill="#f0f4f8"/>
+  <!-- Floor 4 -->
+  <rect x="110" y="280" width="180" height="60" fill="#f0f4f8"/>
+  <!-- Floor 5 -->
+  <rect x="110" y="340" width="180" height="60" fill="#f0f4f8"/>
+  <!-- Floor 6 -->
+  <rect x="110" y="400" width="180" height="60" fill="#f0f4f8"/>
+  <!-- Floor 7 (Ground level) -->
+  <rect x="110" y="460" width="180" height="60" fill="#dceef8"/>
+  
+  <!-- Windows: 22 total, 4 per floor = 28 slots, but we need exactly 22 windows. Let's place them strategically. -->
+  <!-- Floor 1: 5 windows -->
+  <rect x="120" y="105" width="20" height="20" fill="#fff9c4"/>
+  <rect x="150" y="105" width="20" height="20" fill="#fff9c4"/>
+  <rect x="180" y="105" width="20" height="20" fill="#fff9c4"/>
+  <rect x="210" y="105" width="20" height="20" fill="#fff9c4"/>
+  <rect x="240" y="105" width="20" height="20" fill="#fff9c4"/>
+  
+  <!-- Floor 2: 5 windows -->
+  <rect x="120" y="165" width="20" height="20" fill="#fff9c4"/>
+  <rect x="150" y="165" width="20" height="20" fill="#fff9c4"/>
+  <rect x="180" y="165" width="20" height="20" fill="#fff9c4"/>
+  <rect x="210" y="165" width="20" height="20" fill="#fff9c4"/>
+  <rect x="240" y="165" width="20" height="20" fill="#fff9c4"/>
+  
+  <!-- Floor 3: 5 windows -->
+  <rect x="120" y="225" width="20" height="20" fill="#fff9c4"/>
+  <rect x="150" y="225" width="20" height="20" fill="#fff9c4"/>
+  <rect x="180" y="225" width="20" height="20" fill="#fff9c4"/>
+  <rect x="210" y="225" width="20" height="20" fill="#fff9c4"/>
+  <rect x="240" y="225" width="20" height="20" fill="#fff9c4"/>
+  
+  <!-- Floor 4: 5 windows -->
+  <rect x="120" y="285" width="20" height="20" fill="#fff9c4"/>
+  <rect x="150" y="285" width="20" height="20" fill="#fff9c4"/>
+  <rect x="180" y="285" width="20" height="20" fill="#fff9c4"/>
+  <rect x="210" y="285" width="20" height="20" fill="#fff9c4"/>
+  <rect x="240" y="285" width="20" height="20" fill="#fff9c4"/>
+  
+  <!-- Floor 5: 5 windows -->
+  <rect x="120" y="345" width="20" height="20" fill="#fff9c4"/>
+  <rect x="150" y="345" width="20" height="20" fill="#fff9c4"/>
+  <rect x="180" y="345" width="20" height="20" fill="#fff9c4"/>
+  <rect x="210" y="345" width="20" height="20" fill="#fff9c4"/>
+  <rect x="240" y="345" width="20" height="20" fill="#fff9c4"/>
+  
+  <!-- Floor 6: 5 windows -->
+  <rect x="120" y="405" width="20" height="20" fill="#fff9c4"/>
+  <rect x="150" y="405" width="20" height="20" fill="#fff9c4"/>
+  <rect x="180" y="405" width="20" height="20" fill="#fff9c4"/>
+  <rect x="210" y="405" width="20" height="20" fill="#fff9c4"/>
+  <rect x="240" y="405" width="20" height="20" fill="#fff9c4"/>
+  
+  <!-- Floor 7 (Ground): 5 windows -->
+  <rect x="120" y="465" width="20" height="20" fill="#fff9c4"/>
+  <rect x="150" y="465" width="20" height="20" fill="#fff9c4"/>
+  <rect x="180" y="465" width="20" height="20" fill="#fff9c4"/>
+  <rect x="210" y="465" width="20" height="20" fill="#fff9c4"/>
+  <rect x="240" y="465" width="20" height="20" fill="#fff9c4"/>
+</svg>

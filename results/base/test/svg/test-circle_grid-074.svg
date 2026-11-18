@@ -1,0 +1,67 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- Rows: 6, Columns: 3 -->
+  <!-- Cell size: 40x40 (total 240x240, but we'll use 200x150) -->
+  <!-- Let's make each cell 33.33x33.33 to fit in 200x150 with some padding or overlap? 
+       Better approach: Use a fixed cell size that divides evenly if possible, 
+       or just calculate based on total dimensions.
+       
+       Total rows = 6, cols = 3
+       If we want equal spacing, let's say cell height = 25, cell width = 25
+       Then 6*25 = 150, 3*25 = 75 -> fits in 200x150 with margins.
+       
+       Let's do: margin=10, so inner area 180x130
+       180 / 6 = 30 per row
+       130 / 3 ≈ 43.33 per col -> not integer.
+       
+       Alternative: Make cells square and adjust layout.
+       Let's try: cell_size = 40
+       6 * 40 = 240 (too big for 150 height)
+       
+       Best fit: Use aspect ratio matching.
+       Let's set cell_height = 25, then 6*25=150 (perfect for height)
+       For columns: 150 / 3 = 50 per column
+       So: 6 rows of circles, 3 columns, each circle diameter 50, centered with 10px margin on sides.
+       
+       Total width needed: 3*(50+10) + 10 = 190 (fits in 200)
+       Total height needed: 6*(25+10) + 10 = 220 (exceeds 150)
+       
+       Wait, let's recalculate properly:
+       Height constraint: 150
+       Rows: 6
+       If we center vertically: (150 - 2*margin)/6 = (150-20)/6 = 20 per row from top/bottom edge
+       So radius = 20, diameter = 40
+       Width constraint: 200
+       Cols: 3
+       If we center horizontally: (200 - 2*margin)/3 = (200-20)/3 = 60 per column from left/right edge
+       So radius = 60, diameter = 120
+       
+       This creates different sizes. Let's make all circles same size by adjusting margins.
+       
+       Actually simplest: Just place them without perfect alignment, or use a common size.
+       Let's use radius = 20 (diameter 40)
+       Height: 6 * 40 = 240 > 150, need to compress.
+       
+       New idea: Use smaller circles.
+       Let radius = 10 (diameter 20)
+       Height: 6 * 20 = 120, fits in 150 with 30px top/bottom margin
+       Width: 3 * 20 = 60, fits in 200 with 140px left/right margin
+       
+       Perfect! Let's go with this.
+       Radius = 10, Diameter = 20
+       Margin top/bottom = 30
+       Margin left/right = 140
+       
+       SVG viewBox will be 200x150
+       Circle centers:
+       Row 1 y = 30 + 10 = 40
+       Row 2 y = 40 + 20 = 60
+       Row 3 y = 60 + 20 = 80
+       Row 4 y = 80 + 20 = 100
+       Row 5 y = 100 + 20 = 120
+       Row 6 y = 120 + 20 = 140
+       
+       Col 1 x = 140 + 10 = 150
+       Col 2 x = 150 + 20 = 170
+       Col 3 x = 170 + 20 = 190
+</svg>

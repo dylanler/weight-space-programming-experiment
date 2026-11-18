@@ -1,0 +1,71 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .apple { fill: #ff4d4d; }
+      .stem { stroke: #555; stroke-width: 1; }
+      .leaf { fill: #8bc34a; }
+    </style>
+  </defs>
+  
+  <!-- Tree trunk -->
+  <rect x="220" y="160" width="60" height="100" rx="5" class="stem"/>
+  
+  <!-- Main tree branches -->
+  <path d="M220 160 L220 190" stroke="#8b7355" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 190 L250 190" stroke="#8b7355" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 190 L250 220" stroke="#8b7355" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 190 L250 250" stroke="#8b7355" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 190 L250 280" stroke="#8b7355" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Apple 1 -->
+  <circle cx="225" cy="190" r="10" class="apple"/>
+  <line x1="225" y1="190" x2="225" y2="180" class="stem"/>
+  
+  <!-- Apple 2 -->
+  <circle cx="235" cy="190" r="10" class="apple"/>
+  <line x1="235" y1="190" x2="235" y2="180" class="stem"/>
+  
+  <!-- Apple 3 -->
+  <circle cx="245" cy="190" r="10" class="apple"/>
+  <line x1="245" y1="190" x2="245" y2="180" class="stem"/>
+  
+  <!-- Apple 4 -->
+  <circle cx="255" cy="190" r="10" class="apple"/>
+  <line x1="255" y1="190" x2="255" y2="180" class="stem"/>
+  
+  <!-- Apple 5 -->
+  <circle cx="265" cy="190" r="10" class="apple"/>
+  <line x1="265" y1="190" x2="265" y2="180" class="stem"/>
+  
+  <!-- Apple 6 -->
+  <circle cx="275" cy="190" r="10" class="apple"/>
+  <line x1="275" y1="190" x2="275" y2="180" class="stem"/>
+  
+  <!-- Apple 7 -->
+  <circle cx="285" cy="190" r="10" class="apple"/>
+  <line x1="285" y1="190" x2="285" y2="180" class="stem"/>
+  
+  <!-- Apple 8 -->
+  <circle cx="295" cy="190" r="10" class="apple"/>
+  <line x1="295" y1="190" x2="295" y2="180" class="stem"/>
+  
+  <!-- Apple 9 -->
+  <circle cx="305" cy="190" r="10" class="apple"/>
+  <line x1="305" y1="190" x2="305" y2="180" class="stem"/>
+  
+  <!-- Apple 10 -->
+  <circle cx="315" cy="190" r="10" class="apple"/>
+  <line x1="315" y1="190" x2="315" y2="180" class="stem"/>
+  
+  <!-- Apple 11 -->
+  <circle cx="325" cy="190" r="10" class="apple"/>
+  <line x1="325" y1="190" x2="325" y2="180" class="stem"/>
+  
+  <!-- Leaves -->
+  <path d="M220 190 Q200 210 220 230" class="leaf"/>
+  <path d="M220 190 Q240 210 220 190" class="leaf"/>
+  <path d="M250 190 Q270 210 250 190" class="leaf"/>
+  <path d="M250 190 Q270 170 250 190" class="leaf"/>
+  <path d="M280 190 Q300 210 280 190" class="leaf"/>
+  <path d="M280 190 Q300 170 280 190" class="leaf"/>
+</svg>

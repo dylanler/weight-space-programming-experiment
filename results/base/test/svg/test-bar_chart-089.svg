@@ -1,0 +1,16 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Bar chart settings: max value = 100, bar width = 60, spacing = 50 -->
+  <!-- Bar positions (x): 80, 140, 200 -->
+  
+  <!-- 1st bar: tallest, red -->
+  <rect x="80" y="50" width="60" height="90" fill="red"/>
+
+  <!-- 2nd bar: medium height, blue -->
+  <rect x="140" y="100" width="60" height="40" fill="blue"/>
+
+  <!-- 3rd bar: shortest height, blue -->
+  <rect x="200" y="150" width="60" height="20" fill="blue"/>
+</svg>

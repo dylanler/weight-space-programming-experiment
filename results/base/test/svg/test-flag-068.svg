@@ -1,0 +1,32 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+
+  <!-- Horizontal stripes (6) -->
+  <rect x="0" y="0" width="300" height="33.3333" fill="#1E88E5"/>
+  <rect x="0" y="66.6667" width="300" height="33.3333" fill="#4CAF50"/>
+  <rect x="0" y="100" width="300" height="33.3333" fill="#FFC107"/>
+  <rect x="0" y="133.333" width="300" height="33.3333" fill="#F44336"/>
+  <rect x="0" y="166.666" width="300" height="33.3333" fill="#2196F3"/>
+  <rect x="0" y="200" width="300" height="33.3333" fill="#9C27B0"/>
+
+  <!-- Stars (8) - evenly distributed across the flag -->
+  <g transform="translate(10, 10)">
+    <!-- Star 1: Top-left area -->
+    <polygon points="0,-10 5,-5 0,0 -5,-5 -10,0" fill="#FFFFFF"/>
+    <!-- Star 2: Top-right area -->
+    <polygon points="0,-10 -5,-5 0,0 5,-5 10,0" fill="#FFFFFF"/>
+    <!-- Star 3: Middle-left area -->
+    <polygon points="-10,-5 -5,0 0,5 5,0 -5,5" fill="#FFFFFF"/>
+    <!-- Star 4: Middle-right area -->
+    <polygon points="10,-5 5,0 0,5 -5,0 -10,5" fill="#FFFFFF"/>
+    <!-- Star 5: Bottom-left area -->
+    <polygon points="0,-10 -5,-5 0,0 5,-5 -10,0" fill="#FFFFFF"/>
+    <!-- Star 6: Bottom-right area -->
+    <polygon points="0,-10 5,-5 0,0 -5,-5 10,0" fill="#FFFFFF"/>
+    <!-- Star 7: Center area -->
+    <polygon points="-5,-5 -10,0 -5,5 10,0 5,5" fill="#FFFFFF"/>
+    <!-- Star 8: Far center area -->
+    <polygon points="5,-5 10,0 5,5 -10,0 -5,5" fill="#FFFFFF"/>
+  </g>
+</svg>

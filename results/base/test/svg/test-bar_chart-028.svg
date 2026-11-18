@@ -1,0 +1,34 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Chart margins and data range assumption: max value = 100, min = 0, bar width = 20, spacing = 50 -->
+  <!-- Bars will be at x positions: 60, 110, 160, 210, 260, 310, 360, 410, 460 -->
+  
+  <!-- Bar 1 (blue) -->
+  <rect x="60" y="80" width="20" height="120" fill="blue"/>
+
+  <!-- Bar 2 (blue) -->
+  <rect x="110" y="80" width="20" height="120" fill="blue"/>
+
+  <!-- Bar 3 (red) - tallest (value 100) -->
+  <rect x="160" y="0" width="20" height="100" fill="red"/>
+
+  <!-- Bar 4 (blue) -->
+  <rect x="210" y="80" width="20" height="120" fill="blue"/>
+
+  <!-- Bar 5 (blue) -->
+  <rect x="260" y="80" width="20" height="120" fill="blue"/>
+
+  <!-- Bar 6 (blue) -->
+  <rect x="310" y="80" width="20" height="120" fill="blue"/>
+
+  <!-- Bar 7 (blue) -->
+  <rect x="360" y="80" width="20" height="120" fill="blue"/>
+
+  <!-- Bar 8 (blue) -->
+  <rect x="410" y="80" width="20" height="120" fill="blue"/>
+
+  <!-- Bar 9 (blue) -->
+  <rect x="460" y="80" width="20" height="120" fill="blue"/>
+</svg>

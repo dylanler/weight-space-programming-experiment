@@ -1,0 +1,36 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define grid parameters -->
+  <!-- Rows: 6, Columns: 3 -->
+  <!-- Cell size: 40x40 (total 240x240, but we'll use 200x150) -->
+  <!-- Let's adjust to fit 6x3 in 200x150: each cell = 200/6 ≈ 33.33 x 150/3 = 50 -->
+  
+  <!-- Row 1 -->
+  <circle cx="33.33" cy="50" r="10" fill="white"/>
+  <circle cx="66.67" cy="50" r="10" fill="white"/>
+  <circle cx="100" cy="50" r="10" fill="white"/>
+  
+  <!-- Row 2 -->
+  <circle cx="33.33" cy="100" r="10" fill="white"/>
+  <circle cx="66.67" cy="100" r="10" fill="white"/>
+  <circle cx="100" cy="100" r="10" fill="white"/>
+  
+  <!-- Row 3 -->
+  <circle cx="33.33" cy="150" r="10" fill="white"/>
+  <circle cx="66.67" cy="150" r="10" fill="white"/>
+  <circle cx="100" cy="150" r="10" fill="white"/>
+  
+  <!-- Row 4 -->
+  <circle cx="33.33" cy="200" r="10" fill="white"/>
+  <circle cx="66.67" cy="200" r="10" fill="white"/>
+  <circle cx="100" cy="200" r="10" fill="white"/>
+  
+  <!-- Row 5 -->
+  <circle cx="33.33" cy="250" r="10" fill="white"/>
+  <circle cx="66.67" cy="250" r="10" fill="white"/>
+  <circle cx="100" cy="250" r="10" fill="white"/>
+  
+  <!-- Row 6 -->
+  <circle cx="33.33" cy="300" r="10" fill="white"/>
+  <circle cx="66.67" cy="300" r="10" fill="white"/>
+  <circle cx="100" cy="300" r="10" fill="white"/>
+</svg>

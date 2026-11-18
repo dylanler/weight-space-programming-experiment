@@ -1,0 +1,28 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="white"/>
+
+  <!-- Horizontal stripes (8) -->
+  <rect x="0" y="0" width="300" height="25" fill="#1E90FF"/>
+  <rect x="0" y="25" width="300" height="25" fill="#FFD700"/>
+  <rect x="0" y="50" width="300" height="25" fill="#FF6347"/>
+  <rect x="0" y="75" width="300" height="25" fill="#32CD32"/>
+  <rect x="0" y="100" width="300" height="25" fill="#FFA500"/>
+  <rect x="0" y="125" width="300" height="25" fill="#00CED1"/>
+  <rect x="0" y="150" width="300" height="25" fill="#FF4500"/>
+  <rect x="0" y="175" width="300" height="25" fill="#00BFFF"/>
+
+  <!-- Stars (8, evenly distributed across the flag area) -->
+  <!-- Using a grid approach: 8 stars in 4 columns and 2 rows of positions -->
+  <!-- Row 1: left, center-left, center-right, right -->
+  <circle cx="100" cy="50" r="4" fill="#FFFFFF"/>
+  <circle cx="150" cy="50" r="4" fill="#FFFFFF"/>
+  <circle cx="200" cy="50" r="4" fill="#FFFFFF"/>
+  <circle cx="250" cy="50" r="4" fill="#FFFFFF"/>
+
+  <!-- Row 2: left, center-left, center-right, right -->
+  <circle cx="100" cy="100" r="4" fill="#FFFFFF"/>
+  <circle cx="150" cy="100" r="4" fill="#FFFFFF"/>
+  <circle cx="200" cy="100" r="4" fill="#FFFFFF"/>
+  <circle cx="250" cy="100" r="4" fill="#FFFFFF"/>
+</svg>

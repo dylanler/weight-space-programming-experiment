@@ -1,0 +1,23 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building outline -->
+  <rect x="40" y="60" width="120" height="90" fill="#8B7355"/>
+  
+  <!-- Floor structure -->
+  <line x1="40" y1="60" x2="160" y2="60" stroke="#5D4E3A" stroke-width="2"/>
+  <line x1="40" y1="60" x2="40" y2="150" stroke="#5D4E3A" stroke-width="2"/>
+  
+  <!-- Windows (exactly 10) -->
+  <!-- Top row: 5 windows -->
+  <rect x="50" y="50" width="20" height="20" fill="#F0E6D2"/>
+  <rect x="70" y="50" width="20" height="20" fill="#F0E6D2"/>
+  <rect x="90" y="50" width="20" height="20" fill="#F0E6D2"/>
+  <rect x="110" y="50" width="20" height="20" fill="#F0E6D2"/>
+  <rect x="130" y="50" width="20" height="20" fill="#F0E6D2"/>
+  
+  <!-- Bottom row: 5 windows -->
+  <rect x="50" y="80" width="20" height="20" fill="#F0E6D2"/>
+  <rect x="70" y="80" width="20" height="20" fill="#F0E6D2"/>
+  <rect x="90" y="80" width="20" height="20" fill="#F0E6D2"/>
+  <rect x="110" y="80" width="20" height="20" fill="#F0E6D2"/>
+  <rect x="130" y="80" width="20" height="20" fill="#F0E6D2"/>
+</svg>
