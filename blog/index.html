@@ -1,129 +1,388 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Can an agent program a 2B model's weights? GPT-6.2 Sol × Qwen3.5-2B</title>
-<style>
- body{font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:#1d1d1f;max-width:820px;margin:40px auto;padding:0 20px;background:#fff}
- h1{font-size:2.0em;line-height:1.2;margin-bottom:.2em} h2{margin-top:2em;border-bottom:1px solid #eee;padding-bottom:.2em}
- .sub{color:#666;margin-top:0} code{background:#f4f4f6;padding:1px 5px;border-radius:4px;font-size:.9em}
- pre{background:#f4f4f6;padding:12px;border-radius:6px;overflow-x:auto;font-size:.85em}
- table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.92em} th,td{border-bottom:1px solid #e5e5e5;padding:6px 8px;text-align:right} th:first-child,td:first-child{text-align:left}
- tr.tot td{font-weight:700;border-top:2px solid #999} .pos{color:#0a7d32} .neg{color:#b3261e}
- img{max-width:100%;border:1px solid #eee;border-radius:6px} .callout{background:#f0f7ff;border-left:4px solid #3b82f6;padding:12px 16px;border-radius:4px;margin:1.2em 0}
- .small{font-size:.85em;color:#555}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1014">
+  <meta name="description" content="An animated walk through a gradient-free edit to Qwen3.5-2B: how a coding agent found a loop direction, removed it, and tested the result.">
+  <title>Editing the Loop — A weight-space programming experiment</title>
+  <link rel="icon" href="img/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="story.js"></script>
 </head>
 <body>
-<h1>Can an AI agent program a small model's weights by hand?</h1>
-<p class="sub">An end-to-end experiment: GPT-6.2 Sol (in the Devin harness) does <em>weight-space programming</em> on Qwen/Qwen3.5-2B for five SVG-drawing tasks. Code, prompts, every generation, every judgment: <a href="https://github.com/dylanler/weight-space-programming-experiment">github.com/dylanler/weight-space-programming-experiment</a>.</p>
+  <a class="skip" href="#main">Skip to the experiment</a>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="wordmark" href="#question"><img src="img/mark.svg" alt="" width="30" height="30"> WEIGHT SPACE <span>/ FIELD NOTES</span></a>
+      <nav aria-label="On this page"><a href="#setup">Setup</a><a href="#mechanism">The edit</a><a href="#results">Results</a><a href="#reproduce">Reproduce</a></nav>
+    </div>
+    <div class="read-progress" aria-hidden="true"></div>
+  </header>
+  <main id="main" class="shell">
+    <section class="hero" id="question" aria-labelledby="title">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="signal"></span> An experiment in weight-space programming</p>
+          <h1 id="title">Editing<br>the <em>loop.</em></h1>
+          <p class="hero-lede">Can an AI agent program a 2B model by editing its weights directly?</p>
+          <p>GPT-6.2 Sol in Devin examined <strong>Qwen3.5-2B</strong>, found a direction associated with repetition, and edited the weights that write to it. No gradient descent. No training. The same prompts and decoding.</p>
+          <div class="hero-links"><a class="primary-link" href="#setup">Walk through the experiment <span aria-hidden="true">↓</span></a><a href="https://rikiyat.github.io/blog/weight-space-programming/">The reference post <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <figure class="plate hero-plate" data-scene="hero">
+          <div class="plate-bar"><span><span class="signal"></span> Residual space</span><button type="button" class="replay" hidden aria-label="Replay the opening vector animation">Replay</button></div>
+          <svg class="hero-vector" viewBox="0 0 500 385" role="img" aria-label="Schematic: remove a weight vector’s component along the loop direction, leaving its perpendicular component.">
+            <defs>
+              <pattern id="hero-grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M 26 0 H 0 V 26" fill="none" stroke="#27363c" stroke-width="1"/></pattern>
+              <radialGradient id="halo"><stop stop-color="#64c6ef" stop-opacity=".16"/><stop offset="1" stop-color="#64c6ef" stop-opacity="0"/></radialGradient>
+              <marker id="hero-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#79dec6"/></marker>
+              <marker id="hero-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#87c9fa"/></marker>
+            </defs>
+            <rect x="22" y="13" width="456" height="340" rx="5" fill="url(#hero-grid)"/>
+            <circle cx="251" cy="191" r="158" fill="url(#halo)"/>
+            <path d="M52 202H449 M145 22V339" class="diagram-axis"/>
+            <path d="M68 260 386 21 M64 94 250 342" class="diagram-axis" stroke-dasharray="5 7"/>
+            <g fill="var(--blue)" opacity=".52">
+              <circle cx="111" cy="218" r="3"/><circle cx="133" cy="237" r="4"/><circle cx="174" cy="211" r="3"/><circle cx="113" cy="191" r="2"/><circle cx="102" cy="238" r="2"/><circle cx="173" cy="247" r="2"/><circle cx="120" cy="259" r="2"/>
+            </g>
+            <g fill="var(--rust)" opacity=".66">
+              <circle cx="334" cy="87" r="4"/><circle cx="359" cy="94" r="3"/><circle cx="377" cy="62" r="3"/><circle cx="321" cy="63" r="2"/><circle cx="310" cy="105" r="2"/><circle cx="389" cy="97" r="2"/><circle cx="362" cy="53" r="3"/>
+            </g>
+            <path d="M145 202 361 190" class="vector blue draw" pathLength="1" marker-end="url(#hero-blue)"/>
+            <path d="M361 190 217 298" class="vector rust ghost-line fade in-late"/>
+            <path d="M145 202 217 298" class="vector teal draw in-late" pathLength="1" marker-end="url(#hero-teal)"/>
+            <path d="M208 286 220 277 229 289" class="diagram-axis fade in-late"/>
+            <circle cx="145" cy="202" r="5" fill="#f1e9da"/>
+            <text x="328" y="46" class="svg-tiny rust-text">LOOP DIRECTION</text>
+            <text x="370" y="183" class="svg-math blue-text">w</text>
+            <text x="229" y="319" class="svg-math teal-text">w<tspan baseline-shift="sub" font-size="13">⊥</tspan></text>
+          </svg>
+          <figcaption class="plate-foot"><span>Conceptual diagram</span><span>Subtract one direction</span></figcaption>
+        </figure>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>Weights changed</dt><dd>0.073%</dd></div>
+        <div><dt>Generations hitting the cap</dt><dd>76 <i>→</i> 6</dd></div>
+        <div><dt>Correct · independent judges</dt><dd>88 <i>→</i> 147<span> / 500</span></dd></div>
+      </dl>
+    </section>
 
-<div class="callout"><b>TL;DR.</b> In about 42 minutes, using 5 generation batches, the agent wrote a rank-1 edit that changes <b>0.073% of the weights</b>: five MLP <code>down_proj</code> matrices in layers 15–23. It used no gradients, no training, and changed no prompts or decoding settings.
-On 500 held-out prompts, image-only judges scored the edited model <b>147/500</b> correct versus <b>88/500</b> for the base model (exact McNemar <i>p</i>&nbsp;&lt;&nbsp;10<sup>−6</sup>).
-A stricter blinded paired re-judging gives <b>120 vs 78</b> (<i>p</i>&nbsp;≈&nbsp;10<sup>−6</sup>).
-The edit almost eliminates degenerate repetition loops: generations hitting the 4096-token cap dropped from 76 to 6. It also improved three of the five tasks. It did <b>not</b> fix counting in the two hardest tasks (buildings and flags).</div>
+    <section id="setup" class="chapter" aria-labelledby="setup-title">
+      <div class="chapter-tag"><span>02</span> / The benchmark</div>
+      <div class="section-head">
+        <h2 id="setup-title">What can you count<br>in a drawing?</h2>
+        <p>Each prompt asked for complete SVG code with exact visual constraints. The parameters were randomized: <strong>100 held-out test prompts</strong> and <strong>30 separate dev prompts</strong> per task, with different seeds. The editor saw only dev prompts and their outputs.</p>
+      </div>
+      <div class="plate tasks-plate" data-scene="tasks">
+        <div class="plate-bar"><span>Prompt sketches <span class="bar-note">/ not model outputs</span></span><button type="button" class="replay" hidden aria-label="Replay all visible task sketches">Replay</button></div>
+        <div class="task-grid">
+          <figure class="task" data-task="building">
+            <svg viewBox="0 0 160 119" aria-hidden="true">
+              <path d="M27 109H133" class="icon-axis"/>
+              <g class="pop" style="--i:0"><rect x="51" y="93" width="58" height="15" rx="2" class="building-fill"/><path d="M59 96h17v8H59z M84 96h17v8H84z" class="window-fill"/></g>
+              <g class="pop" style="--i:1"><rect x="51" y="78" width="58" height="14" rx="2" class="building-fill"/><path d="M59 81h17v8H59z M84 81h17v8H84z" class="window-fill"/></g>
+              <g class="pop" style="--i:2"><rect x="51" y="63" width="58" height="14" rx="2" class="building-fill"/><path d="M59 66h17v8H59z M84 66h17v8H84z" class="window-fill"/></g>
+              <g class="pop" style="--i:3"><rect x="51" y="48" width="58" height="14" rx="2" class="building-fill"/><path d="M59 51h17v8H59z M84 51h17v8H84z" class="window-fill"/></g>
+              <g class="pop" style="--i:4"><rect x="51" y="33" width="58" height="14" rx="2" class="building-fill"/><path d="M59 36h17v8H59z M84 36h17v8H84z" class="window-fill"/></g>
+              <g class="pop" style="--i:5"><rect x="51" y="18" width="58" height="14" rx="2" class="building-fill"/><path d="M59 21h17v8H59z M84 21h17v8H84z" class="window-fill"/></g>
+            </svg>
+            <figcaption><h3>Building</h3><span>12 windows · 6 floors</span><small>Windows: 1–24<br>Floors: 1–8</small></figcaption>
+          </figure>
+          <figure class="task" data-task="apples">
+            <svg viewBox="0 0 160 119" aria-hidden="true">
+              <path d="M27 109H133" class="icon-axis"/>
+              <path d="M73 109 77 63h6l6 46z" fill="#9d7451"/>
+              <path d="M40 67c-9-18 7-39 25-38 9-20 39-18 49 1 22 2 25 37 8 47-12 11-23 7-34 5-19 14-41 5-48-15Z" fill="#264b48" stroke="#438377"/>
+              <g fill="#f08375"><circle class="pop" style="--i:0" cx="63" cy="47" r="5"/><circle class="pop" style="--i:1" cx="92" cy="39" r="5"/><circle class="pop" style="--i:2" cx="110" cy="56" r="5"/><circle class="pop" style="--i:3" cx="80" cy="57" r="5"/><circle class="pop" style="--i:4" cx="53" cy="66" r="5"/><circle class="pop" style="--i:5" cx="96" cy="73" r="5"/></g>
+            </svg>
+            <figcaption><h3>Apple tree</h3><span>6 red apples</span><small>Apples: 1–15</small></figcaption>
+          </figure>
+          <figure class="task" data-task="circles">
+            <svg viewBox="0 0 160 119" aria-hidden="true">
+              <path d="M34 96V24h92v72z M34 48h92 M34 72h92 M57 24v72 M80 24v72 M103 24v72" class="icon-axis"/>
+              <g fill="#276163" stroke="#8be5d6" stroke-width="1.3">
+                <circle class="pop" style="--i:0" cx="45.5" cy="36" r="7"/><circle class="pop" style="--i:1" cx="68.5" cy="36" r="7"/><circle class="pop" style="--i:2" cx="91.5" cy="36" r="7"/><circle class="pop" style="--i:3" cx="114.5" cy="36" r="7"/>
+                <circle class="pop" style="--i:4" cx="45.5" cy="60" r="7"/><circle class="pop" style="--i:5" cx="68.5" cy="60" r="7"/><circle class="pop" style="--i:6" cx="91.5" cy="60" r="7"/><circle class="pop" style="--i:7" cx="114.5" cy="60" r="7"/>
+                <circle class="pop" style="--i:8" cx="45.5" cy="84" r="7"/><circle class="pop" style="--i:9" cx="68.5" cy="84" r="7"/><circle class="pop" style="--i:10" cx="91.5" cy="84" r="7"/><circle class="pop" style="--i:11" cx="114.5" cy="84" r="7"/>
+              </g>
+            </svg>
+            <figcaption><h3>Circle grid</h3><span>3 rows · 4 columns</span><small>Rows and columns: 1–6</small></figcaption>
+          </figure>
+          <figure class="task" data-task="bars">
+            <svg viewBox="0 0 160 119" aria-hidden="true">
+              <path d="M25 19v85h110 M25 42h110 M25 63h110 M25 84h110" class="icon-axis"/>
+              <g fill="var(--blue)"><rect class="grow" style="--i:0" x="34" y="68" width="13" height="36" rx="2"/><rect class="grow" style="--i:1" x="54" y="29" width="13" height="75" rx="2" fill="#f08375"/><rect class="grow" style="--i:2" x="74" y="52" width="13" height="52" rx="2"/><rect class="grow" style="--i:3" x="94" y="79" width="13" height="25" rx="2"/><rect class="grow" style="--i:4" x="114" y="70" width="13" height="34" rx="2"/></g>
+            </svg>
+            <figcaption><h3>Bar chart</h3><span>5 bars · second bar is tallest and red</span><small>Bars: 3–9<br>All other bars blue</small></figcaption>
+          </figure>
+          <figure class="task" data-task="flag">
+            <svg viewBox="0 0 160 119" aria-hidden="true">
+              <defs><path id="star" d="M0-7 2-2 7-2 3 1 4 6 0 3-4 6-3 1-7-2-2-2Z"/></defs>
+              <path d="M27 109V22" stroke="#5f727b" stroke-width="2"/>
+              <rect class="wipe" style="--i:0" x="28" y="25" width="105" height="17" fill="#477182"/><rect class="wipe" style="--i:1" x="28" y="42" width="105" height="17" fill="#2b4d60"/><rect class="wipe" style="--i:2" x="28" y="59" width="105" height="17" fill="#477182"/><rect class="wipe" style="--i:3" x="28" y="76" width="105" height="17" fill="#2b4d60"/>
+              <g fill="var(--yellow)"><g class="pop" style="--i:4"><use href="#star" x="56" y="47"/><use href="#star" x="56" y="70"/></g><g class="pop" style="--i:5"><use href="#star" x="81" y="47"/><use href="#star" x="81" y="70"/></g><g class="pop" style="--i:6"><use href="#star" x="106" y="47"/><use href="#star" x="106" y="70"/></g></g>
+            </svg>
+            <figcaption><h3>Flag</h3><span>4 stripes · 6 stars</span><small>Stripes: 2–9<br>Stars: 1–9</small></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
 
-<h2>1. The question</h2>
-<p><a href="https://rikiyat.github.io/blog/weight-space-programming/">Weight-space programming</a> treats a network's weights as source code that an agent reads and edits directly. The agent inspects activations, finds directions or neurons that implement a behavior, and writes surgical tensor edits, all without gradient descent.
-We asked whether a frontier coding agent can do this <em>effectively</em> (measurable gains on held-out tasks) and <em>efficiently</em> (small edits, little compute, short wall-clock time) on a small open model, <code>Qwen/Qwen3.5-2B</code>.</p>
+    <section id="pipeline" class="chapter" aria-labelledby="pipeline-title">
+      <div class="chapter-tag"><span>03</span> / The evaluation</div>
+      <div class="section-head">
+        <h2 id="pipeline-title">Grade the picture,<br>not the code.</h2>
+        <p>Qwen3.5-2B ran in vLLM on a <strong>Modal A100-40GB</strong> with greedy decoding and non-thinking chat mode. Base and edited weights went through the same pipeline.</p>
+      </div>
+      <div class="plate" data-scene="pipeline">
+        <div class="plate-bar"><span>Evaluation path <span class="bar-note">/ one prompt</span></span><button type="button" class="replay" hidden aria-label="Replay the evaluation pipeline">Replay</button></div>
+        <ol class="pipeline-track">
+          <li style="--i:0"><b class="pipeline-icon" aria-hidden="true">“…”</b><strong>Prompt</strong><small>Exact visual requirement</small></li>
+          <li style="--i:1"><b class="pipeline-icon" aria-hidden="true">▥</b><strong>Qwen3.5-2B</strong><small>vLLM · greedy</small></li>
+          <li style="--i:2"><b class="pipeline-icon" aria-hidden="true">&lt;/&gt;</b><strong>SVG</strong><small>First complete block</small></li>
+          <li style="--i:3"><b class="pipeline-icon" aria-hidden="true">▧</b><strong>PNG</strong><small>CairoSVG · 512 px wide</small></li>
+          <li style="--i:4"><b class="pipeline-icon eye" aria-hidden="true">◉</b><strong>Image-only judge</strong><small>Pixels + requirement</small></li>
+          <li style="--i:5"><b class="pipeline-icon" aria-hidden="true">✓</b><strong>Score</strong><small>Correct or incorrect</small></li>
+        </ol>
+      </div>
+      <p class="side-note">Separate LLM judges saw the PNG, the requirement and a hashed item ID. They did not see the SVG source or model identity and were asked to judge by eye. No renderable SVG meant an incorrect answer.</p>
+    </section>
 
-<h2>2. Setup</h2>
-<h3>Five SVG tasks, 100 randomized test prompts each</h3>
-<table>
-<tr><th>Task</th><th>Prompt (randomized parameters)</th></tr>
-<tr><td>building</td><td style="text-align:left">a building with exactly X windows in total and exactly Y floors (X∈1–24, Y∈1–8)</td></tr>
-<tr><td>apple_tree</td><td style="text-align:left">a tree with exactly N red apples (N∈1–15)</td></tr>
-<tr><td>circle_grid</td><td style="text-align:left">a grid of circles with exactly R rows and C columns (1–6 each)</td></tr>
-<tr><td>bar_chart</td><td style="text-align:left">N vertical bars; the k-th from the left is tallest and red, others blue (N∈3–9)</td></tr>
-<tr><td>flag</td><td style="text-align:left">a flag with exactly S horizontal stripes and M stars (S∈2–9, M∈1–9)</td></tr>
-</table>
-<p>Each task also has a separate set of 30 <b>dev</b> prompts, generated with a different random seed. The editing agent saw only the dev prompts, never the 500 test prompts.</p>
+    <section id="failure" class="chapter split" aria-labelledby="failure-title">
+      <div>
+        <div class="chapter-tag"><span>04</span> / The failure mode</div>
+        <h2 id="failure-title">One more element.<br>Then one more.</h2>
+        <p>At an element boundary, the model can start another shape or close the SVG. In a degenerate loop it keeps opening shapes, sometimes until the <strong>4096-token cap</strong>. Without a closing tag, there is nothing to render.</p>
+        <dl class="inline-stat"><div><dt>Of 500 generations hit the cap</dt><dd>76 <i>→</i> 6</dd></div></dl>
+        <p class="muted">Renderable outputs rose from 424 to 494. Generated tokens fell from 648k to 403k (−38%).</p>
+      </div>
+      <figure class="plate" data-scene="loop">
+        <div class="plate-bar"><span><span class="signal rust-signal"></span> Token stream <span class="bar-note">/ schematic</span></span><button type="button" class="replay" hidden aria-label="Replay the repetition loop">Replay</button></div>
+        <div class="terminal">
+          <div class="terminal-line"><span>&lt;svg&gt;</span><span>&lt;!-- tree --&gt;</span></div>
+          <div class="terminal-line token" style="--i:1">&lt;circle … /&gt;</div>
+          <div class="terminal-line token" style="--i:2">&lt;circle … /&gt;</div>
+          <div class="terminal-line token" style="--i:3">&lt;circle … /&gt;</div>
+          <div class="terminal-line token" style="--i:4">&lt;circle … /&gt;</div>
+          <div class="terminal-line token final-token" style="--i:5">… <span>repeats until cut off</span></div>
+        </div>
+        <div class="cap-meter" aria-hidden="true"><span></span></div>
+        <figcaption class="plate-foot"><span>Missing &lt;/svg&gt;</span><span class="rust-text">Stopped at 4096 tokens</span></figcaption>
+      </figure>
+    </section>
 
-<h3>Inference</h3>
-<p>Qwen3.5-2B runs in vLLM on a single Modal <b>A100-40GB</b> with greedy decoding, non-thinking chat mode and up to 4096 new tokens. Every function scales to zero (60 s idle window for batch jobs), and the containers were stopped explicitly after each phase.
-Generating all 500 test outputs takes one batched call of a few minutes.</p>
+    <section id="mechanism" class="chapter" aria-labelledby="mechanism-title">
+      <div class="chapter-tag"><span>05</span> / The mechanism</div>
+      <div class="section-head">
+        <h2 id="mechanism-title">Find a direction.<br>Take it out.</h2>
+        <p>The agent replayed dev generations <strong>teacher-forced</strong>: instead of sampling, it fed back the existing tokens and recorded the residual stream. It compared element boundaries after loop onset with those in finished generations.</p>
+      </div>
+      <div class="mechanism-grid">
+        <figure class="plate" data-scene="means">
+          <div class="plate-bar"><span>A / Compare states</span><button type="button" class="replay" hidden aria-label="Replay the residual means animation">Replay</button></div>
+          <svg class="math-figure" viewBox="0 0 400 278" role="img" aria-label="Schematic of normal and loop residual states. The arrow from the normal mean to the loop mean gives the direction u after normalization.">
+            <defs>
+              <pattern id="mean-grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0v22" fill="none" stroke="#232f36"/></pattern>
+              <marker id="mean-tip" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#f4d691"/></marker>
+            </defs>
+            <rect x="17" y="11" width="366" height="251" fill="url(#mean-grid)"/>
+            <g class="fade" fill="var(--blue)" opacity=".65"><circle cx="83" cy="172" r="4"/><circle cx="103" cy="148" r="4"/><circle cx="121" cy="188" r="4"/><circle cx="121" cy="147" r="3"/><circle cx="66" cy="204" r="3"/><circle cx="115" cy="207" r="3"/><circle cx="142" cy="181" r="4"/><circle cx="92" cy="196" r="3"/></g>
+            <g class="fade" fill="var(--rust)" opacity=".72"><circle cx="253" cy="99" r="4"/><circle cx="277" cy="52" r="4"/><circle cx="284" cy="98" r="4"/><circle cx="304" cy="75" r="3"/><circle cx="258" cy="78" r="3"/><circle cx="298" cy="115" r="3"/><circle cx="315" cy="88" r="4"/><circle cx="271" cy="69" r="3"/></g>
+            <path d="M104 175 279 85" class="vector yellow draw in-mid" pathLength="1" marker-end="url(#mean-tip)"/>
+            <circle cx="104" cy="175" r="5" fill="#f5f0e6"/><circle cx="283" cy="84" r="5" fill="#f5f0e6"/>
+            <text x="56" y="239" class="svg-caption blue-text">Normal states</text>
+            <text x="268" y="47" class="svg-caption rust-text">Loop states</text>
+            <text x="180" y="115" class="svg-math yellow-text">u<tspan baseline-shift="sub" font-size="13">ℓ</tspan></text>
+          </svg>
+          <figcaption class="math-caption">
+            <div class="equation" aria-label="u at layer ell is proportional to the mean loop state minus the mean normal state."><i>u</i><sub>ℓ</sub> ∝ <i>h̄</i><sub>ℓ</sub><sup>loop</sup> − <i>h̄</i><sub>ℓ</sub><sup>normal</sup></div>
+            <p>Subtract the means, then normalize. The separation grew with depth; the edit targeted layers <strong>15, 17, 19, 21, 23</strong>. The dots are illustrative, not measured activations.</p>
+          </figcaption>
+        </figure>
+        <figure class="plate" data-scene="project">
+          <div class="plate-bar"><span>B / Project a column</span><button type="button" class="replay" hidden aria-label="Replay the rank-one projection">Replay</button></div>
+          <svg class="math-figure" viewBox="0 0 400 278" role="img" aria-label="A selected output column w slides parallel to the loop direction u onto the perpendicular line, leaving w perpendicular.">
+            <defs>
+              <pattern id="proj-grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0v22" fill="none" stroke="#232f36"/></pattern>
+              <marker id="proj-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#87c9fa"/></marker>
+              <marker id="proj-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#79dec6"/></marker>
+              <marker id="proj-yellow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#f4d691"/></marker>
+            </defs>
+            <rect x="17" y="11" width="366" height="251" fill="url(#proj-grid)"/>
+            <path d="M47 244 339 25 M52 34 223 262" class="diagram-axis" stroke-dasharray="4 6"/>
+            <path d="M151 166 247 94" class="vector yellow draw" pathLength="1" marker-end="url(#proj-yellow)"/>
+            <text x="254" y="91" class="svg-math yellow-text">u</text>
+            <path d="M151 166 303 152" class="vector blue draw in-mid" pathLength="1" marker-end="url(#proj-blue)"/>
+            <text x="312" y="156" class="svg-math blue-text fade in-mid">w</text>
+            <path d="M303 152 199 230" class="vector rust ghost-line fade in-mid"/>
+            <text x="272" y="205" class="svg-caption rust-text fade in-mid">removed</text>
+            <path d="M192 221 201 214 208 223" class="diagram-axis fade in-late"/>
+            <path d="M151 166 199 230" class="vector teal projected" data-projection marker-end="url(#proj-teal)"/>
+            <text x="216" y="246" class="svg-math teal-text fade in-late">w<tspan baseline-shift="sub" font-size="13">⊥</tspan></text>
+            <circle cx="151" cy="166" r="4" fill="#f5f0e6"/>
+          </svg>
+          <figcaption class="math-caption">
+            <div class="equation" aria-label="W at selected columns is replaced with identity minus u u transpose times W at those columns."><i>W</i>[:, <i>idx</i>] ← (<i>I</i> − <i>uu</i><sup>⊤</sup>) <i>W</i>[:, <i>idx</i>]</div>
+            <p>Rank MLP neurons by <span class="math-inline">|<i>u</i> · <i>w</i>|</span> weighted by activation magnitude. For each selected <code>down_proj</code> column, remove only its component along <i>u</i>. The subtraction is rank one.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="rounds">
+        <article><span class="micro">Round 1</span><h3>Top 128 neurons per layer</h3><p>Use directions measured on base-model loops.</p></article>
+        <article><span class="micro">Round 2</span><h3>Top 32 neurons per layer</h3><p>Re-measure on loops that survived round 1. At layer 23, cosine similarity to the original direction was 0.19.</p></article>
+        <article><span class="micro">Final patch</span><h3>1,370,750 weights</h3><p><strong>0.073%</strong> of the model, across five matrices. No hooks remain at inference.</p></article>
+      </div>
+    </section>
 
-<h3>Image-only verification</h3>
-<p>Each SVG is extracted from the output and rendered to a 512&nbsp;px PNG with CairoSVG. Judges are separate GPT-6.2 Sol Devin sessions that receive <b>only the PNGs and the natural-language requirement</b>: no SVG code, no model identity, and randomly hashed item IDs.
-They were told to judge by eye, strictly, and not to count pixels with code. An output with no renderable SVG counts as wrong.</p>
-<ul>
-<li><b>Independent judging</b> (as requested): fresh judges scored the base outputs and, later, other fresh judges scored the edited outputs. Each judge session covered one task with 100 images.</li>
-<li><b>Paired blinded judging</b> (robustness check): for each task, the 100 base and 100 edited images were shuffled together under hashed IDs. One judge scored all 200, so both conditions were held to the same standard.</li>
-</ul>
+    <section id="search" class="chapter" aria-labelledby="search-title">
+      <div class="chapter-tag"><span>06</span> / The agent’s search</div>
+      <div class="section-head">
+        <h2 id="search-title">Bigger edits<br>weren’t better.</h2>
+        <p>Devin had an authenticated HTTP API to a live Python kernel holding the eager vLLM model on an A100. The agent inspected weights, used temporary hooks, screened edits on teacher-forced text, then generated and scored its own dev images.</p>
+      </div>
+      <div class="plate" data-scene="search">
+        <div class="plate-bar"><span>Dev set <span class="bar-note">/ 150 prompts</span></span><button type="button" class="replay" hidden aria-label="Replay the agent’s dev search">Replay</button></div>
+        <div class="search-plot" hidden aria-hidden="true"></div>
+        <div class="table-region" tabindex="0" role="region" aria-label="Development experiment table, scroll horizontally if needed">
+          <table class="dev-table">
+            <caption>Rendered / visually correct, judged by the editor</caption>
+            <thead><tr><th scope="col">Edit</th><th scope="col">Description</th><th scope="col">Weights</th><th scope="col">Building</th><th scope="col">Apple</th><th scope="col">Circle</th><th scope="col">Bar</th><th scope="col">Flag</th><th scope="col">Total</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Base</th><td>—</td><td>0</td><td>21 / 4</td><td>14 / 0</td><td>30 / 7</td><td>30 / 13</td><td>29 / 3</td><td>124 / 27</td></tr>
+              <tr><th scope="row">E1</th><td>Round 1 · L15, 17, 19, 21 · top 64</td><td>503,134</td><td>21 / 3</td><td>30 / 12</td><td>30 / 5</td><td>30 / 9</td><td>29 / 2</td><td>140 / 31</td></tr>
+              <tr><th scope="row">E2</th><td>Round 1 · L15, 17, 19, 21, 23 · top 128</td><td>1,253,339</td><td>25 / 3</td><td>30 / 20</td><td>30 / 5</td><td>30 / 14</td><td>29 / 2</td><td>144 / 44</td></tr>
+              <tr><th scope="row">E3</th><td>Round 1 · odd L11–23 · top 128</td><td>1,752,892</td><td>24 / 2</td><td>30 / 12</td><td>30 / 6</td><td>30 / 13</td><td>29 / 2</td><td>143 / 35</td></tr>
+              <tr><th scope="row">E4</th><td>E2 + re-measured direction · top 64</td><td>1,622,668</td><td>30 / 3</td><td>28 / 11</td><td>30 / 8</td><td>30 / 13</td><td>28 / 4</td><td>146 / 39</td></tr>
+              <tr class="highlight"><th scope="row">E5</th><td>E2 + re-measured direction · top 32</td><td>1,370,750</td><td>30 / 2</td><td>30 / 10</td><td>30 / 10</td><td>30 / 19</td><td>30 / 5</td><td>150 / 46</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="plate-foot"><span>5 of 40 generation batches on the kernel counter</span><span>About 42 minutes</span></div>
+      </div>
+      <p class="side-note">E5 was the only variant that rendered all 150 dev outputs, and it had the most correct. In the normal-text screen, NLL went from 0.0582 to 0.0606 and greedy agreement from 0.989 to 0.987. The agent saved E5 as a sparse patch; a separate Modal function applied it to fresh base weights for testing.</p>
+    </section>
 
-<h3>The weight-editing agent</h3>
-<p>A GPT-6.2 Sol Devin session received the blog post, the task description, and an authenticated HTTP API to a live Python kernel on an A100. The kernel holds the vLLM model in eager mode, so tensor edits take effect immediately.
-The agent could run arbitrary Python against the live <code>model</code> (inspecting weights and adding temporary forward hooks). It had a budget of 40 generation batches, and it could render and look at its dev-set outputs.
-It saved the final edit as a sparse patch. A separate Modal function later loads that patch onto fresh base weights to generate the test outputs.</p>
+    <section id="results" class="chapter" aria-labelledby="results-title">
+      <div class="chapter-tag"><span>07</span> / The held-out test</div>
+      <div class="section-head">
+        <h2 id="results-title">More pictures<br>passed the test.</h2>
+        <p>We scored the same <strong>500 unseen prompts</strong> under two judging protocols. Independent judges saw one condition at a time; paired-blind judges saw both conditions shuffled together for their task, without knowing which was which.</p>
+      </div>
+      <div class="outcomes">
+        <article><span class="micro">Independent</span><strong>88 <i>→</i> 147<span> / 500</span></strong><small>Exact McNemar <i>p</i> &lt; 10<sup>−6</sup></small></article>
+        <article><span class="micro">Paired-blind</span><strong>78 <i>→</i> 120<span> / 500</span></strong><small>Exact McNemar <i>p</i> ≈ 10<sup>−6</sup></small></article>
+      </div>
+      <div class="plate" data-scene="results">
+        <div class="plate-bar"><span>Correct outputs by task</span><button type="button" class="replay" hidden aria-label="Replay the held-out results animation">Replay</button></div>
+        <div class="results-ui" hidden>
+          <div class="results-tools">
+            <fieldset class="protocol-switch"><legend class="sr-only">Judging protocol</legend><label><input type="radio" name="protocol" value="independent" checked><span>Independent</span></label><label><input type="radio" name="protocol" value="paired"><span>Paired-blind</span></label></fieldset>
+            <p class="legend"><span><b class="swatch base"></b> Base</span><span><b class="swatch edited"></b> Edited</span></p>
+          </div>
+          <div class="result-viz">
+            <div><p class="micro chart-heading">Correct out of 100</p><div class="chart"></div></div>
+            <div class="flow-panel">
+              <p class="micro">On the same prompt</p>
+              <h3>What flipped?</h3>
+              <div class="flow fixed"><span class="flow-number"></span><span class="flow-arrow" aria-hidden="true">↗</span><span><b>Fixed</b><small>Incorrect → correct</small></span></div>
+              <div class="flow broken"><span class="flow-number"></span><span class="flow-arrow" aria-hidden="true">↘</span><span><b>Broken</b><small>Correct → incorrect</small></span></div>
+              <p>Exact McNemar tests these two directions of change.</p>
+            </div>
+          </div>
+          <p class="sr-only chart-status" aria-live="polite"></p>
+        </div>
+        <details class="result-details" open>
+          <summary>Exact scores, flips and McNemar <i>p</i> values</summary>
+          <div class="table-region" tabindex="0" role="region" aria-label="Independent results, scroll horizontally if needed">
+            <table data-protocol="independent">
+              <caption>Independent judges</caption>
+              <thead><tr><th scope="col">Task</th><th scope="col">Base</th><th scope="col">Edit</th><th scope="col">Fixed</th><th scope="col">Broken</th><th scope="col">Exact <i>p</i></th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Building</th><td>4</td><td>2</td><td>2</td><td>4</td><td>0.6875</td></tr>
+                <tr><th scope="row">Apple tree</th><td>11</td><td>33</td><td>28</td><td>6</td><td>1.9512558355927467 × 10<sup>−4</sup></td></tr>
+                <tr><th scope="row">Circle grid</th><td>38</td><td>58</td><td>23</td><td>3</td><td>8.797645568847656 × 10<sup>−5</sup></td></tr>
+                <tr><th scope="row">Bar chart</th><td>35</td><td>54</td><td>22</td><td>3</td><td>1.5652179718017578 × 10<sup>−4</sup></td></tr>
+                <tr><th scope="row">Flag</th><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+              </tbody>
+              <tfoot><tr><th scope="row">Total</th><td>88</td><td>147</td><td>75</td><td>16</td><td>2.6517165568743947 × 10<sup>−10</sup></td></tr></tfoot>
+            </table>
+          </div>
+          <div class="table-region" tabindex="0" role="region" aria-label="Paired-blind results, scroll horizontally if needed">
+            <table data-protocol="paired">
+              <caption>Paired-blind judges</caption>
+              <thead><tr><th scope="col">Task</th><th scope="col">Base</th><th scope="col">Edit</th><th scope="col">Fixed</th><th scope="col">Broken</th><th scope="col">Exact <i>p</i></th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Building</th><td>5</td><td>4</td><td>3</td><td>4</td><td>1</td></tr>
+                <tr><th scope="row">Apple tree</th><td>12</td><td>33</td><td>27</td><td>6</td><td>3.240634687244892 × 10<sup>−4</sup></td></tr>
+                <tr><th scope="row">Circle grid</th><td>21</td><td>29</td><td>10</td><td>2</td><td>0.03857421875</td></tr>
+                <tr><th scope="row">Bar chart</th><td>40</td><td>54</td><td>18</td><td>4</td><td>0.004343509674072266</td></tr>
+                <tr><th scope="row">Flag</th><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td></tr>
+              </tbody>
+              <tfoot><tr><th scope="row">Total</th><td>78</td><td>120</td><td>58</td><td>16</td><td>9.674891137601899 × 10<sup>−7</sup></td></tr></tfoot>
+            </table>
+          </div>
+        </details>
+      </div>
+      <aside class="agreement">
+        <div><span class="micro">Judge agreement</span><strong>κ = 0.82</strong><span>93.6% across 918 rendered images</span></div>
+        <p><strong>Circle grids were the exception (κ = 0.53).</strong> The judges differed on whether partly clipped circles count. The gain was +20 under independent judging and +8 under paired-blind judging. Both circle-grid and bar-chart render rates were already 100/100 in each condition.</p>
+      </aside>
+      <div class="sample-head"><h3>Same prompts, real renders.</h3><p>Handpicked to show a recovered render, a corrected chart, and a failure that stayed a failure. Verdicts shown are from independent judging.</p></div>
+      <div class="examples">
+        <article class="example">
+          <div class="example-head"><span class="micro">Apple tree · test-apple_tree-015</span><h4>Exactly 6 red apples</h4></div>
+          <div class="example-pair"><figure><div class="no-render"><span aria-hidden="true">&lt; / &gt;</span>No render<br>Hit token cap</div><figcaption>Base · incorrect</figcaption></figure><figure><img src="img/apple-edited.png" alt="A tree with six visible red apples." width="512" height="512" loading="lazy"><figcaption>Edited · correct</figcaption></figure></div>
+        </article>
+        <article class="example">
+          <div class="example-head"><span class="micro">Bar chart · test-bar_chart-015</span><h4>5 bars; second is tallest and red</h4></div>
+          <div class="example-pair"><figure><img src="img/bars-base.png" alt="Four visible bars, the second red and tallest." width="512" height="384" loading="lazy"><figcaption>Base · incorrect</figcaption></figure><figure><img src="img/bars-edited.png" alt="Five visible bars, the second red and tallest." width="512" height="384" loading="lazy"><figcaption>Edited · correct</figcaption></figure></div>
+        </article>
+        <article class="example">
+          <div class="example-head"><span class="micro">Flag · test-flag-003</span><h4>4 stripes and 6 stars</h4></div>
+          <div class="example-pair"><figure><img src="img/flag-base.png" alt="Four colorful stripes with small yellow dots rather than stars." width="512" height="341" loading="lazy"><figcaption>Base · incorrect</figcaption></figure><figure><img src="img/flag-edited.png" alt="Four stripes and six white dots rather than stars." width="512" height="341" loading="lazy"><figcaption>Edited · incorrect</figcaption></figure></div>
+        </article>
+      </div>
+    </section>
 
-<h2>3. What the agent did</h2>
-<ol>
-<li><b>Diagnosis.</b> Loading the base dev outputs showed that most failures were not drawing mistakes. Many outputs were <em>degenerate repetition loops</em> (e.g. emitting <code>&lt;circle .../&gt;</code> for apples, or window rectangles, forever) that hit the token cap and never closed the <code>&lt;/svg&gt;</code>.</li>
-<li><b>Finding the direction.</b> The agent replayed the generations teacher-forced, labelled each token "loop" or "normal", and measured the residual-stream difference at <em>element boundaries</em>, where the model decides between opening another element and closing. The difference grows with depth and peaks in layers 15–23.</li>
-<li><b>Editing.</b> For each of layers 15, 17, 19, 21 and 23, it ranked MLP neurons by how strongly their <code>down_proj</code> column writes along the loop direction <i>u</i>. On the top neurons it applied a rank-1 projection:
-<pre>W_down[:, idx] -= u uᵀ W_down[:, idx]</pre>
-The selected neurons can no longer write the "keep looping" direction.</li>
-<li><b>Second round.</b> It re-measured the direction on the loops that survived the first edit. That direction has only 0.19 cosine with the first at layer 23. It projected this direction out of 32 more neurons per layer.</li>
-<li><b>Ablations.</b> It tried five edits. Wider edits that included early layers 11 and 13, or larger second rounds, removed loops equally well but hurt correctness, so it chose the smaller E5. Before spending a generation batch on each candidate, it screened it with cheap teacher-forced checks (normal-text NLL +4%, greedy agreement 0.989 → 0.987).</li>
-</ol>
-<p>On the dev set it reported 124 → 150/150 rendered and 27 → 46/150 correct by its own visual judgment. The full write-up is in <a href="https://github.com/dylanler/weight-space-programming-experiment/blob/main/edits/editing_report.md">editing_report.md</a>, and the exact reproducible edit is in <a href="https://github.com/dylanler/weight-space-programming-experiment/blob/main/edits/final_edit.py">final_edit.py</a>.</p>
-
-<h2>4. Results on the 500 held-out prompts</h2>
-<img src="img/scores.png" alt="Visually correct outputs per task, base vs edited">
-<h3>Independent judges</h3>
-<table>
-<tr><th>Task</th><th>Rendered base → edit</th><th>Correct base</th><th>Correct edit</th><th>Δ</th><th>fixed / broken</th><th>McNemar p</th></tr>
-<tr><td>building</td><td>77 → 99</td><td>4/100</td><td>2/100</td><td class="neg">−2</td><td>2 / 4</td><td>0.69</td></tr>
-<tr><td>apple_tree</td><td>52 → 98</td><td>11/100</td><td>33/100</td><td class="pos">+22</td><td>28 / 6</td><td>2×10<sup>−4</sup></td></tr>
-<tr><td>circle_grid</td><td>100 → 100</td><td>38/100</td><td>58/100</td><td class="pos">+20</td><td>23 / 3</td><td>9×10<sup>−5</sup></td></tr>
-<tr><td>bar_chart</td><td>100 → 100</td><td>35/100</td><td>54/100</td><td class="pos">+19</td><td>22 / 3</td><td>2×10<sup>−4</sup></td></tr>
-<tr><td>flag</td><td>95 → 97</td><td>0/100</td><td>0/100</td><td>0</td><td>0 / 0</td><td>–</td></tr>
-<tr class="tot"><td>Total</td><td>424 → 494</td><td>88/500</td><td>147/500</td><td class="pos">+59</td><td>75 / 16</td><td>&lt;10<sup>−6</sup></td></tr>
-</table>
-<h3>Paired blinded judges (same judge sees both conditions)</h3>
-<table>
-<tr><th>Task</th><th>Correct base</th><th>Correct edit</th><th>Δ</th><th>fixed / broken</th><th>McNemar p</th></tr>
-<tr><td>building</td><td>5</td><td>4</td><td class="neg">−1</td><td>3 / 4</td><td>1.0</td></tr>
-<tr><td>apple_tree</td><td>12</td><td>33</td><td class="pos">+21</td><td>27 / 6</td><td>3×10<sup>−4</sup></td></tr>
-<tr><td>circle_grid</td><td>21</td><td>29</td><td class="pos">+8</td><td>10 / 2</td><td>0.039</td></tr>
-<tr><td>bar_chart</td><td>40</td><td>54</td><td class="pos">+14</td><td>18 / 4</td><td>0.004</td></tr>
-<tr><td>flag</td><td>0</td><td>0</td><td>0</td><td>0 / 0</td><td>–</td></tr>
-<tr class="tot"><td>Total</td><td>78</td><td>120</td><td class="pos">+42</td><td>58 / 16</td><td>1×10<sup>−6</sup></td></tr>
-</table>
-<p class="small">Judge agreement on the same rendered images (independent vs paired): 93.6% overall, Cohen's κ = 0.82. Agreement is near-perfect for apple_tree, bar_chart and flag (κ ≥ 0.91), but only κ = 0.53 for circle_grid, where judges disagreed on whether partly clipped circles count. The circle-grid gain therefore depends on the judge: +20 versus +8. Both are significant.</p>
-
-<h3>Other measured effects</h3>
-<ul>
-<li>Generations hitting the 4096-token cap: <b>76 → 6</b> of 500. Total generated tokens: 648k → 403k (−38%).</li>
-<li>The edit did not break the model: 494/500 edited outputs are complete, renderable SVGs (examples below).</li>
-</ul>
-<h3>Examples (first four test prompts per task; left: base, right: edited)</h3>
-<img src="img/examples.png" alt="Example renders base vs edited">
-
-<h2>5. What this tells us</h2>
-<p><b>Effective? Partly, and the scope matters.</b> The agent found a real, mechanistic failure mode: a late-layer "keep repeating" direction. It removed that direction with a tiny, interpretable edit, and the gain carried over from 150 dev prompts to 500 unseen test prompts with no task-specific tuning.
-apple_tree gained the most (+21/22), because half its base outputs never finished. bar_chart and circle_grid improved even though their render rates did not change. A plausible reading is that suppressing self-repetition also cut over-generated, duplicated elements.</p>
-<p><b>It did not teach the model to count.</b> Building outputs (exact windows <i>and</i> floors) stayed at 2–5%, and flags with exact stripes <i>and</i> recognizable stars stayed at 0%. Qwen3.5-2B mostly draws dots or diamonds instead of stars. The agent's report says so plainly: it targeted a decoding pathology, not the model's spatial-arithmetic ability. One linear direction did not reach that ability within the budget.</p>
-<p><b>Efficient? Yes.</b> The whole edit took about 42 minutes of agent wall-clock time and 5 generation batches out of a budget of 40, with no gradient computation. It changes 1.37M of 1.88B weights, in five matrices, and is reproducible from a short script.</p>
-
-<h2>6. Caveats</h2>
-<ul>
-<li><b>The judges are an LLM, not humans.</b> We report two independent judging protocols and their agreement. Absolute numbers shift with judge strictness (especially circle_grid), but the direction and significance of the total gain hold under both.</li>
-<li><b>Model identity of the agents.</b> All child sessions were created with the organization's default agent setting, which is GPT-6.2 Sol (Preview). The API reports the mode as "normal" and does not expose the runtime model, so this is the configured model, not one verified per call.</li>
-<li><b>The editor judged its own dev outputs</b> when choosing between edits. The test prompts and their judgments were never available to it.</li>
-<li>Single seed, greedy decoding, one edit. With 100 prompts per task, small per-task differences (building ±2) are noise.</li>
-</ul>
-
-<h2>7. Reproduce</h2>
-<pre>modal deploy wsp/kernel.py                              # inference + editing kernel (A100, scale-to-zero)
-python wsp/tasks.py                                     # prompts (seeded)
-python -m wsp.pipeline generate --model base  --split test
-# editor: run edits/final_edit.py in the kernel, POST /save_patch {"name":"final"}
+    <section id="reproduce" class="chapter ending" aria-labelledby="ending-title">
+      <div class="chapter-tag"><span>08</span> / What it means</div>
+      <div class="section-head">
+        <h2 id="ending-title">A fix for looping.<br><em>Not a lesson in counting.</em></h2>
+        <p>The edit transferred to unseen prompts. It recovered many renders, especially apple trees, and may have reduced extra shapes on charts and grids. It did not solve exact window-and-floor counts or produce correct flags.</p>
+      </div>
+      <div class="plate ending-plate" data-scene="ending">
+        <div class="plate-bar"><span>The scope of the result</span><button type="button" class="replay" hidden aria-label="Replay the conclusion animation">Replay</button></div>
+        <div class="takeaway"><div><div class="takeaway-line" aria-hidden="true"><span></span></div><span class="micro">Pathology addressed</span><h3>Repeated SVG elements</h3><p>A small edit suppressed a behavior with a clear linear signature.</p></div><div><div class="takeaway-line still" aria-hidden="true"><span></span></div><span class="micro">Skill not acquired</span><h3>Exact compositional counting</h3><p>Buildings stayed at 2–5% correct across protocols; flags stayed at 0%.</p></div></div>
+      </div>
+      <div class="limits">
+        <h3>What to keep in mind</h3>
+        <ul><li>Judges were LLMs, not humans.</li><li>The run used one seed and greedy decoding.</li><li>The editor judged its own dev outputs; it did not see test prompts or judgments.</li><li>GPT-6.2 Sol (Preview) was the organization’s configured default, not verified per call.</li></ul>
+      </div>
+      <div class="reproduction">
+        <div><p class="micro">From the repository root</p><h3>Reproduce the run</h3><p>These commands reproduce the inference and scoring workflow, not the editor’s search. For new scores, have judges fill the image-only packs before running the scoring commands.</p></div>
+        <div class="plate commands">
+          <div class="plate-bar"><span>Terminal / kernel</span></div>
+          <pre tabindex="0" aria-label="Reproduction commands"><code>modal deploy wsp/kernel.py
+python wsp/tasks.py
+python -m wsp.pipeline generate --model base --split test
+# In the live kernel: execute edits/final_edit.py
+# Save it via POST /save_patch {"name":"final"}
 python -m wsp.pipeline generate --model final --split test
-python -m wsp.verify_pack final test                    # image-only packs for judges
+
+python -m wsp.verify_pack base test
+python -m wsp.verify_pack final test
+python -m wsp.verify_pack_paired base final
+# Collect image-only judgments for each pack, then:
+python -m wsp.score base test verify/base_test/judgments
 python -m wsp.score final test verify/final_test/judgments
-python -m wsp.score_paired; python -m wsp.agreement; python -m wsp.tables base final</pre>
-<p class="small">The LaTeX paper is at <a href="https://github.com/dylanler/weight-space-programming-experiment/tree/main/paper">paper/</a>. Experiment run 2026-11-17/18.</p>
+python -m wsp.score_paired
+python -m wsp.agreement
+python -m wsp.tables base final</code></pre>
+        </div>
+      </div>
+      <div class="source-links"><a href="https://github.com/dylanler/weight-space-programming-experiment">Experiment repository ↗</a><a href="https://github.com/dylanler/weight-space-programming-experiment/blob/main/paper/main.pdf">Read the paper (PDF) ↗</a><a href="https://github.com/dylanler/weight-space-programming-experiment/blob/main/edits/editing_report.md">Agent’s editing report ↗</a></div>
+    </section>
+  </main>
+  <footer class="site-footer shell"><span>Weight-space programming · Qwen3.5-2B</span><a href="#question">Back to the question ↑</a></footer>
 </body>
 </html>
